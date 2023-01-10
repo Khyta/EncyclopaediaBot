@@ -2,6 +2,10 @@ import praw
 import os
 
 client_id = os.environ.get('CLIENT_ID')
+client_secret = os.environ.get('CLIENT_SECRET')
+user_agent = os.environ.get('USER_AGENT')
+username = os.environ.get('USERNAME')
+password = os.environ.get('PASSWORD')
 
 reddit = praw.Reddit(
   client_id='client_id',
@@ -10,5 +14,3 @@ reddit = praw.Reddit(
   username='username',
   password='password'
 )
-
-print(reddit.user.me())
