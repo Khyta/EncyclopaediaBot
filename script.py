@@ -57,7 +57,7 @@ def get_post_flair(page):
   reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
-  flair_text = re.findall("::[a-zA-Z]+::", wiki_page.content_md, re.MULTILINE)
+  flair_text = re.findall("::[a-zA-Z].+::", wiki_page.content_md, re.MULTILINE)
   flair_text = flair_text[0].replace('::', '')
   return flair_text
 
