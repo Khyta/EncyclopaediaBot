@@ -63,12 +63,13 @@ def get_post_titles(content):
   post_titles = [title.replace('#', '') for title in post_titles]
   return post_titles
 
-def prettify_content(content, flair, title):
-  # This function removes the flair and header used for the submission itself
-  # inside the wiki content.
-  content = content.replace('::'+flair+'::', '')
-  content = content.replace('#'+title, '')
-  return content
+def split_content(content, flairs):
+  # This function splits the wiki content up at each title and then
+  # removes the flair and header used for the submission itself inside the wiki
+  # content.
+  contents = re.split(r"#[a-zA-Z]+ ?[a-zA-Z]+\n", content, re.MULTILINE)
+  contents = [content.replace('::'+flairs+'::', '') for content in contents]
+  return contents
 
 if __name__ == '__main__':
   fetch_env()
@@ -79,7 +80,9 @@ if __name__ == '__main__':
   content = get_wiki_page('2', reddit)
   flair_texts = get_post_flairs(content)
   titles = get_post_titles(content)
-  # content = prettify_content(content, flair_text, title)
 
-  print('Flair:', flair_texts)
-  print('Title:', titles)
+  for i in range(len(titles)):
+    print('Post', i)
+    print('Flair:', flair_texts[i])
+    print('Title:', titles[i])
+    print('Content:', "{:.50}".format(split_content(content, flair_texts[i])[i+1]), '...')
