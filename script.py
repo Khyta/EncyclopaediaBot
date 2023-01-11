@@ -34,37 +34,33 @@ def reddit_login():
   )
   return reddit
 
-def get_wiki_links(page):
+def get_wiki_links(page, reddit):
   # This function gets the links inside the wiki that link to other wiki pages.
   # This function uses RegEx and requires the re module.
   # Regex expression to match the links: "\* \[[A-Z] ?-? ?[A-Z]?]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)"gm
-  reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
   wiki_links = re.findall("\* \[[A-Z] ?-? ?[A-Z]?\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)", wiki_page.content_md, re.MULTILINE)
   return wiki_links
 
-def get_wiki_page(page):
+def get_wiki_page(page, reddit):
   # This function gets the contents of a wiki page.
-  reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
   return wiki_page.content_md
 
-def get_post_flair(page):
+def get_post_flair(page, reddit):
   # This function gets the submission flair to be used from the wiki denoted as
   # ::flair_text:: in the wiki page. RegEx: "::[a-zA-Z]+::"gm
-  reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
   flair_text = re.findall("::[a-zA-Z].+::", wiki_page.content_md, re.MULTILINE)
   flair_text = flair_text[0].replace('::', '')
   return flair_text
 
-def get_post_title(page):
+def get_post_title(page, reddit):
   # This function gets the post title to be used from the wiki denoted as h1 in
   # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
-  reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
   post_title = re.findall("^# ?[a-zA-Z].+$", wiki_page.content_md, re.MULTILINE)
@@ -78,5 +74,5 @@ if __name__ == '__main__':
   print('Logged in as:', reddit.user.me())
 
   # print(get_wiki_page('1'))
-  print('Post flair:', get_post_flair('1'))
-  print('Post title:', get_post_title('1'))
+  print('Post flair:', get_post_flair('1', reddit))
+  print('Post title:', get_post_title('1', reddit))
