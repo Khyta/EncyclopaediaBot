@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+sub_name = 'EncyclopaediaOfReddit'
+
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
   # if it couldn't find them. Requires the dotenv module.
@@ -31,8 +33,17 @@ def reddit_login():
   )
   return reddit
 
+def get_wiki_page(page):
+  # This function gets the contents of a wiki page. Requires the praw module.
+  reddit = reddit_login()
+  sub = reddit.subreddit(sub_name)
+  wiki_page = sub.wiki[page]
+  return wiki_page.content_md
+
 if __name__ == '__main__':
   fetch_env()
   reddit = reddit_login()
 
   print('Logged in as:', reddit.user.me())
+
+  print(get_wiki_page('1'))
