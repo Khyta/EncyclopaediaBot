@@ -85,4 +85,4 @@ if __name__ == '__main__':
     print('Post', i)
     print('Flair:', flair_texts[i])
     print('Title:', titles[i])
-    print('Content:', "{:.50}".format(split_content(content, flair_texts[i])[i+1]), '...')
+    print('Content:', "{:.50}".format(split_content(content, flair_texts[i])[i+1]), '...') # The i+1 is there because of the first header being a letter for the wiki index
