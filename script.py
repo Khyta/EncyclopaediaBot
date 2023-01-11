@@ -49,14 +49,14 @@ def get_wiki_page(page, reddit):
   wiki_page = sub.wiki[page]
   return wiki_page.content_md
 
-def get_post_flair(content, reddit):
+def get_post_flair(content):
   # This function gets the submission flair to be used from the wiki denoted as
   # ::flair_text:: in the wiki page. RegEx: "::[a-zA-Z]+::"gm
   flair_text = re.findall("::[a-zA-Z].+::", content, re.MULTILINE)
   flair_text = flair_text[0].replace('::', '')
   return flair_text
 
-def get_post_title(content, reddit):
+def get_post_title(content):
   # This function gets the post title to be used from the wiki denoted as h1 in
   # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
   post_title = re.findall("^# ?[a-zA-Z].+$", content, re.MULTILINE)
@@ -73,5 +73,5 @@ if __name__ == '__main__':
 
   content = get_wiki_page('1', reddit)
 
-  print('Post flair:', get_post_flair(content, reddit))
-  print('Post title:', get_post_title(content, reddit))
+  print('Post flair:', get_post_flair(content))
+  print('Post title:', get_post_title(content))
