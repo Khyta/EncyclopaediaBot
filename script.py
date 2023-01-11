@@ -17,18 +17,19 @@ def fetch_env():
     sys.exit(1)
   return client_id, client_secret, user_agent, username, password
 
-client_id = fetch_env()[0]
-client_secret = fetch_env()[1]
-user_agent = fetch_env()[2]
-username = fetch_env()[3]
-password = fetch_env()[4]
+def reddit_login():
+  client_id, client_secret, user_agent, username, password = fetch_env()
+  reddit = praw.Reddit(
+    client_id=client_id,
+    user_agent=user_agent,
+    client_secret=client_secret,
+    username=username,
+    password=password
+  )
+  return reddit
 
-reddit = praw.Reddit(
-  client_id=client_id,
-  user_agent=user_agent,
-  client_secret=client_secret,
-  username=username,
-  password=password
-)
+if __name__ == '__main__':
+  fetch_env()
+  reddit = reddit_login()
 
-print('Logged in as:', reddit.user.me())
+  print('Logged in as:', reddit.user.me())
