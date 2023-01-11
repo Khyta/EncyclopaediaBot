@@ -63,6 +63,13 @@ def get_post_title(content):
   post_title = post_title[0].replace('#', '')
   return post_title
 
+def prettify_content(content, flair, title):
+  # This function removes the flair and header used for the submission itself
+  # inside the wiki content.
+  content = content.replace('::'+flair+'::', '')
+  content = content.replace('#'+title, '')
+  return content
+
 if __name__ == '__main__':
   fetch_env()
   reddit = reddit_login()
@@ -72,6 +79,9 @@ if __name__ == '__main__':
   # print(get_wiki_page('1'))
 
   content = get_wiki_page('1', reddit)
+  flair = get_post_flair(content)
+  title = get_post_title(content)
 
   print('Post flair:', get_post_flair(content))
   print('Post title:', get_post_title(content))
+  print('Post content:', prettify_content(content, flair, title))
