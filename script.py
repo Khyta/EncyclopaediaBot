@@ -7,15 +7,10 @@ load_dotenv()
 
 def fetch_env():
   try:
-    os.getenv('CLIENT_ID')
     client_id = os.getenv('CLIENT_ID')
-    os.getenv('CLIENT_SECRET')
     client_secret = os.getenv('CLIENT_SECRET')
-    os.getenv('USER_AGENT')
     user_agent = os.getenv('USER_AGENT')
-    os.getenv('REDDIT_USERNAME')
     username = os.getenv('REDDIT_USERNAME')
-    os.getenv('PASSWORD')
     password = os.getenv('PASSWORD')
   except KeyError:
     print('[error]: Missing environment variable(s)')
@@ -35,3 +30,5 @@ reddit = praw.Reddit(
   username=username,
   password=password
 )
+
+print('Logged in as:', reddit.user.me())
