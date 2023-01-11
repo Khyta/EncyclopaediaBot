@@ -61,6 +61,16 @@ def get_post_flair(page):
   flair_text = flair_text[0].replace('::', '')
   return flair_text
 
+def get_post_title(page):
+  # This function gets the post title to be used from the wiki denoted as h1 in
+  # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
+  reddit = reddit_login()
+  sub = reddit.subreddit(sub_name)
+  wiki_page = sub.wiki[page]
+  post_title = re.findall("^# ?[a-zA-Z].+$", wiki_page.content_md, re.MULTILINE)
+  post_title = post_title[0].replace('#', '')
+  return post_title
+
 if __name__ == '__main__':
   fetch_env()
   reddit = reddit_login()
@@ -68,4 +78,5 @@ if __name__ == '__main__':
   print('Logged in as:', reddit.user.me())
 
   # print(get_wiki_page('1'))
-  print(get_post_flair('1'))
+  print('Post flair:', get_post_flair('1'))
+  print('Post title:', get_post_title('1'))
