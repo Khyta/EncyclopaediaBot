@@ -1,11 +1,12 @@
 import praw
 import os
 import sys
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
 
-sub_name = 'EncyclopaediaOfReddit'
+sub_name = 'NewToReddit'
 
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
@@ -33,8 +34,18 @@ def reddit_login():
   )
   return reddit
 
+def get_wiki_links(page):
+  # This function gets the links inside the wiki that link to other wiki pages.
+  # This function uses RegEx and requires the re module.
+  # Regex expression to match the links: "\* \[[A-Z] ?-? ?[A-Z]?]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)"gm
+  reddit = reddit_login()
+  sub = reddit.subreddit(sub_name)
+  wiki_page = sub.wiki[page]
+  wiki_links = re.findall("\* \[[A-Z] ?-? ?[A-Z]?\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)", wiki_page.content_md, re.MULTILINE)
+  return wiki_links
+
 def get_wiki_page(page):
-  # This function gets the contents of a wiki page. Requires the praw module.
+  # This function gets the contents of a wiki page.
   reddit = reddit_login()
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
@@ -46,4 +57,5 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  print(get_wiki_page('1'))
+  # print(get_wiki_page('encyclopaedia-redditica'))
+  print(get_wiki_links('encyclopaedia-redditica')[0])
