@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sub_name = 'NewToReddit'
+sub_name = 'EncyclopaediaOfReddit'
 
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
@@ -51,11 +51,21 @@ def get_wiki_page(page):
   wiki_page = sub.wiki[page]
   return wiki_page.content_md
 
+def get_post_flair(page):
+  # This function gets the submission flair to be used from the wiki denoted as
+  # ::flair_text:: in the wiki page. RegEx: "::[a-zA-Z]+::"gm
+  reddit = reddit_login()
+  sub = reddit.subreddit(sub_name)
+  wiki_page = sub.wiki[page]
+  flair_text = re.findall("::[a-zA-Z]+::", wiki_page.content_md, re.MULTILINE)
+  flair_text = flair_text[0].replace('::', '')
+  return flair_text
+
 if __name__ == '__main__':
   fetch_env()
   reddit = reddit_login()
 
   print('Logged in as:', reddit.user.me())
 
-  # print(get_wiki_page('encyclopaedia-redditica'))
-  print(get_wiki_links('encyclopaedia-redditica')[0])
+  # print(get_wiki_page('1'))
+  print(get_post_flair('1'))
