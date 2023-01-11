@@ -56,12 +56,12 @@ def get_post_flair(content):
   flair_text = flair_text[0].replace('::', '')
   return flair_text
 
-def get_post_title(content):
-  # This function gets the post title to be used from the wiki denoted as h1 in
+def get_post_titles(content):
+  # This function gets the post titles to be used from the wiki denoted as h1 in
   # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
-  post_title = re.findall("^# ?[a-zA-Z].+$", content, re.MULTILINE)
-  post_title = post_title[0].replace('#', '')
-  return post_title
+  post_titles = re.findall("^# ?[a-zA-Z].+$", content, re.MULTILINE)
+  post_titles = [title.replace('#', '') for title in post_titles]
+  return post_titles
 
 def prettify_content(content, flair, title):
   # This function removes the flair and header used for the submission itself
@@ -76,12 +76,10 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  # print(get_wiki_page('1'))
+  content = get_wiki_page('2', reddit)
+  flair_text = get_post_flair(content)[0]
+  title = get_post_titles(content)
+  # content = prettify_content(content, flair_text, title)
 
-  content = get_wiki_page('1', reddit)
-  flair = get_post_flair(content)
-  title = get_post_title(content)
-
-  print('Post flair:', get_post_flair(content))
-  print('Post title:', get_post_title(content))
-  print('Post content:', prettify_content(content, flair, title))
+  print('Flair:', flair_text)
+  print('Title:', title)
