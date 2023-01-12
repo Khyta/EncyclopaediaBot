@@ -56,27 +56,27 @@ def get_post_flairs(content):
   flair_texts = [flair.replace('::', '') for flair in flair_texts]
   return flair_texts
 
-def check_post_flairs(titles, flair_texts):
+def check_post_flairs(titles, flairs):
   # This function checks whether there are the same amount of flairs as there
   # are post titles available. If not, this function will fill the flairs list
   # with empty flairs.
-  if len(titles) > len(flair_texts):
-    for i in range(len(titles) - len(flair_texts)):
-      flair_texts.append('Missing flair')
-  return flair_texts
+  if len(titles) > len(flairs):
+    for i in range(len(titles) - len(flairs)):
+      flairs.append('Missing flair')
+  return flairs
 
 def get_post_titles(content):
   # This function gets the post titles to be used from the wiki denoted as h1 in
-  # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
-  post_titles = re.findall("^# ?[a-zA-Z].+$", content, re.MULTILINE)
+  # the wiki page. RegEx: "#[a-zA-Z]* ?[a-zA-Z]*\n"gmgm
+  post_titles = re.findall("#[a-zA-Z]* ?[a-zA-Z]*\n", content, re.MULTILINE)
   post_titles = [title.replace('#', '') for title in post_titles]
   return post_titles
 
-def split_content(content, flairs):
+def split_content(content, titles, flairs):
   # This function splits the wiki content up at each title and then
   # removes the flair and header used for the submission itself inside the wiki
   # content.
-  contents = re.split(r"#[a-zA-Z]+ ?[a-zA-Z]+\n", content, re.MULTILINE)
+  contents = re.split(r"#[a-zA-Z]* ?[a-zA-Z]*\n", content)
   contents = [content.replace('::'+flairs+'::', '') for content in contents]
   return contents
 
@@ -96,4 +96,4 @@ if __name__ == '__main__':
     print('Post', i)
     print('Flair:', flair_texts[i])
     print('Title:', titles[i])
-    print('Content:', "{:.50}".format(split_content(content, flair_texts[i])[i+1]), '...') # The i+1 is there because of the first header being a letter for the wiki index
+    print('Content:', "{:.50}".format(split_content(content, titles[i], flair_texts[i])[i+1]), '...')
