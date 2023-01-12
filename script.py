@@ -10,7 +10,7 @@ sub_name = 'EncyclopaediaOfReddit'
 
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
-  # if it couldn't find them. Requires the dotenv module.
+  # if it couldn't find them. Requires the python-dotenv module.
   try:
     client_id = os.getenv('CLIENT_ID')
     client_secret = os.getenv('CLIENT_SECRET')
@@ -56,6 +56,15 @@ def get_post_flairs(content):
   flair_texts = [flair.replace('::', '') for flair in flair_texts]
   return flair_texts
 
+def check_post_flairs(titles, flair_texts):
+  # This function checks whether there are the same amount of flairs as there
+  # are post titles available. If not, this function will fill the flairs list
+  # with empty flairs.
+  if len(titles) > len(flair_texts):
+    for i in range(len(titles) - len(flair_texts)):
+      flair_texts.append('Missing flair')
+  return flair_texts
+
 def get_post_titles(content):
   # This function gets the post titles to be used from the wiki denoted as h1 in
   # the wiki page. RegEx: "^# ?[a-zA-Z].+$"gm
@@ -80,6 +89,8 @@ if __name__ == '__main__':
   content = get_wiki_page('2', reddit)
   flair_texts = get_post_flairs(content)
   titles = get_post_titles(content)
+
+  flair_texts = check_post_flairs(titles, flair_texts)
 
   for i in range(len(titles)):
     print('Post', i)
