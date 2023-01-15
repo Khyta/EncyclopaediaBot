@@ -55,7 +55,7 @@ def get_post_sections(content):
   # This function iterates through the wiki content and splits up the wiki into
   # sections for later posting. Each post starts with a title (#Header)
   # and a flair (::Flair::). This function uses RegEx and requires the re
-  # module. Regex expression to match the start of the sections: "#[a-zA-Z]+ ?[a-zA-Z]+\n::[a-zA-Z]+ ?[a-zA-Z]+::"
+  # module.
   title_pattern = "^#[^#].*"
   flair_pattern = ":+[a-zA-Z]* ?[a-zA-Z]*:+"
 
