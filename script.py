@@ -65,18 +65,31 @@ def get_post_sections(content):
   # sections for later posting. Each post starts with a title (#Header)
   # and a flair (::Flair::). This function uses RegEx and requires the re
   # module. Regex expression to match the start of the sections: "#[a-zA-Z]+ ?[a-zA-Z]+\n::[a-zA-Z]+ ?[a-zA-Z]+::"
-  post_with_flair = "#[a-zA-Z]* ?[a-zA-Z]*\n::[a-zA-Z]* ?[a-zA-Z]*::"
-  post_without_flair = "#[a-zA-Z]* ?[a-zA-Z]*\n"
   title_pattern = "#[a-zA-Z]* ?[a-zA-Z]*"
   flair_pattern = "::[a-zA-Z]* ?[a-zA-Z]*::"
-  posts_with_flair = []
+
   titles = []
   flairs = []
-  for post in re.finditer(post_with_flair, content):
-    titles.append(re.findall(title_pattern, post.group())[0].replace('#', ''))
-    flairs.append(re.findall(flair_pattern, post.group())[0].replace('::', ''))
-    split_content = content.split(post.group())
-  return posts_with_flair, titles, flairs
+  posts = []
+
+  for line in content.splitlines():
+    if re.match(title_pattern, line):
+      nextIndex = content.splitlines().index(line)+1
+      nextLine = content.splitlines()[nextIndex]
+      if re.match(flair_pattern, nextLine):
+        titles.append(re.findall(title_pattern, line))
+        flairs.append(re.findall(flair_pattern, nextLine))
+        post = ''
+        for i in range(nextIndex+1, len(content.splitlines())):
+          if re.match(title_pattern, content.splitlines()[i]):
+            break
+          post += content.splitlines()[i] + '\n'
+        posts.append(post)
+      else:
+        titles.append(re.findall(title_pattern, line))
+        flairs.append('::Missing flair::')
+
+  return posts, titles, flairs
 
 if __name__ == '__main__':
   fetch_env()
@@ -87,7 +100,9 @@ if __name__ == '__main__':
   # content = get_wiki_page('2', reddit)
 
   # open the 2.txt file and read the content
-  with open('2.txt', 'r') as file:
-    content = file.read()
+  with open('2.txt', 'r') as infile:
+    content = infile.read()
     posts, titles, flairs = get_post_sections(content)
     print(titles)
+    print(flairs)
+    # print(posts[1])
