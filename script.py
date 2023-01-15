@@ -81,13 +81,22 @@ def get_post_sections(content):
         flairs.append(re.findall(flair_pattern, nextLine))
         post = ''
         for i in range(nextIndex+1, len(content.splitlines())):
+          post += content.splitlines()[i] + '\n'
           if re.match(title_pattern, content.splitlines()[i]):
             break
-          post += content.splitlines()[i] + '\n'
         posts.append(post)
       else:
         titles.append(re.findall(title_pattern, line))
         flairs.append('::Missing flair::')
+        post = ''
+        for i in range(nextIndex, len(content.splitlines())):
+          post += content.splitlines()[i] + '\n'
+          if re.match(title_pattern, content.splitlines()[i]):
+            break
+        posts.append(post)
+
+    titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
+    flairs = [str(x).replace('[', '').replace(']', '').replace('::', '').replace("'", '') for x in flairs]
 
   return posts, titles, flairs
 
@@ -103,6 +112,8 @@ if __name__ == '__main__':
   with open('2.txt', 'r') as infile:
     content = infile.read()
     posts, titles, flairs = get_post_sections(content)
-    print(titles)
-    print(flairs)
-    # print(posts[1])
+    for i in range(len(titles)):
+      print('Title:', titles[i])
+      print('Flair:', flairs[i])
+      print('Content:', "{:.50}".format(posts[i]), '...')
+      print('')
