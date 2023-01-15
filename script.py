@@ -86,11 +86,11 @@ def get_post_sections(content):
           post += content.splitlines()[i] + '\n'
         posts.append(post)
 
-    titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
-    flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
-    posts = [post[1:] if post.startswith('\n') else post for post in posts]
-    posts = [post.replace('---', '') for post in posts]
-    # posts = [re.sub(r'^(#+)', lambda match: match.group(0)[0:-1], post) for post in posts]
+  titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
+  flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
+  posts = [post[1:] if post.startswith('\n') else post for post in posts]
+  posts = [post.replace('---', '') for post in posts]
+  # posts = [re.sub(r'^(#+)', lambda match: match.group(0)[0:-1], post) for post in posts]
 
   return posts, titles, flairs
 
