@@ -51,22 +51,13 @@ def get_wiki_page(page, reddit):
     file.write(wiki_page.content_md)
   return wiki_page.content_md
 
-def split_content(content, titles, flairs):
-  # This function splits the wiki content up at each title and then
-  # removes the flair and header used for the submission itself inside the wiki
-  # content.
-  contents = re.split(r"#[a-zA-Z]* ?[a-zA-Z]*\n", content)
-  contents = [content.replace('::'+flairs+'::', '') for content in contents]
-  contents = [content.replace('#'+titles, '') for content in contents]
-  return contents
-
 def get_post_sections(content):
   # This function iterates through the wiki content and splits up the wiki into
   # sections for later posting. Each post starts with a title (#Header)
   # and a flair (::Flair::). This function uses RegEx and requires the re
   # module. Regex expression to match the start of the sections: "#[a-zA-Z]+ ?[a-zA-Z]+\n::[a-zA-Z]+ ?[a-zA-Z]+::"
   title_pattern = "#[a-zA-Z]* ?[a-zA-Z]*"
-  flair_pattern = "::[a-zA-Z]* ?[a-zA-Z]*::"
+  flair_pattern = ":+[a-zA-Z]* ?[a-zA-Z]*:+"
 
   titles = []
   flairs = []
@@ -90,13 +81,14 @@ def get_post_sections(content):
         flairs.append('::Missing flair::')
         post = ''
         for i in range(nextIndex, len(content.splitlines())):
-          post += content.splitlines()[i] + '\n'
           if re.match(title_pattern, content.splitlines()[i]):
             break
+          post += content.splitlines()[i] + '\n'
         posts.append(post)
 
     titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
-    flairs = [str(x).replace('[', '').replace(']', '').replace('::', '').replace("'", '') for x in flairs]
+    flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
+    posts = [post[1:] if post.startswith('\n') else post for post in posts]
 
   return posts, titles, flairs
 
@@ -106,7 +98,7 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  # content = get_wiki_page('2', reddit)
+  online_content = get_wiki_page('2', reddit)
 
   # open the 2.txt file and read the content
   with open('2.txt', 'r') as infile:
