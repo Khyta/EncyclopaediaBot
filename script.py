@@ -101,8 +101,16 @@ def get_post_sections(content):
 def get_subreddit_link_flairs(sub):
     flairs = []
     for template in reddit.subreddit(sub).flair.link_templates:
-        flairs.append(template["text"].lower())
+        flairs.append(template["text"])
     return flairs
+
+def create_missing_flairs(sub, flairs):
+    existing_flairs = get_subreddit_link_flairs(sub) # get the existing flairs in the subreddit
+    unique_flairs = set(flairs) # remove duplicate entries from the list of flairs
+    for flair in unique_flairs:
+      if flair not in existing_flairs:
+        reddit.subreddit(sub).flair.link_templates.add(flair, css_class=flair)
+        print(f"Flair {flair} created.")
 
 if __name__ == '__main__':
   fetch_env()
@@ -122,4 +130,4 @@ if __name__ == '__main__':
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + posts[i])
 
-  print(get_subreddit_link_flairs(sub_name))
+  create_missing_flairs(sub_name, flairs)
