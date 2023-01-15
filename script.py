@@ -49,6 +49,15 @@ def get_wiki_page(page, reddit):
   wiki_page = sub.wiki[page]
   return wiki_page.content_md
 
+def split_content(content, titles, flairs):
+  # This function splits the wiki content up at each title and then
+  # removes the flair and header used for the submission itself inside the wiki
+  # content.
+  contents = re.split(r"#[a-zA-Z]* ?[a-zA-Z]*\n", content)
+  contents = [content.replace('::'+flairs+'::', '') for content in contents]
+  contents = [content.replace('#'+titles, '') for content in contents]
+  return contents
+
 def get_post_sections(content):
   # This function iterates through the wiki content and splits up the wiki into
   # sections for later posting. Each post starts with a title (#Header)
@@ -64,17 +73,8 @@ def get_post_sections(content):
   for post in re.finditer(post_with_flair, content):
     titles.append(re.findall(title_pattern, post.group())[0].replace('#', ''))
     flairs.append(re.findall(flair_pattern, post.group())[0].replace('::', ''))
-    # Post stuff splitting here and then append to posts
+    split_content = content.split(post.group())
   return posts_with_flair, titles, flairs
-
-def split_content(content, titles, flairs):
-  # This function splits the wiki content up at each title and then
-  # removes the flair and header used for the submission itself inside the wiki
-  # content.
-  contents = re.split(r"#[a-zA-Z]* ?[a-zA-Z]*\n", content)
-  contents = [content.replace('::'+flairs+'::', '') for content in contents]
-  contents = [content.replace('#'+titles, '') for content in contents]
-  return contents
 
 if __name__ == '__main__':
   fetch_env()
