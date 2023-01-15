@@ -84,6 +84,10 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  content = get_wiki_page('2', reddit)
-  posts, titles, flairs = get_post_sections(content)
-  print(titles)
+  # content = get_wiki_page('2', reddit)
+
+  # open the 2.txt file and read the content
+  with open('2.txt', 'r') as file:
+    content = file.read()
+    posts, titles, flairs = get_post_sections(content)
+    print(titles)
