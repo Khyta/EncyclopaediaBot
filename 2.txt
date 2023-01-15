@@ -4,6 +4,10 @@ A
 #Aardvarks
 Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please.
 
+##Subheading
+
+How about a subheading?
+
 
 #About
 ::Meta::  
