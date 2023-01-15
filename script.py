@@ -44,9 +44,11 @@ def get_wiki_links(page, reddit):
   return wiki_links
 
 def get_wiki_page(page, reddit):
-  # This function gets the contents of a wiki page.
+  # This function gets the contents of a wiki page and saves it to a text file.
   sub = reddit.subreddit(sub_name)
   wiki_page = sub.wiki[page]
+  with open(page+'.txt', 'w') as file:
+    file.write(wiki_page.content_md)
   return wiki_page.content_md
 
 def split_content(content, titles, flairs):
