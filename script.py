@@ -63,34 +63,34 @@ def get_post_sections(content):
   flairs = []
   posts = []
 
-  for line in content.splitlines():
-    if re.match(title_pattern, line):
-      nextIndex = content.splitlines().index(line)+1
-      nextLine = content.splitlines()[nextIndex]
-      if re.match(flair_pattern, nextLine):
-        titles.append(re.findall(title_pattern, line))
-        flairs.append(re.findall(flair_pattern, nextLine))
-        post = ''
-        for i in range(nextIndex+1, len(content.splitlines())):
-          if re.match(title_pattern, content.splitlines()[i]):
-            break
-          post += content.splitlines()[i] + '\n'
-        posts.append(post)
-      else:
-        titles.append(re.findall(title_pattern, line))
-        flairs.append('::Missing flair::')
-        post = ''
-        for i in range(nextIndex, len(content.splitlines())):
-          if re.match(title_pattern, content.splitlines()[i]):
-            break
-          post += content.splitlines()[i] + '\n'
-        posts.append(post)
+  for line in content.splitlines():                                                                   # Iterate through the lines
+    if re.match(title_pattern, line):                                                                 # If the line is a title
+      nextIndex = content.splitlines().index(line)+1                                                  # Get the index of the next line
+      nextLine = content.splitlines()[nextIndex]                                                      # Get the next line
+      if re.match(flair_pattern, nextLine):                                                           # If the next line is a flair
+        titles.append(re.findall(title_pattern, line))                                                # Add the title to the titles list
+        flairs.append(re.findall(flair_pattern, nextLine))                                            # Add the flair to the flairs list
+        post = ''                                                                                     # Create a variable to store the post
+        for i in range(nextIndex+1, len(content.splitlines())):                                       # Iterate through the lines after the flair
+          if re.match(title_pattern, content.splitlines()[i]):                                        # If the line is a title
+            break                                                                                     # Break the loop
+          post += content.splitlines()[i] + '\n'                                                      # Add the line to the post
+        posts.append(post)                                                                            # Add the post to the posts list
+      else:                                                                                           # If the next line is not a flair
+        titles.append(re.findall(title_pattern, line))                                                # Add the title to the titles list
+        flairs.append('::Missing flair::')                                                            # Add the missing flair to the flairs list
+        post = ''                                                                                     # Create a variable to store the post
+        for i in range(nextIndex, len(content.splitlines())):                                         # Iterate through the lines after the title
+          if re.match(title_pattern, content.splitlines()[i]):                                        # If the line is a title
+            break                                                                                     # Break the loop
+          post += content.splitlines()[i] + '\n'                                                      # Add the line to the post
+        posts.append(post)                                                                            # Add the post to the posts list
 
-  titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
-  flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
-  posts = [post[1:] if post.startswith('\n') else post for post in posts]
-  posts = [post.replace('---', '') for post in posts]
-  posts = [post.replace('##', '#') for post in posts]
+  titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles] # Format the titles
+  flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs] # Format the flairs
+  posts = [post[1:] if post.startswith('\n') else post for post in posts]                               # Remove the first newline
+  posts = [post.replace('---', '') for post in posts]                                                   # Remove the horizontal rule
+  posts = [post.replace('##', '#') for post in posts]                                                   # Downgrades the headers
   posts = [post.replace('###', '##') for post in posts]
   posts = [post.replace('####', '###') for post in posts]
   posts = [post.replace('#####', '####') for post in posts]
