@@ -112,6 +112,10 @@ def create_missing_flairs(sub, flairs):
         reddit.subreddit(sub).flair.link_templates.add(flair, css_class=flair)
         print(f"Flair {flair} created.")
 
+def create_posts(posts, titles, flairs):
+  for i in range(len(posts)):
+    reddit.subreddit(sub_name).submit(titles[i], selftext=posts[i], flair_text=flairs[i])
+
 if __name__ == '__main__':
   fetch_env()
   reddit = reddit_login()
@@ -131,3 +135,5 @@ if __name__ == '__main__':
         outfile.write('Content: ' + posts[i])
 
   create_missing_flairs(sub_name, flairs)
+
+  create_posts(posts, titles, flairs)
