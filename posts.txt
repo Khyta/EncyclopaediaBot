@@ -2,7 +2,7 @@ Title: Aardvarks
 Flair: Missing flair
 Content: Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please.
 
-##Subheading
+#Subheading
 
 How about a subheading?
 

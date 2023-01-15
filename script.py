@@ -90,7 +90,11 @@ def get_post_sections(content):
   flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
   posts = [post[1:] if post.startswith('\n') else post for post in posts]
   posts = [post.replace('---', '') for post in posts]
-  posts = [re.sub('^(#+)', lambda match: match.group(1)[:-1], post) for post in posts]
+  posts = [post.replace('##', '#') for post in posts]
+  posts = [post.replace('###', '##') for post in posts]
+  posts = [post.replace('####', '###') for post in posts]
+  posts = [post.replace('#####', '####') for post in posts]
+  posts = [post.replace('######', '#####') for post in posts]
 
   return posts, titles, flairs
 
