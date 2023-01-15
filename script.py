@@ -2,6 +2,7 @@ import praw
 import os
 import sys
 import re
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -112,9 +113,12 @@ def create_missing_flairs(sub, flairs):
         reddit.subreddit(sub).flair.link_templates.add(flair, css_class=flair)
         print(f"Flair {flair} created.")
 
-def create_posts(posts, titles, flairs):
+def create_posts(reddit, sub_name, posts, titles, flairs):
   for i in range(len(posts)):
-    reddit.subreddit(sub_name).submit(titles[i], selftext=posts[i], flair_text=flairs[i])
+    subreddit = reddit.subreddit(sub_name)
+    subreddit.submit(titles[i], selftext=posts[i], flair_text=flairs[i])
+    print(f"Post {i} created. Title: {titles[i]}, Flair: {flairs[i]}")
+    time.sleep(10)
 
 if __name__ == '__main__':
   fetch_env()
@@ -124,7 +128,6 @@ if __name__ == '__main__':
 
   # online_content = get_wiki_page('2', reddit)
 
-  # open the 2.txt file and read the content
   with open('2.txt', 'r') as infile:
     content = infile.read()
     posts, titles, flairs = get_post_sections(content)
@@ -136,4 +139,4 @@ if __name__ == '__main__':
 
   create_missing_flairs(sub_name, flairs)
 
-  create_posts(posts, titles, flairs)
+  create_posts(reddit, sub_name, posts, titles, flairs)
