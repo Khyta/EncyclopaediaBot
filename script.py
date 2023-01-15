@@ -111,4 +111,3 @@ if __name__ == '__main__':
         outfile.write('Title: ' + titles[i] + '\n')
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + posts[i])
-        outfile.write('')
