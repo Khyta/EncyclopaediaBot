@@ -72,9 +72,9 @@ def get_post_sections(content):
         flairs.append(re.findall(flair_pattern, nextLine))
         post = ''
         for i in range(nextIndex+1, len(content.splitlines())):
-          post += content.splitlines()[i] + '\n'
           if re.match(title_pattern, content.splitlines()[i]):
             break
+          post += content.splitlines()[i] + '\n'
         posts.append(post)
       else:
         titles.append(re.findall(title_pattern, line))
@@ -89,23 +89,26 @@ def get_post_sections(content):
     titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles]
     flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs]
     posts = [post[1:] if post.startswith('\n') else post for post in posts]
+    # posts = [re.sub(r'^(#+)', lambda match: match.group(0)[0:-1], post) for post in posts]
+    # posts = [post.replace('---', '') for post in posts]
 
   return posts, titles, flairs
 
 if __name__ == '__main__':
   fetch_env()
-  reddit = reddit_login()
+  # reddit = reddit_login()
 
-  print('Logged in as:', reddit.user.me())
+  # print('Logged in as:', reddit.user.me())
 
-  online_content = get_wiki_page('2', reddit)
+  # online_content = get_wiki_page('2', reddit)
 
   # open the 2.txt file and read the content
   with open('2.txt', 'r') as infile:
     content = infile.read()
     posts, titles, flairs = get_post_sections(content)
-    for i in range(len(titles)):
-      print('Title:', titles[i])
-      print('Flair:', flairs[i])
-      print('Content:', "{:.50}".format(posts[i]), '...')
-      print('')
+    with open('posts.txt', 'w') as outfile:
+      for i in range(len(posts)):
+        outfile.write('Title: ' + titles[i] + '\n')
+        outfile.write('Flair: ' + flairs[i] + '\n')
+        outfile.write('Content: ' + posts[i] + '\n')
+        outfile.write('')
