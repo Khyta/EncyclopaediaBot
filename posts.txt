@@ -7,7 +7,6 @@ Content: Reddit loves animals. Reddit loves strangeness. Here, we have both! So 
 How about a subheading?
 
 
-
 Title: About
 Flair: Meta
 Content: The “About” tab on mobile contains essential information for the sub you are visiting. Also known as Sidebar on desktop. Always read the rules before commenting or posting on an unfamiliar Subreddit. These will be found in the Sidebar (on mobile this will be the About tab, Menu tab (where there is one) and Community Info found in the three dot “hamburger” post overflow menu top RH corner of your screen), any pinned posts (these will have a lime green ‘pin’ icon on the top corner and will show on top when you sort the Subreddit by ‘Hot’) and Wiki (where there is one). Here’s our [comprehensive guide to finding a subreddit’s rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/).
@@ -27,7 +26,6 @@ However, opening the Wiki in a browser will work, though not an ideal solution.
 * [Wiki](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujtn3/)
 
 
-
 Title: Absolute Unit
 Flair: Animals
 Content: It's as large as life and twice as natural! If it’s big, it can be described as a unit. If it’s really big, it’s an absolute unit. Unless it’s a cat, [in which case it’s a chonk](https://knowyourmeme.com/memes/chonk-oh-lawd-he-comin).
@@ -45,7 +43,6 @@ Memes, just like every other joke format, don’t exist in a vacuum, which is wh
 * [smol](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hnft73g/?utm_source=share&utm_medium=web2x&context=3)
 
 
-
 Title: Accidental Alt
 Flair: Meta
 Content: It is possible to have an accidental account on Reddit! This comes as a shock to many people when they discover they’ve inadvertently created a different account by clicking "sign in with Google/Apple". Doing that creates a new, or alternate account (Alt) with a random username, usually consisting of [two unrelated words joined with an underscore or hyphen, followed by a random number](https://www.reddit.com/r/help/comments/n75l53/my_icon_info/).
@@ -61,7 +58,6 @@ Creating an Alt can happen easily by accident, especially if you're logged in wi
 * [Two-Factor Authorisation; 2FA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4wqr/?utm_source=share&utm_medium=web2x&context=3)
 * [Username](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhuidc4/?utm_source=share&utm_medium=web2x&context=3)
 
-
 Title: accidentalswastika
 Flair: Missing flair
 Content: A link posted when you find an unintentional swastika shape in logos and designs of all kinds. Before posting there, please check the Forbidden Post List at [https://old.reddit.com/r/accidentalswastika/](https://old.reddit.com/r/accidentalswastika/) first, because some Swastikas aren’t unintentional or even malicious. *Sauwastika* are ancient religious symbols used as 卐 by Hindu/Jain (among others) and as 卍 by Buddhists (among others), and until recently, the [“Hakaristi”](http://www.strangehistory.net/2015/02/24/good-swastikas-hakaristi/) was a symbol used by [Finland’s Air Force](https://www.dw.com/en/finlands-air-force-removes-the-swastika-from-logo-after-almost-a-century/a-54020470). Indeed, the swastika shape has a [fascinating history worldwide](https://en.m.wikipedia.org/wiki/Swastika); Context, as always, is everything. [r/accidentalswastika](https://www.reddit.com/r/accidentalswastika/).
@@ -75,7 +71,6 @@ Content: A link posted when you find an unintentional swastika shape in logos an
 * [theyknew](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3d4l/?utm_source=share&utm_medium=web2x&context=3) (encyclopaedia)
 * [r/theyknew](https://www.reddit.com/r/theyknew/) (subreddit)
 
-
 Title: Account Hacked?
 Flair: Missing flair
 Content: If you suspect your Reddit account to have been hacked, you can view the activity on your account and log out any sessions you don’t recognise here: [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity).
@@ -87,7 +82,6 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 * [Hacked Accounts](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8yldo/)
 * [Passwords](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhclzvw/)
 * [Suspicious Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2734/)
-
 
 
 Title: Achievements  
@@ -105,7 +99,6 @@ You won’t see these achievements outside the powered-up subreddit either next 
 * [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/)
 * [Powerups](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/)
 * [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/)
-
 
 
 
@@ -194,7 +187,6 @@ There is one acronym you should always [report immediately](https://www.reddit.c
 
 
 
-
 Title: Activity
 Flair: Meta
 Content: Part of your Inbox (the envelope icon), and also known as Notifications, this lists recent replies to any of your posts or comments. Also refers to your Reddit Account Activity, which you can check at [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity).
@@ -217,4 +209,3 @@ If you're anxious about what others can see on your account, you're welcome to c
 * [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
 * [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/?utm_source=share&utm_medium=web2x&context=3)
 * [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/?utm_source=share&utm_medium=web2x&context=3)
-
