@@ -98,11 +98,17 @@ def get_post_sections(content):
 
   return posts, titles, flairs
 
+def get_subreddit_link_flairs(sub):
+    flairs = []
+    for template in reddit.subreddit(sub).flair.link_templates:
+        flairs.append(template["text"].lower())
+    return flairs
+
 if __name__ == '__main__':
   fetch_env()
-  # reddit = reddit_login()
+  reddit = reddit_login()
 
-  # print('Logged in as:', reddit.user.me())
+  print('Logged in as:', reddit.user.me())
 
   # online_content = get_wiki_page('2', reddit)
 
@@ -115,3 +121,5 @@ if __name__ == '__main__':
         outfile.write('Title: ' + titles[i] + '\n')
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + posts[i])
+
+  print(get_subreddit_link_flairs(sub_name))
