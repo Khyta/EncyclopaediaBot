@@ -49,28 +49,23 @@ def get_wiki_page(page, reddit):
   wiki_page = sub.wiki[page]
   return wiki_page.content_md
 
-def get_post_flairs(content):
-  # This function gets the submission flairs to be used from the wiki denoted as
-  # ::flair_text:: in the wiki page. RegEx: "::[a-zA-Z]+::"gm
-  flair_texts = re.findall("::[a-zA-Z].+::", content, re.MULTILINE)
-  flair_texts = [flair.replace('::', '') for flair in flair_texts]
-  return flair_texts
-
-def check_post_flairs(titles, flairs):
-  # This function checks whether there are the same amount of flairs as there
-  # are post titles available. If not, this function will fill the flairs list
-  # with empty flairs.
-  if len(titles) > len(flairs):
-    for i in range(len(titles) - len(flairs)):
-      flairs.append('Missing flair')
-  return flairs
-
-def get_post_titles(content):
-  # This function gets the post titles to be used from the wiki denoted as h1 in
-  # the wiki page. RegEx: "#[a-zA-Z]* ?[a-zA-Z]*\n"gmgm
-  post_titles = re.findall("#[a-zA-Z]* ?[a-zA-Z]*\n", content, re.MULTILINE)
-  post_titles = [title.replace('#', '') for title in post_titles]
-  return post_titles
+def get_post_sections(content):
+  # This function iterates through the wiki content and splits up the wiki into
+  # sections for later posting. Each post starts with a title (#Header)
+  # and a flair (::Flair::). This function uses RegEx and requires the re
+  # module. Regex expression to match the start of the sections: "#[a-zA-Z]+ ?[a-zA-Z]+\n::[a-zA-Z]+ ?[a-zA-Z]+::"
+  post_with_flair = "#[a-zA-Z]* ?[a-zA-Z]*\n::[a-zA-Z]* ?[a-zA-Z]*::"
+  post_without_flair = "#[a-zA-Z]* ?[a-zA-Z]*\n"
+  title_pattern = "#[a-zA-Z]* ?[a-zA-Z]*"
+  flair_pattern = "::[a-zA-Z]* ?[a-zA-Z]*::"
+  posts_with_flair = []
+  titles = []
+  flairs = []
+  for post in re.finditer(post_with_flair, content):
+    titles.append(re.findall(title_pattern, post.group())[0].replace('#', ''))
+    flairs.append(re.findall(flair_pattern, post.group())[0].replace('::', ''))
+    # Post stuff splitting here and then append to posts
+  return posts_with_flair, titles, flairs
 
 def split_content(content, titles, flairs):
   # This function splits the wiki content up at each title and then
@@ -78,6 +73,7 @@ def split_content(content, titles, flairs):
   # content.
   contents = re.split(r"#[a-zA-Z]* ?[a-zA-Z]*\n", content)
   contents = [content.replace('::'+flairs+'::', '') for content in contents]
+  contents = [content.replace('#'+titles, '') for content in contents]
   return contents
 
 if __name__ == '__main__':
@@ -87,13 +83,5 @@ if __name__ == '__main__':
   print('Logged in as:', reddit.user.me())
 
   content = get_wiki_page('2', reddit)
-  flair_texts = get_post_flairs(content)
-  titles = get_post_titles(content)
-
-  flair_texts = check_post_flairs(titles, flair_texts)
-
-  for i in range(len(titles)):
-    print('Post', i)
-    print('Flair:', flair_texts[i])
-    print('Title:', titles[i])
-    print('Content:', "{:.50}".format(split_content(content, titles[i], flair_texts[i])[i+1]), '...')
+  posts, titles, flairs = get_post_sections(content)
+  print(titles)
