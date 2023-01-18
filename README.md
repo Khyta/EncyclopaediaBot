@@ -58,7 +58,7 @@ The flair text has to come directly after the h1 heading. This flair text will d
 
 ## Limitations
 
-These limitations are planned to be fixed in the future.
+The followign limitations are planned to be fixed in the future.
 
 - Currently, the user has to specify which wiki page to use for the bot to work.
 It is planned to automate this process in the future and include a command to
