@@ -114,7 +114,7 @@ def create_missing_flairs(sub, flairs):
         print(f"Flair {flair} created.")
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
-  for i in range(1):
+  for i in range(len(posts)):
     subreddit = reddit.subreddit(sub_name)
     submission = subreddit.submit(titles[i], selftext=posts[i])
     choices = submission.flair.choices()
@@ -122,7 +122,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
     
     submission.flair.select(choices_dictionary[flairs[i]])
     print(f"Post {i} created. Title: {titles[i]}, Flair: {flairs[i]}")
-    # time.sleep(10)
+    time.sleep(5)
 
 if __name__ == '__main__':
   fetch_env()
