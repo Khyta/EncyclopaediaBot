@@ -27,3 +27,31 @@ This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
 3. Fill out the `.env` file with the credentials from your reddit bot account.
    (See [here](https://www.reddit.com/prefs/apps) for where to find these)
 4. Run the script with `python3 script.py` from your terminal.
+
+# Usage
+
+## Structure of the wiki
+
+It is of utmost importance that the wiki is structured in a specific way. The
+bot will not work otherwise. The wiki should be structured as follows:
+
+```
+# Heading
+::flair_text::
+
+Here is some filler text that will be used as the post's selftext. The h1 heading will be converted to the post's title.
+
+## Subheading
+
+Here is some more filler text. Subheadings are optional and will be converted one level down to create the right formatting.
+
+- h2 -> h1
+- h3 -> h2
+- h4 -> h3
+- etc.
+
+# Other heading for new post
+::flair_text::
+
+The flair text has to come directly after the h1 heading. This flair text will determine the flair used for the post.
+```
