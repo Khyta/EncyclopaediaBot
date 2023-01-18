@@ -45,7 +45,7 @@ It is of utmost importance that the wiki is structured in a specific way. The
 bot will not work otherwise. The wiki should be structured as follows:
 
 ```
-# Heading
+#Heading
 ::flair_text::
 
 Here is some filler text that will be used as the post's selftext. The h1 heading will be converted to the post's title.
@@ -59,7 +59,7 @@ Here is some more filler text. Subheadings are optional and will be converted on
 - h4 -> h3
 - etc.
 
-# Other heading for new post
+#Other heading for new post
 ::flair_text::
 
 The flair text has to come directly after the h1 heading. This flair text will determine the flair used for the post.
