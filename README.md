@@ -76,3 +76,13 @@ exclude specific wiki pages from the bot.
 - The bot does not throw an error via modmail or other reddit specific
   communications if something goes wrong.
 - The bot does not make periodic posts and has to be started manually.
+
+# Credits
+
+Without these wonderful people, this project would not have been possible.
+
+- The [r/NewToReddit](https://www.reddit.com/r/NewToReddit/) mod team for the support and motivation.
+- [u/SolariaHues](https://www.reddit.com/user/SolariaHues) for helping to overcome limitations and testing the
+  bot.
+- [u/Nugget_MacChicken](https://www.reddit.com/user/Nugget_MacChicken) for technical support and ideas.
+- [LarsZauberer](https://github.com/LarsZauberer) on GitHub for technical support and ideas.
