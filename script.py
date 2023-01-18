@@ -89,6 +89,7 @@ def get_post_sections(content):
         posts.append(post)                                                                            # Add the post to the posts list
 
   titles = [str(x).replace('[', '').replace(']', '').replace('#', '').replace("'", '') for x in titles] # Format the titles
+  titles = [title.strip() for title in titles]                                                          # Remove the whitespace
   flairs = [str(x).replace('[', '').replace(']', '').replace(':', '').replace("'", '') for x in flairs] # Format the flairs
   posts = [post[1:] if post.startswith('\n') else post for post in posts]                               # Remove the first newline
   posts = [post.replace('---', '') for post in posts]                                                   # Remove the horizontal rule

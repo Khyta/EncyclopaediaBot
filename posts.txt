@@ -84,7 +84,7 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 * [Suspicious Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2734/)
 
 
-Title: Achievements  
+Title: Achievements
 Flair: Meta
 Content: On some subreddits, you might notice you have [mystery awards](https://www.reddit.com/r/NewToReddit/comments/t2z8xm/what_is_this_award_for/) which add a little sprite next to your username, which, once clicked reveal titles such as "Avid Voter" or "Prolific Commenter".
 
@@ -102,7 +102,7 @@ You won’t see these achievements outside the powered-up subreddit either next 
 
 
 
-Title: Acronyms 
+Title: Acronyms
 Flair: Redditisms
 Content: Some of our specialised communities have a wide acronym language of their own, and I’ve listed some in the **See Also:** section below.
 
