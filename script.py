@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  # online_content = get_wiki_page('2', reddit)
+  online_content = get_wiki_page('2', reddit)
 
   with open('2.txt', 'r') as infile:
     content = infile.read()
