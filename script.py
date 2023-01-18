@@ -157,7 +157,9 @@ def get_post_content(sub, titles):
     for submission in sub.new(limit=None):
         if submission.title in titles:
             post_content.append(submission.selftext)
-    return post_content
+
+    post_content = post_content[::-1]  # Inverses post_content list to fit the titles list
+    return post_content, titles
 
 def hash_content(title, wiki_content, post_content):
     # This function hashes the content of the posts to be created
@@ -200,9 +202,9 @@ if __name__ == '__main__':
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + wiki_posts[i])
 
-  # post_content = get_post_content(reddit, titles)
+  subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)
 
-  # print(hash_content(titles, wiki_posts, post_content))
+  print(hash_content(titles, wiki_posts, subreddit_posts))
   
   # create_missing_flairs(sub_name, flairs)
   check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
