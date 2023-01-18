@@ -4,6 +4,7 @@ import sys
 import re
 import time
 import csv
+import hashlib
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -125,7 +126,7 @@ def check_duplicates(sub, titles, flairs, posts):
     existing_titles = []
     existing_ids = []
 
-    CSV_HEADER = 'Title, ID, Hash'
+    CSV_HEADER = 'Title, ID, Post Hash, Wiki Hash'
 
     for submission in sub.new(limit=None):
         existing_titles.append(submission.title)
@@ -148,6 +149,21 @@ def check_duplicates(sub, titles, flairs, posts):
     total_time = len(titles) * second_delay
     print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
+
+def hash_content(title, content):
+    # This function hashes the content of the posts to be created
+    # and stores it in a csv file. The hashes are used to check
+    # if edits to the wiki page have been made.
+    post_hashes = []
+    wiki_hashes = []
+
+    # Get post content and hash it
+    for i in range(len(content)):
+        post_hashes.append(hashlib.sha256(content[i].encode('utf-8')).hexdigest())
+
+    return post_hashes
+
+    
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
   for i in range(len(titles)):
@@ -177,6 +193,9 @@ if __name__ == '__main__':
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + posts[i])
 
+  print(posts)[1]
+  print(hash_content(titles, posts))
+  
   # create_missing_flairs(sub_name, flairs)
   check_duplicates(reddit.subreddit(sub_name), titles, flairs, posts)
 
