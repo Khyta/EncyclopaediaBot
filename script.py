@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sub_name = 'EncyclopaediaOfReddit'
+sub_name = 'YOURSUBREDDITNAME'
 
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
