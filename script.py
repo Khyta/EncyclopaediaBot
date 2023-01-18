@@ -10,6 +10,8 @@ load_dotenv()
 
 sub_name = 'EncyclopaediaOfReddit'
 
+second_delay = 5
+
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
   # if it couldn't find them. Requires the python-dotenv module.
@@ -123,19 +125,19 @@ def check_duplicates(sub, titles, flairs, posts):
     existing_titles = []
     existing_ids = []
 
-    CSV_HEADER = 'Title, ID'
+    CSV_HEADER = 'Title, ID, Hash'
 
     for submission in sub.new(limit=None):
         existing_titles.append(submission.title)
         existing_ids.append(submission.id)
 
 
-    with open('existing_titles.csv', 'w') as file:
+    with open('existing_posts.csv', 'w') as file:
         file.write(CSV_HEADER + '\n')
         for i in range(len(existing_titles)):
             file.write(existing_titles[i] + ',' + existing_ids[i] + '\n')
 
-    with open('existing_titles.csv', 'r') as file:
+    with open('existing_posts.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in titles:
@@ -143,7 +145,8 @@ def check_duplicates(sub, titles, flairs, posts):
                 titles.remove(row[0])
                 flairs.pop(removal_index)
                 posts.pop(removal_index)
-    print(f"Number of new posts to be created: {len(titles)}")
+    total_time = len(titles) * second_delay
+    print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
@@ -155,7 +158,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
     
     submission.flair.select(choices_dictionary[flairs[i]])
     print(f"Post {i} created. Title: {titles[i]}, Flair: {flairs[i]}")
-    time.sleep(5)
+    time.sleep(second_delay)
 
 if __name__ == '__main__':
   fetch_env()
@@ -177,6 +180,4 @@ if __name__ == '__main__':
   # create_missing_flairs(sub_name, flairs)
   check_duplicates(reddit.subreddit(sub_name), titles, flairs, posts)
 
-  for i in range(len(titles)):
-    print(f"Title: {titles[i]}, Flair: {flairs[i]}")
-  # create_posts(reddit, sub_name, posts, titles, flairs)
+  create_posts(reddit, sub_name, posts, titles, flairs)
