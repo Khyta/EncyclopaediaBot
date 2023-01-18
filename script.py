@@ -3,11 +3,12 @@ import os
 import sys
 import re
 import time
+import csv
 from dotenv import load_dotenv
 
 load_dotenv()
 
-sub_name = 'YOURSUBREDDITNAME'
+sub_name = 'EncyclopaediaOfReddit'
 
 def fetch_env():
   # This function tries to fetch the environment variables and throws an error
@@ -113,8 +114,38 @@ def create_missing_flairs(sub, flairs):
         reddit.subreddit(sub).flair.link_templates.add(flair, css_class=flair)
         print(f"Flair {flair} created.")
 
+def check_duplicates(sub, titles, flairs):
+    # This function checks for duplicate posts using the titles and submission
+    # IDs fetched from the subreddit. The existing titles are stored in a .csv
+    # with their corresponding submission IDs. The function returns a list of
+    # titles that are not duplicates.
+    existing_titles = []
+    existing_ids = []
+
+    CSV_HEADER = 'Title, ID'
+
+    for submission in sub.new(limit=None):
+        existing_titles.append(submission.title)
+        existing_ids.append(submission.id)
+
+    if not os.path.exists('existing_titles.csv'):
+        with open('existing_titles.csv', 'w') as file:
+            file.write(CSV_HEADER + '\n')
+            for i in range(len(existing_titles)):
+                file.write(existing_titles[i] + ',' + existing_ids[i] + '\n')
+
+    with open('existing_titles.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row[0] in titles:
+                removal_index = titles.index(row[0])
+                titles.remove(row[0])
+                flairs.pop(removal_index)
+    print(f"Number of new posts to be created: {len(titles)}")
+    return titles
+
 def create_posts(reddit, sub_name, posts, titles, flairs):
-  for i in range(len(posts)):
+  for i in range(len(titles)):
     subreddit = reddit.subreddit(sub_name)
     submission = subreddit.submit(titles[i], selftext=posts[i])
     choices = submission.flair.choices()
@@ -141,6 +172,9 @@ if __name__ == '__main__':
         outfile.write('Flair: ' + flairs[i] + '\n')
         outfile.write('Content: ' + posts[i])
 
-  create_missing_flairs(sub_name, flairs)
+  # create_missing_flairs(sub_name, flairs)
+  check_duplicates(reddit.subreddit(sub_name), titles, flairs)
 
-  create_posts(reddit, sub_name, posts, titles, flairs)
+  for i in range(len(titles)):
+    print(f"Title: {titles[i]}, Flair: {flairs[i]}")
+  # create_posts(reddit, sub_name, posts, titles, flairs)

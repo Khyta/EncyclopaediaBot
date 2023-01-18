@@ -209,3 +209,7 @@ If you're anxious about what others can see on your account, you're welcome to c
 * [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
 * [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/?utm_source=share&utm_medium=web2x&context=3)
 * [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/?utm_source=share&utm_medium=web2x&context=3)
+
+Title: Amazing
+Flair: Missing flair
+Content: This is a test entry to check the duplicate detection function.
