@@ -7,6 +7,15 @@ automates the creation of and edits of posts based on the wiki to enhance reddit
 mobile user experience while browsing this post-based wiki. This bot is part of
 the r/NewToReddit network and managed by u/Khyta.
 
+# Example
+
+The bot is currently running on r/EncyclopaediaOfReddit. Here is an extract of a
+wiki and the corresponding posts created by the bot.
+
+![A wiki page](wiki_example.png)
+
+![Posts created by the bot](post_example.png)
+
 # Installation
 
 This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
