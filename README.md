@@ -14,7 +14,7 @@ wiki and the corresponding posts created by the bot.
 
 ![A wiki page](wiki_example.png)
 
-![Posts created by the bot](post_example.png)
+![Posts created by the bot](posts_example.png)
 
 # Installation
 
