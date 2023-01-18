@@ -150,7 +150,16 @@ def check_duplicates(sub, titles, flairs, posts):
     print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
 
-def hash_content(title, content):
+def get_post_content(sub, titles):
+    # This function gets the content of the posts that are already created
+    # in the subreddit. The content is stored in a list and returned.
+    post_content = []
+    for submission in sub.new(limit=None):
+        if submission.title in titles:
+            post_content.append(submission.selftext)
+    return post_content
+
+def hash_content(title, wiki_content, post_content):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
@@ -159,11 +168,9 @@ def hash_content(title, content):
 
     # Get post content and hash it
     for i in range(len(content)):
-        post_hashes.append(hashlib.sha256(content[i].encode('utf-8')).hexdigest())
+        wiki_hashes.append(hashlib.sha256(wiki_content[i].encode('utf-8')).hexdigest())
 
-    return post_hashes
-
-    
+    return wiki_hashes    
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
   for i in range(len(titles)):
@@ -182,21 +189,22 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  online_content = get_wiki_page('2', reddit)
+  wiki_content = get_wiki_page('2', reddit)
 
   with open('2.txt', 'r') as infile:
     content = infile.read()
-    posts, titles, flairs = get_post_sections(content)
-    with open('posts.txt', 'w') as outfile:
-      for i in range(len(posts)):
+    wiki_posts, titles, flairs = get_post_sections(content) # The wiki_posts here refers to the content of the wiki sections
+    with open('wiki_posts.txt', 'w') as outfile:
+      for i in range(len(wiki_posts)):
         outfile.write('Title: ' + titles[i] + '\n')
         outfile.write('Flair: ' + flairs[i] + '\n')
-        outfile.write('Content: ' + posts[i])
+        outfile.write('Content: ' + wiki_posts[i])
 
-  print(posts)[1]
-  print(hash_content(titles, posts))
+  # post_content = get_post_content(reddit, titles)
+
+  # print(hash_content(titles, wiki_posts, post_content))
   
   # create_missing_flairs(sub_name, flairs)
-  check_duplicates(reddit.subreddit(sub_name), titles, flairs, posts)
+  check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
 
-  create_posts(reddit, sub_name, posts, titles, flairs)
+  create_posts(reddit, sub_name, wiki_posts, titles, flairs)
