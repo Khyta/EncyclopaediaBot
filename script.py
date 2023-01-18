@@ -114,7 +114,7 @@ def create_missing_flairs(sub, flairs):
         reddit.subreddit(sub).flair.link_templates.add(flair, css_class=flair)
         print(f"Flair {flair} created.")
 
-def check_duplicates(sub, titles, flairs):
+def check_duplicates(sub, titles, flairs, posts):
     # This function checks for duplicate posts using the titles and submission
     # IDs fetched from the subreddit. The existing titles are stored in a .csv
     # with their corresponding submission IDs. The function returns a list of
@@ -128,11 +128,11 @@ def check_duplicates(sub, titles, flairs):
         existing_titles.append(submission.title)
         existing_ids.append(submission.id)
 
-    if not os.path.exists('existing_titles.csv'):
-        with open('existing_titles.csv', 'w') as file:
-            file.write(CSV_HEADER + '\n')
-            for i in range(len(existing_titles)):
-                file.write(existing_titles[i] + ',' + existing_ids[i] + '\n')
+
+    with open('existing_titles.csv', 'w') as file:
+        file.write(CSV_HEADER + '\n')
+        for i in range(len(existing_titles)):
+            file.write(existing_titles[i] + ',' + existing_ids[i] + '\n')
 
     with open('existing_titles.csv', 'r') as file:
         reader = csv.reader(file)
@@ -141,6 +141,7 @@ def check_duplicates(sub, titles, flairs):
                 removal_index = titles.index(row[0])
                 titles.remove(row[0])
                 flairs.pop(removal_index)
+                posts.pop(removal_index)
     print(f"Number of new posts to be created: {len(titles)}")
     return titles
 
@@ -173,7 +174,7 @@ if __name__ == '__main__':
         outfile.write('Content: ' + posts[i])
 
   # create_missing_flairs(sub_name, flairs)
-  check_duplicates(reddit.subreddit(sub_name), titles, flairs)
+  check_duplicates(reddit.subreddit(sub_name), titles, flairs, posts)
 
   for i in range(len(titles)):
     print(f"Title: {titles[i]}, Flair: {flairs[i]}")
