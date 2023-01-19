@@ -168,11 +168,18 @@ def hash_content(title, wiki_content, post_content):
     post_hashes = []
     wiki_hashes = []
 
-    # Get post content and hash it
-    for i in range(len(content)):
-        wiki_hashes.append(hashlib.sha256(wiki_content[i].encode('utf-8')).hexdigest())
+    print(wiki_content[0])
+    print(post_content[0][0])
 
-    return wiki_hashes    
+    # Get wiki content and hash it
+    for i in range(len(title)):
+        wiki_hashes.append(hashlib.sha256(wiki_content[i].strip().encode('utf-8')).hexdigest())
+
+    # Get post content and hash it
+    for i in range(len(title)):
+        post_hashes.append(hashlib.sha256(post_content[0][i].encode('utf-8')).hexdigest())
+
+    print(wiki_hashes == post_hashes)
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
   for i in range(len(titles)):
@@ -191,7 +198,7 @@ if __name__ == '__main__':
 
   print('Logged in as:', reddit.user.me())
 
-  wiki_content = get_wiki_page('2', reddit)
+  # wiki_content = get_wiki_page('2', reddit)
 
   with open('2.txt', 'r') as infile:
     content = infile.read()
