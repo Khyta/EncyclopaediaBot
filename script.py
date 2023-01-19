@@ -154,11 +154,10 @@ def get_post_content(sub, titles):
     # This function gets the content of the posts that are already created
     # in the subreddit. The content is stored in a list and returned.
     post_content = []
-    for submission in sub.new(limit=None):
-        if submission.title in titles:
-            post_content.append(submission.selftext)
+    for title in titles:
+      submission = next(sub.search(title, sort='new', limit=1))
+      post_content.append(submission.selftext)
 
-    post_content = post_content[::-1]  # Inverses post_content list to fit the titles list
     return post_content, titles
 
 def hash_content(title, wiki_content, post_content):

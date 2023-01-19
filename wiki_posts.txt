@@ -4,7 +4,7 @@ Content: Reddit loves animals. Reddit loves strangeness. Here, we have both! So 
 
 #Subheading
 
-How about a susheading?
+How about a subheading?
 
 
 Title: About
