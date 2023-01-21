@@ -220,7 +220,6 @@ def hash_content(titles, wiki_content, post_content):
 
     for i in range(len(titles)):
         if wiki_hashes[i] != post_hashes[i]:
-            print(wiki_hashes[i], post_hashes[i])
             title = titles[i]
             posts_to_update.append(title)
     
