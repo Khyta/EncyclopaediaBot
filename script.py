@@ -165,20 +165,23 @@ def check_duplicates(titles, flairs, posts):
     # IDs fetched from the CSV post_info.csv. The function returns a list of
     # titles that are not duplicates and can be posted.
 
+    unique_titles = titles.copy()
+    unique_flairs = flairs.copy()
+    unique_posts = posts.copy()
     with open('post_info.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
-            if row[0] in titles:
-                removal_index = titles.index(row[0])
-                titles.remove(row[0])
-                flairs.pop(removal_index)
-                posts.pop(removal_index)
-    total_time = len(titles) * second_delay
-    if len(titles) == 0:
+            if row[0] in unique_titles:
+                removal_index = unique_titles.index(row[0])
+                unique_titles.remove(row[0])
+                unique_flairs.pop(removal_index)
+                unique_posts.pop(removal_index)
+    total_time = len(unique_titles) * second_delay
+    if len(unique_titles) == 0:
         print("No new posts to be created.")
     else:
-        print(f"{len(titles)} to be created in ~{total_time} seconds.")
-    return titles, flairs, posts
+        print(f"{len(unique_titles)} to be created in ~{total_time} seconds.")
+    return unique_titles, unique_flairs, unique_posts
 
 def check_updates(wiki_posts, ids):
     # This function checks for updates to the wiki posts. The function returns a
