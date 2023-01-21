@@ -17,7 +17,7 @@ Some subs will have an F.A.Q. List, and many will have a Wiki. Unfortunately for
 2. Default to the very top of the wiki regardless of where on the page the link should send you.
 3. [Mess up the format completely](https://i.redd.it/944m5oc3wli81.png).
 
-However, opening the Wiki in a browser will work, though not an ideal solution.
+However, opening the Wiki in a browser will work, though not an ideal solution. Very much not ideal solution.
 
 **See Also:**
 

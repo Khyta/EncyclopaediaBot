@@ -180,6 +180,28 @@ def check_duplicates(titles, flairs, posts):
         print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles, flairs, posts
 
+def check_updates(wiki_posts, ids):
+    # This function checks for updates to the wiki posts. The function returns a
+    # list of post IDs and titles where the wiki entries have been updated.
+    # Those post IDs are later used to update the relevant posts and the titles
+    # to find the relevant post entries.
+
+    wiki_hashes = []
+    for i in range(len(wiki_posts)):
+        wiki_hashes.append(hashlib.sha256(wiki_posts[i].encode('utf-8')).hexdigest())
+
+    updated_posts = []
+
+    with open('post_info.csv', 'r') as file:
+        reader = csv.reader(file)
+        next(reader)
+        current_hashes = [row[2] for row in reader]
+
+    for i in range(len(current_hashes)):
+        if current_hashes[i] != wiki_hashes[i]:
+            updated_posts.append(ids[i])
+    return updated_posts
+
 
 def create_post_info(titles, flairs, wiki_hashes, ids):
     # This function creates a CSV file with the titles, flairs, and contents
@@ -245,6 +267,11 @@ if __name__ == '__main__':
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
+        with open('wiki_posts.txt', 'w') as outfile:
+            for i in range(len(wiki_posts)):
+                outfile.write('Title: ' + titles[i] + '\n')
+                outfile.write('Flair: ' + flairs[i] + '\n')
+                outfile.write('Content: ' + wiki_posts[i])
 
     new_titles, new_flairs, new_posts = check_duplicates(titles, flairs, wiki_posts)
 
@@ -254,12 +281,10 @@ if __name__ == '__main__':
 
     create_post_info(post_titles, post_flairs, current_hashes, ids)
 
-    print('Post info created.')
+    print('Post info updated.')
 
-    # subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)[0]
+    posts_to_update = check_updates(wiki_posts, ids)
 
-    # posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
-
-    # print(posts_to_update)
+    print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
