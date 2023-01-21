@@ -255,7 +255,7 @@ if __name__ == '__main__':
 
     print('Logged in as:', reddit.user.me())
 
-    # wiki_content = get_wiki_page('2', reddit)
+    wiki_content = get_wiki_page('2', reddit)
 
     with open('2.txt', 'r') as infile:
         content = infile.read()
@@ -269,9 +269,9 @@ if __name__ == '__main__':
 
     subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)
 
-    # posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
+    posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
 
-    # print(posts_to_update)
+    print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
     check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
