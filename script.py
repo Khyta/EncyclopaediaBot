@@ -194,17 +194,18 @@ def check_duplicates(sub, titles, flairs, posts):
         print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
 
-def create_post_info(titles, flairs, contents, post_hashes, wiki_hashes):
+
+def create_post_info(titles, flairs, wiki_hashes, ids):
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
-    CSV_HEADER = 'Title, Flair, Content, Post Hash, Wiki Hash'
+    CSV_HEADER = 'Title, Flair, Current Hash, ID'
 
     with open('post_info.csv', 'w') as file:
         file.write(CSV_HEADER + '\n')
         for i in range(len(titles)):
-            file.write(titles[i] + ',' + flairs[i] + ',"' + contents[i] + '",' +
-                       post_hashes[i] + ',' + wiki_hashes[i] + '\n')
+            file.write(titles[i] + ',' + flairs[i] + ',' +
+                       wiki_hashes[i] + ',' ids[i] + '\n')
 
 
 def get_post_content(sub, titles):
@@ -232,9 +233,8 @@ def hash_content(titles, wiki_content):
     return wiki_hashes
 
 
-
 def create_posts(reddit, sub_name, posts, titles, flairs):
-    for i in range(len(titles)):
+    for i in range(2):
         subreddit = reddit.subreddit(sub_name)
         submission = subreddit.submit(titles[i], selftext=posts[i])
         choices = submission.flair.choices()
@@ -242,8 +242,11 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
             choice['flair_text']: choice['flair_template_id'] for choice in choices}
 
         submission.flair.select(choices_dictionary[flairs[i]])
+        ids.append(submission.id)
         print(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
         time.sleep(second_delay)
+
+    return ids
 
 
 if __name__ == '__main__':
@@ -266,7 +269,11 @@ if __name__ == '__main__':
 
     current_hashes = hash_content(titles, wiki_posts)
 
-    create_post_info(titles, flairs, wiki_posts, current_hashes)
+    ids = create_posts(reddit, sub_name, wiki_posts, titles, flairs)
+
+    create_post_info(titles, flairs, current_hashes, ids)
+
+    print('Post info created.')
 
     # subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)[0]
 
@@ -276,5 +283,3 @@ if __name__ == '__main__':
 
     # create_missing_flairs(sub_name, flairs)
     # check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
-
-    # create_posts(reddit, sub_name, wiki_posts, titles, flairs)
