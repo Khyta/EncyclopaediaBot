@@ -5,6 +5,7 @@ import re
 import time
 import csv
 import pandas as pd
+import numpy as np
 import hashlib
 from dotenv import load_dotenv
 
@@ -122,10 +123,9 @@ def get_post_sections(content):
                 # Add the post to the posts list
                 posts.append(post)
 
-    titles = [str(x).replace('[', '').replace(']', '').replace(
-        '#', '').replace("'", '') for x in titles]  # Format the titles
-    # Remove the whitespace
+    titles = list(np.concatenate(titles).flat)  # Flatten the titles list
     titles = [title.strip() for title in titles]
+    titles = [str(x).replace('#', '') for x in titles]  # Format the titles
     flairs = [str(x).replace('[', '').replace(']', '').replace(
         ':', '').replace("'", '') for x in flairs]  # Format the flairs
     # Remove the first newline
@@ -184,6 +184,7 @@ def check_duplicates(titles, flairs, posts):
         print(f"{len(unique_titles)} post to be created in ~{total_time} seconds.")
     return unique_titles, unique_flairs, unique_posts
 
+
 def check_updates(wiki_posts):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
@@ -192,7 +193,8 @@ def check_updates(wiki_posts):
 
     wiki_hashes = []
     for i in range(len(wiki_posts)):
-        wiki_hashes.append(hashlib.sha256(wiki_posts[i].strip().encode('utf-8')).hexdigest())
+        wiki_hashes.append(hashlib.sha256(
+            wiki_posts[i].strip().encode('utf-8')).hexdigest())
 
     updated_ids = []
 
@@ -203,12 +205,12 @@ def check_updates(wiki_posts):
     for i in range(len(current_hashes)):
         if current_hashes[i] not in wiki_hashes[i]:
             updated_ids.append(post_ids[i])
-    
+
     if len(updated_ids) == 0:
         print("No posts to be updated.")
     else:
         print(f"{len(updated_ids)} posts to be updated. IDs: {post_ids}")
-    
+
     return updated_ids
 
 
@@ -222,10 +224,11 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
     if not os.path.exists('post_info.csv'):
         with open('post_info.csv', 'w') as file:
             file.write(CSV_HEADER + '\n')
-    
+
     with open('post_info.csv', 'a') as file:
         for i in range(len(titles)):
-            file.write(titles[i] + ',' + flairs[i] + ',' + wiki_hashes[i] + ',' + ids[i] + '\n')
+            file.write(titles[i] + ',' + flairs[i] + ',' +
+                       wiki_hashes[i] + ',' + ids[i] + '\n')
 
 
 def hash_content(post_content):
@@ -284,9 +287,11 @@ if __name__ == '__main__':
 
     create_missing_flairs(sub_name, flairs)
 
-    new_titles, new_flairs, new_posts = check_duplicates(titles, flairs, wiki_posts)
+    new_titles, new_flairs, new_posts = check_duplicates(
+        titles, flairs, wiki_posts)
 
-    ids, post_titles, post_flairs, post_contents = create_posts(reddit, sub_name, new_posts, new_titles, new_flairs)
+    ids, post_titles, post_flairs, post_contents = create_posts(
+        reddit, sub_name, new_posts, new_titles, new_flairs)
 
     current_hashes = hash_content(post_contents)
 
