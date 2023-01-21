@@ -201,27 +201,39 @@ def get_post_content(sub, titles):
     return post_content, titles
 
 
-def hash_content(title, wiki_content, post_content):
+def hash_content(titles, wiki_content, post_content):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
     post_hashes = []
     wiki_hashes = []
 
-    print(wiki_content[0])
-    print(post_content[0][0])
+    # print(wiki_content[0])
+    # print(post_content[0][0])
 
     # Get wiki content and hash it
-    for i in range(len(title)):
+    for i in range(len(titles)):
         wiki_hashes.append(hashlib.sha256(
             wiki_content[i].strip().encode('utf-8')).hexdigest())
 
     # Get post content and hash it
-    for i in range(len(title)):
+    for i in range(len(titles)):
         post_hashes.append(hashlib.sha256(
-            post_content[0][i].encode('utf-8')).hexdigest())
+            post_content[0][i].strip().encode('utf-8')).hexdigest())
 
-    print(wiki_hashes == post_hashes)
+    # print(wiki_hashes, post_hashes)
+
+    posts_to_update = []
+
+    for i in range(len(titles)):
+        if wiki_hashes[i] != post_hashes[i]:
+            print(wiki_hashes[i], post_hashes[i])
+            title = titles[i]
+            posts_to_update.append(title)
+    
+    print(f"{len(posts_to_update)} posts to be updated.")
+    return posts_to_update
+
 
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
@@ -257,7 +269,9 @@ if __name__ == '__main__':
 
     subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)
 
-    print(hash_content(titles, wiki_posts, subreddit_posts))
+    posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
+
+    print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
     check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
