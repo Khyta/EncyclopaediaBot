@@ -221,3 +221,11 @@ Content: This is a test entry to check the duplicate detection function.
 Title: A new entry
 Flair: Missing flair
 Content: This is another new test entry to really test our bot.
+
+Title: A completely brand new entry
+Flair: Missing flair
+Content: This entry is in place to test for API delays.
+
+Title: Unit
+Flair: Missing flair
+Content: Another entry to check for API delays.

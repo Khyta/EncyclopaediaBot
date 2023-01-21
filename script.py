@@ -13,6 +13,8 @@ sub_name = 'EncyclopaediaOfReddit'
 
 second_delay = 5
 
+fractional_delay = second_delay/100
+
 
 def fetch_env():
     # This function tries to fetch the environment variables and throws an error
@@ -199,6 +201,7 @@ def get_post_content(sub, titles):
     post_content = []
     for title in titles:
         submission = next(sub.search(title, sort='relevance', limit=1))
+        time.sleep(fractional_delay)
         post_content.append(submission.selftext)
 
     return post_content, titles
@@ -217,7 +220,7 @@ def hash_content(titles, wiki_content, post_content):
 
     for i in range(len(titles)):
         post_hashes.append(hashlib.sha256(
-            post_content[0][i].strip().encode('utf-8')).hexdigest())
+            post_content[i].strip().encode('utf-8')).hexdigest())
 
     posts_to_update = []
 
@@ -243,7 +246,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
             choice['flair_text']: choice['flair_template_id'] for choice in choices}
 
         submission.flair.select(choices_dictionary[flairs[i]])
-        print(f"Post {i} created. Title: {titles[i]}, Flair: {flairs[i]}")
+        print(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
         time.sleep(second_delay)
 
 
@@ -265,7 +268,7 @@ if __name__ == '__main__':
                 outfile.write('Flair: ' + flairs[i] + '\n')
                 outfile.write('Content: ' + wiki_posts[i])
 
-    subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)
+    subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)[0]
 
     posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
 
