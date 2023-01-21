@@ -181,7 +181,7 @@ def check_duplicates(titles, flairs, posts):
     if len(unique_titles) == 0:
         print("No new posts to be created.")
     else:
-        print(f"{len(unique_titles)} to be created in ~{total_time} seconds.")
+        print(f"{len(unique_titles)} post to be created in ~{total_time} seconds.")
     return unique_titles, unique_flairs, unique_posts
 
 def check_updates(wiki_posts):
@@ -206,6 +206,12 @@ def check_updates(wiki_posts):
         if current_hashes[i] != wiki_hashes[i]:
             updated_ids.append(post_ids[i])
             updated_titles.append(titles[i])
+    
+    if len(updated_ids) == 0:
+        print("No posts to be updated.")
+    else:
+        print(f"{len(updated_ids)} posts to be updated. Titles: {updated_titles}")
+    
     return updated_ids, updated_titles
 
 
@@ -279,6 +285,8 @@ if __name__ == '__main__':
                 outfile.write('Flair: ' + flairs[i] + '\n')
                 outfile.write('Content: ' + wiki_posts[i])
 
+    create_missing_flairs(sub_name, flairs)
+
     new_titles, new_flairs, new_posts = check_duplicates(titles, flairs, wiki_posts)
 
     ids, post_titles, post_flairs, post_contents = create_posts(reddit, sub_name, new_posts, new_titles, new_flairs)
@@ -290,7 +298,3 @@ if __name__ == '__main__':
     print('Post info updated.')
 
     posts_to_update = check_updates(wiki_posts)
-
-    print(posts_to_update)
-
-    # create_missing_flairs(sub_name, flairs)
