@@ -192,7 +192,7 @@ def check_updates(wiki_posts):
 
     wiki_hashes = []
     for i in range(len(wiki_posts)):
-        wiki_hashes.append(hashlib.sha256(wiki_posts[i].encode('utf-8')).hexdigest())
+        wiki_hashes.append(hashlib.sha256(wiki_posts[i].strip().encode('utf-8')).hexdigest())
 
     updated_posts = []
 
