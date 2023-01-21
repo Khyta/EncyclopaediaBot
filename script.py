@@ -204,8 +204,7 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
     with open('post_info.csv', 'w') as file:
         file.write(CSV_HEADER + '\n')
         for i in range(len(titles)):
-            file.write(titles[i] + ',' + flairs[i] + ',' +
-                       wiki_hashes[i] + ',' ids[i] + '\n')
+            file.write(titles[i] + ',' + flairs[i] + ',' + wiki_hashes[i] + ',' + ids[i] + '\n')
 
 
 def get_post_content(sub, titles):
@@ -220,20 +219,24 @@ def get_post_content(sub, titles):
     return post_content, titles
 
 
-def hash_content(titles, wiki_content):
+def hash_content(post_content):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
-    wiki_hashes = []
+    post_hashes = []
 
-    for i in range(len(titles)):
-        wiki_hashes.append(hashlib.sha256(
-            wiki_content[i].strip().encode('utf-8')).hexdigest())
+    for i in range(len(post_content)):
+        post_hashes.append(hashlib.sha256(
+            post_content[i].strip().encode('utf-8')).hexdigest())
 
-    return wiki_hashes
+    return post_hashes
 
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
+    post_titles = []
+    post_flairs = []
+    post_contents = []
+    ids = []
     for i in range(2):
         subreddit = reddit.subreddit(sub_name)
         submission = subreddit.submit(titles[i], selftext=posts[i])
@@ -243,10 +246,13 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
 
         submission.flair.select(choices_dictionary[flairs[i]])
         ids.append(submission.id)
+        post_titles.append(titles[i])
+        post_flairs.append(flairs[i])
+        post_contents.append(posts[i])
         print(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
         time.sleep(second_delay)
 
-    return ids
+    return ids, post_titles, post_flairs, post_contents
 
 
 if __name__ == '__main__':
@@ -267,11 +273,11 @@ if __name__ == '__main__':
                 outfile.write('Flair: ' + flairs[i] + '\n')
                 outfile.write('Content: ' + wiki_posts[i])
 
-    current_hashes = hash_content(titles, wiki_posts)
+    ids, post_titles, post_flairs, post_contents = create_posts(reddit, sub_name, wiki_posts, titles, flairs)
 
-    ids = create_posts(reddit, sub_name, wiki_posts, titles, flairs)
+    current_hashes = hash_content(post_contents)
 
-    create_post_info(titles, flairs, current_hashes, ids)
+    create_post_info(post_titles, post_flairs, current_hashes, ids)
 
     print('Post info created.')
 
