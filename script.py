@@ -194,6 +194,18 @@ def check_duplicates(sub, titles, flairs, posts):
         print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
 
+def create_post_info(titles, flairs, contents, post_hashes, wiki_hashes):
+    # This function creates a CSV file with the titles, flairs, and contents
+    # of the posts that were created. The CSV file is used to circumvent the
+    # limitation of the Reddit search API that cannot return literal matches.
+    CSV_HEADER = 'Title, Flair, Content, Post Hash, Wiki Hash'
+
+    with open('post_info.csv', 'w') as file:
+        file.write(CSV_HEADER + '\n')
+        for i in range(len(titles)):
+            file.write(titles[i] + ',' + flairs[i] + ',"' + contents[i] + '",' +
+                       post_hashes[i] + ',' + wiki_hashes[i] + '\n')
+
 
 def get_post_content(sub, titles):
     # This function gets the content of the posts that are already created
@@ -207,33 +219,17 @@ def get_post_content(sub, titles):
     return post_content, titles
 
 
-def hash_content(titles, wiki_content, post_content):
+def hash_content(titles, wiki_content):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
-    post_hashes = []
     wiki_hashes = []
 
     for i in range(len(titles)):
         wiki_hashes.append(hashlib.sha256(
             wiki_content[i].strip().encode('utf-8')).hexdigest())
 
-    for i in range(len(titles)):
-        post_hashes.append(hashlib.sha256(
-            post_content[i].strip().encode('utf-8')).hexdigest())
-
-    posts_to_update = []
-
-    for i in range(len(titles)):
-        if wiki_hashes[i] != post_hashes[i]:
-            title = titles[i]
-            posts_to_update.append(title)
-    
-    if len(posts_to_update) == 0:
-        print("No posts to be updated.")
-    else:
-        print(f"{len(posts_to_update)} posts to be updated.")
-    return posts_to_update
+    return wiki_hashes
 
 
 
@@ -268,13 +264,17 @@ if __name__ == '__main__':
                 outfile.write('Flair: ' + flairs[i] + '\n')
                 outfile.write('Content: ' + wiki_posts[i])
 
-    subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)[0]
+    current_hashes = hash_content(titles, wiki_posts)
 
-    posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
+    create_post_info(titles, flairs, wiki_posts, current_hashes)
 
-    print(posts_to_update)
+    # subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)[0]
+
+    # posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
+
+    # print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
-    check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
+    # check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
 
-    create_posts(reddit, sub_name, wiki_posts, titles, flairs)
+    # create_posts(reddit, sub_name, wiki_posts, titles, flairs)
