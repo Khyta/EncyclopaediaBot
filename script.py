@@ -160,26 +160,12 @@ def create_missing_flairs(sub, flairs):
             print(f"Flair {flair} created.")
 
 
-def check_duplicates(sub, titles, flairs, posts):
+def check_duplicates(titles, flairs, posts):
     # This function checks for duplicate posts using the titles and submission
-    # IDs fetched from the subreddit. The existing titles are stored in a .csv
-    # with their corresponding submission IDs. The function returns a list of
-    # titles that are not duplicates.
-    existing_titles = []
-    existing_ids = []
+    # IDs fetched from the CSV post_info.csv. The function returns a list of
+    # titles that are not duplicates and can be posted.
 
-    CSV_HEADER = 'Title, ID, Post Hash, Wiki Hash'
-
-    for submission in sub.new(limit=None):
-        existing_titles.append(submission.title)
-        existing_ids.append(submission.id)
-
-    with open('existing_posts.csv', 'w') as file:
-        file.write(CSV_HEADER + '\n')
-        for i in range(len(existing_titles)):
-            file.write(existing_titles[i] + ',' + existing_ids[i] + '\n')
-
-    with open('existing_posts.csv', 'r') as file:
+    with open('post_info.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in titles:
@@ -192,7 +178,7 @@ def check_duplicates(sub, titles, flairs, posts):
         print("No new posts to be created.")
     else:
         print(f"{len(titles)} to be created in ~{total_time} seconds.")
-    return titles
+    return titles, flairs, posts
 
 
 def create_post_info(titles, flairs, wiki_hashes, ids):
@@ -201,22 +187,14 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
     # limitation of the Reddit search API that cannot return literal matches.
     CSV_HEADER = 'Title, Flair, Current Hash, ID'
 
-    with open('post_info.csv', 'w') as file:
-        file.write(CSV_HEADER + '\n')
+    # Create the CSV file if it doesn't exist yet
+    if not os.path.exists('post_info.csv'):
+        with open('post_info.csv', 'w') as file:
+            file.write(CSV_HEADER + '\n')
+    
+    with open('post_info.csv', 'a') as file:
         for i in range(len(titles)):
             file.write(titles[i] + ',' + flairs[i] + ',' + wiki_hashes[i] + ',' + ids[i] + '\n')
-
-
-def get_post_content(sub, titles):
-    # This function gets the content of the posts that are already created
-    # in the subreddit. The content is stored in a list and returned.
-    post_content = []
-    for title in titles:
-        submission = next(sub.search(title, sort='relevance', limit=1))
-        time.sleep(fractional_delay)
-        post_content.append(submission.selftext)
-
-    return post_content, titles
 
 
 def hash_content(post_content):
@@ -237,7 +215,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
     post_flairs = []
     post_contents = []
     ids = []
-    for i in range(2):
+    for i in range(len(posts)):
         subreddit = reddit.subreddit(sub_name)
         submission = subreddit.submit(titles[i], selftext=posts[i])
         choices = submission.flair.choices()
@@ -267,13 +245,10 @@ if __name__ == '__main__':
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
-        with open('wiki_posts.txt', 'w') as outfile:
-            for i in range(len(wiki_posts)):
-                outfile.write('Title: ' + titles[i] + '\n')
-                outfile.write('Flair: ' + flairs[i] + '\n')
-                outfile.write('Content: ' + wiki_posts[i])
 
-    ids, post_titles, post_flairs, post_contents = create_posts(reddit, sub_name, wiki_posts, titles, flairs)
+    new_titles, new_flairs, new_posts = check_duplicates(titles, flairs, wiki_posts)
+
+    ids, post_titles, post_flairs, post_contents = create_posts(reddit, sub_name, new_posts, new_titles, new_flairs)
 
     current_hashes = hash_content(post_contents)
 
@@ -288,4 +263,3 @@ if __name__ == '__main__':
     # print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
-    # check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
