@@ -4,6 +4,7 @@ import sys
 import re
 import time
 import csv
+import pandas as pd
 import hashlib
 from dotenv import load_dotenv
 
@@ -183,7 +184,7 @@ def check_duplicates(titles, flairs, posts):
         print(f"{len(unique_titles)} to be created in ~{total_time} seconds.")
     return unique_titles, unique_flairs, unique_posts
 
-def check_updates(wiki_posts, ids):
+def check_updates(wiki_posts):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
     # Those post IDs are later used to update the relevant posts and the titles
@@ -195,14 +196,13 @@ def check_updates(wiki_posts, ids):
 
     updated_posts = []
 
-    with open('post_info.csv', 'r') as file:
-        reader = csv.reader(file)
-        next(reader)
-        current_hashes = [row[2] for row in reader]
+    df = pd.read_csv('post_info.csv')
+    current_hashes = df['Current Hash'].tolist()
+    post_ids = df['ID'].tolist()
 
     for i in range(len(current_hashes)):
         if current_hashes[i] != wiki_hashes[i]:
-            updated_posts.append(ids[i])
+            updated_posts.append(post_ids[i])
     return updated_posts
 
 
@@ -210,7 +210,7 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
-    CSV_HEADER = 'Title, Flair, Current Hash, ID'
+    CSV_HEADER = 'Title,Flair,Current Hash,ID'
 
     # Create the CSV file if it doesn't exist yet
     if not os.path.exists('post_info.csv'):
@@ -286,7 +286,7 @@ if __name__ == '__main__':
 
     print('Post info updated.')
 
-    posts_to_update = check_updates(wiki_posts, ids)
+    posts_to_update = check_updates(wiki_posts)
 
     print(posts_to_update)
 
