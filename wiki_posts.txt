@@ -217,3 +217,7 @@ If you're anxious about what others can see on your account, you're welcome to c
 Title: Amazing
 Flair: Missing flair
 Content: This is a test entry to check the duplicate detection function.
+
+Title: A new entry
+Flair: Missing flair
+Content: This is another new test entry to really test our bot.

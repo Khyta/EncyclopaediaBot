@@ -186,7 +186,10 @@ def check_duplicates(sub, titles, flairs, posts):
                 flairs.pop(removal_index)
                 posts.pop(removal_index)
     total_time = len(titles) * second_delay
-    print(f"{len(titles)} to be created in ~{total_time} seconds.")
+    if len(titles) == 0:
+        print("No new posts to be created.")
+    else:
+        print(f"{len(titles)} to be created in ~{total_time} seconds.")
     return titles
 
 
@@ -223,7 +226,10 @@ def hash_content(titles, wiki_content, post_content):
             title = titles[i]
             posts_to_update.append(title)
     
-    print(f"{len(posts_to_update)} posts to be updated.")
+    if len(posts_to_update) == 0:
+        print("No posts to be updated.")
+    else:
+        print(f"{len(posts_to_update)} posts to be updated.")
     return posts_to_update
 
 
