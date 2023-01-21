@@ -194,16 +194,19 @@ def check_updates(wiki_posts):
     for i in range(len(wiki_posts)):
         wiki_hashes.append(hashlib.sha256(wiki_posts[i].strip().encode('utf-8')).hexdigest())
 
-    updated_posts = []
+    updated_ids = []
+    updated_titles = []
 
     df = pd.read_csv('post_info.csv')
     current_hashes = df['Current Hash'].tolist()
     post_ids = df['ID'].tolist()
+    titles = df['Title'].tolist()
 
     for i in range(len(current_hashes)):
         if current_hashes[i] != wiki_hashes[i]:
-            updated_posts.append(post_ids[i])
-    return updated_posts
+            updated_ids.append(post_ids[i])
+            updated_titles.append(titles[i])
+    return updated_ids, updated_titles
 
 
 def create_post_info(titles, flairs, wiki_hashes, ids):
