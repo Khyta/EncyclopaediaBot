@@ -203,13 +203,13 @@ def check_updates(wiki_posts):
     post_ids = df['ID'].tolist()
 
     for i in range(len(current_hashes)):
-        if current_hashes[i] not in wiki_hashes[i]:
+        if current_hashes[i] not in wiki_hashes:
             updated_ids.append(post_ids[i])
 
     if len(updated_ids) == 0:
         print("No posts to be updated.")
     else:
-        print(f"{len(updated_ids)} posts to be updated. IDs: {post_ids}")
+        print(f"{len(updated_ids)} posts to be updated. IDs: {updated_ids}")
 
     return updated_ids
 
