@@ -195,7 +195,7 @@ def get_post_content(sub, titles):
     # in the subreddit. The content is stored in a list and returned.
     post_content = []
     for title in titles:
-        submission = next(sub.search(title, sort='new', limit=1))
+        submission = next(sub.search(title, sort='relevance', limit=1))
         post_content.append(submission.selftext)
 
     return post_content, titles
@@ -269,9 +269,9 @@ if __name__ == '__main__':
 
     subreddit_posts = get_post_content(reddit.subreddit(sub_name), titles)
 
-    posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
+    # posts_to_update = hash_content(titles, wiki_posts, subreddit_posts)
 
-    print(posts_to_update)
+    # print(posts_to_update)
 
     # create_missing_flairs(sub_name, flairs)
     check_duplicates(reddit.subreddit(sub_name), titles, flairs, wiki_posts)
