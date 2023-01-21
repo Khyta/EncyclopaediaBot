@@ -208,20 +208,13 @@ def hash_content(titles, wiki_content, post_content):
     post_hashes = []
     wiki_hashes = []
 
-    # print(wiki_content[0])
-    # print(post_content[0][0])
-
-    # Get wiki content and hash it
     for i in range(len(titles)):
         wiki_hashes.append(hashlib.sha256(
             wiki_content[i].strip().encode('utf-8')).hexdigest())
 
-    # Get post content and hash it
     for i in range(len(titles)):
         post_hashes.append(hashlib.sha256(
             post_content[0][i].strip().encode('utf-8')).hexdigest())
-
-    # print(wiki_hashes, post_hashes)
 
     posts_to_update = []
 
