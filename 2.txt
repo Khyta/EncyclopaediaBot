@@ -16,6 +16,10 @@ Test entry with slashes
 
 Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
+#Another entry
+
+Hello there
+
 #Single 'Quotation' marks
 
 Test entry for single quotation marks
@@ -36,10 +40,6 @@ Normal apostrophe check
 
 Bracket check
 
-#It's [square bracket] time
-
-Another bracket check
-
 #Ah yes a colon: How original
 
 Colon check
@@ -47,10 +47,6 @@ Colon check
 #Oh this is a semi-colon; Fancy colon
 
 Semicolon check
-
-#File_name_1_blabla
-
-Underscore check
 
 #*Italics* post
 

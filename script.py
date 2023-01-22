@@ -161,7 +161,7 @@ def create_missing_flairs(sub, flairs):
             print(f"Flair {flair} created.")
 
 
-def check_duplicates(titles, flairs, posts):
+def check_additions(titles, flairs, posts):
     # This function checks for duplicate posts using the titles and submission
     # IDs fetched from the CSV post_info.csv. The function returns a list of
     # titles that are not duplicates and can be posted.
@@ -224,12 +224,13 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
     if not os.path.exists('post_info.csv'):
         with open('post_info.csv', 'w') as file:
             file.write(CSV_HEADER + '\n')
-
-    with open('post_info.csv', 'a') as file:
-        writer = csv.writer(file)
-        for i in range(len(titles)):
-            writer.writerow([titles[i], flairs[i],
+    if len(titles) != 0:
+        with open('post_info.csv', 'a') as file:
+            writer = csv.writer(file)
+            for i in range(len(titles)):
+                writer.writerow([titles[i], flairs[i],
                              wiki_hashes[i], ids[i]])
+        print('Post info updated.')
 
 
 def hash_content(post_content):
@@ -344,7 +345,7 @@ if __name__ == '__main__':
 
     create_missing_flairs(sub_name, flairs)
 
-    new_titles, new_flairs, new_posts = check_duplicates(
+    new_titles, new_flairs, new_posts = check_additions(
         titles, flairs, wiki_posts)
 
     ids, post_titles, post_flairs, post_contents = create_posts(
@@ -353,8 +354,6 @@ if __name__ == '__main__':
     current_hashes = hash_content(post_contents)
 
     create_post_info(post_titles, post_flairs, current_hashes, ids)
-
-    print('Post info updated.')
 
     delete_posts(titles)
 

@@ -14,6 +14,10 @@ Title: "Uhm acshually" reddit idiom
 Flair: Missing flair
 Content: Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
+Title: Another entry
+Flair: Missing flair
+Content: Hello there
+
 Title: Single 'Quotation' marks
 Flair: Missing flair
 Content: Test entry for single quotation marks
@@ -34,10 +38,6 @@ Title: It's (round bracket) timeee
 Flair: Missing flair
 Content: Bracket check
 
-Title: It's [square bracket] time
-Flair: Missing flair
-Content: Another bracket check
-
 Title: Ah yes a colon: How original
 Flair: Missing flair
 Content: Colon check
@@ -45,10 +45,6 @@ Content: Colon check
 Title: Oh this is a semi-colon; Fancy colon
 Flair: Missing flair
 Content: Semicolon check
-
-Title: File_name_1_blabla
-Flair: Missing flair
-Content: Underscore check
 
 Title: *Italics* post
 Flair: Missing flair
