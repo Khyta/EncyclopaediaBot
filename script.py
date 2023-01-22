@@ -201,14 +201,14 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
     post_updates = False
     flair_updates = False
 
-    wiki_hashes = []
+    post_hashes = []
     for i in range(len(wiki_posts)):
-        wiki_hashes.append(hashlib.sha256(
+        post_hashes.append(hashlib.sha256(
             wiki_posts[i].strip().encode('utf-8')).hexdigest())
 
-    wiki_flairs = []
+    flair_hashes = []
     for i in range(len(wiki_flairs)):
-        wiki_flairs.append(hashlib.sha256(
+        flair_hashes.append(hashlib.sha256(
             wiki_flairs[i].strip().encode('utf-8')).hexdigest())
 
     updated_ids = []
@@ -219,12 +219,12 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
     post_ids = df['ID'].tolist()
 
     for i in range(len(current_post_hashes)):
-        if current_post_hashes[i] not in wiki_hashes:
+        if current_post_hashes[i] not in post_hashes:
             updated_ids.append(post_ids[i])
             post_updates = True
 
     for i in range(len(current_flair_hashes)):
-        if current_flair_hashes[i] not in wiki_flairs:
+        if current_flair_hashes[i] not in flair_hashes:
             updated_ids.append(post_ids[i])
             flair_updates = True
 
@@ -301,7 +301,7 @@ def update_posts(wiki_page_id, update_ids):
     with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
-            if row[3] in update_ids:
+            if row[4] in update_ids:
                 update_titles.append(row[0])
 
     print(f"Updating {len(update_ids)} posts: {update_titles}.")
@@ -329,7 +329,35 @@ def update_posts(wiki_page_id, update_ids):
 def update_post_flairs(wiki_page_id, update_ids):
     # This function updates the post flairs based on wiki page edits and the
     # flair hash in the CSV file.
-    pass
+    update_titles = []
+    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row[4] in update_ids:
+                update_titles.append(row[0])
+
+    print(f"Updating {len(update_ids)} post flairs: {update_titles}.")
+    with open(f'{wiki_page_id}.txt', 'r') as infile:
+        content = infile.read()
+        wiki_posts, titles, flairs = get_post_sections(content)
+
+    for i in range(len(update_ids)):
+        post = reddit.submission(id=update_ids[i])
+        choices = post.flair.choices()
+        choices_dictionary = {
+            choice['flair_text']: choice['flair_template_id'] for choice in choices}
+        post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
+        print(f"Post flair {i+1} updated. Title: {update_titles[i]}")
+        time.sleep(second_delay)
+
+    flair_hashes = hash_content(flairs)
+
+    # Update hashes in the CSV file according to the ID of the updated post
+    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
+    for i in range(len(update_ids)):
+        row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
+        df.at[row_to_update, 'Current Flair Hash'] = flair_hashes[titles.index(update_titles[i])]
+    df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
 def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.

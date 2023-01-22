@@ -2,11 +2,12 @@ The r/NewToReddit Encyclopaedia Redditica
 ===
 
 #Hello World!
-::Redditisms::
+::Animals::
 
 Python is cool.
 
 #This is another test post from wiki page 1
+::Meta::
 
 Please work
 
