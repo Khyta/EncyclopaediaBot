@@ -2,6 +2,7 @@ The r/NewToReddit Encyclopaedia Redditica
 ===
 
 #Hello World!
+::Redditisms::
 
 Python is cool.
 
