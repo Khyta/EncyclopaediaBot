@@ -313,7 +313,7 @@ def delete_posts(wiki_titles):
         if post_titles[i] not in wiki_titles:
             post = reddit.submission(id=post_ids[i])
             post.delete()
-            print(f"Post "{post_titles[i]}" deleted.")
+            print(f"Post '{post_titles[i]}' deleted.")
             time.sleep(second_delay)
 
     # Remove the deleted posts from the CSV file
