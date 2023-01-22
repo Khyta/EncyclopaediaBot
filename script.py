@@ -240,17 +240,17 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, ids):
         print('Post info updated.')
 
 
-def hash_content(post_content):
+def hash_content(content):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
-    post_hashes = []
+    content_hashes = []
 
-    for i in range(len(post_content)):
-        post_hashes.append(hashlib.sha256(
-            post_content[i].strip().encode('utf-8')).hexdigest())
+    for i in range(len(content)):
+        content_hashes.append(hashlib.sha256(
+            content[i].strip().encode('utf-8')).hexdigest())
 
-    return post_hashes
+    return content_hashes
 
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
