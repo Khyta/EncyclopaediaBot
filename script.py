@@ -267,6 +267,40 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
 
     return ids, post_titles, post_flairs, post_contents
 
+def update_posts(update_ids):
+
+    # This function updates the posts that have been edited in the wiki page.
+    # The function takes the post IDs as input and updates the posts with the
+    # new content.
+    update_titles = []
+    with open('post_info.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row[3] in update_ids:
+                update_titles.append(row[0])
+
+    print(f"Updating {len(update_ids)} posts: {update_titles}.")
+
+    with open('2.txt', 'r') as infile:
+        content = infile.read()
+        wiki_posts, titles, flairs = get_post_sections(content)
+
+    for i in range(len(update_ids)):
+        post = reddit.submission(id=update_ids[i])
+        reddit.validate_on_submit = True
+        post.edit(wiki_posts[titles.index(update_titles[i])])
+        print(f"Post {i+1} updated. Title: {update_titles[i]}")
+        time.sleep(second_delay)
+
+    wiki_hashes = hash_content(wiki_posts)
+
+    # Update hashes in the CSV file according to the ID of the updated post
+    df = pd.read_csv('post_info.csv')
+    for i in range(len(update_ids)):
+        row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
+        df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
+    df.to_csv('post_info.csv', index=False)
+
 
 if __name__ == '__main__':
     fetch_env()
@@ -301,3 +335,5 @@ if __name__ == '__main__':
     print('Post info updated.')
 
     posts_to_update = check_updates(wiki_posts)
+
+    update_posts(posts_to_update)

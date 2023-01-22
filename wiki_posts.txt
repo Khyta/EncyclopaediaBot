@@ -82,6 +82,10 @@ Title: Now, this, looks, like, a, job, for, me
 Flair: Missing flair
 Content: This post should be updated.
 
+Title: Chocolate is yummy
+Flair: Missing flair
+Content: Another post?
+
 
 Title: Absolute Unit
 Flair: Animals
