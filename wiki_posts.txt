@@ -11,7 +11,7 @@ Flair: Missing flair
 Content: Test entry with slashes
 
 Title: "Uhm acshually" reddit idiom
-Flair: Redditisms
+Flair: Missing flair
 Content: Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
 Title: Another entry
