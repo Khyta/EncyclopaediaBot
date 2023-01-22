@@ -1,6 +1,10 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
+#Hello World!
+
+Python is cool.
+
 #This is another test post from wiki page 1
 
 Please work

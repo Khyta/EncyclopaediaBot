@@ -74,7 +74,7 @@ PS: Choco cookies are the best.
 
 Title: Now, this, looks, like, a, job, for, me
 Flair: Missing flair
-Content: This post should be updated.
+Content: This post should be updated. Another update
 
 Title: Chocolate is yummy
 Flair: Missing flair
@@ -289,10 +289,6 @@ If you're anxious about what others can see on your account, you're welcome to c
 * [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
 * [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/?utm_source=share&utm_medium=web2x&context=3)
 * [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/?utm_source=share&utm_medium=web2x&context=3)
-
-Title: Bazinga
-Flair: Amazon
-Content: This is another completely new entry. totally 100% original and not made up.
 
 Title: Amazing
 Flair: Missing flair
