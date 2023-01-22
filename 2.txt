@@ -48,10 +48,6 @@ Colon check
 
 Semicolon check
 
-#Heretics!
-
-Exclamation mark check
-
 #File_name_1_blabla
 
 Underscore check

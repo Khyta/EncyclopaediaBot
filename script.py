@@ -301,6 +301,28 @@ def update_posts(update_ids):
         df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
     df.to_csv('post_info.csv', index=False)
 
+def delete_posts(wiki_titles):
+    # This function deletes the posts that have been deleted from the wiki page.
+    # The function takes in the wiki titles as input and deletes the posts where
+    # the titles are no longer in the post_info.csv file.
+    df = pd.read_csv('post_info.csv')
+    post_titles = df['Title'].tolist()
+    post_ids = df['ID'].tolist()
+
+    for i in range(len(post_titles)):
+        if post_titles[i] not in wiki_titles:
+            post = reddit.submission(id=post_ids[i])
+            post.delete()
+            print(f"Post "{post_titles[i]}" deleted.")
+            time.sleep(second_delay)
+
+    # Remove the deleted posts from the CSV file
+    for i in range(len(post_titles)):
+        if post_titles[i] not in wiki_titles:
+            row_to_delete = df.loc[df['Title'] == post_titles[i]].index[0]
+            df.drop(row_to_delete, inplace=True)
+    df.to_csv('post_info.csv', index=False)
+
 
 if __name__ == '__main__':
     fetch_env()
@@ -333,6 +355,8 @@ if __name__ == '__main__':
     create_post_info(post_titles, post_flairs, current_hashes, ids)
 
     print('Post info updated.')
+
+    delete_posts(titles)
 
     posts_to_update = check_updates(wiki_posts)
 

@@ -46,10 +46,6 @@ Title: Oh this is a semi-colon; Fancy colon
 Flair: Missing flair
 Content: Semicolon check
 
-Title: Heretics!
-Flair: Missing flair
-Content: Exclamation mark check
-
 Title: File_name_1_blabla
 Flair: Missing flair
 Content: Underscore check
