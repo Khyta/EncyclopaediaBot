@@ -192,40 +192,57 @@ def check_additions(wiki_page_id, titles, flairs, posts):
     return unique_titles, unique_flairs, unique_posts
 
 
-def check_updates(wiki_page_id, wiki_posts):
+def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
     # Those post IDs are later used to update the relevant posts and the titles
     # to find the relevant post entries.
+
+    post_updates = False
+    flair_updates = False
 
     wiki_hashes = []
     for i in range(len(wiki_posts)):
         wiki_hashes.append(hashlib.sha256(
             wiki_posts[i].strip().encode('utf-8')).hexdigest())
 
+    wiki_flairs = []
+    for i in range(len(wiki_flairs)):
+        wiki_flairs.append(hashlib.sha256(
+            wiki_flairs[i].strip().encode('utf-8')).hexdigest())
+
     updated_ids = []
 
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
-    current_hashes = df['Current Hash'].tolist()
+    current_post_hashes = df['Current Post Hash'].tolist()
+    current_flair_hashes = df['Current Flair Hash'].tolist()
     post_ids = df['ID'].tolist()
 
-    for i in range(len(current_hashes)):
-        if current_hashes[i] not in wiki_hashes:
+    for i in range(len(current_post_hashes)):
+        if current_post_hashes[i] not in wiki_hashes:
             updated_ids.append(post_ids[i])
+            post_updates = True
+
+    for i in range(len(current_flair_hashes)):
+        if current_flair_hashes[i] not in wiki_flairs:
+            updated_ids.append(post_ids[i])
+            flair_updates = True
 
     if len(updated_ids) == 0:
-        print(f"No posts to be updated from wiki page {wiki_page_id}.")
-    else:
+        print(f"No posts or flairs to be updated from wiki page {wiki_page_id}.")
+    elif post_updates:
         print(f"{len(updated_ids)} posts to be updated. IDs: {updated_ids}")
+    elif flair_updates:
+        print(f"{len(updated_ids)} flairs to be updated. IDs: {updated_ids}")
 
-    return updated_ids
+    return updated_ids, post_updates, flair_updates
 
 
-def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, ids):
+def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, flair_hashes, ids):
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
-    CSV_HEADER = 'Title,Flair,Current Hash,ID'
+    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash, ID'
 
     # Create the CSV file if it doesn't exist yet
     if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
@@ -236,7 +253,7 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, ids):
             writer = csv.writer(file)
             for i in range(len(titles)):
                 writer.writerow([titles[i], flairs[i],
-                             wiki_hashes[i], ids[i]])
+                             wiki_hashes[i], flair_hashes[i], ids[i]])
         print('Post info updated.')
 
 
@@ -306,7 +323,7 @@ def update_posts(wiki_page_id, update_ids):
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     for i in range(len(update_ids)):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
-        df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
+        df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(update_titles[i])]
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
 def update_post_flairs(wiki_page_id, update_ids):
@@ -352,16 +369,23 @@ def handle_wiki_page(wiki_page_id, reddit):
     ids, post_titles, post_flairs, post_contents = create_posts(
         reddit, sub_name, new_posts, new_titles, new_flairs)
 
-    current_hashes = hash_content(post_contents)
+    current_post_hashes = hash_content(post_contents)
+    current_flair_hashes = hash_content(post_flairs)
 
-    create_post_info(wiki_page_id, post_titles, post_flairs, current_hashes, ids)
+    create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
 
     delete_posts(wiki_page_id, titles)
 
-    posts_to_update = check_updates(wiki_page_id, wiki_posts)
+    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs)
 
-    if len(posts_to_update) > 0:
-        update_posts(wiki_page_id, posts_to_update)
+    if len(stuff_to_update[0]) > 0:
+        if stuff_to_update[1] == True:
+            update_posts(wiki_page_id, stuff_to_update[0])
+        elif stuff_to_update[2] == True:
+            update_post_flairs(wiki_page_id, stuff_to_update[0])
+        else:
+            update_posts(wiki_page_id, stuff_to_update[1])
+            update_post_flairs(wiki_page_id, stuff_to_update[1])
 
 
 if __name__ == '__main__':
