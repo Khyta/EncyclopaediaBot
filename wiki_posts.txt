@@ -16,7 +16,7 @@ Content: Quotation marks. I fully expect this to break. Huh, it didn't break. Ho
 
 Title: Another entry
 Flair: Missing flair
-Content: Hello there
+Content: Hello there, General Kenobi.
 
 Title: Single 'Quotation' marks
 Flair: Missing flair

@@ -359,4 +359,5 @@ if __name__ == '__main__':
 
     posts_to_update = check_updates(wiki_posts)
 
-    update_posts(posts_to_update)
+    if len(posts_to_update) > 0:
+        update_posts(posts_to_update)
