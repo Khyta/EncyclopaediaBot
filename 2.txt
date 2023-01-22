@@ -8,6 +8,14 @@ Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn
 
 How about a subheading?
 
+#/etc/dev/urandom is a cool location
+
+Test entry with slashes
+
+#"Uhm acshually" reddit idiom
+
+Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
+
 
 #About
 ::Meta::  
@@ -29,10 +37,14 @@ However, opening the Wiki in a browser will work, though not an ideal solution. 
 
 PS: Choco cookies are the best.
 
+#Now, this, looks, like, a, job, for, me
+
+This post should be updated.
+
 
 #Absolute Unit
 ::Animals::  
-It's as large as life and twice as natural! If it’s big, it can be described as a unit. If it’s really big, it’s an absolute unit. Unless it’s a cat, [in which case it’s a chonk](https://knowyourmeme.com/memes/chonk-oh-lawd-he-comin).
+It's as large as life and twice as natural! If it’s big, it can be described as a unit. If it’s really big, it’s an absolute unit. Unless it’s a cat, [in which case it’s a chonk](https://knowyourmeme.com/memes/chonk-oh-lawd-he-comin). Test update.
 
 Memes, just like every other joke format, don’t exist in a vacuum, which is why being aware of their origins is crucial. While we are happy to use phrases like this as an affectionate way to refer to a large, round animal or object, its origin is far less innocent, being an image of a [large man standing behind the Queen Of England](https://knowyourmeme.com/memes/absolute-unit), with the caption, “In awe at the size of this lad. Absolute unit.” Despite having the picture on their heading, [r/AbsoluteUnits](https://www.reddit.com/r/AbsoluteUnits/) are looking for animals mostly, particularly cute animals which happen to be very large. Only public figures are allowed; no harassment, creep-shots, witch-hunts or fat-shaming is allowed.
 
@@ -54,6 +66,10 @@ Please don't
 
 A entry with hashtags. Oh god please RegEx work.
 
+#I... uhhh ....... have... idk
+
+Much contemplation there is.
+
 #Accidental Alt
 ::Meta::  
 It is possible to have an accidental account on Reddit! This comes as a shock to many people when they discover they’ve inadvertently created a different account by clicking "sign in with Google/Apple". Doing that creates a new, or alternate account (Alt) with a random username, usually consisting of [two unrelated words joined with an underscore or hyphen, followed by a random number](https://www.reddit.com/r/help/comments/n75l53/my_icon_info/).
@@ -74,6 +90,10 @@ Ah yes, a see also. Very cool stuff.
 #This 100% works on the first try
 
 Trust me bro
+
+#Courtney? Courtney Miller? What?
+
+Huh? I'm confusion. Much update
 
 #Please don't break
 

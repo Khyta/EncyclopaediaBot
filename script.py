@@ -227,7 +227,7 @@ def create_post_info(titles, flairs, wiki_hashes, ids):
 
     with open('post_info.csv', 'a') as file:
         for i in range(len(titles)):
-            file.write(titles[i] + ',' + flairs[i] + ',' +
+            file.write('"' + titles[i] + '"' + ',' + flairs[i] + ',' +
                        wiki_hashes[i] + ',' + ids[i] + '\n')
 
 
