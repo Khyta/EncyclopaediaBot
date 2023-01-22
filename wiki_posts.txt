@@ -14,6 +14,49 @@ Title: "Uhm acshually" reddit idiom
 Flair: Missing flair
 Content: Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
+Title: Single 'Quotation' marks
+Flair: Missing flair
+Content: Test entry for single quotation marks
+
+Title: Normal text entry for checks
+Flair: Missing flair
+Content: This is a normal entry to see the different CSV handling methods. An update here
+
+Title: M` lady
+Flair: Missing flair
+Content: Apostrophe post check
+
+Title: My 'lady
+Flair: Missing flair
+Content: Normal apostrophe check
+
+Title: It's (round bracket) timeee
+Flair: Missing flair
+Content: Bracket check
+
+Title: It's [square bracket] time
+Flair: Missing flair
+Content: Another bracket check
+
+Title: Ah yes a colon: How original
+Flair: Missing flair
+Content: Colon check
+
+Title: Oh this is a semi-colon; Fancy colon
+Flair: Missing flair
+Content: Semicolon check
+
+Title: Heretics!
+Flair: Missing flair
+Content: Exclamation mark check
+
+Title: File_name_1_blabla
+Flair: Missing flair
+Content: Underscore check
+
+Title: *Italics* post
+Flair: Missing flair
+Content: Huh how should I handle italics?
 
 Title: About
 Flair: Meta

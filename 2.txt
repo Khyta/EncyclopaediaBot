@@ -16,6 +16,49 @@ Test entry with slashes
 
 Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
+#Single 'Quotation' marks
+
+Test entry for single quotation marks
+
+#Normal text entry for checks
+
+This is a normal entry to see the different CSV handling methods. An update here
+
+#M` lady
+
+Apostrophe post check
+
+#My 'lady
+
+Normal apostrophe check
+
+#It's (round bracket) timeee
+
+Bracket check
+
+#It's [square bracket] time
+
+Another bracket check
+
+#Ah yes a colon: How original
+
+Colon check
+
+#Oh this is a semi-colon; Fancy colon
+
+Semicolon check
+
+#Heretics!
+
+Exclamation mark check
+
+#File_name_1_blabla
+
+Underscore check
+
+#*Italics* post
+
+Huh how should I handle italics?
 
 #About
 ::Meta::  
