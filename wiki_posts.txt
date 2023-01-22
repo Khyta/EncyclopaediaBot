@@ -48,11 +48,15 @@ Title: Don't break again this time for real tho
 Flair: Missing flair
 Content: Please don't
 
+Title: This #Title uses so many #Hashtags it makes #Elon look #old
+Flair: Missing flair
+Content: A entry with hashtags. Oh god please RegEx work.
+
 Title: Accidental Alt
 Flair: Meta
 Content: It is possible to have an accidental account on Reddit! This comes as a shock to many people when they discover they’ve inadvertently created a different account by clicking "sign in with Google/Apple". Doing that creates a new, or alternate account (Alt) with a random username, usually consisting of [two unrelated words joined with an underscore or hyphen, followed by a random number](https://www.reddit.com/r/help/comments/n75l53/my_icon_info/).
 
-These automatically generated funny usernames can be changed within 30 days of account creation by going to your profile where a prompt should appear asking if you would like to keep or change the username. If the prompt does not show up, you may have accidentally chosen to keep the username and you would have to create a new account in order to have another username.
+These automatically generated usernames can be changed within 30 days of account creation by going to your profile where a prompt should appear asking if you would like to keep or change the username. If the prompt does not show up, you may have accidentally chosen to keep the username and you would have to create a new account in order to have another username.
 
 Creating an Alt can happen easily by accident, especially if you're logged in with Chrome, or sometimes on iOS mobile by following a generic link like: [https://www.reddit.com/settings/profile](https://www.reddit.com/settings/profile). To get back to a normal account, stop using the "sign in with Google/Apple ID" option and instead type out your usual username and password combinations.
 
@@ -97,10 +101,6 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 * [Hacked Accounts](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8yldo/)
 * [Passwords](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhclzvw/)
 * [Suspicious Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2734/)
-
-Title: Chocolate is yummy
-Flair: Missing flair
-Content: This is a fact.
 
 
 Title: Achievements

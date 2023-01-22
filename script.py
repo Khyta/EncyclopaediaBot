@@ -125,7 +125,7 @@ def get_post_sections(content):
 
     titles = list(np.concatenate(titles).flat)  # Flatten the titles list
     titles = [title.strip() for title in titles]
-    titles = [str(x).replace('#', '') for x in titles]  # Format the titles
+    titles = [str(x).replace('#', '', 1) for x in titles]  # Format the titles
     flairs = [str(x).replace('[', '').replace(']', '').replace(
         ':', '').replace("'", '') for x in flairs]  # Format the flairs
     # Remove the first newline
