@@ -1,55 +1,315 @@
-Title: This is a test post
-Flair: Test
-Content: #Introduction
+Title: Aardvarks
+Flair: Missing flair
+Content: Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please.
 
-Originally written and compiled by u/llamageddon01 for r/NewToReddit.
+#Subheading
 
-**This guide is in no way intended to be definitive, and is completely unofficial.**
+How about a subheading?
 
-If anything we say accidentally contradicts anything Reddit says, [Reddit Is Always Right](https://reddit.zendesk.com/hc/en-us), as is this other [repository of Reddit Wisdom](https://www.reddit.com/r/help/wiki/faq), and we apologise in advance for any confusion we might inadvertently cause. This project might be in danger of becoming redundant in any event as the admin team of the new [r/reddit](https://www.reddit.com/r/reddit/) sub are slowly rolling out similar guides to Reddit events and history, but we are always of the belief that having more resources is better than less, so we’ll keep updating this to the best of my unpaid ability.
+Title: /etc/dev/urandom is a cool location
+Flair: Missing flair
+Content: Test entry with slashes
 
-**An A-Z Guide to Reddit Jargon, History and Memes**
+Title: "Uhm acshually" reddit idiom
+Flair: Missing flair
+Content: Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
-This is an ongoing compilation of acronyms, initialisms, terms, slang, memes, references and responses often used on the internet with an emphasis on those specifically used on Reddit. Along the way I’ll be taking deep dives into Reddit History and Lore, and providing several guides to Reddit’s common behavioural traits and favourite logical fallacies. This huge second edition replaces my original [Encyclopaedia Redditica](https://www.reddit.com/r/NewToReddit/comments/lw4gp4/a_guide_to_reddit_lingo/), and [version 2](https://www.reddit.com/r/NewToReddit/comments/qbb173/the_newtoreddit_encyclopaedia_redditica_v2/) preserved here for posterity.
+Title: Another entry
+Flair: Missing flair
+Content: Hello there, General Kenobi. Update here.
 
-This whole thing, including its links and hotlinks, is very much still a work in progress and is being amended and added to constantly. Our advance apologies if you’re looking for a definition or link we haven’t done yet.
+Title: Single 'Quotation' marks
+Flair: Missing flair
+Content: Test entry for single quotation marks
 
-**Things to look out for!** 
+Title: Normal text entry for checks
+Flair: Missing flair
+Content: This is a normal entry to see the different CSV handling methods. An update here
 
-Look out for one or both of these categories at the end of each entry:
+Title: M` lady
+Flair: Missing flair
+Content: Apostrophe post check
 
-**Because there is a Subreddit for everything:** \- this will give links to interesting and/or vaguely relevant subreddits, many of which I absolutely guarantee you won’t have seen before!
+Title: My 'lady
+Flair: Missing flair
+Content: Normal apostrophe check
 
-**See Also:** \- this will give links to other related subs and relevant links to other encyclopaedia entries.
+Title: It's (round bracket) timeee
+Flair: Missing flair
+Content: Bracket check
 
-There are also at least 26 literary quotes from 20 famous authors hidden throughout the text. Let us know if you ever find one!
+Title: Ah yes a colon: How original
+Flair: Missing flair
+Content: Colon check
+
+Title: Oh this is a semi-colon; Fancy colon
+Flair: Missing flair
+Content: Semicolon check
+
+Title: *Italics* post
+Flair: Missing flair
+Content: This is some new text that has been added afterwards and needs to be updated in the post.
+
+Huh how should I handle italics?
+
+Title: About
+Flair: Meta
+Content: The “About” tab on mobile contains essential information for the sub you are visiting. Also known as Sidebar on desktop. Always read the rules before commenting or posting on an unfamiliar Subreddit. These will be found in the Sidebar (on mobile this will be the About tab, Menu tab (where there is one) and Community Info found in the three dot “hamburger” post overflow menu top RH corner of your screen), any pinned posts (these will have a lime green ‘pin’ icon on the top corner and will show on top when you sort the Subreddit by ‘Hot’) and Wiki (where there is one). Here’s our [comprehensive guide to finding a subreddit’s rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/).
+
+Some subs will have an F.A.Q. List, and many will have a Wiki. Unfortunately for mobile users, a subreddit Wiki is currently not compatible with the official Reddit app. Links given to any part of a Wiki will do one of three things to an app user:
+
+1. Prompt one of the many “this subreddit does not exist” pop-ups.
+2. Default to the very top of the wiki regardless of where on the page the link should send you.
+3. [Mess up the format completely](https://i.redd.it/944m5oc3wli81.png).
+
+However, opening the Wiki in a browser will work, though not an ideal solution. Very much not ideal solution.
+
+**See Also:**
+
+* [Rules](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhslm3u/)
+* [Sidebar](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0k0p/)
+* [Wiki](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujtn3/)
+
+PS: Choco cookies are the best.
+
+Title: Now, this, looks, like, a, job, for, me
+Flair: Missing flair
+Content: This post should be updated.
+
+Title: Chocolate is yummy
+Flair: Missing flair
+Content: Another post?
 
 
-#Foreword
+Title: Absolute Unit
+Flair: Animals
+Content: It's as large as life and twice as natural! If it’s big, it can be described as a unit. If it’s really big, it’s an absolute unit. Unless it’s a cat, [in which case it’s a chonk](https://knowyourmeme.com/memes/chonk-oh-lawd-he-comin). Test update.
 
-Reddit is an English-speaking community, but it may not always seem that way. Like all subcultures, a specialised internal lexicon has developed over the years. These words, phrases or obscure references make communication more efficient - and fun - for regular Redditors but can sometimes leave new or casual users confused. Reddit loves being self-referential, and this encyclopaedia is an attempt to help you decode and join in the unique Reddit culture when you see it.
+Memes, just like every other joke format, don’t exist in a vacuum, which is why being aware of their origins is crucial. While we are happy to use phrases like this as an affectionate way to refer to a large, round animal or object, its origin is far less innocent, being an image of a [large man standing behind the Queen Of England](https://knowyourmeme.com/memes/absolute-unit), with the caption, “In awe at the size of this lad. Absolute unit.” Despite having the picture on their heading, [r/AbsoluteUnits](https://www.reddit.com/r/AbsoluteUnits/) are looking for animals mostly, particularly cute animals which happen to be very large. Only public figures are allowed; no harassment, creep-shots, witch-hunts or fat-shaming is allowed.
 
-This is a continual work in progress so do check back from time to time as new definitions, topics or subreddit links are added or existing ones revised. The entries here have been decided and written by us purely as a consequence of questions we have either asked, seen asked or have been asked during our time on Reddit, and some are just interesting stuff we’ve found while researching the answers to the mundane ones. Be warned: there are lots of “rabbit holes” on Reddit to fall down!
+**Because there is a Subreddit for everything:**
 
-Not all of the definitions given will apply in the same way to every subreddit and for individual sub problems, queries, or F.A.Qs, here’s our [comprehensive guide to finding a subreddit’s rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/).
+[r/TinyUnits](https://www.reddit.com/r/TinyUnits/) is a chilled out place for sharing videos, gifs, and images of tiny animals, insects & random objects you find pretty awesome.
 
-#Afterword
+**See Also:**
 
-From llama
+* [Chonker](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8bjd/?utm_source=share&utm_medium=web2x&context=3)
+* [“Doggo Speak”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhif00a/?utm_source=share&utm_medium=web2x&context=3)
+* [smol](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hnft73g/?utm_source=share&utm_medium=web2x&context=3)
 
-And that’s about it for now. I started with animals and finished with animals. Why? Because [the Internet is made of cats](https://youtu.be/zi8VTeDHjcM)!
+Title: Don't break again this time for real tho
+Flair: Missing flair
+Content: Please don't
 
-I have so many people to thank for helping me compile this compendium of curiosities. Throughout the encyclopaedia, I have named many of those who have given me their exceptional help, but I am sure I have missed some in my clumsy editing. You know who you are and you still have my gratitude if not the credit.
+Title: This #Title uses so many #Hashtags it makes #Elon look #old
+Flair: Missing flair
+Content: A entry with hashtags. Oh god please RegEx work.
 
-I also want to thank the stalwart regulars, fantastic Flaired Helper Team and awesome Mod Squad at [r/NewToReddit](https://www.reddit.com/r/NewToReddit/) for their superb work in constantly and unwaveringly helping the newly-hatched Redditors who stumble through our doors, letting me have the time off to research, write, edit, markdown, cross link and post this epic trawl through Reddit.
+Title: I... uhhh ....... have... idk
+Flair: Missing flair
+Content: Much contemplation there is.
 
-My final, special thanks go to [u/antidense](https://www.reddit.com/u/antidense/) for unexpectedly modding me to this lovely little sub [r/NewToReddit] in early 2021; to [u/SolariaHues](https://www.reddit.com/u/SolariaHues/) for mentoring me through the mechanics of modding it; and to [u/Too\_MuchWhiskey](https://www.reddit.com/u/Too_MuchWhiskey/) for the endless patience shown not just to me, but to all who enter their orbit.
+Title: Accidental Alt
+Flair: Meta
+Content: It is possible to have an accidental account on Reddit! This comes as a shock to many people when they discover they’ve inadvertently created a different account by clicking "sign in with Google/Apple". Doing that creates a new, or alternate account (Alt) with a random username, usually consisting of [two unrelated words joined with an underscore or hyphen, followed by a random number](https://www.reddit.com/r/help/comments/n75l53/my_icon_info/).
 
-If you should find any broken links or out-of-date information in this encyclopaedia, please let us know. I hope you find this as much fun to read as I did writing it. 🦙
+These automatically generated usernames can be changed within 30 days of account creation by going to your profile where a prompt should appear asking if you would like to keep or change the username. If the prompt does not show up, you may have accidentally chosen to keep the username and you would have to create a new account in order to have another username.
 
-#Credits
+Creating an Alt can happen easily by accident, especially if you're logged in with Chrome, or sometimes on iOS mobile by following a generic link like: [https://www.reddit.com/settings/profile](https://www.reddit.com/settings/profile). To get back to a normal account, stop using the "sign in with Google/Apple ID" option and instead type out your usual username and password combinations.
 
-u/llamageddon01 - Creator of the original Encylopaedia   
-u/SolariaHues - Thought a sub might work for the growing encyclopaedia   
-u/Khyta - Had the idea to use a bot and wrote one   
-u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
+**See Also:**
+
+* [Alt](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh2z2/?utm_source=share&utm_medium=web2x&context=3)
+* [Passwords](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhclzvw/?utm_source=share&utm_medium=web2x&context=3)
+* [Two-Factor Authorisation; 2FA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4wqr/?utm_source=share&utm_medium=web2x&context=3)
+* [Username](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhuidc4/?utm_source=share&utm_medium=web2x&context=3)
+
+Ah yes, a see also. Very cool stuff.
+
+Title: This 100% works on the first try
+Flair: Missing flair
+Content: Trust me bro
+
+Title: Courtney? Courtney Miller? What?
+Flair: Missing flair
+Content: Huh? I'm confusion. Much update
+
+Title: Please don't break
+Flair: Missing flair
+Content: This is another test entry number 69420 (very mature, I know)
+
+Title: accidentalswastika
+Flair: Missing flair
+Content: A link posted when you find an unintentional swastika shape in logos and designs of all kinds. Before posting there, please check the Forbidden Post List at [https://old.reddit.com/r/accidentalswastika/](https://old.reddit.com/r/accidentalswastika/) first, because some Swastikas aren’t unintentional or even malicious. *Sauwastika* are ancient religious symbols used as 卐 by Hindu/Jain (among others) and as 卍 by Buddhists (among others), and until recently, the [“Hakaristi”](http://www.strangehistory.net/2015/02/24/good-swastikas-hakaristi/) was a symbol used by [Finland’s Air Force](https://www.dw.com/en/finlands-air-force-removes-the-swastika-from-logo-after-almost-a-century/a-54020470). Indeed, the swastika shape has a [fascinating history worldwide](https://en.m.wikipedia.org/wiki/Swastika); Context, as always, is everything. [r/accidentalswastika](https://www.reddit.com/r/accidentalswastika/).
+
+**Because there is a Subreddit for everything:**
+
+[r/hailhortler](https://www.reddit.com/r/hailhortler/) is for deliberate attempts at drawing Nazi Swastikas, i.e. the “Hakenkreuz” (hook-cross), that have failed somewhat, and [r/beholdthemasterrace](https://www.reddit.com/r/beholdthemasterrace/) mocks supremacy according to their sidebar criteria.
+
+**See Also:**
+
+* [theyknew](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3d4l/?utm_source=share&utm_medium=web2x&context=3) (encyclopaedia)
+* [r/theyknew](https://www.reddit.com/r/theyknew/) (subreddit)
+
+Title: Account Hacked?
+Flair: Missing flair
+Content: If you suspect your Reddit account to have been hacked, you can view the activity on your account and log out any sessions you don’t recognise here: [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity).
+
+If you believe your account to have been hacked, [here are Reddit’s guidelines](https://reddit.zendesk.com/hc/en-us/articles/360045768792-I-need-help-with-a-hacked-or-compromised-account) on what to do.
+
+**See Also:**
+
+* [Hacked Accounts](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8yldo/)
+* [Passwords](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhclzvw/)
+* [Suspicious Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2734/)
+
+
+Title: Achievements
+Flair: Meta
+Content: On some subreddits, you might notice you have [mystery awards](https://www.reddit.com/r/NewToReddit/comments/t2z8xm/what_is_this_award_for/) which add a little sprite next to your username, which, once clicked reveal titles such as "Avid Voter" or "Prolific Commenter".
+
+These aren’t [Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhj0ui/) or even [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/) in the traditional Reddit sense, but are actually [Achievements](https://i.redd.it/1p0sqrimwwr81.jpg) automatically conferred on anyone who contributes to a [powered-up community](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/).
+
+There are two types of achievements; [the first](https://i.redd.it/3cyg5erh9xr81.jpg) are given to anyone posting or commenting in a powered up community, and [the second](https://i.redd.it/2rikg1iw9xr81.jpg) are for those who do the powering-up for that community. You can see yours by either clicking on the icons next to your username or by viewing your profile (on mobile; I don’t know if it works on desktop) while you’re in that community.
+
+You won’t see these achievements outside the powered-up subreddit either next to your username or on your profile. If the subreddit loses its powerups, your achievements will also disappear.
+
+**See Also:**
+
+* [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/)
+* [Powerups](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/)
+* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/)
+
+
+
+Title: Acronyms
+Flair: Redditisms
+Content: Some of our specialised communities have a wide acronym language of their own, and I’ve listed some in the **See Also:** section below.
+
+* [AITA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh0ub/) \- Am I The Asshole
+* [AFAIK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhgwh0/) \- As Far As I Know
+* [AMA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhani/) \- Ask Me Anything
+* [CMV](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8lln/) \- Change My View
+* [CW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4vgj/?utm_source=share&utm_medium=web2x&context=3) \- Content Warning
+* [DAE](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8q0b2/) \- Does Anybody Else
+* [DM](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhif83y/) \- Direct Message
+* [ELI5](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8rah1/) \- Explain Like I'm 5 (years old)
+* [ESH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiim4g/) \- Everyone Sucks Here
+* [ESL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiipht/) \- English (is my) Second Language
+* [ETA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiizwi/) \- Edited To Add
+* [FTFY](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhisqoi/) \- Fixed That For You
+* [FWIW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhisyc1/) \- For What It’s Worth
+* GTFO - Get The Fuck Out
+* [IAmA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh94t3m/) \- I Am A
+* [IANAD](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh94xsm/) \- I Am Not A Doctor
+* [IANAL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh951yl/) \- I Am Not A Lawyer
+* [ICYMI](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh955su/) \- In Case You Missed It
+* [IDC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh959c0/) \- I Don’t Care
+* [IDEK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlduvu/) \- I Don’t Even Know
+* [IDK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhldyoa/) \- I Don’t Know
+* [IIRC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhle6qk/) \- If I Recall/Remember Correctly
+* IME - In My Experience
+* IMHO - In My Honest/Humble Opinion
+* [IMO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhled9q/) \- In My Opinion
+* [IRL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlexve/) \- In Real Life
+* IRTR - I Read The Rules (mandatory in post titles or first comment for some subs)
+* [ITAP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlf0yo/) \- I Took A Picture
+* [LDR](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh9banm/) \- Long Distance Relationship
+* [LPT](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho5z6a/) \- Life Pro Tip
+* MH - Mental Health
+* MFW - My Face/Feeling When
+* [MRW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho8kqu/) \- My Reaction When
+* [MSM](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho9nmq/) \- Mainstream Media
+* [NAH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha83ca/) \- No Assholes Here
+* [NGL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp6lez/) \- Not Gonna Lie
+* [NSFL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7ers/) \- Not Safe For Life (gory or extreme content)
+* [NSFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7iml/) \- Not Safe For Work (sexual content or profanity)
+* [NTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7ow2/) \- Not The Asshole
+* [OC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhadwhi/) \- Original Content
+* [OP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhpzxry/) \- Original Poster (the person who started the thread)
+* [OTP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhq0cnu/) \- One True Pairing
+* [PGP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcmerj/) \- Personal Gender Pronoun
+* [PSA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqx794/) \- Public Service Announcement
+* [RES](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhskacx/) \- Reddit Enhancement Suite
+* [RL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsl0eo/) \- Real Life
+* RTFR - Read The Forum/Fucking Rules
+* [SFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcqxrr/) \- Safe For Work
+* SJW - Social Justice Warrior (usually an insult)
+* SRS - Shit Reddit Says
+* [SMH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0lvg/) \- Shaking My Head
+* [SO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0yht/) \- Significant Other
+* [TBH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcvk7y/) \- To Be Honest
+* [TFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2xdi/) \- The/That Feeling When
+* [TIAH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3pn2/) \- Today I Am Happy
+* [TID](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3r1x/) \- Today I Discovered
+* [TIHI](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3sch/) \- Thanks, I Hate It
+* [TIFU](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3u6t/) \- Today I Fucked Up
+* [TIL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3vv6/) \- Today I Learned
+* [TL;DR:](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4chm/) \- Too Long; Didn't Read
+* TMA - Take My Appreciation (rarely used these days)
+* [TOMT](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4jva/) \- Tip Of My Tongue
+* [TW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4vgj/) \- Trigger Warning
+* [WIBTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujs40/) \- Would I Be The Asshole
+* [YMMV](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcybsb/) \- Your Mileage May Vary
+* [YOLO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhukj4e/) \- You Only Live Once
+* [YSK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul1uj/) \- You Should Know
+* [YTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul3ga/) \- You’re The Asshole
+* [YWBTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul4wb/) \- You Would Be The Asshole
+
+There is one acronym you should always [report immediately](https://www.reddit.com/r/LearnToReddit/comments/qyxjyk/how_to_report/) if you see it being used and that is KYS. Originating in gaming communities, this is shorthand for “kill your self \[sic\]” as an “edgy” way to say “fuck you”. However, Reddit believes that suicide is a very serious subject and this kind of language should not be taken lightly. Inviting someone to commit suicide is against our code of conduct and may well incur a ban.
+
+**See Also:**
+
+* [Jargon](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhll1lb/)
+* [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhq07q5/)
+* [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsjswn/)
+* [Tone Indicators](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4nj9/)
+
+
+
+Title: Activity
+Flair: Meta
+Content: Part of your Inbox (the envelope icon), and also known as Notifications, this lists recent replies to any of your posts or comments. Also refers to your Reddit Account Activity, which you can check at [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity).
+
+You might not know that Reddit shows other users if you are currently active or not. Here is how to hide yourself [on mobile](https://i.redd.it/rsa2mt5nluk61.gif) and here’s how to hide yourself [on desktop](https://i.redd.it/8hggkgtnluk61.gif).
+
+A question I’m often asked is “Can others see my reddit activity such as upvoted / downvoted posts, saved posts or followed subreddits?” The good news is that nobody (mods or other redditors) can see what you upvoted, downvoted, saved or unsaved, neither can they see the subs you have visited, joined or left.
+
+I'm unaware of any way that people can tell you've visited a sub if you've never posted/commented in it. However, Reddit will show which subs you're active in. I don't know what the criteria are to be considered "active," but I'm guessing you have to have posted or commented in it at least once or twice. You have options in your privacy settings that can limit some of this information from being given out [under Preferences --> Privacy Options](https://i.redd.it/eibwgjlus2s61.jpg) or go to User Settings --> Profile --> Active in communities visibility --> Disable. In Old Reddit, the setting is here: [https://old.reddit.com/prefs/](https://old.reddit.com/prefs/)
+
+If you're anxious about what others can see on your account, you're welcome to create a throwaway ‘Alt’ account. You can use that account to visit subs that you might not want to show up in your original account. It is not linked to your original account and it's as anonymous as you want it to be. Multiple accounts are allowed as long as they don't engage in vote manipulation or ban evasion from a sub.
+
+**See Also:**
+
+* [Alt](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh2z2/?utm_source=share&utm_medium=web2x&context=3)
+* [Anonymous Browsing](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhu91/?utm_source=share&utm_medium=web2x&context=3)
+* [New Reddit; Old Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha8ay6/?utm_source=share&utm_medium=web2x&context=3)
+* [Notification](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp76f0/?utm_source=share&utm_medium=web2x&context=3)
+* [Statistics](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu1tb7/?utm_source=share&utm_medium=web2x&context=3)
+* [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
+* [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/?utm_source=share&utm_medium=web2x&context=3)
+* [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/?utm_source=share&utm_medium=web2x&context=3)
+
+Title: Bazinga
+Flair: Amazon
+Content: This is another completely new entry. totally 100% original and not made up.
+
+Title: Amazing
+Flair: Missing flair
+Content: This is a test entry to check the duplicate detection function.
+
+Title: A new entry
+Flair: Missing flair
+Content: This is another new test entry to really test our bot.
+
+Title: A completely brand new entry
+Flair: Missing flair
+Content: This entry is in place to test for API delays.
+
+Title: Unit
+Flair: Missing flair
+Content: Another entry to check for API delays.
+
+Title: Another completely brand new entry
+Flair: Missing flair
+Content: Another test

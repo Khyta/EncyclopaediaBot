@@ -161,7 +161,7 @@ def create_missing_flairs(sub, flairs):
             print(f"Flair {flair} created.")
 
 
-def check_additions(titles, flairs, posts):
+def check_additions(wiki_page_id, titles, flairs, posts):
     # This function checks for duplicate posts using the titles and submission
     # IDs fetched from the CSV post_info.csv. The function returns a list of
     # titles that are not duplicates and can be posted.
@@ -169,7 +169,14 @@ def check_additions(titles, flairs, posts):
     unique_titles = titles.copy()
     unique_flairs = flairs.copy()
     unique_posts = posts.copy()
-    with open('post_info.csv', 'r') as file:
+
+    CSV_HEADER = 'Title,Flair,Current Hash,ID'
+
+    if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
+        with open(f'post_info_{wiki_page_id}.csv', 'w') as file:
+            file.write(CSV_HEADER + '\n')
+
+    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in unique_titles:
@@ -179,13 +186,13 @@ def check_additions(titles, flairs, posts):
                 unique_posts.pop(removal_index)
     total_time = len(unique_titles) * second_delay
     if len(unique_titles) == 0:
-        print("No new posts to be created.")
+        print(f"No new posts to be created for wiki page {wiki_page_id}.")
     else:
-        print(f"{len(unique_titles)} post to be created in ~{total_time} seconds.")
+        print(f"{len(unique_titles)} post to be created in ~{total_time} seconds from wiki page {wiki_page_id}.")
     return unique_titles, unique_flairs, unique_posts
 
 
-def check_updates(wiki_posts):
+def check_updates(wiki_page_id, wiki_posts):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
     # Those post IDs are later used to update the relevant posts and the titles
@@ -198,7 +205,7 @@ def check_updates(wiki_posts):
 
     updated_ids = []
 
-    df = pd.read_csv('post_info.csv')
+    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     current_hashes = df['Current Hash'].tolist()
     post_ids = df['ID'].tolist()
 
@@ -207,25 +214,25 @@ def check_updates(wiki_posts):
             updated_ids.append(post_ids[i])
 
     if len(updated_ids) == 0:
-        print("No posts to be updated.")
+        print(f"No posts to be updated from wiki page {wiki_page_id}.")
     else:
         print(f"{len(updated_ids)} posts to be updated. IDs: {updated_ids}")
 
     return updated_ids
 
 
-def create_post_info(titles, flairs, wiki_hashes, ids):
+def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, ids):
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
     CSV_HEADER = 'Title,Flair,Current Hash,ID'
 
     # Create the CSV file if it doesn't exist yet
-    if not os.path.exists('post_info.csv'):
-        with open('post_info.csv', 'w') as file:
+    if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
+        with open(f'post_info_{wiki_page_id}.csv', 'w') as file:
             file.write(CSV_HEADER + '\n')
     if len(titles) != 0:
-        with open('post_info.csv', 'a') as file:
+        with open(f'post_info_{wiki_page_id}.csv', 'a') as file:
             writer = csv.writer(file)
             for i in range(len(titles)):
                 writer.writerow([titles[i], flairs[i],
@@ -268,13 +275,13 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
 
     return ids, post_titles, post_flairs, post_contents
 
-def update_posts(update_ids):
+def update_posts(wiki_page_id, update_ids):
 
     # This function updates the posts that have been edited in the wiki page.
     # The function takes the post IDs as input and updates the posts with the
     # new content.
     update_titles = []
-    with open('post_info.csv', 'r') as file:
+    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[3] in update_ids:
@@ -282,7 +289,7 @@ def update_posts(update_ids):
 
     print(f"Updating {len(update_ids)} posts: {update_titles}.")
 
-    with open('2.txt', 'r') as infile:
+    with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
@@ -296,17 +303,17 @@ def update_posts(update_ids):
     wiki_hashes = hash_content(wiki_posts)
 
     # Update hashes in the CSV file according to the ID of the updated post
-    df = pd.read_csv('post_info.csv')
+    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     for i in range(len(update_ids)):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
         df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
-    df.to_csv('post_info.csv', index=False)
+    df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
-def delete_posts(wiki_titles):
+def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.
     # The function takes in the wiki titles as input and deletes the posts where
     # the titles are no longer in the post_info.csv file.
-    df = pd.read_csv('post_info.csv')
+    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     post_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
 
@@ -322,7 +329,7 @@ def delete_posts(wiki_titles):
         if post_titles[i] not in wiki_titles:
             row_to_delete = df.loc[df['Title'] == post_titles[i]].index[0]
             df.drop(row_to_delete, inplace=True)
-    df.to_csv('post_info.csv', index=False)
+    df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
@@ -340,21 +347,21 @@ def handle_wiki_page(wiki_page_id, reddit):
     create_missing_flairs(sub_name, flairs)
 
     new_titles, new_flairs, new_posts = check_additions(
-        titles, flairs, wiki_posts)
+        wiki_page_id, titles, flairs, wiki_posts)
 
     ids, post_titles, post_flairs, post_contents = create_posts(
         reddit, sub_name, new_posts, new_titles, new_flairs)
 
     current_hashes = hash_content(post_contents)
 
-    create_post_info(post_titles, post_flairs, current_hashes, ids)
+    create_post_info(wiki_page_id, post_titles, post_flairs, current_hashes, ids)
 
-    delete_posts(titles)
+    delete_posts(wiki_page_id, titles)
 
-    posts_to_update = check_updates(wiki_posts)
+    posts_to_update = check_updates(wiki_page_id, wiki_posts)
 
     if len(posts_to_update) > 0:
-        update_posts(posts_to_update)
+        update_posts(wiki_page_id, posts_to_update)
 
 
 if __name__ == '__main__':

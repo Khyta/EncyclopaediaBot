@@ -1,6 +1,10 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
+#This is another test post from wiki page 1
+
+Please work
+
 #This is a test post
 ::Test::  
 
