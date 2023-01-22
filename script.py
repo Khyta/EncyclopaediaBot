@@ -343,11 +343,6 @@ def handle_wiki_page(wiki_page_id, reddit):
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
-        with open('wiki_posts.txt', 'w') as outfile:
-            for i in range(len(wiki_posts)):
-                outfile.write('Title: ' + titles[i] + '\n')
-                outfile.write('Flair: ' + flairs[i] + '\n')
-                outfile.write('Content: ' + wiki_posts[i])
 
     create_missing_flairs(sub_name, flairs)
 
