@@ -324,16 +324,10 @@ def delete_posts(wiki_titles):
             df.drop(row_to_delete, inplace=True)
     df.to_csv('post_info.csv', index=False)
 
+def handle_wiki_page(wiki_page_id, reddit):
+    wiki_content = get_wiki_page(wiki_page_id, reddit)
 
-if __name__ == '__main__':
-    fetch_env()
-    reddit = reddit_login()
-
-    print('Logged in as:', reddit.user.me())
-
-    wiki_content = get_wiki_page('2', reddit)
-
-    with open('2.txt', 'r') as infile:
+    with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
@@ -361,3 +355,16 @@ if __name__ == '__main__':
 
     if len(posts_to_update) > 0:
         update_posts(posts_to_update)
+
+
+if __name__ == '__main__':
+    fetch_env()
+    reddit = reddit_login()
+
+    print('Logged in as:', reddit.user.me())
+
+    # List of wiki page IDs to process
+    wiki_page_ids = ['1', '2']
+
+    for page_id in wiki_page_ids:
+        handle_wiki_page(page_id, reddit)
