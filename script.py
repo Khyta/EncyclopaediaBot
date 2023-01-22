@@ -309,6 +309,11 @@ def update_posts(wiki_page_id, update_ids):
         df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
+def update_post_flairs(wiki_page_id, update_ids):
+    # This function updates the post flairs based on wiki page edits and the
+    # flair hash in the CSV file.
+    pass
+
 def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.
     # The function takes in the wiki titles as input and deletes the posts where
