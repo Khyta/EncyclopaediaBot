@@ -13,7 +13,7 @@ load_dotenv()
 
 sub_name = 'EncyclopaediaOfReddit'
 
-second_delay = 5
+second_delay = 1
 
 fractional_delay = second_delay/100
 
@@ -192,16 +192,13 @@ def check_additions(wiki_page_id, titles, flairs, posts):
     return unique_titles, unique_flairs, unique_posts
 
 
-def check_updates(wiki_page_id, wiki_posts):
+def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
     # Those post IDs are later used to update the relevant posts and the titles
     # to find the relevant post entries.
 
-    wiki_hashes = []
-    for i in range(len(wiki_posts)):
-        wiki_hashes.append(hashlib.sha256(
-            wiki_posts[i].strip().encode('utf-8')).hexdigest())
+    wiki_hashes = hash_content(wiki_posts, wiki_flairs)
 
     updated_ids = []
 
@@ -240,17 +237,18 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, ids):
         print('Post info updated.')
 
 
-def hash_content(post_content):
+def hash_content(post_content, post_flairs):
     # This function hashes the content of the posts to be created
     # and stores it in a csv file. The hashes are used to check
     # if edits to the wiki page have been made.
-    post_hashes = []
+    current_hashes = []
+    combined_content = [post_content[i].strip() + post_flairs[i].strip() for i in range(len(post_content))]
 
     for i in range(len(post_content)):
-        post_hashes.append(hashlib.sha256(
-            post_content[i].strip().encode('utf-8')).hexdigest())
+        current_hashes.append(hashlib.sha256(
+            combined_content[i].encode('utf-8')).hexdigest())
 
-    return post_hashes
+    return current_hashes
 
 
 def create_posts(reddit, sub_name, posts, titles, flairs):
@@ -275,7 +273,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
 
     return ids, post_titles, post_flairs, post_contents
 
-def update_posts(wiki_page_id, update_ids):
+def update_posts(wiki_page_id, update_ids, wiki_flairs):
 
     # This function updates the posts that have been edited in the wiki page.
     # The function takes the post IDs as input and updates the posts with the
@@ -300,7 +298,7 @@ def update_posts(wiki_page_id, update_ids):
         print(f"Post {i+1} updated. Title: {update_titles[i]}")
         time.sleep(second_delay)
 
-    wiki_hashes = hash_content(wiki_posts)
+    wiki_hashes = hash_content(wiki_posts, wiki_flairs)
 
     # Update hashes in the CSV file according to the ID of the updated post
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
@@ -308,6 +306,41 @@ def update_posts(wiki_page_id, update_ids):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
         df.at[row_to_update, 'Current Hash'] = wiki_hashes[titles.index(update_titles[i])]
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
+
+def update_post_flairs(wiki_page_id, update_ids):
+    
+        # This function updates the flairs of the posts that have been edited in the wiki page.
+        # The function takes the post IDs as input and updates the posts with the
+        # new flair.
+        update_titles = []
+        with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                if row[3] in update_ids:
+                    update_titles.append(row[0])
+    
+        print(f"Updating {len(update_ids)} posts: {update_titles}.")
+    
+        with open(f'{wiki_page_id}.txt', 'r') as infile:
+            content = infile.read()
+            wiki_posts, titles, flairs = get_post_sections(content)
+    
+        for i in range(len(update_ids)):
+            post = reddit.submission(id=update_ids[i])
+            choices = post.flair.choices()
+            choices_dictionary = {
+                choice['flair_text']: choice['flair_template_id'] for choice in choices}
+    
+            post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
+            print(f"Post {i+1} flair updated. Title: {update_titles[i]}, Flair: {flairs[titles.index(update_titles[i])]}")
+            time.sleep(second_delay)
+    
+        # Update flairs in the CSV file according to the ID of the updated post
+        df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
+        for i in range(len(update_ids)):
+            row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
+            df.at[row_to_update, 'Flair'] = flairs[titles.index(update_titles[i])]
+        df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
 def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.
@@ -352,16 +385,17 @@ def handle_wiki_page(wiki_page_id, reddit):
     ids, post_titles, post_flairs, post_contents = create_posts(
         reddit, sub_name, new_posts, new_titles, new_flairs)
 
-    current_hashes = hash_content(post_contents)
+    current_hashes = hash_content(post_contents, post_flairs)
 
     create_post_info(wiki_page_id, post_titles, post_flairs, current_hashes, ids)
 
     delete_posts(wiki_page_id, titles)
 
-    posts_to_update = check_updates(wiki_page_id, wiki_posts)
+    posts_to_update = check_updates(wiki_page_id, wiki_posts, flairs)
 
     if len(posts_to_update) > 0:
-        update_posts(wiki_page_id, posts_to_update)
+        update_posts(wiki_page_id, posts_to_update, flairs)
+        update_post_flairs(wiki_page_id, posts_to_update)
 
 
 if __name__ == '__main__':
