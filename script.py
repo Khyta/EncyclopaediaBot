@@ -192,7 +192,7 @@ def check_additions(wiki_page_id, titles, flairs, posts):
     return unique_titles, unique_flairs, unique_posts
 
 
-def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
+def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
     # This function checks for updates to the wiki posts. The function returns a
     # list of post IDs and titles where the wiki entries have been updated.
     # Those post IDs are later used to update the relevant posts and the titles
@@ -216,7 +216,12 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     current_post_hashes = df['Current Post Hash'].tolist()
     current_flair_hashes = df['Current Flair Hash'].tolist()
+    current_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
+
+    # Sort the flair_hashes list based on the order of the current_titles list
+    # using the wiki_titles list as a reference
+    flair_hashes = [x for _, x in sorted(zip(wiki_titles, flair_hashes))]
 
     for i in range(len(current_post_hashes)):
         if current_post_hashes[i] not in post_hashes:
@@ -224,9 +229,10 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs):
             post_updates = True
 
     for i in range(len(current_flair_hashes)):
-        if current_flair_hashes[i] not in flair_hashes:
-            updated_ids.append(post_ids[i])
-            flair_updates = True
+        if current_flair_hashes[i] != flair_hashes[post_ids.index(post_ids[i])]: # TODO This here is not working
+            updated_ids.append(post_ids[i])                                      # NOTE Probably needs sorting of one list to match the other
+            flair_updates = True 
+
 
     if len(updated_ids) == 0:
         print(f"No posts or flairs to be updated from wiki page {wiki_page_id}.")
@@ -404,7 +410,7 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     delete_posts(wiki_page_id, titles)
 
-    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs)
+    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
     if len(stuff_to_update[0]) > 0:
         if stuff_to_update[1] == True:
@@ -423,7 +429,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1', '2']
+    wiki_page_ids = ['1']
 
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)
