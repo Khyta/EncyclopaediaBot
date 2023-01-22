@@ -56,7 +56,9 @@ Content: Underscore check
 
 Title: *Italics* post
 Flair: Missing flair
-Content: Huh how should I handle italics?
+Content: This is some new text that has been added afterwards and needs to be updated in the post.
+
+Huh how should I handle italics?
 
 Title: About
 Flair: Meta

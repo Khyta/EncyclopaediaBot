@@ -58,6 +58,8 @@ Underscore check
 
 #*Italics* post
 
+This is some new text that has been added afterwards and needs to be updated in the post.
+
 Huh how should I handle italics?
 
 #About
