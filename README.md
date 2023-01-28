@@ -73,7 +73,7 @@ The following limitations are planned to be fixed in the future.
 - [ ] Currently, the user has to specify which wiki page to use for the bot to work.
 It is planned to automate this process in the future and include a command to
 exclude specific wiki pages from the bot. 
-- [ ] The bot currently does not check for duplicate posts and wiki edits.
+- [x] The bot currently does not check for duplicate posts and wiki edits.
 - [ ] The bot does not throw an error via modmail or other reddit specific
   communications if something goes wrong.
 - [ ] The bot does not make periodic posts and has to be started manually.

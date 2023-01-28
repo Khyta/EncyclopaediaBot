@@ -1,13 +1,13 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
-#Yes this is 100% original
-::Meta::
+#Cup of tea?
+::Tea::
 
-Much cool
+I like tea
 
 #A fresh beginning
-::Redditisms::
+::Meta::
 
 ##Introduction
 
@@ -64,6 +64,6 @@ u/Khyta - Had the idea to use a bot and wrote one
 u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
 
 #A yes much entry new
-::Tea::
+::Mate::
 
 Much much, yes yes. 100%
