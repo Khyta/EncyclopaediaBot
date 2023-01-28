@@ -202,14 +202,14 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
     flair_updates = False
 
     post_hashes = []
-    for i in range(len(wiki_posts)):
-        post_hashes.append(hashlib.sha256(
-            wiki_posts[i].strip().encode('utf-8')).hexdigest())
+    post_hashes = hash_content(wiki_posts)
 
     flair_hashes = []
-    for i in range(len(wiki_flairs)):
-        flair_hashes.append(hashlib.sha256(
-            wiki_flairs[i].strip().encode('utf-8')).hexdigest())
+
+    combined_wiki_flair_and_wiki_title = [wiki_flairs[i].strip() + wiki_titles[i].strip()
+                            for i in range(len(wiki_titles))]
+
+    flair_hashes = hash_content(combined_wiki_flair_and_wiki_title)
 
     updated_ids = []
 
@@ -219,19 +219,15 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
     current_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
 
-    # Sort the flair_hashes list based on the order of the current_titles list
-    # using the wiki_titles list as a reference
-    flair_hashes = [x for _, x in sorted(zip(wiki_titles, flair_hashes))]
-
     for i in range(len(current_post_hashes)):
         if current_post_hashes[i] not in post_hashes:
             updated_ids.append(post_ids[i])
             post_updates = True
 
     for i in range(len(current_flair_hashes)):
-        if current_flair_hashes[i] != flair_hashes[post_ids.index(post_ids[i])]: # TODO This here is not working
+        if current_flair_hashes[i] not in flair_hashes: # TODO This here is not working
             updated_ids.append(post_ids[i])                                      # NOTE Probably needs sorting of one list to match the other
-            flair_updates = True 
+            flair_updates = True                                                 # NOTE Make flairs unique by combining them with the title and hashing them.
 
 
     if len(updated_ids) == 0:
@@ -334,7 +330,9 @@ def update_posts(wiki_page_id, update_ids):
 
 def update_post_flairs(wiki_page_id, update_ids):
     # This function updates the post flairs based on wiki page edits and the
-    # flair hash in the CSV file.
+    # flair hash in the CSV file. The flair hash was made unique by combining
+    # the post title and the flair text. This was done to make looking for
+    # unique hashes easier.
     update_titles = []
     with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
@@ -356,7 +354,8 @@ def update_post_flairs(wiki_page_id, update_ids):
         print(f"Post flair {i+1} updated. Title: {update_titles[i]}")
         time.sleep(second_delay)
 
-    flair_hashes = hash_content(flairs)
+    combined_flairs_and_titles = [flairs[i] + titles[i] for i in range(len(flairs))]
+    flair_hashes = hash_content(combined_flairs_and_titles)
 
     # Update hashes in the CSV file according to the ID of the updated post
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
@@ -404,7 +403,9 @@ def handle_wiki_page(wiki_page_id, reddit):
         reddit, sub_name, new_posts, new_titles, new_flairs)
 
     current_post_hashes = hash_content(post_contents)
-    current_flair_hashes = hash_content(post_flairs)
+    combined_flair_and_title = [flairs[i].strip() + titles[i].strip()
+                            for i in range(len(titles))]
+    current_flair_hashes = hash_content(combined_flair_and_title)
 
     create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
 
