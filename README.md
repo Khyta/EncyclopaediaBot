@@ -66,6 +66,14 @@ Here is some more filler text. Subheadings are optional and will be converted on
 The flair text has to come directly after the h1 heading. This flair text will determine the flair used for the post.
 ```
 
+- The flair after the h1 heading is optional. If no flair is specified, the bot
+will flair the post with a 'Missing flair' flair. 
+- The bot will also create the flairs that are used in the wiki if they do not
+exist yet in the subreddit.
+- It is important that there is **no** space between the `#` and the heading text.
+- It is also important that the `::flair_text::` comes directly after the h1
+  heading.
+
 ## Limitations
 
 The following limitations are planned to be fixed in the future.
