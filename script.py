@@ -430,7 +430,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1']
+    wiki_page_ids = ['1', '2']
 
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)
