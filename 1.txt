@@ -4,10 +4,22 @@ The r/NewToReddit Encyclopaedia Redditica
 #Cup of tea?
 ::Tea::
 
-I like tea
+I like tea  
+
+Tea is the best  
+
+#coffee stinks
+
+It's yucky!  
+
+Link to another wiki entry on another page [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
 
 #A fresh beginning
 ::Meta::
+
+#Another entry
+
+Hello there, General Kenobi. Update here.
 
 ##Introduction
 
@@ -63,7 +75,7 @@ u/SolariaHues - Thought a sub might work for the growing encyclopaedia
 u/Khyta - Had the idea to use a bot and wrote one   
 u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
 
-#A yes much entry new
-::Mate::
+#testing 1 2 3
+::bananas::
 
-Much much, yes yes. 100%
+My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty.

@@ -17,13 +17,8 @@ Test entry with slashes
 
 Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
-#Another entry
 
-Hello there, General Kenobi. Update here.
 
-#M` lad one billion
-
-Yes, much test, no flair.
 
 #Single 'Quotation' marks
 
@@ -34,7 +29,6 @@ Test entry for single quotation marks
 This is a normal entry to see the different CSV handling methods. An update here
 
 #My 'lady
-::Meta::
 
 Normal apostrophe check
 
@@ -80,10 +74,6 @@ PS: Choco cookies are the best.
 #Now, this, looks, like, a, job, for, me
 
 This post should be updated. Another update
-
-#Chocolate is yummy
-
-Another post?
 
 
 #Absolute Unit
@@ -136,6 +126,7 @@ Ah yes, a see also. Very cool stuff.
 Trust me bro
 
 #Courtney? Courtney Miller? What?
+::adding flair::
 
 Huh? I'm confusion. Much update
 
@@ -170,7 +161,7 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 
 
 #Achievements  
-::Meta:  
+::edited flair:  
 On some subreddits, you might notice you have [mystery awards](https://www.reddit.com/r/NewToReddit/comments/t2z8xm/what_is_this_award_for/) which add a little sprite next to your username, which, once clicked reveal titles such as "Avid Voter" or "Prolific Commenter".
 
 These aren’t [Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhj0ui/) or even [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/) in the traditional Reddit sense, but are actually [Achievements](https://i.redd.it/1p0sqrimwwr81.jpg) automatically conferred on anyone who contributes to a [powered-up community](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/).
@@ -274,6 +265,7 @@ There is one acronym you should always [report immediately](https://www.reddit.c
 
 #Activity
 ::Meta::
+
 Part of your Inbox (the envelope icon), and also known as Notifications, this lists recent replies to any of your posts or comments. Also refers to your Reddit Account Activity, which you can check at [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity).
 
 You might not know that Reddit shows other users if you are currently active or not. Here is how to hide yourself [on mobile](https://i.redd.it/rsa2mt5nluk61.gif) and here’s how to hide yourself [on desktop](https://i.redd.it/8hggkgtnluk61.gif).
@@ -314,3 +306,14 @@ Another entry to check for API delays.
 #Another completely brand new entry
 
 Another test
+
+#I agree, chocolate is yummy!
+
+:)
+
+#I like bananas
+::Meta::
+
+Banana!
+
+Link to another entry on the same page [Amazing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_amazing)

@@ -7,6 +7,7 @@ import csv
 import pandas as pd
 import numpy as np
 import hashlib
+import logging as log
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -17,6 +18,7 @@ second_delay = 5
 
 fractional_delay = second_delay/100
 
+log.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d.%m.%y %H:%M:%S', level=log.INFO, filename='exec.log')
 
 def fetch_env():
     # This function tries to fetch the environment variables and throws an error
@@ -28,7 +30,7 @@ def fetch_env():
         username = os.getenv('REDDIT_USERNAME')
         password = os.getenv('PASSWORD')
     except KeyError:
-        print('[error]: Missing environment variable(s)')
+        log.error('Could not find environment variables.')
         sys.exit(1)
     return client_id, client_secret, user_agent, username, password
 
@@ -158,7 +160,7 @@ def create_missing_flairs(sub, flairs):
         if flair not in existing_flairs:
             reddit.subreddit(sub).flair.link_templates.add(
                 flair, css_class=flair)
-            print(f"Flair {flair} created.")
+            log.info(f"Flair {flair} created.")
 
 
 def check_additions(wiki_page_id, titles, flairs, posts):
@@ -186,9 +188,10 @@ def check_additions(wiki_page_id, titles, flairs, posts):
                 unique_posts.pop(removal_index)
     total_time = len(unique_titles) * second_delay
     if len(unique_titles) == 0:
-        print(f"No new posts to be created for wiki page {wiki_page_id}.")
+        # print(f"No new posts to be created for wiki page {wiki_page_id}.")
+        log.info(f"No new posts to be created for wiki page {wiki_page_id}.")
     else:
-        print(f"{len(unique_titles)} post to be created in ~{total_time} seconds from wiki page {wiki_page_id}.")
+        log.info(f"{len(unique_titles)} post to be created in ~{total_time} seconds from wiki page {wiki_page_id}.")
     return unique_titles, unique_flairs, unique_posts
 
 
@@ -231,11 +234,11 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
 
 
     if len(updated_ids) == 0:
-        print(f"No posts or flairs to be updated from wiki page {wiki_page_id}.")
+        log.info(f"No posts or flairs to be updated from wiki page {wiki_page_id}.")
     elif post_updates:
-        print(f"{len(updated_ids)} posts to be updated. IDs: {updated_ids}")
+        log.info(f"{len(updated_ids)} posts to be updated. IDs: {updated_ids}")
     elif flair_updates:
-        print(f"{len(updated_ids)} flairs to be updated. IDs: {updated_ids}")
+        log.info(f"{len(updated_ids)} flairs to be updated. IDs: {updated_ids}")
 
     return updated_ids, post_updates, flair_updates
 
@@ -256,7 +259,7 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, flair_hashes, id
             for i in range(len(titles)):
                 writer.writerow([titles[i], flairs[i],
                              wiki_hashes[i], flair_hashes[i], ids[i]])
-        print('Post info updated.')
+        log.info('Post info updated.')
 
 
 def hash_content(content):
@@ -289,7 +292,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
         post_titles.append(titles[i])
         post_flairs.append(flairs[i])
         post_contents.append(posts[i])
-        print(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
+        log.info(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
         time.sleep(second_delay)
 
     return ids, post_titles, post_flairs, post_contents
@@ -306,7 +309,7 @@ def update_posts(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    print(f"Updating {len(update_ids)} posts: {update_titles}.")
+    log.info(f"Updating {len(update_ids)} posts: {update_titles}.")
 
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
@@ -316,7 +319,7 @@ def update_posts(wiki_page_id, update_ids):
         post = reddit.submission(id=update_ids[i])
         reddit.validate_on_submit = True
         post.edit(wiki_posts[titles.index(update_titles[i])])
-        print(f"Post {i+1} updated. Title: {update_titles[i]}")
+        log.info(f"Post {i+1} updated. Title: {update_titles[i]}")
         time.sleep(second_delay)
 
     wiki_hashes = hash_content(wiki_posts)
@@ -340,7 +343,7 @@ def update_post_flairs(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    print(f"Updating {len(update_ids)} post flairs: {update_titles}.")
+    log.info(f"Updating {len(update_ids)} post flairs: {update_titles}.")
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
@@ -351,7 +354,7 @@ def update_post_flairs(wiki_page_id, update_ids):
         choices_dictionary = {
             choice['flair_text']: choice['flair_template_id'] for choice in choices}
         post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
-        print(f"Post flair {i+1} updated. Title: {update_titles[i]}")
+        log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}")
         time.sleep(second_delay)
 
     combined_flairs_and_titles = [flairs[i] + titles[i] for i in range(len(flairs))]
@@ -376,7 +379,7 @@ def delete_posts(wiki_page_id, wiki_titles):
         if post_titles[i] not in wiki_titles:
             post = reddit.submission(id=post_ids[i])
             post.delete()
-            print(f"Post '{post_titles[i]}' deleted.")
+            log.info(f"Post '{post_titles[i]}' deleted.")
             time.sleep(second_delay)
 
     # Remove the deleted posts from the CSV file
@@ -430,7 +433,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1']
+    wiki_page_ids = ['1', '2']
 
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)
