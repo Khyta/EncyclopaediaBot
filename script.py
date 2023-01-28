@@ -394,6 +394,8 @@ def handle_wiki_page(wiki_page_id, reddit):
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
 
+    delete_posts(wiki_page_id, titles)
+
     create_missing_flairs(sub_name, flairs)
 
     new_titles, new_flairs, new_posts = check_additions(
@@ -408,8 +410,6 @@ def handle_wiki_page(wiki_page_id, reddit):
     current_flair_hashes = hash_content(combined_flair_and_title)
 
     create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
-
-    delete_posts(wiki_page_id, titles)
 
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
@@ -430,7 +430,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1', '2']
+    wiki_page_ids = ['1']
 
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)
