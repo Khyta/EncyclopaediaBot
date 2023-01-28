@@ -89,6 +89,9 @@ exclude specific wiki pages from the bot.
 - [ ] The bot does not throw an error via modmail or other reddit specific
   communications if something goes wrong.
 - [ ] The bot does not make periodic posts and has to be started manually.
+- [ ] The links between wikis are currently not translated to links between
+  posts.
+  
 
 # Credits
 
