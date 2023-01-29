@@ -8,17 +8,29 @@ import pandas as pd
 import numpy as np
 import hashlib
 import logging as log
+import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
 
 sub_name = 'EncyclopaediaOfReddit'
 
+minute_delay = 5
+
 second_delay = 5
 
 fractional_delay = second_delay/100
 
-log.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d.%m.%y %H:%M:%S', level=log.INFO, filename='exec.log')
+now = datetime.datetime.now()
+filename = now.strftime("%d-%m-%Y %H_00") + '.log'
+
+logger = log.getLogger()
+logger.setLevel(log.INFO)
+handler = log.FileHandler(filename)
+handler.setLevel(log.INFO)
+formatter = log.Formatter('%(asctime)s - %(message)s', datefmt='%d-%m-%Y %H:%M:%S')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 def fetch_env():
     # This function tries to fetch the environment variables and throws an error
@@ -228,9 +240,9 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
             post_updates = True
 
     for i in range(len(current_flair_hashes)):
-        if current_flair_hashes[i] not in flair_hashes: # TODO This here is not working
-            updated_ids.append(post_ids[i])                                      # NOTE Probably needs sorting of one list to match the other
-            flair_updates = True                                                 # NOTE Make flairs unique by combining them with the title and hashing them.
+        if current_flair_hashes[i] not in flair_hashes:
+            updated_ids.append(post_ids[i])                                      
+            flair_updates = True                                                 
 
 
     if len(updated_ids) == 0:
