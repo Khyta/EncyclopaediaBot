@@ -415,6 +415,12 @@ def get_post_links(headings, post_info):
             post_links[post['Title']] = f"https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{post['ID']}/{post['Title'].lower().replace(' ', '_')}/"
     return post_links
 
+def wiki_links_to_post(text, post_links):
+    for heading, post_link in post_links.items():
+        text = text.replace(f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_{heading.lower()})',
+                            f'[{heading}]({post_link})')
+    return text
+
 def wiki_links_to_post(wiki_page_id):
 # This function will convert the links in the wiki page to the relevant post
 # links in the subreddit.
