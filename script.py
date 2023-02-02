@@ -60,17 +60,6 @@ def reddit_login():
     return reddit
 
 
-def get_wiki_links(page, reddit):
-    # This function gets the links inside the wiki that link to other wiki pages.
-    # This function uses RegEx and requires the re module.
-    # Regex expression to match the links: "\* \[[A-Z] ?-? ?[A-Z]?]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)"gm
-    sub = reddit.subreddit(sub_name)
-    wiki_page = sub.wiki[page]
-    wiki_links = re.findall(
-        "\* \[[A-Z] ?-? ?[A-Z]?\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/wiki\/encyclopaedia-redditica\/[a-z]+-\d\)", wiki_page.content_md, re.MULTILINE)
-    return wiki_links
-
-
 def get_wiki_page(page, reddit):
     # This function gets the contents of a wiki page and saves it to a text file.
     sub = reddit.subreddit(sub_name)
@@ -416,6 +405,21 @@ def csv_to_dict(wiki_page_id):
 # 3. Check for to what wiki page the link points to
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
+def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
+    title_id_dict = csv_to_dict(wiki_page_id)
+    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
+    post_ids = df['ID'].tolist()
+    headings = df['Title'].tolist()
+
+    for i in range(len(post_ids)):
+        post = reddit.submission(id=post_ids[i])
+        post_content = post.selftext
+        pattern = re.compile(f'\\[{headings[i]}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{headings[i].lower()}\\)')
+        post_link = f'[{headings[i]}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[headings[i]]}/)'
+        post_content = pattern.sub(post_link, post_content)
+        post.edit(post_content)
+        log.info(f"Post {i+1} updated. Title: {headings[i]}")
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
@@ -463,7 +467,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1', '2']
+    wiki_page_ids = ['1']
 
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)

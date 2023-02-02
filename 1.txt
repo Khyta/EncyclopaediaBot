@@ -15,7 +15,9 @@ It's yucky!
 Link to another wiki entry on another page [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
 
 #A fresh beginning
-::Meta::
+::Redditisms::
+
+There was content missing here.
 
 #Another entry
 
