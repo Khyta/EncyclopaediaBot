@@ -18,14 +18,6 @@ It's yucky!!!
 
 Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_testing_1_2_3)
 
-#A fresh beginning
-::Redditisms::
-
-There was content missing here....
-
-See also:  
-* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_coffee_stinks)
-
 #Another entry
 ::Redditisms::
 
@@ -89,3 +81,6 @@ u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
 ::bananas::
 
 My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty!!
+
+See also:  
+* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_coffee_stinks)

@@ -421,8 +421,12 @@ def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
         reddit.validate_on_submit = True
-        post.edit(post_content)
-        log.info(f"Wiki links converted for post {i+1}")
+        try:
+            post.edit(post_content)
+            log.info(f"Wiki links converted for entry: {headings[i]}")
+        except Exception as e:
+            log.error(f"Error updating post for entry: {headings[i]}. Likely post has been deleted. Error: {e}")
+
 
 
 
