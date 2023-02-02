@@ -405,8 +405,7 @@ def csv_to_dict(wiki_page_id):
 # 3. Check for to what wiki page the link points to
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
-def wiki_to_post_link(wiki_page_id, reddit):
-    title_id_dict = csv_to_dict(wiki_page_id)
+def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     post_ids = df['ID'].tolist()
     headings = df['Title'].tolist()
@@ -414,15 +413,17 @@ def wiki_to_post_link(wiki_page_id, reddit):
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
-
+        if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
+            log.info(f"Links in '{headings[i]}' already converted, skipping...")
+            continue
         for heading in headings:
             pattern = re.compile(f'\\[{heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{heading.lower().replace(" ", "_")}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
-
         reddit.validate_on_submit = True
         post.edit(post_content)
-        log.info(f"Wiki links converted for entry: {headings[i]}")
+        log.info(f"Wiki links converted for post {i+1}")
+
 
 
 
@@ -465,7 +466,7 @@ def handle_wiki_page(wiki_page_id, reddit):
     title_id_dict = csv_to_dict(wiki_page_id)
     log.info(f"Wiki page {wiki_page_id} processed. Title ID dict {title_id_dict}")
 
-    wiki_to_post_link(wiki_page_id, reddit)
+    wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
 
 
 if __name__ == '__main__':
