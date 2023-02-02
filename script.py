@@ -408,6 +408,13 @@ def csv_to_dict(wiki_page_id):
         headings = {row['Title']: row['ID'] for row in reader}
     return headings
 
+def get_post_links(headings, post_info):
+    post_links = {}
+    for post in post_info:
+        if post['Title'] in headings:
+            post_links[post['Title']] = f"https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{post['ID']}/{post['Title'].lower().replace(' ', '_')}/"
+    return post_links
+
 def wiki_links_to_post(wiki_page_id):
 # This function will convert the links in the wiki page to the relevant post
 # links in the subreddit.
