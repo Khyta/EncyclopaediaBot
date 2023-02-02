@@ -1,10 +1,18 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
+#Just testing
+::Roflrofl::
+
+This is another test entry to see the new logging output.
+
 #The maker
 ::Yoda::
 
 Ah yes, a new entry which is going to be linked to while still writing inside the wiki.
+
+See also:  
+* [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)
 
 #Cup of tea?
 ::Coffee::
