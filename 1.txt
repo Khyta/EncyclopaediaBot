@@ -2,22 +2,28 @@ The r/NewToReddit Encyclopaedia Redditica
 ===
 
 #Cup of tea?
-::Tea::
+::Coffee::
 
 I like tea  
 
-Tea is the best  
+Tea is the best
+
+See also:  
+* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
 
 #coffee stinks
 
 It's yucky!  
 
-Link to another wiki entry on another page [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_testing_1_2_3)
 
 #A fresh beginning
 ::Redditisms::
 
 There was content missing here.
+
+See also:  
+* [Another entry](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_another_entry)
 
 #Another entry
 

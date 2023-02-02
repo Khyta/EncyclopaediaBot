@@ -316,7 +316,7 @@ def update_posts(wiki_page_id, update_ids):
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
-    for i in range(len(update_ids)):
+    for i in range(len(update_titles)):
         post = reddit.submission(id=update_ids[i])
         reddit.validate_on_submit = True
         post.edit(wiki_posts[titles.index(update_titles[i])])
@@ -327,7 +327,7 @@ def update_posts(wiki_page_id, update_ids):
 
     # Update hashes in the CSV file according to the ID of the updated post
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
-    for i in range(len(update_ids)):
+    for i in range(len(update_titles)):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
         df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(update_titles[i])]
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
@@ -355,7 +355,7 @@ def update_post_flairs(wiki_page_id, update_ids):
         choices_dictionary = {
             choice['flair_text']: choice['flair_template_id'] for choice in choices}
         post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
-        log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}")
+        log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}, Flair: {flairs[titles.index(update_titles[i])]}")
         # time.sleep(second_delay)
 
     combined_flairs_and_titles = [flairs[i] + titles[i] for i in range(len(flairs))]
