@@ -310,7 +310,7 @@ def update_posts(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    log.info(f"Updating {len(update_ids)} posts: {update_titles}.")
+    log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()

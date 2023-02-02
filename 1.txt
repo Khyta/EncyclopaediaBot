@@ -4,7 +4,7 @@ The r/NewToReddit Encyclopaedia Redditica
 #Cup of tea?
 ::Coffee::
 
-I like tea  
+I like tea. Mate to be precise.  
 
 Tea is the best
 
@@ -12,6 +12,7 @@ See also:
 * [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
 
 #coffee stinks
+::Tea::
 
 It's yucky!  
 
@@ -26,8 +27,9 @@ See also:
 * [Another entry](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_another_entry)
 
 #Another entry
+::Redditisms::
 
-Hello there, General Kenobi. Update here.
+Hello there, General Kenobi. Update here. Second update here.
 
 ##Introduction
 
@@ -56,7 +58,7 @@ There are also at least 26 literary quotes from 20 famous authors hidden through
 
 ##Foreword
 
-Reddit is an English-speaking community, but it may not always seem that way. Like all subcultures, a specialised internal lexicon has developed over the years. These words, phrases or obscure references make communication more efficient - and fun - for regular Redditors but can sometimes leave new or casual users confused. Reddit loves being self-referential, and this encyclopaedia is an attempt to help you decode and join in the unique Reddit culture when you see it.
+Reddit is a German-speaking community, but it may not always seem that way. Like all subcultures, a specialised internal lexicon has developed over the years. These words, phrases or obscure references make communication more efficient - and fun - for regular Redditors but can sometimes leave new or casual users confused. Reddit loves being self-referential, and this encyclopaedia is an attempt to help you decode and join in the unique Reddit culture when you see it.
 
 This is a continual work in progress so do check back from time to time as new definitions, topics or subreddit links are added or existing ones revised. The entries here have been decided and written by us purely as a consequence of questions we have either asked, seen asked or have been asked during our time on Reddit, and some are just interesting stuff we’ve found while researching the answers to the mundane ones. Be warned: there are lots of “rabbit holes” on Reddit to fall down!
 
