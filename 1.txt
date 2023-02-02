@@ -24,7 +24,7 @@ Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.co
 There was content missing here....
 
 See also:  
-* [Another entry](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_another_entry)
+* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_coffee_stinks)
 
 #Another entry
 ::Redditisms::

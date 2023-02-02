@@ -454,18 +454,19 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
+    title_id_dict = csv_to_dict(wiki_page_id)
+
     if len(stuff_to_update[0]) > 0:
         if stuff_to_update[1] == True:
             update_posts(wiki_page_id, stuff_to_update[0])
+            wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
         elif stuff_to_update[2] == True:
             update_post_flairs(wiki_page_id, stuff_to_update[0])
         else:
             update_posts(wiki_page_id, stuff_to_update[1])
             update_post_flairs(wiki_page_id, stuff_to_update[1])
+            wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
 
-    title_id_dict = csv_to_dict(wiki_page_id)
-
-    wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
 
 
 if __name__ == '__main__':
