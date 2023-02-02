@@ -404,7 +404,7 @@ def delete_posts(wiki_page_id, wiki_titles):
 def csv_to_dict(wiki_page_id):
     # This function converts the CSV file to a dictionary
     with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
-        reader = csv.DictReader(file, fieldnames=['Title', 'ID', 'Current Post Hash', 'Current Flair Hash'])
+        reader = csv.DictReader(file, fieldnames=['Title', 'ID'])
         headings = {row['Title']: row['ID'] for row in reader}
     return headings
 
