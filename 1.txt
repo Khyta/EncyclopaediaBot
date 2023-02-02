@@ -1,6 +1,11 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
+#The maker
+::Yoda::
+
+Ah yes, a new entry which is going to be linked to while still writing inside the wiki.
+
 #Cup of tea?
 ::Coffee::
 
@@ -10,6 +15,7 @@ Tea is the best.
 
 See also:  
 * [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
+* [The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
 
 #coffee stinks
 ::Tea::
