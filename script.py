@@ -410,6 +410,12 @@ def csv_to_dict(wiki_page_id):
             title_id_dict[row['Title']] = row['ID']
     return title_id_dict
 
+# IDEA:
+# 1. Check each post using the ID in the CSV file
+# 2. Look for links that resemble wiki links in each post
+# 3. Check for to what wiki page the link points to
+# 4. Convert the wiki link to a post link using the title_id_dict 
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
