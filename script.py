@@ -189,7 +189,6 @@ def check_additions(wiki_page_id, titles, flairs, posts):
                 unique_posts.pop(removal_index)
     total_time = len(unique_titles) * second_delay
     if len(unique_titles) == 0:
-        # print(f"No new posts to be created for wiki page {wiki_page_id}.")
         log.info(f"No new posts to be created for wiki page {wiki_page_id}.")
     else:
         log.info(f"{len(unique_titles)} post to be created from wiki page {wiki_page_id}.")
@@ -310,7 +309,7 @@ def update_posts(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
+    # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
@@ -320,7 +319,7 @@ def update_posts(wiki_page_id, update_ids):
         post = reddit.submission(id=update_ids[i])
         reddit.validate_on_submit = True
         post.edit(wiki_posts[titles.index(update_titles[i])])
-        log.info(f"Post {i+1} updated. Title: {update_titles[i]}")
+        log.info(f"'{update_titles[i]}' updated.")
         # time.sleep(second_delay)
 
     wiki_hashes = hash_content(wiki_posts)
@@ -423,9 +422,9 @@ def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
         reddit.validate_on_submit = True
         try:
             post.edit(post_content)
-            log.info(f"Wiki links converted for entry: {headings[i]}")
+            log.info(f"Wiki links converted for '{headings[i]}'")
         except Exception as e:
-            log.error(f"Error updating post for entry: {headings[i]}. Likely post has been deleted. Error: {e}")
+            log.error(f"Error updating post for '{headings[i]}'. Likely post has been deleted. Error: {e}")
 
 
 
