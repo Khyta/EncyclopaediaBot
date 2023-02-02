@@ -4,9 +4,9 @@ The r/NewToReddit Encyclopaedia Redditica
 #Cup of tea?
 ::Coffee::
 
-I like tea. Mate to be precise.  
+I like tea. Mate to be precise..  
 
-Tea is the best
+Tea is the best.
 
 See also:  
 * [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
@@ -14,14 +14,14 @@ See also:
 #coffee stinks
 ::Tea::
 
-It's yucky!  
+It's yucky!!!  
 
 Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_testing_1_2_3)
 
 #A fresh beginning
 ::Redditisms::
 
-There was content missing here.
+There was content missing here....
 
 See also:  
 * [Another entry](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_another_entry)
@@ -29,7 +29,7 @@ See also:
 #Another entry
 ::Redditisms::
 
-Hello there, General Kenobi. Update here. Second update here.
+Hello there, General Kenobi. Update here. Second update here!!
 
 ##Introduction
 
@@ -88,4 +88,4 @@ u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
 #testing 1 2 3
 ::bananas::
 
-My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty.
+My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty!!
