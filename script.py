@@ -464,7 +464,6 @@ def handle_wiki_page(wiki_page_id, reddit):
             update_post_flairs(wiki_page_id, stuff_to_update[1])
 
     title_id_dict = csv_to_dict(wiki_page_id)
-    log.info(f"Wiki page {wiki_page_id} processed. Title ID dict {title_id_dict}")
 
     wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
 
