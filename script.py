@@ -401,6 +401,26 @@ def delete_posts(wiki_page_id, wiki_titles):
             df.drop(row_to_delete, inplace=True)
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
+def wiki_links_to_post(wiki_page_id):
+# This function will convert the links in the wiki page to the relevant post
+# links in the subreddit.
+
+    base_url = "https://www.reddit.com/r/EncyclopaediaOfReddit/comments/"
+
+    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
+        reader = csv.DictReader(file, fieldnames=['Title', 'ID'])
+        headings = {row['Title']: row['ID'] for row in reader}
+
+    converted_links = []
+    for heading in headings:
+        if heading.get('Title') is not None:
+            continue
+        post_id = heading.get('ID')
+        if post_id is not None:
+            continue
+        converted_link = f"{base_url}{post_id}/{heading['Title'].lower().replace(' ', '_')}/"
+        converted_links.append({'Title': heading['Title'], 'Link': converted_link, 'ID': heading['ID']})
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
