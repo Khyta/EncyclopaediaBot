@@ -305,7 +305,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
         post_flairs.append(flairs[i])
         post_contents.append(posts[i])
         log.info(f"Post {i+1} created. Title: {titles[i]}, Flair: {flairs[i]}")
-        time.sleep(second_delay)
+        # time.sleep(second_delay)
 
     return ids, post_titles, post_flairs, post_contents
 
@@ -332,7 +332,7 @@ def update_posts(wiki_page_id, update_ids):
         reddit.validate_on_submit = True
         post.edit(wiki_posts[titles.index(update_titles[i])])
         log.info(f"Post {i+1} updated. Title: {update_titles[i]}")
-        time.sleep(second_delay)
+        # time.sleep(second_delay)
 
     wiki_hashes = hash_content(wiki_posts)
 
@@ -367,7 +367,7 @@ def update_post_flairs(wiki_page_id, update_ids):
             choice['flair_text']: choice['flair_template_id'] for choice in choices}
         post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
         log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}")
-        time.sleep(second_delay)
+        # time.sleep(second_delay)
 
     combined_flairs_and_titles = [flairs[i] + titles[i] for i in range(len(flairs))]
     flair_hashes = hash_content(combined_flairs_and_titles)
@@ -392,7 +392,7 @@ def delete_posts(wiki_page_id, wiki_titles):
             post = reddit.submission(id=post_ids[i])
             post.delete()
             log.info(f"Post '{post_titles[i]}' deleted.")
-            time.sleep(second_delay)
+            # time.sleep(second_delay)
 
     # Remove the deleted posts from the CSV file
     for i in range(len(post_titles)):
