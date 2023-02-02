@@ -192,7 +192,7 @@ def check_additions(wiki_page_id, titles, flairs, posts):
         # print(f"No new posts to be created for wiki page {wiki_page_id}.")
         log.info(f"No new posts to be created for wiki page {wiki_page_id}.")
     else:
-        log.info(f"{len(unique_titles)} post to be created in ~{total_time} seconds from wiki page {wiki_page_id}.")
+        log.info(f"{len(unique_titles)} post to be created from wiki page {wiki_page_id}.")
     return unique_titles, unique_flairs, unique_posts
 
 
