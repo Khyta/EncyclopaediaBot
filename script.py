@@ -402,44 +402,13 @@ def delete_posts(wiki_page_id, wiki_titles):
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
 def csv_to_dict(wiki_page_id):
-    # This function converts the CSV file to a dictionary
+    title_id_dict = {}
     with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
-        reader = csv.DictReader(file, fieldnames=['Title', 'ID'])
-        headings = {row['Title']: row['ID'] for row in reader}
-    return headings
-
-def get_post_links(headings, post_info):
-    post_links = {}
-    for post in post_info:
-        if post['Title'] in headings:
-            post_links[post['Title']] = f"https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{post['ID']}/{post['Title'].lower().replace(' ', '_')}/"
-    return post_links
-
-def wiki_links_to_post(text, post_links):
-    for heading, post_link in post_links.items():
-        text = text.replace(f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_{heading.lower()})',
-                            f'[{heading}]({post_link})')
-    return text
-
-def wiki_links_to_post(wiki_page_id):
-# This function will convert the links in the wiki page to the relevant post
-# links in the subreddit.
-
-    base_url = "https://www.reddit.com/r/EncyclopaediaOfReddit/comments/"
-
-    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
-        reader = csv.DictReader(file, fieldnames=['Title', 'ID'])
-        headings = {row['Title']: row['ID'] for row in reader}
-
-    converted_links = []
-    for heading in headings:
-        if heading.get('Title') is not None:
-            continue
-        post_id = heading.get('ID')
-        if post_id is not None:
-            continue
-        converted_link = f"{base_url}{post_id}/{heading['Title'].lower().replace(' ', '_')}/"
-        converted_links.append({'Title': heading['Title'], 'Link': converted_link, 'ID': heading['ID']})
+        reader = csv.DictReader(file, fieldnames=['Title', 'Flair', 'Current Post Hash', 'Current Flair Hash', 'ID'])
+        next(reader) # skip header row
+        for row in reader:
+            title_id_dict[row['Title']] = row['ID']
+    return title_id_dict
 
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
@@ -476,6 +445,9 @@ def handle_wiki_page(wiki_page_id, reddit):
         else:
             update_posts(wiki_page_id, stuff_to_update[1])
             update_post_flairs(wiki_page_id, stuff_to_update[1])
+
+    title_id_dict = csv_to_dict(wiki_page_id)
+    log.info(f"Wiki page {wiki_page_id} processed. Title ID dict {title_id_dict}")
 
 
 if __name__ == '__main__':
