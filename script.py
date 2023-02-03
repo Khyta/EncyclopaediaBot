@@ -293,7 +293,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
         post_titles.append(titles[i])
         post_flairs.append(flairs[i])
         post_contents.append(posts[i])
-        log.info(f"'{titles[i]}' created. Flair: {flairs[i]}")
+        log.info(f"'{titles[i]}' created. Flair: '{flairs[i]}'")
         # time.sleep(second_delay)
 
     return ids, post_titles, post_flairs, post_contents
