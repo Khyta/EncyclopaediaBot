@@ -8,17 +8,70 @@ Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn
 
 How about a subheading?
 
+#This is @ me
+
+A selfping
+
+#Piping | Cool stuff
+
+Much useful in unix
+
+#How about a \
+
+That seems fresh and new
+
 #/etc/dev/urandom is a cool location
 
 Test entry with slashes
+
+#50% Sale
+
+That is cool
+
+#100! Factorial
+
+That is a lot
+
+#Dollars $
+
+YES
+
+#This ^ so much this
+
+This is this
+
+#Ampersands are & cool
+
+Yes myuch cool
+
+#1+2=3 Math
+
+Cool stuff
+
+#1<x<2>1
+
+More math
+
+#[Square brackets]
+
+Ah yes
+
+#{curly brackets}
+
+Yes
 
 #"Uhm acshually" reddit idiom
 ::Redditisms::
 
 Quotation marks. I fully expect this to break. Huh, it didn't break. How strange.
 
+#This is a ` entry
 
+YEs
 
+#Wavy one ~
+
+YeS
 
 #Single 'Quotation' marks
 

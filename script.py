@@ -418,7 +418,8 @@ def wiki_to_post_link(reddit, title_id_dict):
             log.info(f"Links in '{headings[i]}' already converted, skipping...")
             continue
         for heading in headings:
-            pattern = re.compile(f'\\[{heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{heading.lower().replace(" ", "_")}\\)')
+            converted_heading = url_encoding(heading) 
+            pattern = re.compile(f'\\[{heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{converted_heading}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
         reddit.validate_on_submit = True
@@ -475,6 +476,8 @@ def url_encoding(heading):
     heading = heading.replace(']', '.5D')
     heading = heading.replace('^', '.5E')
     heading = heading.replace('|', '.7C')
+
+    return heading
 
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)

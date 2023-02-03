@@ -25,10 +25,11 @@ See also:
 #The maker
 ::Yoda::
 
-Ah yes, a new entry which is going to be linked to while still writing inside the wiki.
+Ah yes, a new entry which is going to be linked to while still writing inside the wiki. Update this please.
 
 See also:  
-* [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)
+* [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)  
+* [This is @ me](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_this_is_.40_me)
 
 #Cup of tea?
 ::Coffee::
