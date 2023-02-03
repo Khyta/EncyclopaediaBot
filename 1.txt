@@ -17,7 +17,7 @@ The r/NewToReddit Encyclopaedia Redditica
 #Just testing
 ::Roflrofl::
 
-This is another test entry to see the new logging output.
+This is another test entry to see the new logging output! Hello there. General Kenobiiii!
 
 See also:  
 * [Unit](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_unit)

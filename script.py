@@ -390,13 +390,14 @@ def delete_posts(wiki_page_id, wiki_titles):
             df.drop(row_to_delete, inplace=True)
     df.to_csv(f'post_info_{wiki_page_id}.csv', index=False)
 
-def csv_to_dict(wiki_page_id):
+def csv_to_dict():
     title_id_dict = {}
-    with open(f'post_info_{wiki_page_id}.csv', 'r') as file:
+    with open(f'post_info.csv', 'r') as file:
         reader = csv.DictReader(file, fieldnames=['Title', 'Flair', 'Current Post Hash', 'Current Flair Hash', 'ID'])
         next(reader) # skip header row
         for row in reader:
             title_id_dict[row['Title']] = row['ID']
+    log.info(f"CSV file converted to dictionary. {title_id_dict}")
     return title_id_dict
 
 # IDEA:
@@ -405,8 +406,8 @@ def csv_to_dict(wiki_page_id):
 # 3. Check for to what wiki page the link points to
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
-def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
-    df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
+def wiki_to_post_link(reddit, title_id_dict):
+    df = pd.read_csv(f'post_info.csv')
     post_ids = df['ID'].tolist()
     headings = df['Title'].tolist()
 
@@ -466,18 +467,18 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
-    title_id_dict = csv_to_dict(wiki_page_id)
+    title_id_dict = csv_to_dict()
 
     if len(stuff_to_update[0]) > 0:
         if stuff_to_update[1] == True:
             update_posts(wiki_page_id, stuff_to_update[0])
-            wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
+            wiki_to_post_link(reddit, title_id_dict)
         elif stuff_to_update[2] == True:
             update_post_flairs(wiki_page_id, stuff_to_update[0])
         else:
             update_posts(wiki_page_id, stuff_to_update[1])
             update_post_flairs(wiki_page_id, stuff_to_update[1])
-            wiki_to_post_link(wiki_page_id, reddit, title_id_dict)
+            wiki_to_post_link(reddit, title_id_dict)
 
 
 
