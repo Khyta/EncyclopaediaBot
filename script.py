@@ -437,6 +437,44 @@ def combine_csvs():
     combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
     combined_csv.to_csv('post_info.csv', index=False)
 
+def url_encoding(heading):
+    # This function converts the heading that may contain special characters in
+    # a reddit post link to a format that can be used in a wiki link. For
+    # example, it will convert / to .2F. Sadly the percent encoding does not
+    # work as reddit uses . instead of % for some reason.
+    heading = heading.lower()
+    heading = heading.replace(' ', '_')
+    heading = heading.replace('/', '.2F')
+    heading = heading.replace('\\', '.5C')
+    heading = heading.replace('?', '.3F')
+    heading = heading.replace('!', '.21')
+    heading = heading.replace('“', '.201C')
+    heading = heading.replace('”', '.201D')
+    heading = heading.replace('"', '.22')
+    heading = heading.replace("'", '.27')
+    heading = heading.replace('’', '.2019')
+    heading = heading.replace('`', '.60')
+    heading = heading.replace('@', '.40')
+    heading = heading.replace(':', '.3A')
+    heading = heading.replace(';', '.3B')
+    heading = heading.replace('(', '.28')
+    heading = heading.replace(')', '.29')
+    heading = heading.replace(',', '.2C')
+    heading = heading.replace('#', '.23')
+    heading = heading.replace('~', '.7E')
+    heading = heading.replace('$', '.24')
+    heading = heading.replace('%', '.25')
+    heading = heading.replace('&', '.26amp.3B')
+    heading = heading.replace('+', '.2B')
+    heading = heading.replace('<', '.26lt.3B')
+    heading = heading.replace('>', '.26gt.3B')
+    heading = heading.replace('=', '.3D')
+    heading = heading.replace('{', '.7B')
+    heading = heading.replace('}', '.7D')
+    heading = heading.replace('[', '.5B')
+    heading = heading.replace(']', '.5D')
+    heading = heading.replace('^', '.5E')
+    heading = heading.replace('|', '.7C')
 
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
