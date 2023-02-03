@@ -1,3 +1,16 @@
+###Navigation of Encyclopedia:
+
+* [Index](https://www.reddit.com/r/NewToReddit/wiki/index)  
+* [About the Encylopaedia](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/1)
+* [Entries for A](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2)  
+* Entries for B-E below  
+* [Entries for F-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4)  
+* [Entries for M-Q](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5)  
+* [Entries for R](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6)  
+* [Entries for S](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7)  
+* [Entries for T](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8)  
+* [Entries for U-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9) 
+
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
@@ -5,6 +18,9 @@ The r/NewToReddit Encyclopaedia Redditica
 ::Roflrofl::
 
 This is another test entry to see the new logging output.
+
+See also:  
+* [Unit](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_unit)
 
 #The maker
 ::Yoda::

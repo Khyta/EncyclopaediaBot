@@ -4,6 +4,7 @@ import sys
 import re
 import time
 import csv
+import glob
 import pandas as pd
 import numpy as np
 import hashlib
@@ -427,7 +428,13 @@ def wiki_to_post_link(wiki_page_id, reddit, title_id_dict):
             log.error(f"Error updating post for '{headings[i]}'. Likely post has been deleted. Error: {e}")
 
 
+def combine_csvs():
+    # This function combines all the post_info_*.csv files into one file for the
+    # wiki_to_post_link conversion to function properly for interwiki links.
 
+    csv_files = glob.glob('post_info_*.csv')
+    combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
+    combined_csv.to_csv('post_info.csv', index=False)
 
 
 def handle_wiki_page(wiki_page_id, reddit):
@@ -439,6 +446,8 @@ def handle_wiki_page(wiki_page_id, reddit):
         wiki_posts, titles, flairs = get_post_sections(content)
 
     delete_posts(wiki_page_id, titles)
+
+    combine_csvs()
 
     create_missing_flairs(sub_name, flairs)
 
