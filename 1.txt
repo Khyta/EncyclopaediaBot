@@ -25,7 +25,7 @@ See also:
 #The maker
 ::Yoda::
 
-Ah yes, a new entry which is going to be linked to while still writing inside the wiki. Update this please.
+Ah yes, a new entry which is going to be linked to while still writing inside the wiki. Update this please. Update again.
 
 See also:  
 * [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)  
