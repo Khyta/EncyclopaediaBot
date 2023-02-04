@@ -2,7 +2,7 @@ A
 ==
 
 #Aardvarks
-Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please. Update this post here. Please.
+Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please. Update this post here. Please. And again for debugging. And again.
 
 Example for how to use the cheatsheet:  
 - [Piping | Cool stuff](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_piping_.7C_cool_stuff)
@@ -217,7 +217,7 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 
 
 #Achievements  
-::edited flair:  
+::edited flair::
 On some subreddits, you might notice you have [mystery awards](https://www.reddit.com/r/NewToReddit/comments/t2z8xm/what_is_this_award_for/) which add a little sprite next to your username, which, once clicked reveal titles such as "Avid Voter" or "Prolific Commenter".
 
 These aren’t [Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhj0ui/) or even [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/) in the traditional Reddit sense, but are actually [Achievements](https://i.redd.it/1p0sqrimwwr81.jpg) automatically conferred on anyone who contributes to a [powered-up community](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/).
@@ -235,7 +235,7 @@ You won’t see these achievements outside the powered-up subreddit either next 
 ---
 
 #Acronyms 
-::Redditisms:::  
+::Redditisms::
 Some of our specialised communities have a wide acronym language of their own, and I’ve listed some in the **See Also:** section below.
 
 * [AITA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh0ub/) \- Am I The Asshole
@@ -371,5 +371,15 @@ Another test
 ::Meta::
 
 Banana!
+
+#I love strawberries and cream
+::Fruit::
+
+Strawberries
+
+#I love mangoes as much as strawberries
+::Fruit::
+
+Mangoes!
 
 Link to another entry on the same page [Amazing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_amazing)

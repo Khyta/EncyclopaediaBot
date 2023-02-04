@@ -281,6 +281,7 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
     post_flairs = []
     post_contents = []
     ids = []
+    post_created = False
     for i in range(len(posts)):
         subreddit = reddit.subreddit(sub_name)
         submission = subreddit.submit(titles[i], selftext=posts[i])
@@ -294,9 +295,10 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
         post_flairs.append(flairs[i])
         post_contents.append(posts[i])
         log.info(f"'{titles[i]}' created. Flair: '{flairs[i]}'")
+        post_created = True
         # time.sleep(second_delay)
 
-    return ids, post_titles, post_flairs, post_contents
+    return ids, post_titles, post_flairs, post_contents, post_created
 
 def update_posts(wiki_page_id, update_ids):
 
@@ -496,7 +498,7 @@ def handle_wiki_page(wiki_page_id, reddit):
     new_titles, new_flairs, new_posts = check_additions(
         wiki_page_id, titles, flairs, wiki_posts)
 
-    ids, post_titles, post_flairs, post_contents = create_posts(
+    ids, post_titles, post_flairs, post_contents, post_created = create_posts(
         reddit, sub_name, new_posts, new_titles, new_flairs)
 
     current_post_hashes = hash_content(post_contents)
@@ -508,9 +510,14 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
-    title_id_dict = csv_to_dict()
+    if post_created == True:
+        combine_csvs()
+        title_id_dict = csv_to_dict()
+        log.info(f'Title id {title_id_dict}')
+        wiki_to_post_link(reddit, title_id_dict)
 
     if len(stuff_to_update[0]) > 0:
+        title_id_dict = csv_to_dict()
         if stuff_to_update[1] == True:
             update_posts(wiki_page_id, stuff_to_update[0])
             wiki_to_post_link(reddit, title_id_dict)

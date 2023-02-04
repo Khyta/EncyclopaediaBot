@@ -14,6 +14,26 @@
 The r/NewToReddit Encyclopaedia Redditica 
 ===
 
+#Wiki link creation test again
+
+Please please please work [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+
+#Another wiki creation test
+
+Please link [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about).
+
+#Wiki link conversion on creation test
+
+This entry tests if the following wiki link will be converted to the correct post link.
+
+[coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)
+
+#New wiki link testing post
+
+Please work
+
+[About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+
 #Just testing
 ::Roflrofl::
 
@@ -31,6 +51,12 @@ See also:
 * [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)  
 * [This is @ me](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_this_is_.40_me)
 
+#Wiki test linking fr
+
+Hello there.
+
+This should link to a post upon creation: [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+
 #Cup of tea?
 ::Coffee::
 
@@ -41,6 +67,7 @@ Tea is the best.
 See also:  
 * [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
 * [The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
+* [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
 
 #coffee stinks
 ::Tea::
@@ -48,6 +75,10 @@ See also:
 It's yucky!!!  
 
 Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_testing_1_2_3)
+
+#Another newer entry
+
+Testing, bot testing.
 
 #Another entry
 ::Redditisms::
