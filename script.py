@@ -506,14 +506,14 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
 
-    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
-
     combine_csvs()
 
     if post_created == True:
         title_id_dict = csv_to_dict()
         log.info(f'Title id {title_id_dict}')
         wiki_to_post_link(reddit, title_id_dict)
+
+    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
     if len(stuff_to_update[0]) > 0:
         title_id_dict = csv_to_dict()
