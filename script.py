@@ -521,10 +521,6 @@ def handle_wiki_page(wiki_page_id, reddit):
             wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
         elif stuff_to_update[2] == True:
             update_post_flairs(wiki_page_id, stuff_to_update[0])
-        else:
-            update_posts(wiki_page_id, stuff_to_update[1])
-            update_post_flairs(wiki_page_id, stuff_to_update[1])
-            wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
 
     if post_created == True:
         title_id_dict = csv_to_dict()
