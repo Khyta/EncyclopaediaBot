@@ -524,7 +524,7 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     if post_created == True:
         title_id_dict = csv_to_dict()
-        log.info(f'Title id {title_id_dict}')
+        # log.info(f'Title id {title_id_dict}')
         wiki_to_post_link(reddit, title_id_dict, ids)
 
 
