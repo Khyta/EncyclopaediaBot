@@ -538,5 +538,10 @@ if __name__ == '__main__':
     # List of wiki page IDs to process
     wiki_page_ids = ['1', '2']
 
+    t0 = time.time()
     for page_id in wiki_page_ids:
         handle_wiki_page(page_id, reddit)
+    t1 = time.time()
+    total = round(t1-t0, 3)
+
+    log.info(f'Finished processing wiki pages in {total} seconds')
