@@ -408,28 +408,32 @@ def csv_to_dict():
 # 3. Check for to what wiki page the link points to
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
-def wiki_to_post_link(reddit, title_id_dict):
+def wiki_to_post_link(reddit, title_id_dict, ids):
     df = pd.read_csv(f'post_info.csv')
-    post_ids = df['ID'].tolist()
+    post_ids = ids.copy()
     headings = df['Title'].tolist()
+
+    log.info(f"Converting wiki links to post links in {len(post_ids)} posts: {post_ids}.")
 
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
         if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-            log.info(f"Links in '{headings[i]}' already converted, skipping...")
+            log.info(f"Links in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}' already converted, skipping...")
             continue
         for heading in headings:
-            converted_heading = url_encoding(heading) 
+            converted_heading = url_encoding(heading)
+            # log.info(f"Converted heading: {converted_heading}") 
             pattern = re.compile(f'\\[{heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{converted_heading}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
+            # log.info(f"Title_ID dictionary: {title_id_dict[heading]}")
         reddit.validate_on_submit = True
         try:
             post.edit(post_content)
-            log.info(f"Wiki links converted for '{headings[i]}'")
+            log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
         except Exception as e:
-            log.error(f"Error updating post for '{headings[i]}'. Likely post has been deleted. Error: {e}")
+            log.error(f"Error updating post for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Likely post has been deleted. Error: {e}")
 
 
 def combine_csvs():
@@ -508,24 +512,24 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     combine_csvs()
 
-    if post_created == True:
-        title_id_dict = csv_to_dict()
-        log.info(f'Title id {title_id_dict}')
-        wiki_to_post_link(reddit, title_id_dict)
-
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
     if len(stuff_to_update[0]) > 0:
         title_id_dict = csv_to_dict()
         if stuff_to_update[1] == True:
             update_posts(wiki_page_id, stuff_to_update[0])
-            wiki_to_post_link(reddit, title_id_dict)
+            wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
         elif stuff_to_update[2] == True:
             update_post_flairs(wiki_page_id, stuff_to_update[0])
         else:
             update_posts(wiki_page_id, stuff_to_update[1])
             update_post_flairs(wiki_page_id, stuff_to_update[1])
-            wiki_to_post_link(reddit, title_id_dict)
+            wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
+
+    if post_created == True:
+        title_id_dict = csv_to_dict()
+        log.info(f'Title id {title_id_dict}')
+        wiki_to_post_link(reddit, title_id_dict, ids)
 
 
 

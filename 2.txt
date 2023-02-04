@@ -9,7 +9,26 @@ Example for how to use the cheatsheet:
 
 ##Subheading
 
-How about a subheading?
+How about a subheading?? What about it?
+
+[The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
+
+[About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+
+#At least it is more efficient
+
+Some link to a non-issue causing entry that should be converted to a post upon creation: [Aardvarks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_aardvarks)
+
+#I like money
+::Dollars::
+
+This is why you should look at 
+
+See also:  
+* [Aardvarks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_aardvarks)  
+* [50% Sale](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_50.25_sale)  
+* [This is @ me](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_this_is_.40_me)  
+* [Dollars $](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_dollars_.24)
 
 #This is @ me
 
@@ -346,6 +365,10 @@ If you're anxious about what others can see on your account, you're welcome to c
 #Amazing
 
 This is a test entry to check the duplicate detection function.
+
+#Another newer entry
+
+Testing, bot testing.
 
 #A new entry
 

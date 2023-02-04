@@ -28,6 +28,8 @@ This entry tests if the following wiki link will be converted to the correct pos
 
 [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)
 
+[The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
+
 #New wiki link testing post
 
 Please work
