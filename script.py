@@ -397,7 +397,7 @@ def csv_to_dict():
         next(reader) # skip header row
         for row in reader:
             title_id_dict[row['Title']] = row['ID']
-    log.info(f"CSV file converted to dictionary. {title_id_dict}")
+    # log.info(f"CSV file converted to dictionary. {title_id_dict}")
     return title_id_dict
 
 # IDEA:
