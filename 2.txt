@@ -2,7 +2,10 @@ A
 ==
 
 #Aardvarks
-Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please.
+Reddit loves animals. Reddit loves strangeness. Here, we have both! So why doesn’t r/aardvarks have more love? Find aardvarks, post them there. Please. Update this post here. Please.
+
+Example for how to use the cheatsheet:  
+- [Piping | Cool stuff](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_piping_.7C_cool_stuff)
 
 ##Subheading
 
