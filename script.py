@@ -491,8 +491,6 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     delete_posts(wiki_page_id, titles)
 
-    combine_csvs()
-
     create_missing_flairs(sub_name, flairs)
 
     new_titles, new_flairs, new_posts = check_additions(
@@ -510,8 +508,9 @@ def handle_wiki_page(wiki_page_id, reddit):
 
     stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
 
+    combine_csvs()
+
     if post_created == True:
-        combine_csvs()
         title_id_dict = csv_to_dict()
         log.info(f'Title id {title_id_dict}')
         wiki_to_post_link(reddit, title_id_dict)
