@@ -7,7 +7,20 @@ automates the creation of and edits of posts based on the wiki to enhance reddit
 mobile user experience while browsing this post-based wiki. This bot is part of
 the r/NewToReddit network and managed by u/Khyta.
 
-# Example
+# Features
+
+- Automatically create a post for each h1 heading in the wiki.
+- Update the corresponding post if the wiki is edited.
+- Update and create flairs based on the wiki.
+- Delete posts that are not in the wiki anymore.
+- Convert wiki links to post links for better mobile user experience.
+- The script for checking the wiki will run automatically at a statistically
+  calculated time: The script will check the wiki revision times and determine a
+  possible timeframe where the possibility of a collision from a current wiki
+  edit while the script is running is minimal. The timeframe will be
+  communicated via modmail to the subreddit moderators beforehand.
+
+## Example
 
 The bot is currently running on r/EncyclopaediaOfReddit. Here is an extract of a
 wiki and the corresponding posts created by the bot.
@@ -19,6 +32,7 @@ wiki and the corresponding posts created by the bot.
 # Installation
 
 This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
+
 ## Requirements
 
 - Python `3.10.+`
