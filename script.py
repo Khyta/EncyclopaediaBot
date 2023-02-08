@@ -425,7 +425,8 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
         for heading in headings:
             converted_heading = url_encoding(heading)
             # log.info(f"Converted heading: {converted_heading}") 
-            pattern = re.compile(f'\\[{heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{converted_heading}\\)') # TODO This regex is not working properly. Confirmed breaks with '$' in the heading.
+            escaped_heading = re.escape(heading)
+            pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{converted_heading}\\)') # TODO This regex is not working properly. Confirmed breaks with '$' in the heading.
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
             # log.info(f"Title_ID dictionary: {title_id_dict[heading]}")
