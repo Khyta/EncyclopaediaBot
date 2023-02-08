@@ -10,6 +10,7 @@ import numpy as np
 import hashlib
 import logging as log
 import datetime
+import statistics
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -499,6 +500,35 @@ def send_modmail(reddit, subject, content):
     subreddit = reddit.subreddit(sub_name)
     subreddit.message(subject, content)
 
+def get_least_wiki_activity(wiki_page_id, reddit):
+    # This function returns the time where the wiki is least likely to be
+    # edited. This is done to avoid any conflicts when the bot is running. The
+    # function makes use of the revision_date attribute of the wiki page.
+
+    wiki_page = reddit.subreddit(sub_name).wiki[wiki_page_id]
+    revisions = wiki_page.revisions(limit=None)
+    revision_dates = []
+    for revision in revisions:
+        revision_dates.append(revision['timestamp'])
+
+    # Convert all UNIX timestamps to datetime objects
+    revision_dates = [datetime.datetime.fromtimestamp(x) for x in revision_dates]
+
+    # Look at the hours and minutes of the revision dates and take the mean of
+    # them to get the average time of the revisions.
+    hours = [x.hour for x in revision_dates]
+    mean_hour = int(statistics.mean(hours))
+
+    # Subtract 12 hours from the mean_hour time to get the time where the wiki is
+    # least likely to be edited. Be careful with negative numbers.
+    if mean_hour > 12:
+        least_activity = mean_hour - 12
+    else:
+        least_activity = mean_hour + 12
+
+
+    return least_activity
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
@@ -556,10 +586,13 @@ if __name__ == '__main__':
 
     # List of wiki page IDs to process
     wiki_page_ids = ['1', '2']
+
     failed_ids = []
 
     t0 = time.time()
     for page_id in wiki_page_ids:
+        least_activity = get_least_wiki_activity(page_id, reddit)
+        log.info(f'Wiki page {page_id} least active at {least_activity}')
         result = handle_wiki_page(page_id, reddit)
         # log.info(f'Result: {result}')
         if result is not None:
