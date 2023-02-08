@@ -29,7 +29,7 @@ logger = log.getLogger()
 logger.setLevel(log.INFO)
 handler = log.FileHandler(filename)
 handler.setLevel(log.INFO)
-formatter = log.Formatter('%(asctime)s - %(message)s', datefmt='%d-%m-%Y %H:%M:%S')
+formatter = log.Formatter('%(asctime)s - %(levelname)s: %(message)s', datefmt='%d-%m-%Y %H:%M:%S')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
@@ -413,13 +413,14 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
     post_ids = ids.copy()
     headings = df['Title'].tolist()
 
-    log.info(f"Converting wiki links to post links in {len(post_ids)} posts: {post_ids}.")
+    log.info(f"Trying to convert wiki links to post links in {len(post_ids)} posts: {post_ids}.")
+    failed_ids = []
 
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
         if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-            log.info(f"Links in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}' already converted, skipping...")
+            log.info(f"No links found to convert in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Skipping...")
             continue
         for heading in headings:
             converted_heading = url_encoding(heading)
@@ -431,9 +432,15 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
         reddit.validate_on_submit = True
         try:
             post.edit(post_content)
-            log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+            else:
+                log.error(f"Wiki links failed to converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+                failed_ids = failed_ids + [post_ids[i]]
         except Exception as e:
             log.error(f"Error updating post for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Likely post has been deleted. Error: {e}")
+
+    return failed_ids
 
 
 def combine_csvs():
@@ -485,6 +492,12 @@ def url_encoding(heading):
 
     return heading
 
+def send_modmail(reddit, subject, content):
+    # This function sends a modmail to the moderators of the subreddit.
+    # The content is the message that will be sent.
+    subreddit = reddit.subreddit(sub_name)
+    subreddit.message(subject, content)
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
@@ -494,6 +507,8 @@ def handle_wiki_page(wiki_page_id, reddit):
         wiki_posts, titles, flairs = get_post_sections(content)
 
     delete_posts(wiki_page_id, titles)
+
+    failed_ids = []
 
     create_missing_flairs(sub_name, flairs)
 
@@ -518,14 +533,17 @@ def handle_wiki_page(wiki_page_id, reddit):
         title_id_dict = csv_to_dict()
         if stuff_to_update[1] == True:
             update_posts(wiki_page_id, stuff_to_update[0])
-            wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
+            failed_ids = wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
         elif stuff_to_update[2] == True:
             update_post_flairs(wiki_page_id, stuff_to_update[0])
 
     if post_created == True:
         title_id_dict = csv_to_dict()
         # log.info(f'Title id {title_id_dict}')
-        wiki_to_post_link(reddit, title_id_dict, ids)
+        failed_ids = wiki_to_post_link(reddit, title_id_dict, ids)
+
+    # log.info(f'Failed ids: {failed_ids}')
+    return failed_ids
 
 
 
@@ -537,10 +555,27 @@ if __name__ == '__main__':
 
     # List of wiki page IDs to process
     wiki_page_ids = ['1', '2']
+    failed_ids = []
 
     t0 = time.time()
     for page_id in wiki_page_ids:
-        handle_wiki_page(page_id, reddit)
+        result = handle_wiki_page(page_id, reddit)
+        # log.info(f'Result: {result}')
+        if result is not None:
+            failed_ids.extend(result)
+            # log.info(f'Failed ids: {failed_ids}')
+
+    if len(failed_ids) > 0:
+        log.error(f'The following posts failed wiki conversion: {failed_ids}. Trying again...')
+        refailed_ids = wiki_to_post_link(reddit, csv_to_dict(), failed_ids)
+        if len(refailed_ids) > 0:
+            log.error(f'The following posts failed wiki link to post conversion: {failed_ids} again. Sending modmail to mods.')
+            clickable_ids = [f'https://redd.it/{id}' for id in failed_ids]
+            fancy_list = '\n'.join([f'* {id}' for id in clickable_ids])
+            message = f'The following posts failed wiki link to post link conversion:\n\n {fancy_list} \n\nPlease check the wiki page for any broken links to non-existing entries and try again.'
+            subject = 'Wiki to post link conversion failed'
+            send_modmail(reddit, subject, message)
+
     t1 = time.time()
     total = round(t1-t0, 3)
 

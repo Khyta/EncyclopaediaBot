@@ -26,6 +26,22 @@ I don't think so
 See also:  
 * [Single 'Quotation' marks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_single_.27quotation.27_marks)
 
+#New entry after great cleanup
+
+Yes
+
+#Entry for wiki conversion fail test
+
+Yes 2x
+
+#Just testing
+::Roflrofl::
+
+This is another test entry to see the new logging output! Hello there. General Kenobiiii!
+
+See also:  
+* [Unit](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_unit)
+
 #I like money
 ::Dollars::
 
@@ -37,6 +53,13 @@ See also:
 * [This is @ me](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_this_is_.40_me)  
 * [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_acronyms)  
 * [Single 'Quotation' marks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_single_.27quotation.27_marks)
+
+
+#New wiki link testing post
+
+Please work
+
+[About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
 
 #New entry goes very much here
 ::JBL Speakers::

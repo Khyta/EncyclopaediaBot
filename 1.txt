@@ -16,135 +16,17 @@ The r/NewToReddit Encyclopaedia Redditica
 
 #Wiki link creation test again
 
-Please please please work [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
+Please please please work!!! [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
 
-#Another wiki creation test
+[New wiki link testing post](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_new_wiki_link_testing_post)
 
-Please link [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about).
-
-#Wiki link conversion on creation test
-
-This entry tests if the following wiki link will be converted to the correct post link.
-
-[coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)
-
-[The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
-
-#New wiki link testing post
-
-Please work
-
-[About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
-
-#Just testing
-::Roflrofl::
-
-This is another test entry to see the new logging output! Hello there. General Kenobiiii!
-
-See also:  
-* [Unit](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_unit)
-
-#The maker
-::Yoda::
-
-Ah yes, a new entry which is going to be linked to while still writing inside the wiki. Update this please. Update again.
-
-See also:  
-* [Just testing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_just_testing)  
-* [This is @ me](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_this_is_.40_me)
-
-#Wiki test linking fr
-
-Hello there.
-
-This should link to a post upon creation: [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
-
-#Cup of tea?
-::Coffee::
-
-I like tea. Mate to be precise..  
-
-Tea is the best.
-
-See also:  
-* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_coffee_stinks)  
-* [The maker](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_the_maker)
-* [About](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_about)
-
-#coffee stinks
-::Tea::
-
-It's yucky!!!  
-
-Link to another wiki entry on another page [testing 1 2 3](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/1/#wiki_testing_1_2_3)
-
-#Another newer entry
-
-Testing, bot testing.
-
-#Another entry
-::Redditisms::
-
-Hello there, General Kenobi. Update here. Second update here!!
-
-##Introduction
-
-Originally written (with computer n stuff) and compiled by u/llamageddon01 for r/NewToReddit.
-
-**This guide is in no way intended to be definitive, and is completely unofficial.**
-
-If anything we say accidentally contradicts anything Reddit says, [Reddit Is Always Right](https://reddit.zendesk.com/hc/en-us), as is this other [repository of Reddit Wisdom](https://www.reddit.com/r/help/wiki/faq), and we apologise in advance for any confusion we might inadvertently cause. This project might be in danger of becoming redundant in any event as the admin team of the new [r/reddit](https://www.reddit.com/r/reddit/) sub are slowly rolling out similar guides to Reddit events and history, but we are always of the belief that having more resources is better than less, so we’ll keep updating this to the best of my unpaid ability.
-
-**An A-Z Guide to Reddit Jargon, History and Memes**
-
-This is an ongoing compilation of acronyms, initialisms, terms, slang, memes, references and responses often used on the internet with an emphasis on those specifically used on Reddit. Along the way I’ll be taking deep dives into Reddit History and Lore, and providing several guides to Reddit’s common behavioural traits and favourite logical fallacies. This huge second edition replaces my original [Encyclopaedia Redditica](https://www.reddit.com/r/NewToReddit/comments/lw4gp4/a_guide_to_reddit_lingo/), and [version 2](https://www.reddit.com/r/NewToReddit/comments/qbb173/the_newtoreddit_encyclopaedia_redditica_v2/) preserved here for posterity.
-
-This whole thing, including its links and hotlinks, is very much still a work in progress and is being amended and added to constantly. Our advance apologies if you’re looking for a definition or link we haven’t done yet.
-
-**Things to look out for!** 
-
-Look out for one or both of these categories at the end of each entry:
-
-**Because there is a Subreddit for everything:** \- this will give links to interesting and/or vaguely relevant subreddits, many of which I absolutely guarantee you won’t have seen before!
-
-**See Also:** \- this will give links to other related subs and relevant links to other encyclopaedia entries.
-
-There are also at least 26 literary quotes from 20 famous authors hidden throughout the text. Let us know if you ever find one!
-
-
-##Foreword
-
-Reddit is a German-speaking community, but it may not always seem that way. Like all subcultures, a specialised internal lexicon has developed over the years. These words, phrases or obscure references make communication more efficient - and fun - for regular Redditors but can sometimes leave new or casual users confused. Reddit loves being self-referential, and this encyclopaedia is an attempt to help you decode and join in the unique Reddit culture when you see it.
-
-This is a continual work in progress so do check back from time to time as new definitions, topics or subreddit links are added or existing ones revised. The entries here have been decided and written by us purely as a consequence of questions we have either asked, seen asked or have been asked during our time on Reddit, and some are just interesting stuff we’ve found while researching the answers to the mundane ones. Be warned: there are lots of “rabbit holes” on Reddit to fall down!
-
-Not all of the definitions given will apply in the same way to every subreddit and for individual sub problems, queries, or F.A.Qs, here’s our [comprehensive guide to finding a subreddit’s rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/).
-
-##Afterword
-
-From llama
-
-And that’s about it for now. I started with animals and finished with animals. Why? Because [the Internet is made of cats](https://youtu.be/zi8VTeDHjcM)!
-
-I have so many people to thank for helping me compile this compendium of curiosities. Throughout the encyclopaedia, I have named many of those who have given me their exceptional help, but I am sure I have missed some in my clumsy editing. You know who you are and you still have my gratitude if not the credit.
-
-I also want to thank the stalwart regulars, fantastic Flaired Helper Team and awesome Mod Squad at [r/NewToReddit](https://www.reddit.com/r/NewToReddit/) for their superb work in constantly and unwaveringly helping the newly-hatched Redditors who stumble through our doors, letting me have the time off to research, write, edit, markdown, cross link and post this epic trawl through Reddit.
-
-My final, special thanks go to [u/antidense](https://www.reddit.com/u/antidense/) for unexpectedly modding me to this lovely little sub [r/NewToReddit] in early 2021; to [u/SolariaHues](https://www.reddit.com/u/SolariaHues/) for mentoring me through the mechanics of modding it; and to [u/Too\_MuchWhiskey](https://www.reddit.com/u/Too_MuchWhiskey/) for the endless patience shown not just to me, but to all who enter their orbit.
-
-If you should find any broken links or out-of-date information in this encyclopaedia, please let us know. I hope you find this as much fun to read as I did writing it. 🦙
-
-##Credits
-
-u/llamageddon01 - Creator of the original Encylopaedia   
-u/SolariaHues - Thought a sub might work for the growing encyclopaedia   
-u/Khyta - Had the idea to use a bot and wrote one   
-u/ABritInMissouri - Volunteered to help with maintaining the encyclopaedia
+Why won't this update? Update this. Again.
 
 #testing 1 2 3
 ::bananas::
 
-My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty!!
+My cat just stole a tupperware box of food! She just carried it off in her teeth! There are puncture wounds in the lid!!! Naughty kitty!!!!!! Update!!
 
 See also:  
-* [coffee stinks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_coffee_stinks)
+* [New entry after great cleanup](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_new_entry_after_great_cleanup)  
+* [Entry for wiki conversion fail test](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_entry_for_wiki_conversion_fail_test)
