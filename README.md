@@ -82,14 +82,14 @@ exist yet in the subreddit.
 
 The following limitations are planned to be fixed in the future.
 
-- [ ] Currently, the user has to specify which wiki page to use for the bot to work.
+- [x] Currently, the user has to specify which wiki page to use for the bot to work.
 It is planned to automate this process in the future and include a command to
 exclude specific wiki pages from the bot. 
 - [x] The bot currently does not check for duplicate posts and wiki edits.
-- [ ] The bot does not throw an error via modmail or other reddit specific
+- [x] The bot does not throw an error via modmail or other reddit specific
   communications if something goes wrong.
-- [ ] The bot does not make periodic posts and has to be started manually.
-- [ ] The links between wikis are currently not translated to links between
+- [x] The bot does not make periodic posts and has to be started manually.
+- [x] The links between wikis are currently not translated to links between
   posts.
   
 
