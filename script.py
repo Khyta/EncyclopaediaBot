@@ -583,29 +583,56 @@ if __name__ == '__main__':
     wiki_page_ids = ['1', '2']
 
     failed_ids = []
+    least_active_times = []
 
-    t0 = time.time()
     for page_id in wiki_page_ids:
         least_activity = get_least_wiki_activity(page_id, reddit)
-        log.info(f'Wiki page {page_id} least active at {least_activity}')
-        result = handle_wiki_page(page_id, reddit)
-        # log.info(f'Result: {result}')
-        if result is not None:
-            failed_ids.extend(result)
-            # log.info(f'Failed ids: {failed_ids}')
+        # failed_ids = failed_ids + [post_ids[i]]
+        least_active_times = least_active_times + [least_activity]
+        average_least_activity = int(statistics.mean(least_active_times))
 
-    if len(failed_ids) > 0:
-        log.error(f'The following posts failed wiki conversion: {failed_ids}. Trying again...')
-        refailed_ids = wiki_to_post_link(reddit, csv_to_dict(), failed_ids)
-        if len(refailed_ids) > 0:
-            log.error(f'The following posts failed wiki link to post conversion: {failed_ids} again. Sending modmail to mods.')
-            clickable_ids = [f'https://redd.it/{id}' for id in failed_ids]
-            fancy_list = '\n'.join([f'* {id}' for id in clickable_ids])
-            message = f'The following posts failed wiki link to post link conversion:\n\n {fancy_list} \n\nPlease check the wiki page for any broken links to non-existing entries and try again.'
-            subject = 'Wiki to post link conversion failed'
-            send_modmail(reddit, subject, message)
+    # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
 
-    t1 = time.time()
-    total = round(t1-t0, 3)
+    while True:
+        if datetime.datetime.now().hour == average_least_activity:
+            t0 = time.time()
+            for page_id in wiki_page_ids:
+                result = handle_wiki_page(page_id, reddit)
+                # log.info(f'Result: {result}')
+                if result is not None:
+                    failed_ids.extend(result)
+                    # log.info(f'Failed ids: {failed_ids}')
 
-    log.info(f'Finished processing wiki pages in {total} seconds')
+            if len(failed_ids) > 0:
+                log.error(f'The following posts failed wiki conversion: {failed_ids}. Trying again...')
+                refailed_ids = wiki_to_post_link(reddit, csv_to_dict(), failed_ids)
+                if len(refailed_ids) > 0:
+                    log.error(f'The following posts failed wiki link to post conversion: {failed_ids} again. Sending modmail to mods.')
+                    clickable_ids = [f'https://redd.it/{id}' for id in failed_ids]
+                    fancy_list = '\n'.join([f'* {id}' for id in clickable_ids])
+                    message = f'The following posts failed wiki link to post link conversion:\n\n {fancy_list} \n\nPlease check the wiki page for any broken links to non-existing entries and try again.'
+                    subject = 'Wiki to post link conversion failed'
+                    send_modmail(reddit, subject, message)
+
+            for page_id in wiki_page_ids:
+                least_activity = get_least_wiki_activity(page_id, reddit)
+                least_active_times = least_active_times + [least_activity]
+                average_least_activity = int(statistics.mean(least_active_times))
+            
+            t1 = time.time()
+            total = round(t1-t0, 3)
+
+            log.info(f'Finished processing wiki pages in {total} seconds')
+            time.sleep(3601)
+        else:
+            log.info(f'Waiting for wiki pages to be least active at {average_least_activity}:00 (24h format)')
+            # Sleep time in seconds until the average_least_activity hour
+            current_time = datetime.datetime.now()
+            target_time = current_time.replace(hour=average_least_activity, minute=0, second=0, microsecond=0)
+
+            if target_time < current_time:
+                target_time = target_time + datetime.timedelta(days=1)
+
+            sleep_time = round(abs((target_time - current_time).total_seconds()))
+            log.info(f'Sleeping for {sleep_time} seconds...')
+            time.sleep(sleep_time)
