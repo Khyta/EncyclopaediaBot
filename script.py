@@ -524,6 +524,15 @@ def get_least_wiki_activity(wiki_page_id, reddit):
 
     return least_activity
 
+def get_wiki_stats():
+    # This function returns the current number of entries in the wiki
+
+    with open('post_info.csv', 'r') as infile:
+        reader = csv.reader(infile)
+        wiki_stats = len(list(reader))
+
+    return wiki_stats
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
