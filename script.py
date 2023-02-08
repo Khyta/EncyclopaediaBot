@@ -511,16 +511,11 @@ def get_least_wiki_activity(wiki_page_id, reddit):
     for revision in revisions:
         revision_dates.append(revision['timestamp'])
 
-    # Convert all UNIX timestamps to datetime objects
     revision_dates = [datetime.datetime.fromtimestamp(x) for x in revision_dates]
 
-    # Look at the hours and minutes of the revision dates and take the mean of
-    # them to get the average time of the revisions.
     hours = [x.hour for x in revision_dates]
     mean_hour = int(statistics.mean(hours))
 
-    # Subtract 12 hours from the mean_hour time to get the time where the wiki is
-    # least likely to be edited. Be careful with negative numbers.
     if mean_hour > 12:
         least_activity = mean_hour - 12
     else:
