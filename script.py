@@ -10,6 +10,7 @@ import numpy as np
 import hashlib
 import logging as log
 import datetime
+import pytz
 import statistics
 from dotenv import load_dotenv
 
@@ -634,14 +635,16 @@ if __name__ == '__main__':
             log.info(f'Finished processing wiki pages in {total} seconds')
             time.sleep(3601)
         else:
-            log.info(f'Waiting for wiki pages to be least active at {average_least_activity}:00 (24h format)')
-            # Sleep time in seconds until the average_least_activity hour
-            current_time = datetime.datetime.now()
+            # log.info(f'Waiting for wiki pages to be least active at {average_least_activity}:00 (24h format)')
+            current_time = datetime.datetime.now(pytz.UTC)
             target_time = current_time.replace(hour=average_least_activity, minute=0, second=0, microsecond=0)
 
             if target_time < current_time:
                 target_time = target_time + datetime.timedelta(days=1)
 
-            sleep_time = round(abs((target_time - current_time).total_seconds()))
-            log.info(f'Sleeping for {sleep_time} seconds...')
+            sleep_time = round(abs((target_time - current_time).total_seconds())) + 1
+
+            wake_up_time = current_time + datetime.timedelta(seconds=sleep_time)
+            wake_up_time_str = wake_up_time.strftime('%d.%m.%Y %H:%M:%S %Z')
+            log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
