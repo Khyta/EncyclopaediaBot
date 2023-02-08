@@ -28,10 +28,15 @@ This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
 - `re`
 - `time`
 - `csv`
+- `glob`
 - `pandas`
 - `numpy`
 - `hashlib`
 - `dotenv`
+- `logging`
+- `datetime`
+- `pytz`
+- `statistics`
 
 ## Quick Setup
 
