@@ -101,4 +101,5 @@ Without these wonderful people, this project would not have been possible.
 - [u/SolariaHues](https://www.reddit.com/user/SolariaHues) for helping to overcome limitations and testing the
   bot.
 - [u/Nugget_MacChicken](https://www.reddit.com/user/Nugget_MacChicken) for technical support and ideas.
-- [LarsZauberer](https://github.com/LarsZauberer) on GitHub for technical support and ideas.
+- [LarsZauberer](https://github.com/LarsZauberer) on GitHub for in-depth technical support and ideas.
+- [u/prettyoaktree](https://www.reddit.com/user/prettyoaktree) for technical support and ideas.
