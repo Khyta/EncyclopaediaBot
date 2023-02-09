@@ -648,6 +648,6 @@ if __name__ == '__main__':
             wake_up_time_str = wake_up_time.strftime('%d.%m.%Y %H:%M:%S %Z')
             message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
             subject = f'Next wiki check at {wake_up_time_str}'
-            # send_modmail(reddit, subject, message)
+            send_modmail(reddit, subject, message)
             log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
