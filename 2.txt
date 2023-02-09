@@ -444,3 +444,34 @@ Strawberries
 Mangoes!
 
 Link to another entry on the same page [Amazing](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_amazing)
+
+---
+
+T
+===
+
+#Testing more new stuff
+
+##Literally anything
+
+Then just begin rambling on
+
+Linking to [The awesome stuffs](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8rpt4/)
+
+---
+
+F
+===
+
+#“Fake-Out” Subreddits
+
+Because there is a Subreddit for everything, we have a fine selection of parody subreddits to peruse. Subreddits that exist not for participating in but quite the opposite include:
+
+* r/Amish
+* r/GermanHumor
+* r/GoodCardiBSongs
+* r/thingsjonsnowknows
+
+There are more of these; there will always be more of these. Let me know if you find any!
+
+---

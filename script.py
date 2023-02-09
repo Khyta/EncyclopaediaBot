@@ -24,14 +24,14 @@ second_delay = 5
 
 fractional_delay = second_delay/100
 
-now = datetime.datetime.now()
+now = datetime.datetime.now(pytz.UTC)
 filename = now.strftime("%d-%m-%Y %H_00") + '.log'
 
 logger = log.getLogger()
 logger.setLevel(log.INFO)
 handler = log.FileHandler(filename)
 handler.setLevel(log.INFO)
-formatter = log.Formatter('%(asctime)s - %(levelname)s: %(message)s', datefmt='%d-%m-%Y %H:%M:%S')
+formatter = log.Formatter('%(asctime)s - %(levelname)s: %(message)s', datefmt='%d.%m.%Y %H:%M:%S %Z')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
@@ -512,7 +512,7 @@ def get_least_wiki_activity(wiki_page_id, reddit):
     for revision in revisions:
         revision_dates.append(revision['timestamp'])
 
-    revision_dates = [datetime.datetime.fromtimestamp(x) for x in revision_dates]
+    revision_dates = [datetime.datetime.utcfromtimestamp(x) for x in revision_dates]
 
     hours = [x.hour for x in revision_dates]
     mean_hour = int(statistics.mean(hours))
@@ -604,7 +604,7 @@ if __name__ == '__main__':
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
 
     while True:
-        if datetime.datetime.now().hour == average_least_activity:
+        if datetime.datetime.now(pytz.UTC).hour == average_least_activity:
             t0 = time.time()
             for page_id in wiki_page_ids:
                 result = handle_wiki_page(page_id, reddit)
@@ -648,6 +648,6 @@ if __name__ == '__main__':
             wake_up_time_str = wake_up_time.strftime('%d.%m.%Y %H:%M:%S %Z')
             message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
             subject = f'Next wiki check at {wake_up_time_str}'
-            send_modmail(reddit, subject, message)
+            # send_modmail(reddit, subject, message)
             log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
