@@ -25,6 +25,7 @@ Why won't this update? Update this. Again. And again.
 See also:  
 
 * [100! Factorial](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_100.21_factorial)
+* [Piping | Cool stuff](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_piping_.7C_cool_stuff)
 
 #testing 1 2 3
 ::bananas::
@@ -36,7 +37,6 @@ See also:
 * [New entry after great cleanup](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_new_entry_after_great_cleanup)  
 * [Entry for wiki conversion fail test](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_entry_for_wiki_conversion_fail_test)
 * [Dollars $](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_dollars_.24)  
-* [Piping | Cool stuff](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_piping_.7C_cool_stuff)
 
 #I like yoda
 ::Star Wars::
@@ -46,8 +46,13 @@ He is a very cool Star Wars character.
 #Smosh
 ::YouTube::
 
-Smosh is a comedic YouTube channel that I personally like to watch.
+Smosh is a comedic YouTube channel that I personally like to watch!
 
 See also:  
 
 * [Courtney? Courtney Miller? What?](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_courtney.3F_courtney_miller.3F_what.3F)
+
+#Cats are cool
+::Animals::
+
+Fluffy things.

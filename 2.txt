@@ -21,16 +21,24 @@ Some link to a non-issue causing entry that should be converted to a post upon c
 
 #New Test post to see if anything broke
 
-I don't think so
+I don't think so. I hope so.
+
+#Sony makes good ANC Headphones
+
+I like their in-Ear one especially.
+
+This is not an ad.
+
+#New entry after great cleanup
+::Redditisms::
+
+Yes
 
 See also:  
 * [Single 'Quotation' marks](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/2/#wiki_single_.27quotation.27_marks)
 
-#New entry after great cleanup
-
-Yes
-
 #Entry for wiki conversion fail test
+::Wiki::
 
 Yes 2x
 
