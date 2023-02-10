@@ -51,6 +51,46 @@ def get_wiki_page(reddit, page_id):
     page = reddit.subreddit(sub_name).wiki[page_id]
     return page.content_md
     
+def url_encoding(heading):
+    # This function converts the heading that may contain special characters in
+    # a reddit post link to a format that can be used in a wiki link. For
+    # example, it will convert / to .2F. Sadly the percent encoding does not
+    # work as reddit uses . instead of % for some reason.
+    heading = heading.lower()
+    heading = heading.replace(' ', '_')
+    heading = heading.replace('/', '.2F')
+    heading = heading.replace('\\', '.5C')
+    heading = heading.replace('?', '.3F')
+    heading = heading.replace('!', '.21')
+    heading = heading.replace('“', '.201C')
+    heading = heading.replace('”', '.201D')
+    heading = heading.replace('"', '.22')
+    heading = heading.replace("'", '.27')
+    heading = heading.replace('’', '.2019')
+    heading = heading.replace('`', '.60')
+    heading = heading.replace('@', '.40')
+    heading = heading.replace(':', '.3A')
+    heading = heading.replace(';', '.3B')
+    heading = heading.replace('(', '.28')
+    heading = heading.replace(')', '.29')
+    heading = heading.replace(',', '.2C')
+    heading = heading.replace('#', '.23')
+    heading = heading.replace('~', '.7E')
+    heading = heading.replace('$', '.24')
+    heading = heading.replace('%', '.25')
+    heading = heading.replace('&', '.26amp.3B')
+    heading = heading.replace('+', '.2B')
+    heading = heading.replace('<', '.26lt.3B')
+    heading = heading.replace('>', '.26gt.3B')
+    heading = heading.replace('=', '.3D')
+    heading = heading.replace('{', '.7B')
+    heading = heading.replace('}', '.7D')
+    heading = heading.replace('[', '.5B')
+    heading = heading.replace(']', '.5D')
+    heading = heading.replace('^', '.5E')
+    heading = heading.replace('|', '.7C')
+
+    return heading
 
 def replace_links(content):
     # This function replaces all the links that link to a comment section to a
