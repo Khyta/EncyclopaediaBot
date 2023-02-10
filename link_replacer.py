@@ -46,6 +46,10 @@ def reddit_login():
     )
     return reddit
 
+def get_wiki_page(reddit, page_id):
+    # This function gets the wiki page with the given ID.
+    page = reddit.subreddit(sub_name).wiki[page_id]
+    return page.content_md
 
 if __name__ == '__main__':
     fetch_env()
