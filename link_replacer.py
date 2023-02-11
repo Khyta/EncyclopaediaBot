@@ -95,23 +95,22 @@ def url_encoding(heading):
 def replace_links(content):
     # This function replaces all the links that link to a comment section to a
     # wiki link based on the first text character of the link text (excluding
-    # special characters).
+    # special characters). The link text is used after the /wiki/number/wiki_converted_text_link
     new_content = content
 
     # This regex matches all the links that link to a comment section.
-    regex = r'/\[([^\[\]]+)\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/comments\/qbb173[^\)]+\)/gm'
+    regex = r'\[(.*?)\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/comments\/qbb173[^\)]+\)'
     matches = re.findall(regex, content)
+    print(matches)
 
     for match in matches:
-        # This regex matches all the special characters at the beginning of the
-        # link text.
-        regex = r'^[^a-zA-Z]+'
-        special_chars = re.findall(regex, match)
-
         # This regex matches all the characters that are not special characters
         # at the beginning of the link text.
         regex = r'[^a-zA-Z]+(.+)'
         link_text = re.findall(regex, match)
+        # print(link_text)
+
+        converted_link_text = url_encoding(match)
 
         if link_text:
             # If the link text contains any characters that are not special
@@ -122,7 +121,8 @@ def replace_links(content):
             if first_char in mapping:
                 # If the first character of the link text is a letter, then we
                 # can replace the link with a wiki link.
-                new_link = f'[{match}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]})'
+                new_link = f'[{match}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/{converted_link_text})'
+                print(new_link)
                 new_content = new_content.replace(match, new_link)
             else:
                 pass
@@ -135,10 +135,13 @@ def handle_wiki_page(page_id, reddit):
     # The main function that handles the wiki page.
 
     content = get_wiki_page(reddit, page_id)
+    # print(content)
 
     new_content = replace_links(content)
+    # print(new_content)
 
-    reddit.subreddit(sub_name).wiki[page_id].edit(new_content)
+    reddit.subreddit(sub_name).wiki[page_id].edit(content=new_content)
+    print(f'Edited wiki page {page_id}.')
 
 if __name__ == '__main__':
     fetch_env()
