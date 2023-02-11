@@ -117,12 +117,19 @@ def replace_links(content):
         complete_link = match.group(0)
         log.info(f'Complete link: {complete_link}')
         link_text = match.group(1)
-        log.info(f'Link text: {link_text}')
+        # log.info(f'Link text: {link_text}')
 
         converted_link_text = url_encoding(link_text)
-        log.info(f'Converted link text: {converted_link_text}')
+        # log.info(f'Converted link text: {converted_link_text}')
+
+        # Idea: Work with the complete_link to get the first character for the
+        # mapping. Use RegEx to get the first character of the complete_link. 
+        pattern = re.compile(r'[a-zA-Z]')
+        first_char = pattern.search(complete_link)
+        first_char = first_char.group(0)
+        # log.info(f'First character: {first_char}')
     
-        first_char = link_text[0].upper()
+        first_char = first_char.upper()
         if first_char in mapping: # BUG this does not take into consideration the case where the first character is not in the alphabet
             new_link_text = f'[{link_text}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/#wiki_{converted_link_text})'
             log.info(f'New link text: {new_link_text}')
