@@ -103,44 +103,32 @@ def url_encoding(heading):
     return heading
 
 def replace_links(content):
-    # This function replaces all the links that link to a comment section to a
-    # wiki link based on the first text character of the link text (excluding
-    # special characters). The link text is used after the /wiki/number/wiki_converted_text_link
     new_content = content
 
     # This regex matches all the links that link to a comment section.
     regex = r'\[(.*?)\]\(https:\/\/www\.reddit\.com\/r\/NewToReddit\/comments\/qbb173[^\)]+\)'
-    matches = re.findall(regex, content)
-    log.info(f'Found {len(matches)} matches: {matches}')
+    matches = re.finditer(regex, content)
+    log.info(f'{matches}')
 
     for match in matches:
-        # This regex matches all the characters that are not special characters
-        # at the beginning of the link text.
-        regex = r'[^a-zA-Z]+(.+)'
-        link_text = re.findall(regex, match)
+        complete_link = match.group(0)
+        log.info(f'Complete link: {complete_link}')
+        link_text = match.group(1)
         log.info(f'Link text: {link_text}')
 
-        converted_link_text = url_encoding(match)
+        converted_link_text = url_encoding(link_text)
         log.info(f'Converted link text: {converted_link_text}')
-
-        if link_text:
-            # If the link text contains any characters that are not special
-            # characters, then we can use the first character of the link text
-            # to replace the link.
-            link_text = link_text[0]
-            first_char = link_text[0].upper()
-            if first_char in mapping:
-                # If the first character of the link text is a letter, then we
-                # can replace the link with a wiki link.
-                new_link = f'[{match}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/#wiki_{converted_link_text})'
-                log.info(f'New link: {new_link}')
-                new_content = new_content.replace(match, new_link)
-            else:
-                pass
+    
+        first_char = link_text[0].upper()
+        if first_char in mapping: # BUG this does not take into consideration the case where the first character is not in the alphabet
+            new_link_text = f'[{link_text}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/#wiki_{converted_link_text})'
+            log.info(f'New link text: {new_link_text}')
+            new_content = new_content.replace(complete_link, new_link_text)
         else:
             pass
 
     return new_content
+
 
 def handle_wiki_page(page_id, reddit):
     # The main function that handles the wiki page.
@@ -148,7 +136,7 @@ def handle_wiki_page(page_id, reddit):
     content = get_wiki_page(reddit, page_id)
 
     new_content = replace_links(content)
-    log.info(f'New content: {new_content}')
+    # log.info(f'New content: {new_content}')
 
     # reddit.subreddit(sub_name).wiki[page_id].edit(content=new_content)
     print(f'Edited wiki page {page_id}.')
