@@ -103,6 +103,9 @@ def url_encoding(heading):
     return heading
 
 def replace_links(content):
+    # This function replaces all the links that lead to a comment section with
+    # the corresponding wiki link. The first character of the link text dictates
+    # in which wiki page the link should be placed.
     new_content = content
 
     # This regex matches all the links that link to a comment section.
