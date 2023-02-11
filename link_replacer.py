@@ -121,7 +121,7 @@ def replace_links(content):
             if first_char in mapping:
                 # If the first character of the link text is a letter, then we
                 # can replace the link with a wiki link.
-                new_link = f'[{match}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/{converted_link_text})'
+                new_link = f'[{match}](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/{mapping[first_char]}/#wiki_{converted_link_text})'
                 print(new_link)
                 new_content = new_content.replace(match, new_link)
             else:
