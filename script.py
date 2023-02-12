@@ -132,8 +132,8 @@ def get_post_sections(content):
     titles = list(np.concatenate(titles).flat)  # Flatten the titles list
     titles = [title.strip() for title in titles]
     titles = [str(x).replace('#', '', 1) for x in titles]  # Format the titles
-    flairs = [str(x).replace('[', '').replace(']', '').replace(
-        ':', '').replace("'", '') for x in flairs]  # Format the flairs
+    flairs = [str(x).replace(':', '') for x in flairs]  # Format the flairs
+    flairs = list(np.concatenate(flairs).flat)  # Flatten the flairs list
     # Remove the first newline
     posts = [post[1:] if post.startswith('\n') else post for post in posts]
     # Remove the horizontal rule
@@ -590,7 +590,7 @@ if __name__ == '__main__':
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1', '2']
+    wiki_page_ids = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     failed_ids = []
     least_active_times = []
