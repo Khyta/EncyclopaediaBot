@@ -91,7 +91,7 @@ A link posted when you find an unintentional swastika shape in logos and designs
 
 **See Also:**
 
-* [theyknew](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3d4l/?utm_source=share&utm_medium=web2x&context=3) (encyclopaedia)
+* [theyknew](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_theyknew) (encyclopaedia)
 * [r/theyknew](https://www.reddit.com/r/theyknew/) (subreddit)
 
 ---
@@ -105,9 +105,9 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 
 **See Also:**
 
-* [Hacked Accounts](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8yldo/)
-* [Passwords](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhclzvw/)
-* [Suspicious Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2734/)
+* [Hacked Accounts](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hacked_accounts)
+* [Passwords](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_passwords)
+* [Suspicious Activity](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_suspicious_activity)
 
 ---
 
@@ -116,7 +116,7 @@ If you believe your account to have been hacked, [here are Reddit’s guidelines
 
 On some subreddits, you might notice you have [mystery awards](https://www.reddit.com/r/NewToReddit/comments/t2z8xm/what_is_this_award_for/) which add a little sprite next to your username, which, once clicked reveal titles such as "Avid Voter" or "Prolific Commenter".
 
-These aren’t [Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhj0ui/) or even [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/) in the traditional Reddit sense, but are actually [Achievements](https://i.redd.it/1p0sqrimwwr81.jpg) automatically conferred on anyone who contributes to a [powered-up community](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/).
+These aren’t [Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_awards) or even [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies) in the traditional Reddit sense, but are actually [Achievements](https://i.redd.it/1p0sqrimwwr81.jpg) automatically conferred on anyone who contributes to a powered-up community. See: [Powerups](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_powerups).
 
 There are two types of achievements; [the first](https://i.redd.it/3cyg5erh9xr81.jpg) are given to anyone posting or commenting in a powered up community, and [the second](https://i.redd.it/2rikg1iw9xr81.jpg) are for those who do the powering-up for that community. You can see yours by either clicking on the icons next to your username or by viewing your profile (on mobile; I don’t know if it works on desktop) while you’re in that community.
 
@@ -124,9 +124,9 @@ You won’t see these achievements outside the powered-up subreddit either next 
 
 **See Also:**
 
-* [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/)
-* [Powerups](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/)
-* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/)
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [Powerups](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_powerups)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
 
 ---
 
@@ -135,84 +135,84 @@ You won’t see these achievements outside the powered-up subreddit either next 
 
 Some of our specialised communities have a wide acronym language of their own, and I’ve listed some in the **See Also:** section below.
 
-* [AITA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh0ub/) \- Am I The Asshole
-* [AFAIK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhgwh0/) \- As Far As I Know
-* [AMA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhani/) \- Ask Me Anything
-* [CMV](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8lln/) \- Change My View
-* [CW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4vgj/?utm_source=share&utm_medium=web2x&context=3) \- Content Warning
-* [DAE](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8q0b2/) \- Does Anybody Else
-* [DM](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhif83y/) \- Direct Message
-* [ELI5](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8rah1/) \- Explain Like I'm 5 (years old)
-* [ESH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiim4g/) \- Everyone Sucks Here
-* [ESL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiipht/) \- English (is my) Second Language
-* [ETA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiizwi/) \- Edited To Add
-* [FTFY](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhisqoi/) \- Fixed That For You
-* [FWIW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhisyc1/) \- For What It’s Worth
+* [AITA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_aita) \- Am I The Asshole
+* [AFAIK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_afaik) \- As Far As I Know
+* [AMA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_ama) \- Ask Me Anything
+* [CMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cmv) \- Change My View
+* [CW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cw) \- Content Warning
+* [DAE](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dae) \- Does Anybody Else
+* [DM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dm) \- Direct Message
+* [ELI5](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eli5) \- Explain Like I'm 5 (years old)
+* [ESH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esh) \- Everyone Sucks Here
+* [ESL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esl) \- English (is my) Second Language
+* [ETA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta) \- Edited To Add
+* [FTFY](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ftfy) \- Fixed That For You
+* [FWIW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fwiw) \- For What It’s Worth
 * GTFO - Get The Fuck Out
-* [IAmA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh94t3m/) \- I Am A
-* [IANAD](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh94xsm/) \- I Am Not A Doctor
-* [IANAL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh951yl/) \- I Am Not A Lawyer
-* [ICYMI](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh955su/) \- In Case You Missed It
-* [IDC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh959c0/) \- I Don’t Care
-* [IDEK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlduvu/) \- I Don’t Even Know
-* [IDK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhldyoa/) \- I Don’t Know
-* [IIRC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhle6qk/) \- If I Recall/Remember Correctly
+* [IAmA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iama) \- I Am A
+* [IANAD](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianad) \- I Am Not A Doctor
+* [IANAL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianal) \- I Am Not A Lawyer
+* [ICYMI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_icymi) \- In Case You Missed It
+* [IDC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idc) \- I Don’t Care
+* [IDEK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idek) \- I Don’t Even Know
+* [IDK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idk) \- I Don’t Know
+* [IIRC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iirc) \- If I Recall/Remember Correctly
 * IME - In My Experience
 * IMHO - In My Honest/Humble Opinion
-* [IMO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhled9q/) \- In My Opinion
-* [IRL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlexve/) \- In Real Life
+* [IMO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_imo) \- In My Opinion
+* [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl) \- In Real Life
 * IRTR - I Read The Rules (mandatory in post titles or first comment for some subs)
-* [ITAP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlf0yo/) \- I Took A Picture
-* [LDR](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh9banm/) \- Long Distance Relationship
-* [LPT](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho5z6a/) \- Life Pro Tip
+* [ITAP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_itap) \- I Took A Picture
+* [LDR](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ldr) \- Long Distance Relationship
+* [LPT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_lpt) \- Life Pro Tip
 * MH - Mental Health
 * MFW - My Face/Feeling When
-* [MRW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho8kqu/) \- My Reaction When
-* [MSM](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho9nmq/) \- Mainstream Media
-* [NAH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha83ca/) \- No Assholes Here
-* [NGL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp6lez/) \- Not Gonna Lie
-* [NSFL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7ers/) \- Not Safe For Life (gory or extreme content)
-* [NSFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7iml/) \- Not Safe For Work (sexual content or profanity)
-* [NTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp7ow2/) \- Not The Asshole
-* [OC](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhadwhi/) \- Original Content
-* [OP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhpzxry/) \- Original Poster (the person who started the thread)
-* [OTP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhq0cnu/) \- One True Pairing
-* [PGP](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcmerj/) \- Personal Gender Pronoun
-* [PSA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqx794/) \- Public Service Announcement
-* [RES](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhskacx/) \- Reddit Enhancement Suite
-* [RL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsl0eo/) \- Real Life
+* [MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mrw) \- My Reaction When
+* [MSM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_msm) \- Mainstream Media
+* [NAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nah) \- No Assholes Here
+* [NGL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_ngl) \- Not Gonna Lie
+* [NSFL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfl) \- Not Safe For Life (gory or extreme content)
+* [NSFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfw) \- Not Safe For Work (sexual content or profanity)
+* [NTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nta) \- Not The Asshole
+* [OC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_oc) \- Original Content
+* [OP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_op) \- Original Poster (the person who started the thread)
+* [OTP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_otp) \- One True Pairing
+* [PGP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pgp) \- Personal Gender Pronoun
+* [PSA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_psa) \- Public Service Announcement
+* [RES](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_res) \- Reddit Enhancement Suite
+* [RL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rl) \- Real Life
 * RTFR - Read The Forum/Fucking Rules
-* [SFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcqxrr/) \- Safe For Work
+* [SFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sfw) \- Safe For Work
 * SJW - Social Justice Warrior (usually an insult)
 * SRS - Shit Reddit Says
-* [SMH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0lvg/) \- Shaking My Head
-* [SO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0yht/) \- Significant Other
-* [TBH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcvk7y/) \- To Be Honest
-* [TFW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu2xdi/) \- The/That Feeling When
-* [TIAH](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3pn2/) \- Today I Am Happy
-* [TID](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3r1x/) \- Today I Discovered
-* [TIHI](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3sch/) \- Thanks, I Hate It
-* [TIFU](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3u6t/) \- Today I Fucked Up
-* [TIL](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3vv6/) \- Today I Learned
-* [TL;DR:](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4chm/) \- Too Long; Didn't Read
+* [SMH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_smh) \- Shaking My Head
+* [SO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_so) \- Significant Other
+* [TBH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tbh) \- To Be Honest
+* [TFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tfw) \- The/That Feeling When
+* [TIAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tiah) \- Today I Am Happy
+* [TID](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tid) \- Today I Discovered
+* [TIHI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tihi) \- Thanks, I Hate It
+* [TIFU](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tifu) \- Today I Fucked Up
+* [TIL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_til) \- Today I Learned
+* [TL;DR:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tl.3Bdr.3A) \- Too Long; Didn't Read
 * TMA - Take My Appreciation (rarely used these days)
-* [TOMT](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4jva/) \- Tip Of My Tongue
-* [TW](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4vgj/) \- Trigger Warning
-* [WIBTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujs40/) \- Would I Be The Asshole
-* [YMMV](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcybsb/) \- Your Mileage May Vary
-* [YOLO](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhukj4e/) \- You Only Live Once
-* [YSK](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul1uj/) \- You Should Know
-* [YTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul3ga/) \- You’re The Asshole
-* [YWBTA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhul4wb/) \- You Would Be The Asshole
+* [TOMT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tomt) \- Tip Of My Tongue
+* [TW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tw) \- Trigger Warning
+* [WIBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wibta) \- Would I Be The Asshole
+* [YMMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ymmv) \- Your Mileage May Vary
+* [YOLO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yolo) \- You Only Live Once
+* [YSK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ysk) \- You Should Know
+* [YTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yta) \- You’re The Asshole
+* [YWBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ywbta) \- You Would Be The Asshole
 
 There is one acronym you should always [report immediately](https://www.reddit.com/r/LearnToReddit/comments/qyxjyk/how_to_report/) if you see it being used and that is KYS. Originating in gaming communities, this is shorthand for “kill your self \[sic\]” as an “edgy” way to say “fuck you”. However, Reddit believes that suicide is a very serious subject and this kind of language should not be taken lightly. Inviting someone to commit suicide is against our code of conduct and may well incur a ban.
 
 **See Also:**
 
-* [Jargon](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhll1lb/)
-* [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhq07q5/)
-* [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsjswn/)
-* [Tone Indicators](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4nj9/)
+* [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
+* [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_other_useful_dictionaries.2C_encyclopaedias_and_lexicons)
+* [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
+* [Tone Indicators](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tone_indicators)
 
 ---
 
@@ -231,14 +231,14 @@ If you're anxious about what others can see on your account, you're welcome to c
 
 **See Also:**
 
-* [Alt](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhh2z2/?utm_source=share&utm_medium=web2x&context=3)
-* [Anonymous Browsing](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhu91/?utm_source=share&utm_medium=web2x&context=3)
-* [New Reddit; Old Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha8ay6/?utm_source=share&utm_medium=web2x&context=3)
-* [Notification](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp76f0/?utm_source=share&utm_medium=web2x&context=3)
-* [Statistics](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu1tb7/?utm_source=share&utm_medium=web2x&context=3)
+* [Alt](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_alt)
+* [Anonymous Browsing](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_anonymous_browsing)
+* [New Reddit; Old Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_reddit.3B_old_reddit)
+* [Notification](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_notification)
+* [Statistics](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_statistics)
 * [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
-* [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/?utm_source=share&utm_medium=web2x&context=3)
-* [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/?utm_source=share&utm_medium=web2x&context=3)
+* [Visibility](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_visibility)
+* [Vote Manipulation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_vote_manipulation)
 
 ---
 
@@ -255,12 +255,12 @@ Admin are the highest authority on Reddit. They can do everything a mod can do a
 
 **See Also:**
 
-* [Ban](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8m9e9/?utm_source=share&utm_medium=web2x&context=3)
-* [Banned](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhqe4t/?utm_source=share&utm_medium=web2x&context=3)
-* [Mod](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho93h7/?utm_source=share&utm_medium=web2x&context=3)
-* [Official Reddit Announcements](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhpyfeq/?utm_source=share&utm_medium=web2x&context=3)
-* [Reporting](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsk313/?utm_source=share&utm_medium=web2x&context=3)
-* [Snoo](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0qdk/?utm_source=share&utm_medium=web2x&context=3)
+* [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban)
+* [Banned](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_banned)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [Official Reddit Announcements](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_official_reddit_announcements)
+* [Reporting](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reporting)
+* [Snoo](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snoo)
 
 ---
 
@@ -271,11 +271,11 @@ You might occasionally come across a Subreddit that hasn’t been active in a lo
 
 **See Also:**
 
-* [Creating A Subreddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiakiy/?utm_source=share&utm_medium=web2x&context=3)
-* [“Is there really a subreddit for everything?”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhlezio/?utm_source=share&utm_medium=web2x&context=3)
-* [Mod](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho93h7/?utm_source=share&utm_medium=web2x&context=3)
-* [Restricted Subreddits](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhskft4/?utm_source=share&utm_medium=web2x&context=3)
-* [Subreddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu21or/?utm_source=share&utm_medium=web2x&context=3)
+* [Creating A Subreddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_creating_a_subreddit)
+* [“Is there really a subreddit for everything?”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cis_there_really_a_subreddit_for_everything.3F.201D)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [Restricted Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_restricted_subreddits)
+* [Subreddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_subreddit)
 
 ---
 
@@ -294,13 +294,13 @@ Please read [the official rules on using Reddit as a marketplace](https://www.re
 
 **See Also:**
 
-* [Ban](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8m9e9/?utm_source=share&utm_medium=web2x&context=3)
-* [Banned](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhqe4t/?utm_source=share&utm_medium=web2x&context=3)
-* [Rules](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhslm3u/?utm_source=share&utm_medium=web2x&context=3)
-* [Shill](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcsj0z/?utm_source=share&utm_medium=web2x&context=3)
-* [Sidebar](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0k0p/?utm_source=share&utm_medium=web2x&context=3)
-* [Spam](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu188g/?utm_source=share&utm_medium=web2x&context=3)
-* [Spambots](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu1bx6/?utm_source=share&utm_medium=web2x&context=3)
+* [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban)
+* [Banned](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_banned)
+* [Rules](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rules)
+* [Shill](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_shill)
+* [Sidebar](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sidebar)
+* [Spam](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_spam)
+* [Spambots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_spambots)
 
 ---
 
@@ -317,15 +317,15 @@ See strange and amusing adverts at [r/FunnyCommercials](https://www.reddit.com/r
 
 **See Also:**
 
-* [Reddit Premium](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsj6n6/)
-* [RES](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhskacx/)
+* [Reddit Premium](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_premium)
+* [RES](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_res)
 
 ---
 
 #Advice Subreddits  
 ::General Guides::
 
-Reddit has a plethora of Subreddits where you can crowdsource serious advice on family, relationship, legal, medical, financial or other issues, and you will find a starter list of these subreddits at “[Relationship and Advice Subreddits](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsjm7i/?utm_source=share&utm_medium=web2x&context=3)”.
+Reddit has a plethora of Subreddits where you can crowdsource serious advice on family, relationship, legal, medical, financial or other issues, and you will find a starter list of these subreddits at “[Relationship and Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_and_advice_subreddits)”.
 
 Subs of this nature are [tightly controlled](https://www.theatlantic.com/technology/archive/2019/10/reddit-moderation-relationships-subreddit-memes/600322/), but even so, some outcomes can go [terribly, terribly wrong](https://rareddit.com/r/relationship_advice/comments/5eez5c/update_lessons_and_how_you_can_help_re_the_case/). Sometimes, well-meaning Redditors will fall for scammers with [real-world consequences ensuing](https://www.reddit.com/r/SubredditDrama/comments/hj2bpg/user_in_rama_takes_the_piss_with_a_fake_cancer/).
 
@@ -333,16 +333,16 @@ Like everything, you should approach advice subreddits with a balance of healthy
 
 **See Also:**
 
-* [Blocking](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhrmz2/?utm_source=share&utm_medium=web2x&context=3)
-* [Direct Chat](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhie2g6/?utm_source=share&utm_medium=web2x&context=3)
-* [Direct Message](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiekt0/?utm_source=share&utm_medium=web2x&context=3)
-* [Financial Help on Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiqskr/?utm_source=share&utm_medium=web2x&context=3)
-* [LARP; LARPer](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh9b74x/?utm_source=share&utm_medium=web2x&context=3)
-* [Legal Advice on Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh9bpc9/?utm_source=share&utm_medium=web2x&context=3)
-* [Relationship Advice on Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsjfss/?utm_source=share&utm_medium=web2x&context=3)
-* [Relationship and Advice Subreddits](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsjm7i/?utm_source=share&utm_medium=web2x&context=3)
-* [Searching](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcqkre/?utm_source=share&utm_medium=web2x&context=3)
-* [Throwaway Account](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3nww/?utm_source=share&utm_medium=web2x&context=3)
+* [Blocking](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_blocking)
+* [Direct Chat](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_direct_chat)
+* [Direct Message](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_direct_message)
+* [Financial Help on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_financial_help_on_reddit)
+* [LARP; LARPer](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_larp.3B_larper)
+* [Legal Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_legal_advice_on_reddit)
+* [Relationship Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_advice_on_reddit)
+* [Relationship and Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_and_advice_subreddits)
+* [Searching](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_searching)
+* [Throwaway Account](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_throwaway_account)
 
 ---
 
@@ -370,11 +370,11 @@ Be warned that activity in this subreddit can earn you [a pre-emptive ban](https
 
 **See Also:**
 
-* [Content and Copyright](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhia8yc/)
-* [Preemptive Ban](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwr1l/)
-* [Privacy Issues](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwvwq/)
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [Preemptive Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_preemptive_ban)
+* [Privacy Issues](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_privacy_issues)
 * [Safety on Reddit](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ssyt6/)
-* [User-History Based Moderation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhui9rj/)
+* [User-History Based Moderation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_user-history_based_moderation)
 
 ---
 
@@ -406,13 +406,13 @@ Reddit, as you would expect, takes Newton's Flaming Laser Sword [Very Seriously 
 
 **See Also:**
 
-* [Cognitive Biases and Logical Fallacies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8q57/)
-* [Confirmation Bias](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhia1a3/)
-* [Eponymous Laws](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiiesf/)
-* [Internet Adages](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhleky9/)
-* [Logical Fallacies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho69q8/)
-* [Pedant; Pedantry](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcm6su/)
-* [Philosophical Razors](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/icg6kj3/)
+* [Cognitive Biases and Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cognitive_biases_and_logical_fallacies)
+* [Confirmation Bias](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_confirmation_bias)
+* [Eponymous Laws](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eponymous_laws)
+* [Internet Adages](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_internet_adages)
+* [Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_logical_fallacies)
+* [Pedant; Pedantry](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pedant.3B_pedantry)
+* [Philosophical Razors](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_philosophical_razors)
 
 ---
 
@@ -433,17 +433,17 @@ If you do have an Alt (or Alts) the safest thing is to ensure they never even po
 
 **See Also:**
 
-* [Accidental Alt](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8ctxc/)
-* [Admin](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8kb0q/)
-* [Ban](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8m9e9/)
-* [Ban Evasion](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/i4au58g/)
-* [Banned](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhqe4t/)
-* [Custom Feed](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhibegc/)
-* [Karma Farming](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh96swb/)
-* [Private Subreddits](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwyx6/)
-* [Throwaway Account](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu3nww/)
-* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/)
-* [Vote Manipulation](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhujb0m/)
+* [Accidental Alt](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_accidental_alt)
+* [Admin](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_admin)
+* [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban)
+* [Ban Evasion](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban_evasion)
+* [Banned](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_banned)
+* [Custom Feed](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_custom_feed)
+* [Karma Farming](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_karma_farming)
+* [Private Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_private_subreddits)
+* [Throwaway Account](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_throwaway_account)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
+* [Vote Manipulation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_vote_manipulation)
 
 ---
 
@@ -458,8 +458,8 @@ If you do have an Alt (or Alts) the safest thing is to ensure they never even po
 
 **See Also:**
 
-* [IAmA](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh94t3m/?utm_source=share&utm_medium=web2x&context=3) (encyclopaedia)
-* [Famous Redditors](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8u10d/?utm_source=share&utm_medium=web2x&context=3)
+* [IAmA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iama) (encyclopaedia)
+* [Famous Redditors](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_famous_redditors)
 
 ---
 
@@ -478,11 +478,11 @@ The [Urban Dictionary suggests](https://www.urbandictionary.com/define.php?term=
 
 **See Also:**
 
-* [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8lhbp/)
-* [Comment Chain](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi95gm/)
-* [Creating A Subreddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiakiy/)
-* [Puns and Pop-Culture References](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqxawp/)
-* [Snowclone](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0ve1/)
+* [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cbait-and-switch.201D_or_.201Cthe_ole_reddit_bait-and-switch.201D)
+* [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain)
+* [Creating A Subreddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_creating_a_subreddit)
+* [Puns and Pop-Culture References](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_puns_and_pop-culture_references)
+* [Snowclone](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snowclone)
 
 ---
 
@@ -493,9 +493,9 @@ The [Urban Dictionary suggests](https://www.urbandictionary.com/define.php?term=
 
 **See Also:**
 
-* [Cat. or cat.](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8nuop/?utm_source=share&utm_medium=web2x&context=3)
-* [One-word Replies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhpyhjm/?utm_source=share&utm_medium=web2x&context=3)
-* [Unwritten Rules of Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhuhv95/?utm_source=share&utm_medium=web2x&context=3)
+* [Cat. or cat.](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cat._or_cat.)
+* [One-word Replies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_one-word_replies)
+* [Unwritten Rules of Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_unwritten_rules_of_reddit)
 
 ---
 
@@ -532,8 +532,8 @@ If you want to see animals in odd poses without any cruelty involved, [r/birdswi
 
 **See Also:**
 
-* [Animals: Faked Videos](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhkmh/)
-* [Reverse Image Searching](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsko0z/)
+* [Animals: Faked Videos](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_animals.3A_faked_videos)
+* [Reverse Image Searching](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reverse_image_searching)
 
 ---
 
@@ -578,7 +578,7 @@ If you want to see animals in peril without them actually being in any kind of p
 
 **See Also:**
 
-* [Animals: Faked Photography](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhh98/)
+* [Animals: Faked Photography](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_animals.3A_faked_photography)
 
 ---
 
@@ -609,9 +609,9 @@ Reddit also makes its own traditions. An annual event that Reddit started in 201
 
 **See Also:**
 
-* [April Fools Day](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhxvp/)
-* [Christmas and the New Year on Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hm52vve/)
-* [Halloween](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8yqi4/)
+* [April Fools Day](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_april_fools_day)
+* [Christmas and the New Year on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_christmas_and_the_new_year_on_reddit)
+* [Halloween](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_halloween)
 
 
 ---
@@ -620,7 +620,7 @@ Reddit also makes its own traditions. An annual event that Reddit started in 201
 #Anonymity  
 ::General Guides::  
 
-Reddit is not like other social networking platforms. Users on Reddit [are anonymous](https://www.reddit.com/r/privacy/comments/86e3o4/is_reddit_anonymous/). When you sign up, you’re asked to compose the username you want to use. You’ll need to provide an email address when registering, but this is not tied in any way to your username or password so it can’t be traced back unlike other sites like Facebook and Twitter where they are connected. Nobody can see the email address or any 2FA information attached to your account. It’s even possible to have a completely random username assigned to you by creating your account using "sign in with Google/Apple”. This can sometimes happen by [accident](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8ctxc/) if you have an existing Reddit account.
+Reddit is not like other social networking platforms. Users on Reddit [are anonymous](https://www.reddit.com/r/privacy/comments/86e3o4/is_reddit_anonymous/). When you sign up, you’re asked to compose the username you want to use. You’ll need to provide an email address when registering, but this is not tied in any way to your username or password so it can’t be traced back unlike other sites like Facebook and Twitter where they are connected. Nobody can see the email address or any 2FA information attached to your account. It’s even possible to have a completely random username assigned to you by creating your account using "sign in with Google/Apple”. This can sometimes happen by accident (See [Accidental Alt](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_accidental_alt)) if you have an existing Reddit account.
 
 Awards on Reddit can be doubly anonymous. If you give a Reddit award, nobody else participating on the post or comment you awarded will know who the award came from, and if you select “Award this anonymously” when giving it, the recipient won’t know it was from you either. The recipient will still be able to thank you, however, and should you reply to that message, your username will then be revealed to that person.
 
@@ -632,13 +632,13 @@ Nobody will ever see what posts or comments you have upvoted, downvoted, saved o
 
 **See Also:**
 
-* [Accidental Alt](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8ctxc/)
-* [Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8jttp/)
-* [Anonymous Browsing](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhu91/)
-* [Identity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhldwpq/)
-* [Privacy Issues](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwvwq/)
+* [Accidental Alt](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_accidental_alt)
+* [Activity](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_activity)
+* [Anonymous Browsing](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_anonymous_browsing)
+* [Identity](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_identity)
+* [Privacy Issues](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_privacy_issues)
 * [Safety on Reddit](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ssyt6/)
-* [Visibility](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcx6bt/)
+* [Visibility](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_visibility)
 
 ---
 
@@ -649,7 +649,7 @@ See this guide to [Anonymous Browsing](https://reddit.zendesk.com/hc/en-us/artic
 
 **See Also:**
 
-* [Activity](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8jttp/?utm_source=share&utm_medium=web2x&context=3)
+* [Activity](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_activity)
 
 ---
 
@@ -687,8 +687,8 @@ For April Fools jokes across the web, there’s a list of [Google’s jokes here
 
 **See Also:**
 
-* [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8lhbp/)
-* [Orangered](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhq01b1/)
+* [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cbait-and-switch.201D_or_.201Cthe_ole_reddit_bait-and-switch.201D)
+* [Orangered](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_orangered)
 
 ---
 
@@ -711,11 +711,11 @@ Misinformation isn’t just spread by ORM providers as we have learned in the la
 
 **See Also:**
 
-* [Brigading](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhsn0v/)
-* [“Everyone on Reddit is a...”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhijd5r/)
-* [Karma Farming](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh96swb/)
-* [Sock Puppet](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu124y/)
-* [Spambots](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu1bx6/)
+* [Brigading](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_brigading)
+* [“Everyone on Reddit is a...”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Ceveryone_on_reddit_is_a....201D)
+* [Karma Farming](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_karma_farming)
+* [Sock Puppet](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sock_puppet)
+* [Spambots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_spambots)
 
 ---
 
@@ -752,13 +752,13 @@ Hungry after reading this misleading title? Find what you’re really looking fo
 
 **See Also:**
 
-* [chrissimpsonsartist](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi85m3/) (encyclopaedia)
+* [chrissimpsonsartist](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_chrissimpsonsartist) (encyclopaedia)
 * [r/chrissimpsonsartist](https://www.reddit.com/r/chrissimpsonsartist/) (subreddit)
-* [Eponymous Laws](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiiesf/)
-* [Internet Adages](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhleky9/)
-* [Misleading Subreddit Titles](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho8o2d/)
-* [Poe’s Law](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqw4ki/)
-* [woooosh](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhuk3gs/) (encyclopaedia)
+* [Eponymous Laws](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eponymous_laws)
+* [Internet Adages](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_internet_adages)
+* [Misleading Subreddit Titles](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_misleading_subreddit_titles)
+* [Poe’s Law](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_poe.2019s_law)
+* [woooosh](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_woooosh) (encyclopaedia)
 * [r/woooosh](https://www.reddit.com/r/woooosh/) (subreddit)
 
 ---
@@ -774,7 +774,7 @@ Hungry after reading this misleading title? Find what you’re really looking fo
 
 **See Also:**
 
-* [Copypasta](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiaf7u/?utm_source=share&utm_medium=web2x&context=3)
+* [Copypasta](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_copypasta)
 
 ---
 
@@ -789,9 +789,9 @@ Post your finest examples at [r/autocorrect](https://www.reddit.com/r/autocorrec
 
 **See Also:**
 
-* [ETA; Edit:](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiizwi/)
-* [Markdown Text](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha6pp2/)
-* [Pedant; Pedantry](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhcm6su/)
+* [ETA; Edit:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta.3B_edit.3A)
+* [Markdown Text](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_markdown_text)
+* [Pedant; Pedantry](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pedant.3B_pedantry)
 
 ---
 
@@ -806,8 +806,8 @@ Do not reply to a comment made by Automod in a post as it doesn’t read them. U
 
 **See Also:**
 
-* [Bots](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhsd8u/?utm_source=share&utm_medium=web2x&context=3)
-* [Modmail](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hho9ht5/?utm_source=share&utm_medium=web2x&context=3)
+* [Bots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bots)
+* [Modmail](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_modmail)
 
 ---
 
@@ -826,10 +826,10 @@ Show off your snoovatar at [r/snoovatars](https://www.reddit.com/r/snoovatars/)!
 
 **See Also:**
 
-* [April Fools Day](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhhxvp/?utm_source=share&utm_medium=web2x&context=3)
-* [Profile](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqx2f0/?utm_source=share&utm_medium=web2x&context=3)
-* [Reddit Premium](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsj6n6/?utm_source=share&utm_medium=web2x&context=3)
-* [Snoovatar](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu0szi/?utm_source=share&utm_medium=web2x&context=3)
+* [April Fools Day](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_april_fools_day)
+* [Profile](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_profile)
+* [Reddit Premium](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_premium)
+* [Snoovatar](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snoovatar)
 
 ---
 
@@ -854,15 +854,15 @@ If you receive 100 awards in one calendar month, you get a “100 Awards Club”
 
 **See Also:**
 
-* [Award Farming](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjf5l/?utm_source=share&utm_medium=web2x&context=3)
-* [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/?utm_source=share&utm_medium=web2x&context=3)
-* [Coins; Reddit Coins](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8x5x/?utm_source=share&utm_medium=web2x&context=3)
-* [Free Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhis8ku/?utm_source=share&utm_medium=web2x&context=3)
-* [Gold; Gilding; Guilding](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhjj52m/?utm_source=share&utm_medium=web2x&context=3)
-* [Reddit Premium](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsj6n6/?utm_source=share&utm_medium=web2x&context=3)
-* [Platinum Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hia1znn/?utm_source=share&utm_medium=web2x&context=3)
-* [Profile Page](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqx4j1/?utm_source=share&utm_medium=web2x&context=3)
-* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/?utm_source=share&utm_medium=web2x&context=3)
+* [Award Farming](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_farming)
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [Coins; Reddit Coins](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_coins.3B_reddit_coins)
+* [Free Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_awards)
+* [Gold; Gilding; Guilding](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_gold.3B_gilding.3B_guilding)
+* [Reddit Premium](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_premium)
+* [Platinum Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_platinum_awards)
+* [Profile Page](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_profile_page)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
 
 ---
 
@@ -889,9 +889,9 @@ And in case you were wondering, [this is why we can’t have nice things](https:
 
 **See Also:**
 
-* [Blocking](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhrmz2/)
-* [Free Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhis8ku/)
-* [New Reddit; Old Reddit](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hha8ay6/)
+* [Blocking](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_blocking)
+* [Free Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_awards)
+* [New Reddit; Old Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_reddit.3B_old_reddit)
 
 ---
 
@@ -902,8 +902,8 @@ This is a ‘service bot’ built to check the price of awards that have been gi
 
 **See Also:**
 
-* [Bots](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhsd8u/?utm_source=share&utm_medium=web2x&context=3)
-* [“Gilt Guilt”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8wyyv/?utm_source=share&utm_medium=web2x&context=3)
+* [Bots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bots)
+* [“Gilt Guilt”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cgilt_guilt.201D)
 
 ---
 
@@ -916,11 +916,11 @@ Award farming can range from asking outright for awards, to acting like you don�
 
 **See Also:**
 
-* [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/?utm_source=share&utm_medium=web2x&context=3)
-* [“Gilt Guilt”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8wyyv/?utm_source=share&utm_medium=web2x&context=3)
-* [Karma Farming](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh96swb/?utm_source=share&utm_medium=web2x&context=3)
-* [Sock Puppet](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu124y/?utm_source=share&utm_medium=web2x&context=3)
-* [The “Unwritten Rule of Gilding”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhuhz3p/?utm_source=share&utm_medium=web2x&context=3)
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [“Gilt Guilt”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cgilt_guilt.201D)
+* [Karma Farming](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_karma_farming)
+* [Sock Puppet](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sock_puppet)
+* [The “Unwritten Rule of Gilding”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_the_.201Cunwritten_rule_of_gilding.201D)
 
 ---
 
@@ -933,9 +933,9 @@ I’ve seen it said that the amount of award karma you get is based on how recen
 
 **See Also:**
 
-* [Karma](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh96mid/?utm_source=share&utm_medium=web2x&context=3)
+* [Karma](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_karma)
 * [Reddit Karma - Your Reddit XP](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9sqcti/)
-* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/?utm_source=share&utm_medium=web2x&context=3)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
 
 ---
 
@@ -962,10 +962,10 @@ When I receive an award from a fellow Redditor and receive a notification, I alw
 
 **See Also:**
 
-* [Award Types](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjybg/?utm_source=share&utm_medium=web2x&context=3)
-* [Free Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhis8ku/?utm_source=share&utm_medium=web2x&context=3)
-* [“Gilt Guilt”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8wyyv/?utm_source=share&utm_medium=web2x&context=3)
-* [Notification](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhp76f0/?utm_source=share&utm_medium=web2x&context=3)
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [Free Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_awards)
+* [“Gilt Guilt”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cgilt_guilt.201D)
+* [Notification](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_notification)
 
 ---
 
@@ -986,12 +986,12 @@ The “mixtape” link might also be a Rickroll. It might not be. It usually is.
 
 **See Also:**
 
-* [Award Notifications](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjpql/?utm_source=share&utm_medium=web2x&context=3)
-* [Copypasta](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiaf7u/?utm_source=share&utm_medium=web2x&context=3)
-* [ETA; Edit:](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhiizwi/?utm_source=share&utm_medium=web2x&context=3)
-* [“Gilt Guilt”](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8wyyv/?utm_source=share&utm_medium=web2x&context=3)
-* [Gold; Gilding; Guilding](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhjj52m/?utm_source=share&utm_medium=web2x&context=3)
-* [Rickroll](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsktpt/?utm_source=share&utm_medium=web2x&context=3)
+* [Award Notifications](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_notifications)
+* [Copypasta](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_copypasta)
+* [ETA; Edit:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta.3B_edit.3A)
+* [“Gilt Guilt”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cgilt_guilt.201D)
+* [Gold; Gilding; Guilding](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_gold.3B_gilding.3B_guilding)
+* [Rickroll](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rickroll)
 
 ---
 
@@ -1066,17 +1066,17 @@ Some figures are based partly on an original post by [u/memedbyshrek](https://ww
 
 * **A Note on the Platinum Award**
 
-Platinum is not like any other Reddit premium award in that you might not get the coins immediately, depending on other factors such as any awards you might have previously won. The explanation and details can be found at “[Platinum Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hia1znn/?utm_source=share&utm_medium=web2x&context=3)”.
+Platinum is not like any other Reddit premium award in that you might not get the coins immediately, depending on other factors such as any awards you might have previously won. The explanation and details can be found at “[Platinum Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_platinum_awards)”.
 
 **See Also:**
 
-* [Award Notifications](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhhjpql/)
-* [Coins; Reddit Coins](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhi8x5x/)
-* [Free Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhis8ku/)
-* [Gilding Level Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hh8wshb/)
-* [Platinum Awards](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hia1znn/)
-* [Powerups](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhqwo3k/)
-* [Reddit Premium](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhsj6n6/)
-* [Trophies](https://www.reddit.com/r/NewToReddit/comments/qbb173/comment/hhu4tdu/)
+* [Award Notifications](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_notifications)
+* [Coins; Reddit Coins](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_coins.3B_reddit_coins)
+* [Free Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_awards)
+* [Gilding Level Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_gilding_level_trophies)
+* [Platinum Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_platinum_awards)
+* [Powerups](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_powerups)
+* [Reddit Premium](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_premium)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
 
 ---

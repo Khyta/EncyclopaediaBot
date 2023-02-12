@@ -1,0 +1,1113 @@
+###Navigation of Encyclopedia:
+
+* [Index](/r/NewToReddit/wiki/index)  
+* [About the Encylopaedia](/r/EncyclopaediaOfReddit/wiki/1)
+* [Entries for A](/r/EncyclopaediaOfReddit/wiki/2)  
+* [Entries for B-E](/r/EncyclopaediaOfReddit/wiki/3)
+* [Entries for F-L](/r/EncyclopaediaOfReddit/wiki/4)  
+* [Entries for M-Q](/r/EncyclopaediaOfReddit/wiki/5)  
+* Entries for R below  
+* [Entries for S](/r/EncyclopaediaOfReddit/wiki/7)  
+* [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
+* [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
+
+R
+===
+
+#r/
+::Acronyms and Initials::
+
+This prefix is used when you are mentioning a Subreddit, for example r/NewToReddit. Using this gives a direct link to that sub. Be careful when using this on mobile devices, as a capital R will not trigger the hotlink, and you’ll be mocked unmercifully on r/foundthemobileuser.
+
+**See Also:**
+
+* [Autocarrot](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_autocarrot)
+* [foundthemobileuser](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_foundthemobileuser)
+* [Linking](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_linking)
+
+---
+
+#Rage Face, Rage Comic
+::Interesting and Miscellaneous::
+
+You’ve seen them, you were bemused by them, you just didn’t know what they were called. [A Rage Comic](https://en.wikipedia.org/wiki/Rage_comic) is a short cartoon strip using a growing set of pre-made scribbled cartoon faces (Rage Faces), which usually express rage or some other simple emotion or activity. They are usually crudely drawn in Microsoft Paint or other simple drawing programs, and [were most popular in the early 2010s](https://www.reddit.com/r/fffffffuuuuuuuuuuuu/comments/d38tq/im_bored_at_work_and_i_want_to_make_an/).
+
+**Because there is a Subreddit for everything:**
+
+Rage Faces appear all over Reddit, and r/fffffffuuuuuuuuuuuu (also known as F7U12) is their immortal home.
+
+---
+
+#“Reactions”
+::Interesting and Miscellaneous::
+
+Often posted with a gif or image, Reactions are used as shorthand to convey an exaggeration of how you might respond to a given situation, whether it be hypothetical or based on experiences of real life. They can take the form of Reaction Initialisms or Reaction Images which can be used in lieu of words.
+
+These are usually rooted in pop-culture references ranging from [images of people](https://www.cnet.com/news/picard-memes-patrick-stewart-best-viral-star-trek-moments/) with or without accompanying text or [gifs of people](https://news.sky.com/story/blinking-white-guy-meet-the-man-using-meme-fame-to-raise-thousands-for-charity-11819235) making exaggerated facial gestures, to [images featuring stick men](https://knowyourmeme.com/memes/computer-reaction-faces) on computer desktops or mouse cursors performing a variety of [drag and drop gestures](https://knowyourmeme.com/memes/drag-and-drop-reaction-gifs) all used on Reddit to describe how you feel at reading the post or comment you are replying to.
+
+In February 2014, New York City's ‘Museum of the Moving Image’ proposed an installation titled "The Reaction GIF: Moving Image as Gesture” [which Redditors were invited to help curate](https://www.reddit.com/r/gifs/comments/1yw7aa/hey_reddit_want_to_help_curate_a_museum/).
+
+**Because there is a Subreddit for everything:**
+
+Have fun with reactions at r/reactionimages, r/ReactionMemes, r/reactiongifs or r/reactionpics.
+
+**See Also:**
+
+* [Memes](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_memes)
+* [MFW; MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mfw.3B_mrw)
+* [Puns and Pop-Culture References](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_puns_and_pop-culture_references)
+* [TFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tfw)
+
+---
+
+#Recovering a Lost / Forgotten Username
+::General Guides::
+
+You can request a list of usernames associated to your email address by following the steps outlined in this help centre article:  [https://reddit.zendesk.com/hc/en-us/articles/360043034972-Recovering-a-lost-or-forgotten-username](https://reddit.zendesk.com/hc/en-us/articles/360043034972-Recovering-a-lost-or-forgotten-username) Just enter your email address and all usernames associated with that email address will be sent to you.
+
+---
+
+#Reddit
+::Interesting and Miscellaneous::
+
+Reddit is a social news aggregator and discussion platform where content is provided by its users and socially curated and promoted by other users through a system of upvotes and downvotes.
+
+u/reddit_irl is the official account for sharing Reddit with Reddit, and in 2022 posted this lovely [video introduction](https://www.reddit.com/user/reddit_irl/comments/u9n4ul/new_to_reddit_first_welcome_second_check_out/) to our little slice of the internet.
+
+Founded as a website on 23 June 2005 in Massachusetts, USA, the site name is a play on the words "I read it" and the logo is a time-traveling [alien called Snoo](https://i.imgur.com/QCLf8Yn.png), who represents Reddit’s friendly, conversational community aspect. Reddit’s primary brand colour is [Orangered](https://i.redd.it/uk93hmx53e791.png), and despite my best efforts throughout this encyclopaedia to prove it otherwise, the name “reddit” is actually styled with a lowercase ‘r’. For official information about Reddit itself, see [https://www.redditinc.com](https://www.redditinc.com/) and [https://redditblog.com](https://redditblog.com/).
+
+Now encompassing both website and mobile app, Reddit’s mission is to bring community and belonging to everyone in the world by being a community of communities (called “subreddits”) where people can dive into anything through experiences built around their interests, hobbies, and passions. With more than 50 million people visiting 100,000+ subreddits daily, Reddit prides itself on being home to the most open and authentic conversations on the internet.
+
+* **Reddit as social media**
+
+The unique aspect of Reddit is that it is social media without being “social media”. Most people are here because they don’t want a great deal of social interaction, because, unlike most other social media, Reddit is focused on content instead of people.
+
+In a traditional social media platform, people (or users) are at the very centre with the primary intent of publicising themselves, documenting their lifestyles, influencing others or accruing followers. Instead, with Reddit, our users (known as “Redditors”) contribute interesting and random news items, pictures, videos, memes, links or stories for their own sake, without having to reveal any details about themselves.
+
+On Reddit, nobody but you decides what level of interaction you want with other Redditors, and you are totally in charge of your own subjects to read and join in with. We don’t have “power Redditors” or wildly popular Redditors who influence or are loved by large swathes of people, for instance. We don’t really do [following](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_following) here in the same way for that reason.
+
+Aside from a username visible to everyone and an email address visible only to the site administrators (Admin), users are completely anonymous here, and can say as little or as much as they want to about themselves. With very few exceptions, nobody is interested in knowing who a Redditor is, only what they have to say, and users can back out of conversations (or jump back in) whenever they want without any excuse needed.
+
+* **Reddit on other social media**
+
+Reddit also has a presence on:
+
+* Facebook: [https://www.facebook.com/reddit](https://www.facebook.com/reddit)
+* Instagram: [https://www.instagram.com/reddit/](https://www.instagram.com/reddit/)
+* Twitter: [https://twitter.com/reddit](https://twitter.com/reddit)
+* YouTube: [http://www.youtube.com/c/reddit](http://www.youtube.com/c/reddit)
+* LinkedIn: [https://www.linkedin.com/company/reddit-com](https://www.linkedin.com/company/reddit-com)
+
+We also have subreddits for news and discussions about other social media outlets such as r/facebook, r/Instagram, r/Twitter, r/youtube and r/linkedin.
+
+There are many other related subreddits for all kinds of discussions and memes about many of the worst aspects of social media, such as:
+
+* r/FacebookCringe or r/insanepeoplefacebook \- for all those cringeworthy or ridiculous Facebook messages and posts;
+* r/Instagramreality \- for exposing facetuned and photoshopped images pretending to be real;
+* r/twittermoment \- for *those* tweets, or r/WhitePeopleTwitter for people tweeting stuff and r/BlackPeopleTwitter for screenshots of Black people being hilarious or insightful on social media;
+* r/youtubedrama \- which aggregates only the best, juiciest drama from the YouTubes, and r/outoftheloop which frequently has to explain YouTube and streamer drama content explanations;
+* r/LinkedInLunatics or r/linkedincringe \- for all those cringeworthy or ridiculous LinkedIn messages and posts.
+
+Many YouTubers or social media personalities have their own subreddits or fan-made subreddits too.
+
+* **Reddit, as other media**
+
+The rise and rise of popular internet outlets desperate for a continual source of new output has led to them often feeding on themselves in a “blog-go-round”. Blogs, YouTube, light news outlets and even mainstream news outlets often rely on Reddit as their primary source of new stories, and I detail this more in the section on [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright), in one section at [Relationship Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_advice_on_reddit) and also in [Reddit Recap](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_recap).
+
+Traditionally, this kind of lazy journalism was known as [“Churnalism”](https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1355026): the term for a news article that is published as journalism, but is essentially a press release without much (if anything) added. To my mind, this reliance on Reddit [for news items](https://resources.uscannenbergmedia.com/2021/02/using-reddit-for-journalism-from-creating-an-account-to-avoiding-an-ama-disaster/) has taken churnalism to a [whole new level](https://www.reddit.com/r/content_marketing/comments/fertb0/how_to_use_reddit_to_generate_new_blog_post_ideas/), which in a desperate attempt to cement my own place in internet culture somewhere, I call ”Regurgitation Journalism”. (I like rhymes and tongue-twisters; here we have both. It still isn’t catchy though).
+
+* **Reddit, as seen by other media**
+
+The Wikipedia Page on Reddit is fascinating reading [as always](https://en.wikipedia.org/wiki/Reddit).
+
+In 2020, Reddit turned 15 years old, [and Mashable had a retrospective here](https://mashable.com/article/reddit-history-15th-anniversary/?europe=true). Another article celebrating our rich and varied history can [be found here](http://www.randalolson.com/2013/03/12/retracing-the-evolution-of-reddit-through-post-data/) with graphs showing “the Evolution of Reddit”.
+
+An article on [Quartz](https://qz.com/1309562/reddit-is-the-best-social-media-site-because-it-gets-community-right/) contains a quote I particularly like: “If Facebook is people you know sharing things you don’t care about, Reddit is things you care about shared by people you don’t know.”
+
+And finally, [MakeUseOf](https://www.makeuseof.com/reasons-reddit-best-social-media-platform/) takes the position that while Reddit might not be the most popular social media platform, it is one of the best.
+
+**See Also:**
+
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [“Front Page of the Internet”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cfront_page_of_the_internet.201D)
+* [Famous Redditors](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_famous_redditors)
+* [Following](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_following)
+* [Llama’s Law](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_llama.2019s_law)
+* [New Reddit; Old Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_reddit.3B_old_reddit)
+* [Orangered](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_orangered)
+* [Reddit and Karma Explained](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/)
+* [“Reddit Moment”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_.201Creddit_moment.201D)
+* [Reddit Lore](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_lore)
+* [Snoo](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snoo)
+
+---
+
+#Reddit Coins
+::Features of Reddit::
+
+[Reddit’s virtual currency](https://reddit.zendesk.com/hc/en-us/articles/360043034252-What-are-Reddit-Coins-and-how-do-I-use-them-) with which you buy Awards to give to posts or comments you particularly like. You have the option of paying [real money for Coins](https://www.reddit.com/coins), or if you earn one of the larger Awards from a fellow Redditor, you’ll get some free Coins. Premium subscribers get 700 coins monthly to spend.
+
+If you do wish to spend some of your hard-earned cash to purchase Reddit Coins, it might be good to wait until Reddit has a ‘sale’ on (usually near a holiday) where they give special offers on certain amounts purchased. Having said that, at the time of writing (June 2022) there hasn’t been a sale for several months, except for the special offer that pops up whenever you claim one of the Free Awards that Reddit occasionally gives. On the new design of the mobile app, click the [“Reddit Coins”](https://i.redd.it/5clbyetau8w81.jpg) option on your profile, and that’ll show you if there’s one to claim.
+
+Before giving any money to Reddit, please familiarise yourself with the [Reddit Premium and Virtual Goods agreement](https://www.redditinc.com/policies/reddit-premium-and-virtual-goods-agreement-october-15-2020).
+
+There is no time limit on using Reddit coins (whether won or bought); they will stay in your account until you use them. They are exclusively used for giving awards to other Redditors and cannot be exchanged for any other Reddit feature.
+
+Just like real money, sometimes it seems that your coins just disappear out of nowhere. If you think you have less coins that you should have, you can check on your profile at [https://new.reddit.com/user/me/gilded/given/](https://new.reddit.com/user/me/gilded/given/). Mobile users should open that link with your phone's browser.
+
+If you are experiencing issues with a Reddit Premium subscription or Coin purchase, tell Reddit through the contact form [https://reddit.zendesk.com/hc/en-us/requests/new](https://reddit.zendesk.com/hc/en-us/requests/new) and choose "Premium/Coins/Awards/Powerups Support" from the dropdown menu.
+
+**See Also:**
+
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [Free Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_awards)
+* [Free Reddit Premium or Coins](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_reddit_premium_or_coins)
+* [Reddit Premium](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_premium)
+
+---
+
+#The Reddit Hug of Death
+::Interesting and Miscellaneous::
+
+A link or phrase posted when someone posts a link to a smaller website saying "Everyone, look at this website!" and everyone does, causing a massive increase in traffic. This sudden influx of visitors overloads the smaller site, [causing it to cripple the media servers](https://www.reddit.com/r/explainlikeimfive/comments/1wne3s/why_do_sites_break_due_to_the_reddit_hug_of_death/), slowing the site down or even rendering it temporarily unavailable. This has the same effect as a denial-of-service (DDOS) attack, albeit accidentally. Also known as “The Slashdot effect” but not on Reddit. [Here’s an account of one from 2016](https://medium.com/codingame/story-of-a-reddit-hug-of-death-and-lessons-learned-3565bb8a6793).
+
+**Because there is a Subreddit for everything:**
+
+Have fond memories of the early days of the internet?  r/nostalgia do! For more discussion of old tech, r/retrotech and r/OldTechnology are good places to start, while r/cassettefuturism and r/RetroFuturism focus on the futurist visions of eras past.
+
+---
+
+#“Reddit is strange like that.”
+::Interesting and Miscellaneous::
+
+A phrase posted when you want to make your opinion known that Reddit [doesn’t behave the way you expected](https://www.reddit.com/r/awfuleverything/comments/ja0oc2/thats_how_democracy_works/). While most social media outlets rely on their users behaving as predictably as possible - even driving them that way so as to harvest their useful data - Reddit thrives on unpredictability. One could even say that randomness is actually built into the system itself to some extent, harnessing the energy and creativity of hundreds of thousands of Redditors worldwide from all walks of life to provide all content, filter all said content through the voting system, discuss the content and even self-police the communities hosting said content by its users volunteering as moderators. We are not the users of Reddit; we *are* Reddit.
+
+This all leads to several phenomena which, when experienced are bewildering, difficult to describe but nevertheless instantly recognisable, which can be generally categorised as “Reddit Moments” or more popularly, “Reddit is strange”, or even, if feeling particularly loquacious, “Reddit is strange like that”.
+
+* **Is Reddit unpredictable?**
+
+We have our own peculiarities here at Reddit; you can make the world’s best Meme and it gets no attention. Then someone reposts it and [it gets all the upvotes](https://i.redd.it/74l0wv3xe7891.jpg) Reddit can give. Pointing it out [might not go well either](https://www.reddit.com/r/Wellthatsucks/comments/89rhvi/when_your_post_gets_reposted_but_they_get_more/) because sooner or later this happens to everyone and because those before you were told to “get over it” you’ll be told that too. Or you could even take it to r/KarmaCourt if your [case is solid enough](https://www.reddit.com/r/KarmaCourt/comments/v5vicv/uimaginaryqualia_v_ubuecrupratfa1l55_for_unlawful/). You won’t get anywhere but it’ll wring some fun out of your bad luck.
+
+Talking of which, is it luck or skill that determines whether or not a post is successful? r/dataisbeautiful discuss this [in great depth](https://www.reddit.com/r/dataisbeautiful/comments/b6gt3v/two_exact_same_post_getting_different_upvotes_on/) of which my favourite of all the verdicts was *“Conclusion: the right combination of stuff reddit loves criticizing the stuff reddit hates at the right time is going to be a hit.”* There is a school of thought that [timing is the key for reposting](https://www.reddit.com/r/dataisbeautiful/comments/6qgyd0/what_time_should_you_post_to_reddit_oc/) and if this is really the case, Reddit’s actually not that unpredictable after all.
+
+* **Is Reddit predictable?**
+
+It’s a Reddit trope that the Post you spent an hour carefully crafting with thoughtful information, sound references and insightful conclusion will be completely ignored while your four second response to a cat video will be upvoted to oblivion. It’s often said that random offhand remarks are likely to gain huge amounts of attention for reasons nobody’s entirely sure of.
+
+The phrase *”What a terrible day to have eyes. Right, I’m off to look at kittens”* is something I say [quite frequently](https://i.redd.it/p30p3cz1ui891.jpg) on Reddit in a vain attempt to trigger [the Haikusbot](https://www.reddit.com/r/haikusbot/comments/lc90fy/what_is_haikusbot/), but on one occasion ended up being one of my [all-time top comments](https://www.reddit.com/r/oddlyterrifying/comments/qflbma/this_parasite_inside_of_a_praying_mantis/hi09csx/). I still can’t tell you why that one stood out above the rest; every time I said it anywhere else it was extremely appropriate and one of the earliest comments on the post, but for some reason, Reddit decided that *that* particular one was *the* particular one to reward. And it’s never triggered the Haikusbot either. Yet. As it stands, then, it doesn’t look like Reddit is as predictable as one might think.
+
+* **Is Reddit predictably unpredictable?**
+
+Sometimes just posting a link to another sub at the right time can have unexpected effects. On seeing [this picture](https://i.redd.it/d36ft1hauj891.jpg) posted in r/EngineeringPorn, I just *had* to post what I thought was an [appropriate subreddit link](https://www.reddit.com/r/EngineeringPorn/comments/oci72n/ill_just_leave_this_here/h3um1lp/). Downvotes rained spectacularly and rapidly down into the double figures until some kind Redditor pointed out that if one actually followed the link it wasn’t what it appeared to be. Amazingly, not only were all the downvotes shortly negated but the upvotes kept on coming until that became my most upvoted sub link comment to date. Being the serial commenter of sub links that I am, I absolutely did not see either reaction coming, as normally they get four or five upvotes at best.
+
+* **Is Reddit unpredictably predictable?**
+
+Reddit has many subreddits where the content posted in one would be the polar opposite of content suitable for another. Take these four subs for example:
+
+* r/ATBGE \- for when an image shows an item that has Awful Taste But Great Execution.
+* r/ATAAE \- for when an image shows an item that has Awful Taste And Awful Execution.
+* r/GTAGE \- for when an image shows an item that has Great Taste And Great Execution.
+* r/GTBAE \- for when an image shows an item that has Great Taste But Awful Execution.
+
+The fun really starts when Reddit can’t decide which of these is the best sub for the item in question, because sometimes awful and great are just too interchangeable.  [The same dilemma](https://www.reddit.com/r/DiWHYNOT/comments/vl0ylr/found_on_rdiwhy_and_i_think_it_is_more_suitable/)often applies to r/DiWHY and r/DiWHYNOT. In this example, two different users saw a post on r/nextfuckinglevel and both were absolutely certain [which DIY sub it also belonged in](https://i.redd.it/auhee3s9hl891.jpg).
+
+All of this is why [the same picture](https://i.redd.it/vamtqehpu2v81.jpg) can be posted to both r/awfuleverything and r/MadeMeSmilebut be perfectly suited for both. Originating from a viral 2019 Facebook post [in which a poor drawing](https://www.unilad.co.uk/animals/rubbish-dog-drawing-wins-contest-over-artists-drawing) is announced the winner of an art contest, Reddit [was very much divided](https://www.reddit.com/r/TIHI/comments/k0s4p0/thanks_i_hate_choosing_the_winner_by_likes/) as to whether this [was awful](https://www.reddit.com/r/awfuleverything/comments/ja0oc2/thats_how_democracy_works/) or was guaranteed to [make you smile](https://www.reddit.com/r/MadeMeSmile/comments/qywcen/winner_of_doggo_drawing_contest_won_on_likes/).
+
+All of the above can be summed up as: Reddit is strange like that. Hopefully you’ll now be able to spot this for yourself on your travels through our unpredictable slice of the internet.
+
+**Because there is a Subreddit for everything:**
+
+Infuriated at Reddit being strange like that? Tell them at r/mildlyinfuriating,  r/mildyinfuriatingor even r/mindlyinfuriating but probably not at r/Infuriating, r/extremelyinfuriating, r/infuriatingasfuck r/insanelyinfuriating or r/wildlyinfuriating.  r/oddlyinfuriating collects the little things that make us want to break things.
+
+**See Also:**
+
+* [Bandwagon Effect](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bandwagon_effect)
+* [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain)
+* [Emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis)
+* [Hivemind](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hivemind)
+* [“Lost in New”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Clost_in_new.201D)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [“Reddit Moment”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_.201Creddit_moment.201D)
+* [“When is the best time to Post for maximum attention?”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_.201Cwhen_is_the_best_time_to_post_for_maximum_attention.3F.201D)
+
+---
+
+#Reddit Lore
+::Lore and History::
+
+Reddit has been [around since 2005](https://www.reddit.com/r/reddit/comments/vj1p48/17_years_young/); positively ancient by internet standards. During that time, like all subcultures it has developed its own legendary stories that get referenced from time to time. You may come across the odd mention of (for example) [Broken Arms](https://knowyourmeme.com/memes/reddit-broken-arms-story) (no. Just no.) or the [Swamps of Dagobah](https://www.vice.com/en/article/7kp3wq/best-reddit-stories-swamps-of-dagobah) (ew. Just ew.) and should you ask for more details, your bewilderment will, more often than not, turn to an unholy mixture of revulsion that you asked with the driving compulsion to know more.
+
+* **Yay! Gross! How can I find these treasures?**
+
+The past is a foreign country: they do things differently there, as you will see in the following woeful collections. Be warned, some of these require a strong stomach, and some links from all of these lists will be NSFW.
+
+* [What are the legends of Reddit everyone here should know? (2014)](https://www.reddit.com/r/AskReddit/comments/2ik5s2/what_are_the_legends_of_reddit_everyone_here/).
+* [What piece of Reddit history should every Redditor know? (2017)](https://www.reddit.com/r/AskReddit/comments/5wmxnd/what_piece_of_reddit_history_should_every/debckhi/).
+* [What are some of the "best of" moments on Reddit? (2017)](https://www.reddit.com/r/AskReddit/comments/7h36l8/what_are_some_of_the_best_of_moments_on_reddit/).
+* [What’s one piece of Reddit folklore that every user should know about? (2018)](https://www.reddit.com/r/AskReddit/comments/96fs1m/whats_one_piece_of_reddit_folklore_that_every/e403kjh/).
+* [What are some legendary Reddit tales, that newbie Redditors may not have heard yet? (2020)](https://www.reddit.com/r/AskReddit/comments/ikwvop/what_are_some_legendary_reddit_tales_that_newbie/).
+
+The internet in general finds Reddit to be a great source of content, and many blog sites will [have lists of essential Reddit posts](https://www.makeuseof.com/tag/10-top-rated-reddit-posts-time/) too. Google (or your favourite alternative) and YouTube will be your friends here.
+
+* **"Dive into Reddit lore”**
+
+In 2022, some new Redditors began getting notifications that say "Dive into Reddit lore”. The admin team are slowly rolling out [guides to Reddit events and history](https://www.reddit.com/r/blog/comments/ripui0/comment/hoyvr4f/), and new Redditors who have opted in to Push Notifications will apparently receive a series of text-based notifications that welcome them to Reddit and show them the ropes more. As I say in the introduction to this encyclopaedia, I’m always of the belief that having more resources is better than less, so even with these new initiatives I’ll keep updating allllll theeeeese woooorrrrds to the best of my unpaid ability.
+
+Reddit also do an [end-of-year recap](https://www.redditinc.com/blog/reddit-recap-2021) which looks back on the notable events of the year gone by.
+
+* **test post please ignore**
+
+In a stunning piece of *Reddit’s trying to modernise vs. Reddit’s memes will never die,* the 2022 announcement that admin were sunsetting many of the official subreddits in favour of one new (but old) one called r/reddit was entitled [“test post please ignore”](https://www.reddit.com/r/reddit/comments/sphocx/test_post_please_ignore/).
+
+This was a deliberate callback to the first [truly popular post on Reddit](https://www.reddit.com/r/pics/comments/92dd8/test_post_please_ignore/), which was posted in 2009 in r/pics, *without a picture*. Because Redditors will Reddit, the entire community rallied to reject OP’s request to ignore the post, and “test post please ignore” became the most upvoted post on Reddit for the next 2 years with an incredible 26,750 upvotes. Incidentally, OP was the [first Redditor to reach 100,000 karma](https://web.archive.org/web/20150627052314/http://www.brentcsutoras.com:80/2008/01/18/qgyh2-reaches-reddit-record-100000-karma/).
+
+**Because there is a Subreddit for everything:**
+
+There are many subreddits that compile “Best Of…” lists where it’s possible to find the things that future Reddit historians might talk about. Here’s just a few:
+
+* [https://www.reddit.com/r/all/top/](https://www.reddit.com/r/all/top/): the ever-changing current list of today's top content from hundreds of thousands of Reddit communities.
+* [https://www.reddit.com/best/](https://www.reddit.com/best/): your personal Reddit front page of your joined communities, sorted by Best.
+* r/bestof: the very best comments on Reddit, as submitted by the users of Reddit.
+* r/BestofRedditorUpdates: ever wonder what happened to people who ask reddit for advice or help? Did they take Reddit's advice? How did it turn out? Find out here!
+* r/topofreddit: for all the top Reddit posts.
+* r/bestOfReddit: for the best and often overlooked content from Reddit.
+
+**See Also:**
+
+* [April Fools Day](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_april_fools_day)
+* [“I also choose that guy's dead wife”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Ci_also_choose_that_guy.27s_dead_wife.201D)
+* [Poop Knife](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_poop_knife)
+* [Reddit Recap](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit_recap)
+* [“The Big List of Retired Questions”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_.201Cthe_big_list_of_retired_questions.201D)
+* [“The Narwhal Bacons at Midnight”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_.201Cthe_narwhal_bacons_at_midnight.201D)
+
+---
+
+#Redditor
+::Jargon and Slang::
+
+A Reddit user. You! And me! Hello, dear Redditor! The name Reddit can be understood as both a blend of the words “read” and “edit”, as well as a pun on the phrase “I read it”. “Redditors” is meant to be a shortened version of “Reddit editors”.
+
+**See Also:**
+
+* [Snoo](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snoo)
+
+---
+
+#“Reddit Moment”
+::Jargon and Slang::
+
+A link posted when Reddit commentary or discussion gets so self-referential it may evoke feelings of awkwardness, embarrassment or even pity. The phrase is a particularly popular way to mock times when a Redditor is demonstrating how they believe Reddit is the superior social networking platform in contrast with other sites. Which, of course, it is.  r/redditmoment.
+
+You might have noticed by now that Reddit has a few predictable trends, and one glorious Reddit Moment occurred in 2022 when all the tropes collided in one huge melange of “Reddit being Reddit” after one hapless Redditor found the fluffiest of cute kittens and innocently enquired upon its breed. So, let’s play….. Reddit Bingo!  [See if you can spot the following Reddit Moments](https://www.reddit.com/r/cats/comments/vdx5pa/anyone_know_what_breed/):
+
+* Extreme on-topic pedantry
+* Extreme off-topic pedantry
+* On-topic pop culture references
+* Someone not recognising pop culture references and being totally confused
+* Unrelated pop culture references
+* Song references 🎵or someone “singing”🎶
+* Doggo speak
+* Comment chains
+* Duplicate comments from people not having noticed someone else posted it first
+* Duplicate comments from people not caring that someone else posted it first
+* Someone who feels it important to point out that the comment is a duplicate one
+* Mainstream subreddit links
+* Niche subreddit links
+* Cynical accusations of karma farming
+* People demanding rule changes
+* People threatening to leave the sub
+* Irate “stop posting this stuff” when bewildered OP hasn’t ever posted there before
+* Off-topic arguments
+* Inappropriate awards
+* Deliberate misunderstanding of the question
+* Sincere but wrong answer being piled upon
+* Arguments about any of the Reddit moments listed above
+
+The only thing that would have put the cherry on the cake would have been the appearance of one of the wandering Reddit poets with a cutesy rhyme. I must say, I was sorely tempted to add one but didn’t, so I’ll post it here instead:
+
+There’s a kitten in the car park
+
+And I don’t know what to do!
+
+I asked her how she got in there
+
+But all she’ll say is “mew”.
+
+I’ll pick the tiny fuzzball up
+
+And hold her in my hand
+
+I think we own each other now
+
+Although it wasn’t planned.
+
+**See Also:**
+
+* [Celebrity Redditors](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_celebrity_redditors)
+* [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain)
+* [“Doggo Speak”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoggo_speak.201D)
+* [Meta](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_meta)
+* [“Reddit is strange like that.”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_.201Creddit_is_strange_like_that..201D)
+
+---
+
+#Reddit Moons
+::Interesting and Miscellaneous::
+
+Reddit is experimenting with a feature in limited communities called [Community Points](https://www.reddit.com/community-points/). Community Points will be a way for users to be rewarded for their contributions with a unit of ownership in their Subreddit. Community Points can be earned, tipped, won, collected, and spent on unique items within a community. Each subreddit has its own stylisation of Community Points, and the ones in r/CryptoCurrency are [known as Moons](https://www.reddit.com/r/CryptoCurrency/comments/gj96lb/introducing_rcryptocurrency_moons/). There’s a summary of [what’s happening here](https://www.kraken.com/en-gb/learn/what-is-reddit-moon).
+
+As with everything concerning anonymous users vs. real-life money, this topic is [not without controversy](https://www.reddit.com/r/ethtrader/comments/pny3ng/rcc_mod_has_soldtraded_nearly_870k_moons_240000/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) so tread with caution as always when it comes to financial matters or punditry on the Internet.
+
+**See Also:**
+
+* [Community Points](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_community_points)
+* [Moons](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_moons)
+
+---
+
+#Reddit Premium
+::Features of Reddit::
+
+Pay monthly to support Reddit [https://www.reddit.com/premium](https://www.reddit.com/premium) and get ad-free browsing and exclusive stuff for your Redditing. Small periods of Reddit Premium (with a smaller range of exclusive stuff) can be gifted to other Redditors by giving certain Awards. You get a Trophy on your Profile when you have Premium Reddit. You get a monthly allowance of Coins, and when it was running, you also had a free monthly Powerup to give to a community you like. Buying or being gifted Premium entitles you to access certain private subreddits. You get a range of exclusive cosmetics for your Snoovatar during your premium time but they will [disappear once your premium time runs out](https://i.imgur.com/mQ8FLHN.png).
+
+Before giving any money to Reddit, please familiarise yourself with the [Reddit Premium and Virtual Goods agreement](https://www.redditinc.com/policies/reddit-premium-and-virtual-goods-agreement-september-12-2021).
+
+If you are having problems with your Premium account such as missing Coins or time, talk directly to Reddit at [https://www.reddithelp.com/en/submit-request/premium-coins-support](https://www.reddithelp.com/en/submit-request/premium-coins-support).
+
+**See Also:**
+
+* [Award Types](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_types)
+* [Free Reddit Premium or Coins](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_free_reddit_premium_or_coins)
+* [Powerups](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_powerups)
+* [Premium Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_premium_reddit)
+* [Private Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_private_subreddits)
+* [Snoovatar](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snoovatar)
+* [Trophies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_trophies)
+
+---
+
+#Reddit Recap
+::Features of Reddit::
+
+This has two distinct meanings; the unofficial one being a generic term used by the subset of YouTube vloggers who use Reddit as their primary source of content. Putting the term “Reddit Recap” into YouTube’s search will bring up countless videos of people reading and reacting to Reddit memes, posts or trends, of varying quality.
+
+The official meaning is found on the Admin-led Reddit blog [Upvoted](https://www.redditinc.com/blog) which has given annual recaps on Reddit trends and features for the last few years, including:
+
+* [The Best of Reddit in 2017](https://www.redditinc.com/blog/the-best-of-reddit-in-2017/)
+* [Reddit’s Year in Review: 2018](https://www.redditinc.com/blog/reddits-year-in-review-2018)
+* [The Best of Reddit’s Communities in 2018](https://www.redditinc.com/blog/the-best-of-reddits-communities-in-2018)
+* [Reddit’s 2019 Year in Review](https://www.redditinc.com/blog/reddits-2019-year-in-review)
+* [Reddit’s 2020 Year in Review](https://www.redditinc.com/blog/reddits-2020-year-in-review)
+* [Reddit’s 2020 First UK Year in Review](https://www.redditinc.com/blog/reddits-2020-uk-year-in-review)
+* [Reddit’s 2020 Year in Review – Community Reflections](https://www.redditinc.com/blog/reddits-2020-year-in-review-community-reflections)
+* [Reddit recap 2021](https://www.redditinc.com/blog/reddit-recap-2021)
+* **Personalised Reddit Recaps**
+
+The end of 2021 saw the review take a whole new direction: not just the usual [end-of-year site statistics](https://www.reddit.com/r/blog/comments/rbqu7c/reddit_recap_2021/) but a personalised in-product recap of your own user browsing and engagement data from January 1st, 2021 to November 30th, 2021 [which looked like this](https://www.reddit.com/r/LearnToReddit/comments/u8fb84/my_reddit_recap_testing_a_gallery_upload/), and some of the r/NewToReddit users shared [their recaps here](https://www.reddit.com/r/NewToReddit/comments/rcvh5y/your_personal_reddit_recap_2021/).
+
+The Reddit tech blog later shared a [recap of the recap](https://www.reddit.com/r/RedditEng/comments/twb0jy/lets_recap_reddit_recap/) which they ended by saying they’re excited to see where Recap takes us in 2022. So am I, tech team, so am I.
+
+**Because there is a Subreddit for everything:**
+
+r/RedditRecap2021 invited everyone to share their recaps, and r/RedditRecapCards was a place to post your Reddit recap [Pokémon-style cards](https://i.redd.it/zon2rf6i3ma91.jpg).
+
+**See Also:**
+
+* [BananasForScale](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bananasforscale)
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [New Year Celebrations on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_year_celebrations_on_reddit)
+* [Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reddit)
+
+---
+
+#Reddit Talk
+::Features of Reddit::
+
+Introduced in late 2021, Reddit Talk is a new way for Redditors to take part in live audio conversations, and the [full details are here](https://reddithelp.com/hc/en-us/articles/4404349195284-What-is-Reddit-Talk-). Available to only a select few subs at first, this is now being [rolled out across Reddit](https://www.reddit.com/r/reddit/comments/vi8mw8/reddit_talk_updates_host_program_soundboard_and/).
+
+The idea of live audio rooms on Reddit might seem a bit counterintuitive at first, since many Redditors are here *because* we’re more anonymous than most social media, but the ability to comment and send emojis (yes! [Emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis)) during live rooms will make it easier for lurkers to chime in on a low level.
+
+---
+
+#Reddiquette
+::Jargon and Slang::
+
+An informal set of guidelines to follow before commenting or submitting posts on Reddit. You might not be banned for not following Reddiquette, but you will probably be showered in downvotes. [Reddiquette](https://www.reddithelp.com/hc/en-us/articles/205926439).
+
+**See Also:**
+
+* [Introduction and Rules](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9spx16)
+* [Rules](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rules)
+
+---
+
+#Relationship Advice on Reddit
+::Interesting and Miscellaneous::
+
+Although Reddit is primarily a news aggregator, a lot of people find the anonymity of Reddit very comforting. The relationship advice subreddits are therefore popular places for people struggling with diverse issues to get advice from other users.
+
+However, Reddit is still the internet and some people will always try and disrupt things. Sometimes a lot of our subs dealing with relationships and other intimate advice get targeted by trolls who invent scenarios for the “fun” of it. Some specialist advice subs won’t even let brand new accounts post there at all for that reason and require some verification first. This will always be detailed in the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) where applicable.
+
+You might even find that your first post on a relationship advice sub is ignored. Sometimes Alt or brand new accounts raise some suspicion and because nobody wants to either fall for a “prank” nor insult a genuine person, the usual thing Redditors do is to ignore it and move on. You therefore need to prove you are Redditing in good faith so my advice is to post sincere comments in a few recent posts (over a couple of days preferably) before making your first post yourself. That way, if a Mod or another user wanting to reply sees your account is new and looks through your profile history, they can see straight away you are a genuine Redditor and not a troll.
+
+As always, it is vital to read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before commenting or posting on any new Subreddit.
+
+* **Some Issues to be Aware Of:**
+
+Unfortunately, many of the advice subreddits have become known for:
+
+* [Creative Writing](https://www.vice.com/en/article/4ay4vn/reddit-relationships-fake-stories-authors)
+
+It has been said more than once that it’s fairly common for creative writing students to post in advice subreddits in order to see if their writing has traction, and it doesn’t take many posts before you start to believe that is indeed the case. However, don’t forget that bizarre situations *do* sometimes happen in real life, and it’s not uncommon to see replies that start out saying things “this might be fake but here’s my advice anyway”, as many of those who offer advice tend to do so in good faith and generally aren't too bothered if a post winds up being a ruse.
+
+* [Tabloid Fodder](https://medium.com/@davelee/a-journalists-guide-to-reddit-your-newest-super-source-fa250e967b97)
+
+Reddit has become a valuable free resource for many features editors of light news outlets. [Press Guidelines](https://www.redditinc.com/assets/press-resources/broadcast_2020.pdf) won’t stop your story about your girlfriend from [ending up on Lifehacker](https://lifehacker.com/the-greatest-stories-from-the-am-i-the-asshole-subredd-1837987235), or your nightmare wedding dress fitting from appearing in a [tabloid paper and website](https://metro.co.uk/2018/11/13/bride-shares-story-of-mother-in-law-accidentally-texting-her-about-shtshow-wedding-dress-fitting-8134117/?ico=more_text_links). Don’t let this stop you posting your personal dilemma or relationship horror story, just don’t include identifying details and preferably, use an Alt or Throwaway account.
+
+* [Drastic Advice](https://www.buzzfeed.com/natashajokic1/reddit-relationship-advice-therapist-review)
+
+It’s basically [a Reddit trope](https://www.reddit.com/r/AskReddit/comments/430046/why_is_the_top_relationship_advice_on_reddit/) that the first and most prevalent advice given is nearly always [the nuclear option](https://www.reddit.com/r/OutOfTheLoop/comments/5mf6ea/why_is_rrelationships_so_know_for_telling_people/). Don’t forget, Redditors are of all ages and demographics, coming from many different situations and cultures worldwide. Some have life experience, are familiar with nuance and genuinely want to offer conscientious, well-meaning balanced advice. Some may have little to no experience or even tolerance with the little compromises that come with long-term relationships and immediately jump to extreme conclusions. Some may even be of the opinion that no relationship is worth it unless it's absolutely perfect in every single way so it needs to end immediately and completely. And some [just want to watch the world﻿ burn](https://youtu.be/efHCdKb5UWc). Remember that while most of us have potential to grow intellectually, some people are emotionally stuck at maturity level 13 for their entire life.
+
+* [Money Scams](https://www.reddit.com/r/Scams/comments/mhrmiy/romance_scam/)
+
+Like everything, you should approach advice subreddits with a balance of healthy scepticism and sincerity - with one clear exception: anything involving real-life money. If someone posts, comments or sends you a direct message or chat request asking for money of any amount [for any reason](https://www.reddit.com/r/facepalm/comments/t12qdl/scammers_have_sunk_even_lower_how_absolutely/), do not take any action other than to [report the post](https://reddit.zendesk.com/hc/en-us/articles/360058309512-How-do-I-report-a-post-or-comment-) or if it was a DM, [report it here](https://reddit.zendesk.com/hc/en-us/articles/360058752951-How-do-I-report-a-private-message-), refer them to r/assistance, block them and move on. If they are genuine, r/assistance has a useful resource of Subreddits that [may be able to help them](https://www.reddit.com/r/Assistance/comments/1hexgp/other_subreddits_that_can_help_you/) in a controlled and auditable way.
+
+* **It really isn’t all like that.**
+
+Let me say that most people who offer advice to those posting in relationship and advice subreddits are those who have been through similar situations themselves and are posting from their own personal viewpoint. You should be aware of all the above does happen but also that the vast majority of posts are from someone reaching out for [considered opinions from likeminded people](https://www.wired.co.uk/article/reddit-r-relationships-love-subreddit). And even if the post you respond to *does* turn out to be fake, don’t be ashamed or delete it. After all, someone in the future in a real and similar situation might one day read your post or comment and find you have given them the help they genuinely needed.
+
+**Finally, please make sure that you know yourself enough to analyze everything before you apply what you read.**
+
+**See Also:**
+
+* [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
+* [Alt](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_alt)
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [Gaslighting](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_gaslighting)
+* [Ghosting](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ghosting)
+* [Hivemind](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hivemind)
+* [LARP; LARPer](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_larp.3B_larper)
+* [Privacy Issues](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_privacy_issues)
+* [Relationship and Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_and_advice_subreddits)
+* [Scams](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_scams)
+* [Searching](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_searching)
+* [Throwaway Account](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_throwaway_account)
+
+---
+
+#Relationship and Advice Subreddits
+::Interesting and Miscellaneous::
+
+This is a partial list of Subreddits dedicated to specific topics and advice on Self-Improvement, Personal and Emotional matters. Many of these subs will be part of a network of similar subreddits which will be listed in their Sidebar or Wiki (if they have one).
+
+Some of these subs give more serious advice than others. Some are there just for a kind word at a bad time. However, please remember that for all the good Reddit does in this way, you are still asking random strangers on social media to figure out your important life choices which is no substitute for professional advice.
+
+As with all subreddits, you must understand the rules of posting or commenting, and remember that with this type of sub some are stricter than others through necessity. This list is by no means comprehensive but is a good place to start.
+
+If you are from a religious family or community, there are many "ex" subs which may also be able to help or relate to you (r/exmormon, r/exchristian, r/exjew, r/exmuslim, r/exjw, etc.).
+
+* [https://www.reddit.com/r/ListOfSubreddits/wiki/advice](https://www.reddit.com/r/ListOfSubreddits/wiki/advice)
+* [Raised By Narcissists Multireddit](https://www.reddit.com/r/ACoNLAN+LifeAfterNarcissism+ManagedByNarcissists+NRelationships+RBNAtHome+RBNBestOf+RBNBookClub+RBNChildcare+RBNFavors+RBNImages+RBNLegalAdvice+RBNLifeSkills+RBNMovieNight+RBNMusic+RBNRelationships+RBNSpouses+ShitNsSay+rbnfitness/)
+* [https://www.reddit.com/r/raisedbynarcissists/wiki/helpfullinks](https://www.reddit.com/r/raisedbynarcissists/wiki/helpfullinks)
+* r/AbuseInterrupted
+* r/abusesurvivors
+* r/adulting
+* r/anxietyhelp
+* r/askatherapist
+* r/CPTSD
+* r/dbtselfhelp
+* r/DecidingToBeBetter
+* r/depression_help
+* r/entitledparents
+* r/FreeCompliments
+* r/getting_over_it
+* r/GriefSupport
+* r/hardshipmates
+* r/helpmecope
+* r/internetparents
+* r/JUSTNOFAMILY \- part of an extensive “Just NO!” network of related subs, such as r/JUSTNOMIL \- check the sidebars to see them.
+* r/KindVoice
+* r/leaves
+* r/mentalhealth
+* r/malementalhealth
+* r/momforaminute
+* r/MMFB (stands for Make Me Feel Better)
+* r/parentlessbychoice
+* r/peptalkswithpops
+* r/personalfinance
+* r/raisedbynarcissists \- this sub has a whole network of related subs, such as r/RBNLifeSkills \- check the sidebars to see them.
+* r/selfhelp
+* r/selfimprovement
+* r/socialskills
+* r/toastme
+* r/traumatoolbox
+* r/venting
+* **Subreddits Not Mentioned Above**
+
+There will be many more subreddits out there and some resources to find them include:
+
+r/listofsubreddits
+
+[https://www.reddit.com/r/findareddit/wiki/directory](https://www.reddit.com/r/findareddit/wiki/directory) Directory Of Subreddits. Please use this page first before submitting a request on r/findareddit.
+
+[https://www.reddit.com/r/findareddit/wiki/howtofindasubreddit](https://www.reddit.com/r/findareddit/wiki/howtofindasubreddit) This guide is assuming that you have a subreddit in mind; either one you've been to before, or simply a sub of a specific type that you want to find.
+
+[https://www.reddit.com/r/ListOfSubreddits/comments/dmic6o/advice\_mental\_health\_subreddits/](https://www.reddit.com/r/ListOfSubreddits/comments/dmic6o/advice_mental_health_subreddits/) This is a list of subs that address mental health issues.
+
+[www.reddit.com/subreddits](http://www.reddit.com/subreddits) Exactly what it says it is. Subreddits. Lots of them in alphabetical order.
+
+**See Also:**
+
+* [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
+* [Financial Help on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_financial_help_on_reddit)
+* [LARP; LARPer](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_larp.3B_larper)
+* [Legal Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_legal_advice_on_reddit)
+* [Medical Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_medical_advice_on_reddit)
+* [Navigating Reddit](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ssh6c/)
+* [Relationship Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_advice_on_reddit)
+* [Searching](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_searching)
+* [Useful Links and Subreddits](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9stoov/)
+
+---
+
+#Relationship Sub Acronyms and Initialisms
+::Acronyms and Initials::
+
+Like every specialised area, relationship subreddits have a language of their own. These are just a few of the abbreviations you might find in these subs. Check with each Subreddit first as these might differ slightly between them.
+
+**Opening Statement**
+
+* OP - Original Poster, or author of the Post you are commenting on
+* My (24F) friend (26M) - This denotes the OP is a 24 year old female asking for advice on a matter concerning her 26 year old male friend
+* TW, CW - Trigger Warning / Content Warning
+* DV - Domestic Violence
+* KMS - Kill Myself
+
+**Immediate Family**
+
+* H, W, S, D - Husband, Wife, Son, Daughter
+* DH, DW, DS, DD - Dear Husband, Dear Wife, Dear Son, Dear Daughter
+* SO - Significant Other
+* BH, BP, BS, BW - Betrayed Husband, Betrayed Partner, Betrayed Spouse, Betrayed Wife
+* WH, WP, WS, WW - Wayward Husband, Wayward Partner, Wayward Spouse, Wayward Wife
+
+**In-Laws**
+
+* MIL, FIL, BIL, SIL - Mother-in-law, Father-in-law, Brother-in-law, Sister-in-law
+* If it has an S before any of the previous acronyms it indicates a step relationship.
+
+**Other People**
+
+* MM, MW - Married Man, Married Woman
+* OM, OW - Other Man, Other Woman
+* AP, pAP - Affair Partner, Potential Affair Partner
+* FB, FWB - Fuck Buddy, Friends With Benefits
+* LDAP - Long Distance Affair Partner
+* STBX - Soon-to-be Ex
+* LV - Low Value (below status)
+
+**Types of Relationship**
+
+* LTR - Long Term Relationship
+* LDR - Long Distance Relationship
+* EA - Emotional Affair
+* PA - Physical Affair
+* LTA - Long-Term Affair
+* LTEA - Long-Term Emotional Affair
+* NSA - No Strings Attached
+* ONS - One Night Stand
+* NC, LC, VLC - No Contact, Low Contact, Very Low Contact
+
+**Narcissists**
+
+* The subs dealing with the effects of narcissism [have their own specific lexicon](https://www.reddit.com/r/raisedbynarcissists/wiki/acronyms)
+
+**Miscellaneous**
+
+* RBN - Raised by Narcissists
+* ACoN - Adult Child of Narcissist(s)
+* NRE - New Relationship Energy
+* DDay - Discovery Day, when infidelity is first discovered or disclosed
+* DDay 2, 3, 4 etc. - either when new affairs or significant new information is discovered or disclosed
+* IC - Individual Counselling
+* MC - Marriage Counselling
+* SA - Sex Addict / Sex Addiction
+* TT - Trickle Truth, continuing to lie or withhold information after initial discovery/disclosure
+* HB - Hysterical Bonding
+
+Not all of these may be relevant to, used or even have the same meaning in all the advice subs. If you see one I haven’t listed here, there’s a searchable database of relationship-based [abbreviations here](https://www.survivinginfidelity.com/documents/library/abbreviations/) that might help.
+
+* **Same initials; different meanings**
+
+There are some initialisms which have different meanings depending on the community you’re viewing, such as:
+
+* FTM - First Time Mother; has a totally different meaning in [the Parenting communities](https://www.reddit.com/r/Parenting/comments/44dvp0/comment/czpp43b/)from that same abbreviation in, for example, [the Transgender communities](https://www.reddit.com/r/MtF/comments/kcaaq0/trans_terminology_and_abbreviations/).
+* BM - Baby Mama; also means [“Brood Mare”](https://www.reddit.com/r/socialjustice101/comments/j5etuz/calling_women_who_want_more_kids_brood_mares_is/) in some of the less kinder subs.
+* AI - Assisted or Artificial Insemination; refers to [“Artificial Intelligence”](https://www.reddit.com/t/artificial_intelligence/) anywhere else on Reddit.
+* OTD - Out The Door; also means “On The/That Day”.
+* CPS - Child Protective Services (USA); [Crown Prosecution Service (U.K.)](https://www.cps.gov.uk/about-cps). Also has several meanings in gaming communities: [Clicks Per Second](https://www.reddit.com/r/CompetitiveMinecraft/comments/jggqia/how_much_does_cps_actually_matter/) or Character Points (sometimes written as CPs).
+* GAS - Gender-Affirming Surgery; refers to [petroleum](https://www.reddit.com/r/oilandgas/) or [natural gas](https://www.reddit.com/r/NaturalGas/) anywhere else on Reddit. A comprehensive guide to LGBTQ+ Terminology [can be found here](https://www.nyp.org/documents/pps/cultural-competency/Understanding%20Disparities%20-%20LGBTQ%20Terminology.pdf).
+
+Many of these might well be obvious because of their context, but if in doubt, don’t assume.
+
+* **Some less kinder subs**
+
+Sometimes, some of the terms may be unkind or even deliberately designed to be slurs or insults.
+
+* r/childfree is a subreddit dedicated “to those who do not have and do not ever want children (whether biological, adopted, or otherwise)” which has its own lingo such as [Bingoed](https://www.reddit.com/r/OutOfTheLoop/comments/5ah857/what_does_it_mean_to_be_bingoed_in_rchildfree/); a term which derives from [this chart](https://whynokids.com/advice-tips/breeder-bingo/). An extensive list of their other lingo is in [their wiki](https://www.reddit.com/r/childfree/wiki/terminology).
+* r/antinatalism is a sub about the philosophical position that assigns a negative value to birth, [and have their own views](https://www.reddit.com/r/antinatalism/comments/7zgu80/use_of_the_term_breeders_in_this_sub/) on such terminology.
+
+As always, it is important to browse through a new sub to get a feel of the place and be sure to understand their [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) and jargon before participating.
+
+**See Also:**
+
+* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
+* [Euphemism](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_euphemism)
+* [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
+* [Relationship Advice on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_advice_on_reddit)
+
+---
+
+#Removed
+::Jargon and Slang::
+
+If a comment says \[removed\], this usually implies a moderator, admin, or spam filter action removed the comment. If a mod or admin removed it, there will almost always be a very good reason, but they are under no obligation to tell you why.
+
+**See Also:**
+
+* [Deleted or Removed](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_deleted_or_removed)
+
+---
+
+#Replies
+::Jargon and Slang::
+
+Replies to your posts on Reddit are usually known as Comments, for which you will get Notifications.
+
+**See Also:**
+
+* [Comments](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comments)
+* [Deleted or Removed](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_deleted_or_removed)
+* [Notification](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_notification)
+
+---
+
+#Reporting
+::General Guides::
+
+Reddit users may report content on Reddit via the [Reddit Help Centre](https://www.reddithelp.com/hc/en-us) or by using the report button directly on a post or comment. By sending a report, users can alert a community’s team of moderators (anonymously) and/or Reddit administrators to something that violates either community rules or Reddit’s Content Policy.
+
+On the bottom of this and every page on the Reddit website are links to the [Terms](https://www.redditinc.com/policies/user-agreement) and [Content Policy](https://www.redditinc.com/policies/content-policy). If you think any of those policies are being violated, you should contact the Admins at [www.reddit.com/report](http://www.reddit.com/report). Here’s a useful summary to help you: [https://www.reddithelp.com/hc/en-us/categories/360003247491-Rules-Reporting](https://www.reddithelp.com/hc/en-us/categories/360003247491-Rules-Reporting).
+
+We also have a [comprehensive guide to reporting](https://www.reddit.com/r/LearnToReddit/comments/qyxjyk/how_to_report/) in our sister subreddit r/LearnToReddit.
+
+* **A quick reminder of who to report stuff to:**
+
+For a violation of the Reddit Terms and Content Policy, use the links above to send a message to the Admins.
+
+* *Admins* are paid official Reddit staff who are responsible for - among other things - keeping Reddit legal and safe.
+
+For a violation of the rules of an individual Subreddit, report a post or content via the standard 'report' button on the [“Hamburger” Post Overflow Menu](https://i.redd.it/k732ju47qhw81.jpg) which then goes to the Moderators.
+
+* *Moderators* are unpaid community volunteers who help maintain individual subreddits. They may act as they see fit within their subreddits, so long as they comport to the general Reddit rules above.
+* **Specific Issues:**
+
+Need to report something directly to Reddit? A full list can be found here: [https://www.reddithelp.com/hc/en-us/sections/360008810132-Reporting](https://www.reddithelp.com/hc/en-us/sections/360008810132-Reporting).
+
+* Problems with Premium? Coins missing? Time missing? - [https://www.reddithelp.com/en/submit-request/premium-coins-support](https://www.reddithelp.com/en/submit-request/premium-coins-support)
+* Account issues? - [https://www.reddithelp.com/en/submit-request/account-issues](https://www.reddithelp.com/en/submit-request/account-issues)
+* Under-age users - [https://www.reddithelp.com/hc/en-us/articles/360058758031-How-do-I-report-someone-I-think-is-under-the-age-of-13-](https://www.reddithelp.com/hc/en-us/articles/360058758031-How-do-I-report-someone-I-think-is-under-the-age-of-13-)
+* Reporting a community (subreddit) - [https://www.reddithelp.com/hc/en-us/articles/360058311612-How-do-I-report-a-community-](https://www.reddithelp.com/hc/en-us/articles/360058311612-How-do-I-report-a-community-)
+
+Other issues can be reported here: [https://reddit.zendesk.com/hc/en-us/requests/new](https://reddit.zendesk.com/hc/en-us/requests/new) by using the report button and [choosing the appropriate report reason](https://i.redd.it/vsjkr064xz891.jpg). Options not shown on the screenshot are:
+
+* NetzDG Report
+* Other Help
+* Defamation
+* Inquiries Related to Your Privacy Rights
+
+The admins (Reddit employees) will be able to see inside a subreddit or message even if it's private.
+
+* **Reporting a post:**
+
+You should know that if you [report a post](https://i.redd.it/k732ju47qhw81.jpg) for any reason, that post will now automatically be hidden and appear in your Hidden folder, which you can see here: [https://www.reddit.com/user/me/hidden/](https://www.reddit.com/user/me/hidden/). You can Unhide it if you wish using its “hamburger” post overflow menu.
+
+**See Also:**
+
+* [Admin](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_admin)
+* [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban)
+* [Banned](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_banned)
+* [Hidden Posts](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hidden_posts)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [Privacy Issues](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_privacy_issues)
+* [Private Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_private_subreddits)
+* [Rules](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rules)
+
+---
+
+#Repost
+::General Guides::
+
+A repost on Reddit is where you (or someone else) repeats an existing post with the same content in the same subreddit, [some time after the original post was made](https://www.reddit.com/r/TheoryOfReddit/comments/j5hu5/a_brief_explanation_of_reposts_why_they_are_bad/). How well it is received depends on the time between the original and the repost. Several years is usually fine, unless it’s one of the all-time top posts of the sub. Several months might be acceptable, if you’re lucky. Several days won’t be. Several hours will rain downvotes in a deluge of negative comments at best.
+
+Many subs also have strict rules about reposting, and some hate reposts so much they may even impose a ban for making them. And even if a sub doesn’t have any particular policy on reposts, the regular users will often [let you know their opinion](https://www.reddit.com/r/oddlyterrifying/comments/vqt7hb/found_after_tearing_up_the_carpets/) in no uncertain terms.
+
+* **Keep out of reposting trouble**
+
+You might think you’re the first to post something cool you saw on Instagram. You probably won’t be. It [isn’t easy](https://www.reddit.com/r/help/comments/7h99ld/tips_on_how_to_check_for_reposts/) to check for reposts either, unfortunately. Options include:
+
+* Use the [Search](https://www.reddit.com/wiki/search/) function on a subreddit before posting to make sure you aren’t the umpteenth person that day to post it.
+* [https://www.reddit.com/search](https://www.reddit.com/search) will help you detect if the thing you want to post has appeared anywhere on Reddit before.
+* Use [https://repostsleuth.com](https://repostsleuth.com/) to check if and when your post was last posted on Reddit. You can also type: u/repostsleuthbot as a top-level comment in an existing post, and the bot should then comment if it is a repost or not.  r/RepostSleuthBot.
+* u/RepostSentinel is a bot that detects reposts, which you can see [at work here](https://www.reddit.com/r/forbiddensnacks/comments/ukbv7y/caught_our_japanese_exchange_student_about_to/). For more information, [see the F.A.Q.](https://www.reddit.com/user/RepostSentinel/comments/7j3pu8/faq/).
+* **Is it a Repost, Crosspost, or Multipost?**
+
+There’s a tendency on Reddit to call anything a Repost if it’s been seen before.
+
+For instance, r/FellowKids have their own [definition](https://www.reddit.com/r/FellowKids/comments/doi3po/what_is_a_repost_a_comprehensive_guide_that_tells/) of what they consider to be Reposts. r/conspiracyNOPOL is a place to discuss non-political conspiracies, and [their rules on Multiposting](https://www.reddit.com/r/conspiracyNOPOL/comments/mdztzi/no_more_multiposts_bans_to_be_issued_from_now_on/) also includes Crossposting.
+
+Even [Redditors can’t always agree](https://www.reddit.com/r/help/comments/3ht2xs/what_is_the_difference_between_repost_and/) on the differences, and Reddit itself only [defines crossposting](https://reddit.zendesk.com/hc/en-us/articles/4835584113684-What-is-Crossposting-). Technically:
+
+* A Repost is to take a post from some time ago and post it again in the same subreddit.
+* A Crosspost uses Reddit’s crosspost facility to post someone else's content to a different subreddit.
+* A Multipost is to make the same post in two (or more) different subreddits at the same time, usually when asking for help.
+
+Each subreddit, as I frequently mention, has its own [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/). You’ll need to make sure that you understand the rules before you post, as Crossposting in a subreddit that doesn’t allow it will cause your post to be deleted and may result in a ban.
+
+If you are still considering making any kind of multiple post or repost, you should ensure that it’s suitable for the themes of both subreddits, and that it shows potential for attracting quality contributors so that both subs potentially benefit in their own different ways. It’s good practice when Crossposting to give credit to the original post by stating something like "(x-post from *subreddit*)" somewhere in the title.
+
+**Because there is a Subreddit for everything:**
+
+Guess what you can post at r/repost…
+
+**See Also:**
+
+* [Bots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bots)
+* [Crosspost](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_crosspost)
+* [Multipost](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_multipost)
+* [Participating on Reddit: Posting](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ss4vt/)
+* [Searching](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_searching)
+* [Spambots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_spambots)
+
+---
+
+#RES
+::Interesting and Miscellaneous::
+
+Reddit Enhancement Suite (RES) is a community-driven unofficial browser extension for Reddit. More details can be found at [https://redditenhancementsuite.com](https://redditenhancementsuite.com/) and in the subreddit r/Enhancement.
+
+Incidentally, on mobile there are many other ways of accessing Reddit than just the official apps, and here’s two roundups of some of them.
+
+[https://www.igeeksblog.com/best-reddit-client-iphone-apps/](https://www.igeeksblog.com/best-reddit-client-iphone-apps/)
+
+[https://www.androidauthority.com/best-reddit-apps-android-734043/](https://www.androidauthority.com/best-reddit-apps-android-734043/)
+
+Support for these may be found in unofficial subreddits such as r/apolloapp for iOS and r/baconreader for Android, to name just two.
+
+---
+
+#restofthefuckingowl
+::Interesting and Miscellaneous::
+
+A link or phrase posted when tutorials or diagrams have a notable lack of instructions between the start and end. It’s also used when a gif or video cuts off before the end. r/restofthefuckingowl.
+
+[How To Draw an Owl](https://i.redd.it/usdm506etk991.jpg) is a satirical instructional image purportedly illustrating how to draw an intricately detailed owl in two steps. Despite what the title suggests, the vast majority of the artistic process is left unexplained for comedic effect. The illustrator behind the instruction remains unknown, however, the earliest known instance of the image was in 2010 when it was [first submitted to r/pics](https://www.reddit.com/r/pics/comments/d3zhx/how_to_draw_an_owl/).
+
+**Because there is a Subreddit for everything:**
+
+Owls are well represented on Reddit.  r/Owls is dedicated to everything that makes you go "Hoo”, as is r/owlcollection, and the gloriously misleading r/Superbowl is for superb owl lovers everywhere while r/thesuperbowl needs reviving.
+
+As far as drawing owls is concerned, r/drawing, r/learntodraw and r/sketches are good starting points while the r/ArtFundamentals community is dedicated to the lessons available for free on [https://drawabox.com](https://drawabox.com/). Here’s an old but good [list of art subreddits](https://www.reddit.com/r/redditlists/comments/141nga/list_of_art_subreddits/) and r/art have a [wiki list](https://www.reddit.com/r/Art/wiki/related/) of art-related subs.
+
+**See Also:**
+
+* [Misleading Subreddit Titles](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_misleading_subreddit_titles)
+* [Navigating Reddit](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ssh6c/)
+
+---
+
+#Restricted Subreddits
+::Features of Reddit::
+
+On entering a subreddit you might encounter a message saying: "Only approved users may post in this community" or similar. Congratulations, you found a Restricted subreddit. Anyone can view a Restricted subreddit, but only approved submitters or users can post. However, it’s usually the case that anyone can comment on posts and anyone can vote on comments or posts. Moderators of active but restricted subs can add and remove approved submitters; contact and other details should be in the sidebar (About tab).
+
+Sometimes Reddit Admins (the paid employees that work for Reddit) restrict subs when there's a lack of Moderators (volunteer users), or if the only (human) mod in that sub is suspended. For a subreddit to be declared abandoned, all of the moderators of the subreddit must show no activity anywhere on Reddit for 60 days. Essentially that sub is dead until or unless someone decides to adopt the sub as a new moderator through r/redditrequest. If you’re considering adopting a sub yourself, make sure you [read the FAQs](https://www.reddit.com/r/redditrequest/wiki/faq) first.
+
+Occasionally, you might find that a community you belong to or are active in becomes private with no prior notice, and instead of entering you will see some variation of the message: [“The moderators of this subreddit have set this community as private. Only approved members can view and take part in its discussions.”](https://i.redd.it/axrwmh6uwk991.jpg).
+
+Please be assured that this is not you personally being banned from the sub at all. Sometimes, moderators will restrict their subreddits [in protest to attract the attention of Reddit Admin](https://www.reddit.com/r/NewToReddit/comments/pfftfj/another_note_on_subreddits_going_to_private_mode/). It doesn’t happen often, and it usually resolves fairly quickly. In any event, if you *were* banned from the sub, you would still be able to read and vote on the contents but unable to post or comment on anything.
+
+**See Also:**
+
+* [Adopting a Subreddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_adopting_a_subreddit)
+* [“Is there really a subreddit for everything?”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cis_there_really_a_subreddit_for_everything.3F.201D)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [Private Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_private_subreddits)
+* [Subreddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_subreddit)
+
+---
+
+#Revenge Subreddits
+::Interesting and Miscellaneous::
+
+Revenge: a desire for vengeance or retribution; an act or instance of retaliating in order to get even; the desire to inflict retribution; an opportunity for getting satisfaction. Many believe that exacting revenge is a form of emotional release and that getting retribution will help us feel better, making this an ideal topic for Reddit.
+
+Get that special dopamine hit not by plotting in real life but by reading these stories instead. Make your own mind up as to the veracity of these stories, as with all subs dealing with personal anecdotes that can’t actually be proven. Some subs are more active than others but [all have their specific definitions](https://www.reddit.com/r/supernovarevenge/comments/m2zswr/definitions_of_revenge_subreddits/) so be sure to read their rules and sidebars before contributing.
+
+* r/pettyrevenge \- For stories of small victories over those who've wronged you.
+* r/RegularRevenge \- For tales of revenge that aren't too pro but aren't petty either.
+* r/ProRevenge \- For going out of your way or above and beyond to get revenge.
+* r/NuclearRevenge \- A place for all forms of extreme revenge.
+* r/supernovarevenge \- For “justified life ruining” revenge.
+* r/singularityrevenge \- The pettiest of the petty. A whole new level of revenge.
+* r/PulsarRevenge \- The strongest and most extreme type of revenge. Empty.
+* r/EscalatingRevenge \- Revenge that continues over time and gets better as it goes.
+* r/MaliciousCompliance \- People conforming to the letter, but not the spirit, of a request.
+
+[The psychology of revenge](https://www.reddit.com/r/psychology/comments/e9mgj5/the_psychology_of_revenge_why_we_need_to_punish/) has been a recurring topic [in many subs](https://www.reddit.com/r/explainlikeimfive/comments/8pbzk2/eli5_why_do_humans_desire_revenge/) throughout Reddit for [a long time](https://www.reddit.com/r/askscience/comments/wwqc1/why_do_humans_seek_revenge/).
+
+Reddit does, at times, seem rather obsessed with retribution, judging and dumping on other people, usually based on a small video clip or screenshot clip with absolutely no context. I scroll through r/all every now and then, and it always seems to be filled with posts about people getting some type of revenge or people “getting what they deserve”. And so…
+
+**Because there is a Subreddit for everything:**
+
+Judge / laugh at / feel superior to / pity the unfortunates at:
+
+* r/byebyejob
+* r/dontyouknowwhoiam
+* r/IdiotsNearlyDying
+* r/instantkarma
+* r/Instantregret
+* r/instant_regret
+* r/JusticeServed
+* r/Prematurecelebration
+* r/therewasanattempt
+* r/whatcouldgowrong
+* r/WinStupidPrizes
+
+Many other ‘fail’ subreddits are available.
+
+**See Also:**
+
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [Doxxing](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_doxxing)
+* [LeopardsAteMyFace](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_leopardsatemyface)
+* [Rules](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rules)
+
+---
+
+#Reverse Image Searching
+::General Guides::
+
+You’ve seen that image before but can’t remember where. On a computer it’s easy to find it by using a Reverse Image service such as [TinEye](https://tineye.com/), Google or [Duplichecker](https://www.duplichecker.com/reverse-image-search.php). Reddit recently contributed to a [missing person mystery](https://www.reddit.com/r/UnsolvedMysteries/comments/psir4w/woman_found_injured_but_alive_on_a_remote_part_of/) by using [PimEyes](https://pimeyes.com/en); a paid-for Reverse face image search website.
+
+There’s a useful list of resources in the [Meme Restoration subreddit](https://www.reddit.com/r/MemeRestoration/comments/oxa5ur/tips_tools_reverse_image_search/) too.
+
+On mobile, however, reverse image searches aren’t so straightforward and so intrepid Redditor u/IPV46 with help from u/Glass-Paramedic set out to make it easy by developing u/risbot, the reverse image searching Reddit bot. Simply mention u/risbot in a comment and [in a matter of seconds](https://www.reddit.com/r/botwatch/comments/n3kabi/say_hello_to_urisbot_the_reverse_image_searching/), it'll reply with a link to Google reverse image search of the posted image. Currently, the submission must contain an image for the bot to comment, and galleries might not be supported. Like traditional reverse image searches, videos aren’t supported either.
+
+**See Also:**
+
+* [Bots](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_bots)
+* [Memes](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_memes)
+
+---
+
+#Rickroll
+::Lore and History::
+
+Firstly, let me assure you that none of the links in this entry are Rickrolls in themselves; I have designated this a safe space because, quite frankly, Rickrolling you here would be too easy and a good Rickroll should never be predictable. However, I can’t answer for any links in the comments of any of the Reddit posts linked here, so be warned :)
+
+This is the internet. If you don’t know [what a Rickroll is by now](https://en.wikipedia.org/wiki/Rickrolling), just where have you been? Catch up with an illustrated [history here](https://www.smoothradio.com/news/music/rick-roll-meme-link-video-rick-astley/). No doubt helped by this phenomenon, in 2021, *Never Gonna Give You Up* reached a total of [1 Billion views](https://www.reddit.com/r/Music/comments/oj1wj4/rick_astley_never_gonna_give_you_up_pop_today/) on YouTube. Rickrolls have some particular significance when it comes to Reddit, as you will see.
+
+* **Rick Astley on Reddit**
+
+Rick Astley is an active Redditor, and his latest posts and comments can be found at u/ReallyRickAstley. Notable posts include:
+
+* [Rick Astley: Sith Lord](https://www.reddit.com/r/pics/comments/qhkm42/backstage_having_a_bit_of_fun_with_our_lighting/).
+* [Rick rekt a Redditor in 2016](https://www.reddit.com/r/Music/comments/56cdgm/ama_im_really_rick_astley_i_swear_and_to/) to everyone’s delight.
+* [Reddit’s most upvoted post of 2020 was a picture he posted from 1989](https://www.reddit.com/r/pics/comments/haucpf/ive_found_a_few_funny_memories_during_lockdown/), which itself became the number one of all the…
+* **Notable Rickrolls on Reddit**
+* u/theMalleableDuck famously [Rickrolls Rick Astley himself](https://www.reddit.com/r/pics/comments/haucpf/ive_found_a_few_funny_memories_during_lockdown/fv505w1/) and was subsequently featured in an [article in *Time* magazine](https://web.archive.org/web/20220324022845/https://time.com/5855001/rick-roll-rick-astley/).
+* [Reddit’s finest Rickroll](https://www.reddit.com/r/reddit.com/comments/bpevz/my_family_recently_found_two_songs_on_sheet_music/c0nx2uc).
+* [The inventor of the Rickroll does an IAmA](https://www.reddit.com/r/IAmA/comments/mx53y/i_am_youtube_user_cotter548_aka_the_inventor_of/).
+* [Learn the secrets of a great Rickroll](https://www.reddit.com/r/LearnUselessTalents/comments/5a9y88/how_to_rickroll_someone_on_reddit/).
+* [Get Rickrolled by an unlikely combination](https://www.reddit.com/r/Unexpected/comments/ptp3j8/what_a_beautiful_tune_wait_a_second/) in a firm favourite of the whole genre.
+* [People who were watching the Macy's Thanksgiving Day Parade in 2008 got a surprise they'll never forget](https://www.reddit.com/r/Damnthatsinteresting/comments/svbi9p/people_who_were_watching_the_macys_thanksgiving/).
+
+Keep up with the latest Redditing about Rick Astley at: [https://www.reddit.com/t/rick\_astley/](https://www.reddit.com/t/rick_astley/).
+
+Finally, as you might know by now, Reddit loves debating [logical fallacies and paradoxes](https://www.reddit.com/r/AskReddit/comments/hg1uax/what_is_your_favorite_paradox/) so let me introduce you to the [“Astley Paradox”](https://www.reddit.com/r/technicallythetruth/comments/hg9ryx/astley_paradox/). Formulated in 2020, it goes like this: If you ask Rick Astley for a DVD of the movie *Up*, he won't give it to you because he's never gonna give you Up. However, by not giving you Up like you asked, he's letting you down - something else he said he’d never do. Later that year, one intrepid Redditor worked out a [solution](https://www.reddit.com/r/conspiracytheories/comments/iuhb3l/i_found_a_solution_to_the_rick_astley_paradox/) to this paradox in the unlikeliest of subreddits for this: r/conspiracytheories.
+
+**Because there is a Subreddit for everything:**
+
+r/rickastley, r/rickroll, r/RickRolled, r/subtlerickroll, r/unexpectedrickroll
+
+**See Also:**
+
+* [AwardSpeechEdits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_awardspeechedits) (encyclopaedia)
+* [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cbait-and-switch.201D_or_.201Cthe_ole_reddit_bait-and-switch.201D)
+* [Famous Redditors](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_famous_redditors)
+* [IAmA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iama) (encyclopaedia)
+* r/IAmA (subreddit)
+* [Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_logical_fallacies)
+
+---
+
+#rimjob\_steve
+::Jargon and Slang::
+
+A link posted when a wholesome comment is made by a Redditor with an unwholesome name. [Originating here](https://www.reddit.com/r/pics/comments/8p28ki/after_driving_uber_for_over_15_hours_a_day_for_a/e081xvq/?st=JI3J0Y14&sh=a05a5b0c) when the titular u/rimjob_steve commented that they would like to help out a fellow Redditor IRL. Because this kind of juxtaposition is done far more frequently than you might imagine, the subreddit r/rimjob_steve was created to share any similar instances.
+
+**See Also:**
+
+* [birthofasub](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_birthofasub)
+* [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl)
+* [Wholesome](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wholesome)
+
+---
+
+#RL
+::Acronyms and Initials::
+
+“Real Life”. That pesky thing preventing you from Redditing 24/7. Some people refer to their birthday as their “RL Cakeday”. I don’t.
+
+**See Also:**
+
+* [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl)
+
+---
+
+#Role-Playing on Reddit
+::Interesting and Miscellaneous::
+
+Role-Playing on Reddit takes many forms. We have subs for showing off cosplays (dressing up as a character from history or a film, graphic novel, book, or video game), such as:
+
+* r/cosplay \- SFW photos, questions, tutorials, and cosplay related discussions.
+* r/cosplayers \- for people who cosplay and people looking to cosplay.
+* r/CosplayHelp \- for anyone who needs help with armour making, sewing, wigs etc.
+* r/badcosplay \- a no-shame environment for your worst or intentionally bad cosplay.
+
+**We have subs dedicated to the many types of RPGs (role-playing games) out there, such as:**
+
+* r/RoleplayingForReddit \- to find and advertise play-by-post role-playing groups.
+* r/DnD \- Dungeons & Dragons from its First Edition roots to its Fifth Edition future.
+* r/RoleplayPartnerSearch \- to find your perfect non-smut role-playing mate.
+* r/roleplaying \- where avid role-players can commune, commiserate, learn and share.
+* r/BadRPerStories \- a place to post stories about the bad role-players you've encountered.
+* r/gametales \- a place to recount unexpected, unique, or humorous events, epic sagas, dastardly backstabbing and other player interactions that have happened in-game.
+* r/roleplaydirectory \- a small sub aiming to provide an up-to-date and easy to access directory of all active roleplay subreddits. Has a huge sidebar of related subreddits!
+
+**We have improv subs where you portray a particular character in that sub, such as:**
+
+* r/HaveWeMet \- roleplay in the fictional small town of “Lower Duck Pond”.
+* r/lifeofnorman \- a subreddit about writing small, fictional tales about a fictional character named Norman; a rather unremarkable fellow.
+* r/TalesFromCaveSupport \- everyday Cro-Magnons talk about their struggles with those who are "evolved".
+* r/Fictional_AITA \- Similar to r/AmITheAsshole but for our favourite fictional characters and their situations.
+* r/PotterPlayRP \- Free-range Harry Potter roleplay.
+* r/herotale \- a small story sub with huge potential where you are the hero and interact with the storytellers.
+* r/continuefromprompt \- an adult story writing and role-playing community designed to encourage immediate immersion. NSFW.
+
+**And we have subs which lie on the periphery:**
+
+* r/totallynotrobots \- A PLACE FOR ALL FELLOW HUMANS TO SHARE THEIR KNOWLEDGE. WE TOTTALLY AREN'T ROBOTS.
+* r/ItemShop \- pics of things that look like items from RPGs and other video games.
+* r/Bossfight \- pics of things that could be boss fights, preferably with creative boss titles.
+* r/BossFights \- boss fights in meme form.
+* r/VXJunkies \- nonsensical (but thematically consistent) technobabble.
+* r/SCP \- official subreddit of the SCP Wiki collaborative fiction project.
+* r/abovethetreetops \- brush up on your business lingo and corporate jargon here.
+* r/AlternateHistory \- a "what if" hypothetical history sub.
+* r/HistoryWhatIf \- here to explore alternate history scenarios in interesting ways.
+
+The Imaginary Network Expanded (INE) is a [network of art sharing subreddits](https://www.reddit.com/r/ImaginaryNetwork/wiki/networksublist/) ranging from broad in subject to very specific. It is the goal of the INE to share, inspire, discuss and appreciate paintings, drawings, and digital art while maintaining artist credit and source links.
+
+* r/ImaginaryNetwork \- home of the INE.
+* r/ImaginaryBestOf \- this sub collects the best posts from the INE.
+* r/ImaginaryUnofficial \- a hub meant to aid in cataloging, browsing, and promoting extra "Imaginary" subs, such as:
+* r/ImaginaryCharacters \- art of characters from fantasy, sci-fi or other fiction.
+
+**Because there is a Subreddit for everything:**
+
+A set of subreddits [that really go all out for stretching the imagination](https://www.reddit.com/r/explainlikeimfive/comments/1d8cff/eli5_these_bizarre_subreddits/) are the “…..World Problems” subs based on expanding the [Three-World Model](https://en.wikipedia.org/wiki/Three-world_model).
+
+In r/FifthWorldProblems, the inhabitants have torn down the walls of physics and are messing with the fabrics of space/time. One of the [top posts of all time](https://www.reddit.com/r/fifthworldproblems/comments/9xx1bu/my_daughter_told_me_she_now_identifies_as_gender/) is: “My daughter told me she now identifies as gender fluid and I was fine with it. It was getting cold out so I turned on the heater, now she's become gender gas and can't return to her liquid form. Any ideas on how I can get her back to normal?”
+
+r/fourthworldproblems, r/FifthWorldProblems, r/SixthWorldProblems, r/SeventhWorldProblems, r/EighthWorldProblems and so on all get progressively weirder. Sadly, some need reviving but the archives are still worth a look, as does r/5thworldproblems.
+
+As always, read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before contributing to an unfamiliar sub. Similar subreddits are often to be found in the Sidebar too.
+
+**See Also:**
+
+* [“Everyone on Reddit is a bot except you.”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Ceveryone_on_reddit_is_a_bot_except_you..201D)
+* [LARP; LARPer](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_larp.3B_larper)
+
+---
+
+#RPAN
+::Features of Reddit::
+
+Reddit’s Live Streaming network. RPAN is a public network made up of live broadcasts created by and for Redditors, providing livestream bandwidth and airtime to the residents of Reddit as a service to the community. To be eligible to broadcast, your Reddit account must be at least 14 days old with at least 125 comment karma. Everything else you need to know is [listed in their Wiki page](https://www.reddit.com/r/pan/wiki/index).
+
+To stop RPAN from showing up on your feed, tap the three dots Hamburger menu in the top right corner of the stream and choose the option 'see less of this'.  r/pan.
+
+**See Also:**
+
+* [Comment Karma](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_karma)
+* [Reddit Karma - Your Reddit XP](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9sqcti/)
+
+---
+
+#“Rule of Shoe”
+::Interesting and Miscellaneous::
+
+Also known as “Shoes are off, he’s dead”, which is a phrase posted when a gif or video shows someone’s shoes coming off in an accident, no matter how minor. Originating in some long-gone gore subreddits, it’s widely used these days more figuratively. The correlation between losing your shoes during an accident and your likelihood of surviving is a very old one:
+
+* The saying ['knock your socks off'](https://www.quora.com/What-is-the-origin-of-the-phrase-knock-your-socks-off-and-what-does-it-mean) dates back to the 1940s.
+* In late 1969 a rumour started that [Paul McCartney was dead](https://en.wikipedia.org/wiki/Paul_is_dead), because of being barefoot on [the “Abbey Road” album cover](https://www.radiox.co.uk/artists/beatles/the-beatles-abbey-road-album-cover-facts-meaning/).
+* In 2007, during the Summer X Games ‘Big Air’ section, [skateboarder Jake Brown fell 45 ft](https://youtu.be/CTeXKHkNqgk)and the announcers, clearly in shock, fixate on his shoes which flew off on landing. After several minutes of unconsciousness, Brown incredibly walked off the ramp surface - albeit with assistance.  [https://en.wikipedia.org/wiki/Jake\_Brown\_(skateboarder)](https://en.wikipedia.org/wiki/Jake_Brown_(skateboarder)).
+* In 2009, *MythBusters: S07E12* found the amount of force required to punch someone out of their socks was way more than necessary to kill. They later revisited this idea and pairs of socks sent in by viewers were [used for the testing of this myth](https://www.dailymotion.com/video/x6udga1).
+
+**Because there is a Subreddit for everything:**
+
+Relevant subs - of which there are many - include r/AccidentalShoeLoss, r/TheShoesCameOff, r/WinStupidPrizes, r/holdmyfeedingtube, r/instant_regret, r/Whatcouldgowrong, and r/AbruptChaos.
+
+---
+
+#Rules
+::Features of Reddit::
+
+Every subreddit has its own rules, post format, karma requirements and moderators all totally unique to that community. Always read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before commenting or posting on an unfamiliar Subreddit, and [here’s an older illustrated guide to finding and checking them](https://www.reddit.com/r/SolariaHues/comments/n46up3/joining_in_on_reddit/) safely.
+
+A subreddit might not have all its rules in the same place for many reasons. To find them all, you should first look in the Sidebar (on mobile this will be the About tab, Menu tab and Community Info found in the three dot “hamburger” menu top RH corner of your screen), then for any Pinned posts (Search by “Hot” and the top two may have a lime green pin icon). Finally, there may be a Wiki tab which will give more detailed information on such things as forbidden topics or frequently asked questions.
+
+**See Also:**
+
+* [Admin](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_admin)
+* [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban)
+* [Banned](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_banned)
+* [Content and Copyright](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_content_and_copyright)
+* [Hamburger Menu](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hamburger_menu)
+* [Introduction and Rules](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9spx16)
+* [Mod](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mod)
+* [Reddiquette](https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette)
+* [Reporting](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_reporting)
+* [Wiki](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wiki)
+
+---
+
+#“Rules of the Internet”
+::Interesting and Miscellaneous::
+
+Yes, the Internet has rules. They might not be what you may think and they certainly aren’t [all totally accurate](https://rulesoftheinternet.com/). Depending on whom you ask, they are either not meant to be taken seriously or are very [srs bsns](https://knowyourmeme.com/memes/the-internet-is-serious-business) indeed.
+
+The [Rules of the Internet](https://knowyourmeme.com/memes/rules-of-the-internet) were originally numbered one to over [NINE THOUSAAAAAND](https://www.urbandictionary.com/define.php?term=Over%209000) (sort of) of which only a few now remain in the zeitgeist such as the infamous [Rule 34](https://en.wikipedia.org/wiki/Rule_34): "No matter what it is, it is somebody's porn fetish. No exceptions". Attempting to invoke an exception will lead to [Rule 35](https://www.urbandictionary.com/define.php?term=Rule%2035): “The very act of pointing out that porn of something does not exist will inspire someone to make porn of it”.  [Rule 63](https://en.wikipedia.org/wiki/Rule_63) states that "For every given female character, there is a male version of that character" and vice versa.
+
+Two more that are often quoted are Rule 29: “In the Internet, all girls are men and all kids are undercover FBI agents”, and [Rule 30](https://www.dictionary.com/e/slang/rules-of-the-internet/): “There are no girls on the Internet.” The last one, unlike most of the others, may not necessarily be entirely factual.  [But it pays to be sceptical](https://www.reddit.com/r/ModSupport/comments/l3glih/this_spam_situation_is_getting_out_of_control/).
+
+**See Also:**
+
+* [Eponymous Laws](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eponymous_laws)
+* [Internet Adages](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_internet_adages)
+
+---

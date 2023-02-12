@@ -78,7 +78,7 @@ def get_post_sections(content):
     # and a flair (::Flair::). This function uses RegEx and requires the re
     # module.
     title_pattern = "^#[^#].*"
-    flair_pattern = ":+[a-zA-Z]* ?[a-zA-Z]*:+"
+    flair_pattern = "::([^:]+)::"
 
     titles = []
     flairs = []
@@ -132,8 +132,8 @@ def get_post_sections(content):
     titles = list(np.concatenate(titles).flat)  # Flatten the titles list
     titles = [title.strip() for title in titles]
     titles = [str(x).replace('#', '', 1) for x in titles]  # Format the titles
-    flairs = [str(x).replace(':', '') for x in flairs]  # Format the flairs
-    flairs = list(np.concatenate(flairs).flat)  # Flatten the flairs list
+    flairs = [str(x).replace(':', '') for x in [flair[0] for flair in flairs]]
+    # flairs = list(np.concatenate(flairs))  # Flatten the flairs list
     # Remove the first newline
     posts = [post[1:] if post.startswith('\n') else post for post in posts]
     # Remove the horizontal rule
@@ -176,7 +176,7 @@ def check_additions(wiki_page_id, titles, flairs, posts):
     unique_flairs = flairs.copy()
     unique_posts = posts.copy()
 
-    CSV_HEADER = 'Title,Flair,Current Hash,ID'
+    CSV_HEADER = 'Title,Flair,Current Post Hash,Current Flair Hash,ID'
 
     if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
         with open(f'post_info_{wiki_page_id}.csv', 'w') as file:
@@ -251,7 +251,7 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, flair_hashes, id
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
-    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash, ID'
+    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
 
     # Create the CSV file if it doesn't exist yet
     if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
@@ -424,14 +424,16 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
-        if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-            log.info(f"No links found to convert in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Skipping...")
-            continue
+        if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
+            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
+                log.info(f"No links found to convert in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Skipping...")
+                continue
         for heading in headings:
             converted_heading = url_encoding(heading)
             # log.info(f"Converted heading: {converted_heading}") 
             escaped_heading = re.escape(heading)
-            pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/[0-9]+/#wiki_{converted_heading}\\)') # TODO This regex is not working properly. Confirmed breaks with '$' in the heading.
+            converted_escaped_heading = re.escape(converted_heading)
+            pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[0-9]+/#wiki_{converted_escaped_heading}\\)') # TODO This regex is not working properly. Confirmed breaks with '$' in the heading.
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
             # log.info(f"Title_ID dictionary: {title_id_dict[heading]}")
@@ -439,7 +441,8 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
         try:
             post.edit(post_content)
             if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+                if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
+                    log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
             else:
                 log.error(f"Wiki links failed to converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
                 failed_ids = failed_ids + [post_ids[i]]
