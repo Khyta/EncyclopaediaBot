@@ -315,7 +315,7 @@ def update_posts(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
+    # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
@@ -621,6 +621,11 @@ if __name__ == '__main__':
                 if result is not None:
                     failed_ids.extend(result)
                     # log.info(f'Failed ids: {failed_ids}')
+
+            title_id_dict = csv_to_dict()
+            df = pd.read_csv('post_info.csv')
+            tmp_ids = df['ID'].tolist()
+            failed_ids = wiki_to_post_link(reddit, title_id_dict, tmp_ids)
 
             if len(failed_ids) > 0:
                 log.error(f'The following posts failed wiki conversion: {failed_ids}. Trying again...')
