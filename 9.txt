@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * Entries for U-Z below
 
-U
-===
+
 
 #u/
 ::Essentials for Newbies::
@@ -146,7 +145,7 @@ If you like something or you think it contributes to a conversation, always clic
 
 **See Also:**
 
-* [“Doot”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoot.201D)
+* [”Doot”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Ddoot.201D)
 * [Hivemind](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hivemind)
 * ["I regret that I have but one upvote to give."](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.22i_regret_that_i_have_but_one_upvote_to_give..22)
 * [“Take my upvote and leave.”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_.201Ctake_my_upvote_and_leave..201D)
@@ -253,8 +252,7 @@ r/uwu_lang are creating an [uwu language](https://www.reddit.com/r/uwu_lang/comm
 
 ---
 
-V
-===
+
 
 #Visibility
 ::Essentials for Newbies::
@@ -398,8 +396,7 @@ If you prefer consonants, you might find a home at r/ggggg which is devoted to j
 
 ---
 
-W
-===
+
 
 #“We did it, Reddit!”
 ::Lore and History::
@@ -559,8 +556,7 @@ r/wallstreetbets. A subreddit that gained worldwide notoriety in February 2021. 
 
 ---
 
-X
-===
+
 
 #X-Post
 ::Essentials for Newbies::
@@ -574,8 +570,7 @@ Another word for Crosspost.
 
 ---
 
-Y
-===
+
 
 #YMMV
 ::Acronyms and Initials::
@@ -603,7 +598,7 @@ Seen by many a new Redditor, this pop-up message isn’t personal; it’s just t
 
 ---
 
-#"You are technically correct, the best type of correct"##
+#"You are technically correct, the best type of correct"
 ::Interesting and Miscellaneous::
 
 A phrase posted when the Pedants of Reddit rise up. Originating in [Futurama S02E14](https://youtu.be/hou0lU8WMgo), here’s a [typical Reddit example](https://www.reddit.com/r/gifs/comments/36m7dh/just_a_turtle_eating_pancakes/crfacnb/?context=3).
@@ -653,15 +648,14 @@ r/YouShouldKnow is just one of a group of “learning” subreddits full of usef
 
 ---
 
-Z
-===
+
 
 #Z
 ::Interesting and Miscellaneous::
 
 In the absence of a real entry to go here, let me instead present a small selection of subreddits beginning with Z. Why?
 
-[**Because there is a Subreddit for everything.**](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_**because_there_is_a_subreddit_for_everything.**).
+Because [“There’s a Subreddit for everything”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_.201Cthere.2019s_a_subreddit_for_everything.201D).
 
 * r/zabbix \- Zabbix is Open Source enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices.
 * r/ZombieSurvivalTactics \- a community for discussion about survival against zombies. We're ready. Are you?

@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-M
-===
+
 
 #Markdown Text
 ::General Guides::
@@ -491,8 +490,7 @@ Used on relationship subs to introduce the poster and their query. This denotes 
 
 ---
 
-N
-===
+
 
 #NAH
 ::Acronyms and Initials::
@@ -810,7 +808,7 @@ Your profile will be marked as NSFW should you interact with an NSFW sub. NSFW s
 
 If a picture is uploaded and the post is marked NSFW, it will automatically have the [blur feature applied](https://i.redd.it/1lzq9pk3z0z81.jpg) regardless of the [actual content](https://i.redd.it/w1xejl3li0z81.jpg).
 
-At [https://new.reddit.com/settings/feed](https://new.reddit.com/settings/feed) you can choose to see NSFW content or not, and if you choose to see it, you can also choose to blur it with safe browsing mode. In the browser it is called "Safe Browsing Mode" and is on the Feed Settings page. On mobile, tap your avatar top left, [settings at the bottom](https://i.redd.it/ox0xqepzzvt81.jpg), then you can toggle NSFW content on or off and toggle the blur too. You can check your feed settings here for NSFW stuff [https://www.reddit.com/settings/feed](https://www.reddit.com/settings/feed)though it's not always marked, especially if you’re on iOS.
+At [https://www.reddit.com/settings/feed](https://www.reddit.com/settings/feed) you can choose to see NSFW content or not, and if you choose to see it, you can also choose to blur it with safe browsing mode. In the browser it is called "Safe Browsing Mode" and is on the Feed Settings page. On mobile, tap your avatar top left, [settings at the bottom](https://i.redd.it/ox0xqepzzvt81.jpg), then you can toggle NSFW content on or off and toggle the blur too. You can check your feed settings here for NSFW stuff [https://www.reddit.com/settings/feed](https://www.reddit.com/settings/feed)though it's not always marked, especially if you’re on iOS.
 
 On the iOS app, NSFW settings can be found in your **device settings** page after selecting the Reddit app, and NOT the Reddit app itself. You'll want to enable "Show NSFW Content (18+)" and disable "Blur NSFW Images".
 
@@ -899,8 +897,7 @@ Ah, Reddit; never change. r/NYTO.
 
 ---
 
-O
-===
+
 
 #ObviousPlant
 ::Jargon and Slang::
@@ -1222,8 +1219,7 @@ r/Overshare chronicles those times when people give out Too Much Information, wa
 
 ---
 
-P
-===
+
 
 #Padlock
 ::Essentials for Newbies::
@@ -1639,7 +1635,7 @@ The issue behind (ha!) the [plethora of pixelated porn](https://www.reddit.com/r
 
 But this also brought some very disparate groups together using Discord to co-ordinate real-time attempts to rescue targeted artworks. Some of these communities previously had very little - if anything - in common with each other until the issue of ensuring particular pixels were kept certain colours for a short period of time became vital. Many unlikely alliances were formed, and this comprehensive [timeline of events](https://docs.google.com/document/d/1LOLuyHUL3VYt0D9fsIUtrklpfewX6wHKZ73Li_7iGWo/edit?usp=sharing) shows many groups joining forces to defend their territories alongside that of the [Welsh flag](https://www.reddit.com/r/Wales/comments/twfvie/wales_right_before_the_purge_of_place/).
 
-Talking of flags, this animation of [the first few hours of Place](https://new.reddit.com/r/place/comments/ttts0k/first_hours_of_2022_rplace_animated/) shows the massive amount of goodwill towards Ukraine by allowing their flag to span the entire width of the canvas before being mostly replaced. Many national flags were represented but as this is my encyclopaedia, I’m giving special mention to the [creation of the Welsh flag (y ddraig goch)](https://www.reddit.com/r/Wales/comments/ttqnsq/5_years_ago_we_created_y_ddraig_goch_on_rplace/) as the group I contributed to even made it onto [the venerable BBC Wales](https://www.bbc.co.uk/news/av/uk-wales-61004680).
+Talking of flags, this animation of [the first few hours of Place](https://www.reddit.com/r/place/comments/ttts0k/first_hours_of_2022_rplace_animated/) shows the massive amount of goodwill towards Ukraine by allowing their flag to span the entire width of the canvas before being mostly replaced. Many national flags were represented but as this is my encyclopaedia, I’m giving special mention to the [creation of the Welsh flag (y ddraig goch)](https://www.reddit.com/r/Wales/comments/ttqnsq/5_years_ago_we_created_y_ddraig_goch_on_rplace/) as the group I contributed to even made it onto [the venerable BBC Wales](https://www.bbc.co.uk/news/av/uk-wales-61004680).
 
 Also from the Welsh Place Discord group members came a YouTube video, [“The Dragon That Could”](https://youtu.be/Zig1NFfJjPY), while the intrepid Redditor u/ohmegamega as well as the timeline of events linked above also made a [complete Timelapse of the creation of the flag](https://youtu.be/bi7_ahPAjnk) where if you look closely you can see my desperate fight against the lil pink peen invader of our lovely red dragon, and later against the [“amogus” \[sic\] invasion](https://www.reddit.com/r/AmongUs/comments/twiuqu/rplace_had_around_35k_little_among_us_in_it/).
 
@@ -1998,7 +1994,7 @@ Our first Community Heroes were our long time lovely friends u/vancityace, u/Mas
 
 Paying Premium users were given one free power-up per month, and anyone else had to purchase a power-up subscription for $4.99 a month by clicking the "Become a Hero" button on the sidebar. If a paying Premium user wanted to power-up multiple subreddits, they had to buy a separate power-up subscription for each additional subreddit.
 
-Power-up Heroes ware not committed to keep powering up the subreddit they first chose. They could move their monthly power-up to a different subreddit by going to their settings and selecting the Premium tab:  [https://new.reddit.com/settings/premium](https://new.reddit.com/settings/premium) where they could see the option to manage power-ups at the bottom.
+Power-up Heroes ware not committed to keep powering up the subreddit they first chose. They could move their monthly power-up to a different subreddit by going to their settings and selecting the Premium tab:  [https://www.reddit.com/settings/premium](https://www.reddit.com/settings/premium) where they could see the option to manage power-ups at the bottom.
 
 * **Important Stuff they had to know**
 
@@ -2211,7 +2207,7 @@ There are some private subs with weird letter or number combinations for names t
 
 The reassuring news is that many of these remain from a long-forgotten April Fools event from some time ago but their bots still roam Reddit, waiting for that random trigger. Some of these subs are even still active - but with the only recent activity being from bewildered Redditors wondering where they are and why they’re there.
 
-These legacy subs shouldn’t be confused with [subs you might find with names in the format *a:t5\_3akbn*](https://www.reddit.com/r/modhelp/comments/uu61lg/my_sub_name_changed_from_motogpchat_to_at5_3akbn/) as these are [dormant subs](https://new.reddit.com/r/modnews/comments/o18ct9/creating_new_opportunities_for_future_community/) that have been removed.
+These legacy subs shouldn’t be confused with [subs you might find with names in the format *a:t5\_3akbn*](https://www.reddit.com/r/modhelp/comments/uu61lg/my_sub_name_changed_from_motogpchat_to_at5_3akbn/) as these are [dormant subs](https://www.reddit.com/r/modnews/comments/o18ct9/creating_new_opportunities_for_future_community/) that have been removed.
 
 There are also [places like this](https://www.reddit.com/r/explainlikeimfive/comments/2q04qk/comment/cn1w50r/) which appear to defy anyone’s theories of what they are actually for.
 
@@ -2256,7 +2252,7 @@ Whatever you want it to be! Many Redditors don’t use it at all. The Redditor u
 
 Those who might wish to use their profile page as a personal blog/subreddit are advised to look at the Profile Moderation Page link at the bottom of [https://www.reddit.com/settings/profile](https://www.reddit.com/settings/profile). You can access your profile moderation tools on the web by going to your profile, clicking Other Options, and selecting Profile Moderation.
 
-Profile moderation tools are currently unavailable on mobile, but you can access them on a browser by going to this link: [https://new.reddit.com/user/me/about/edit/moderation](https://new.reddit.com/user/me/about/edit/moderation). If the link doesn’t work, substitute your own username for “me”. This will bring you to a page that [looks like this](https://i.redd.it/td4hdw0dav191.png). Just like a subreddit, the same [Mod Guidelines](https://www.redditinc.com/policies/moderator-guidelines-for-healthy-communities) and [Content Policy](https://www.redditinc.com/policies/content-policy) applies to posts and conversations on your profile, so make sure you’re familiar with them before using your profile page.
+Profile moderation tools are currently unavailable on mobile, but you can access them on a browser by going to this link: [https://www.reddit.com/user/me/about/edit/moderation](https://www.reddit.com/user/me/about/edit/moderation). If the link doesn’t work, substitute your own username for “me”. This will bring you to a page that [looks like this](https://i.redd.it/td4hdw0dav191.png). Just like a subreddit, the same [Mod Guidelines](https://www.redditinc.com/policies/moderator-guidelines-for-healthy-communities) and [Content Policy](https://www.redditinc.com/policies/content-policy) applies to posts and conversations on your profile, so make sure you’re familiar with them before using your profile page.
 
 You have a customisable profile, an avatar, a blog page, links to your socials…. so is Reddit a social media site or not?  [The debate is real](https://www.reddit.com/r/TheoryOfReddit/comments/2j5dze/is_reddit_considered_social_media/).
 
@@ -2283,7 +2279,8 @@ You have a customisable profile, an avatar, a blog page, links to your socials�
 * Always browse a subreddit first to get a feel of the place and read its [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before participating in it, as they may have “forbidden” topics or strict formats to their content;
 * Never comment on a post showcasing cool merchandise such as t-shirts, mugs, prints, stickers etc as it will invariably be a [spambot](https://www.reddit.com/r/FruitsBasket/comments/dcnuyv/psa_there_is_a_tshirt_scam_ring_active_on_reddit/) and you’ll be branded as an accomplice;
 * Never post or comment anywhere offering Reddit Karma or upvotes in exchange for yours in return as these “karma farms” violate Reddit’s sitewide rule 2 and may get you a [Preemptive Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_preemptive_ban) from an increasing number of subreddits.
-* Always be sparing in your use of emojis as some subreddits [absolutely hate them](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_absolutely_hate_them).
+* Always be sparing in your use of [Emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis) as some subreddits absolutely hate them.
+
 * **Public Information Broadcasts**
 
 You might like this parody of old-style newsreels on the history of [The Elegant Reddit Upvote](https://youtu.be/FHhnxJjJLRA).
@@ -2416,7 +2413,7 @@ r/dadjokes acknowledges that some people are born with lame jokes in their heart
 
 **See Also:**
 
-* [“And My Axe!”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Cand_my_axe.21.201D)
+* [”And My Axe!”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Dand_my_axe.21.201D)
 * [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain)
 * [Cognitive Biases and Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cognitive_biases_and_logical_fallacies)
 * [Confirmation Bias](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_confirmation_bias)
@@ -2428,8 +2425,7 @@ r/dadjokes acknowledges that some people are born with lame jokes in their heart
 
 ---
 
-Q
-===
+
 
 #quityourbullshit
 ::Jargon and Slang::

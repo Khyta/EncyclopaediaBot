@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-S
-==
+
 
 #/s
 ::General Guides::
@@ -1263,7 +1262,7 @@ A ban from Reddit (sitewide) given by the Admins that lasts for a set number of 
 Sometimes an account can be hijacked by a spambot. If you suspect activity on your account that is not your own, you should immediately change your password (and that on your recovery email too just to be safe) and then set up Two-Factor Authorisation. Have a look at this page where you can view any suspicious activity, and log out any other sessions: [https://www.reddit.com/account-activity](https://www.reddit.com/account-activity). More useful links:
 
 * [https://www.reddit.com/r/help/comments/m0j6k9/email\_verification/](https://www.reddit.com/r/help/comments/m0j6k9/email_verification/)
-* [https://new.reddit.com/settings](https://new.reddit.com/settings)
+* [https://www.reddit.com/settings](https://www.reddit.com/settings)
 * [https://reddit.zendesk.com/hc/en-us/articles/360043470031-How-to-set-up-two-factor-authentication](https://reddit.zendesk.com/hc/en-us/articles/360043470031-How-to-set-up-two-factor-authentication)
 
 **See Also:**

@@ -11,9 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-A
-===
-
+---
 
 #Aardvarks
 ::Interesting and Miscellaneous::
@@ -52,7 +50,7 @@ Memes, just like every other joke format, don’t exist in a vacuum, which is wh
 
 **Because there is a Subreddit for everything:**
 
-[r/TinyUnits](https://www.reddit.com/r/TinyUnits/) is a chilled out place for sharing videos, gifs, and images of tiny animals, insects & random objects you find pretty awesome.
+[r/TinyUnits](https://www.reddit.com/r/TinyUnits/) is a chilled out place for sharing videos, gifs, and images of tiny animals, insects & random objects you find pretty awesome!
 
 **See Also:**
 
@@ -610,7 +608,8 @@ Reddit also makes its own traditions. An annual event that Reddit started in 201
 **See Also:**
 
 * [April Fools Day](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_april_fools_day)
-* [Christmas and the New Year on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_christmas_and_the_new_year_on_reddit)
+* [Christmas on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_christmas_on_reddit)  
+* [New Year Celebrations on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_year_celebrations_on_reddit)
 * [Halloween](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_halloween)
 
 
@@ -645,7 +644,7 @@ Nobody will ever see what posts or comments you have upvoted, downvoted, saved o
 #Anonymous Browsing  
 ::Features of Reddit::  
 
-See this guide to [Anonymous Browsing](https://reddit.zendesk.com/hc/en-us/articles/360045622611-What-is-Anonymous-Browsing-and-how-does-it-work-) to browse the Reddit mobile app without associating your activity, searches or the communities you view with your Reddit account.
+See this guide to [Anonymous Browsing](https://reddit.zendesk.com/hc/en-us/articles/360045622611-What-is-Anonymous-Browsing-and-how-does-it-work-) to browse the Reddit mobile app without associating your activity, searches or the communities you view with your Reddit account. Update.
 
 **See Also:**
 

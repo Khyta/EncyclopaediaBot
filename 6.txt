@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-R
-===
+
 
 #r/
 ::Acronyms and Initials::
@@ -84,7 +83,7 @@ The unique aspect of Reddit is that it is social media without being “social m
 
 In a traditional social media platform, people (or users) are at the very centre with the primary intent of publicising themselves, documenting their lifestyles, influencing others or accruing followers. Instead, with Reddit, our users (known as “Redditors”) contribute interesting and random news items, pictures, videos, memes, links or stories for their own sake, without having to reveal any details about themselves.
 
-On Reddit, nobody but you decides what level of interaction you want with other Redditors, and you are totally in charge of your own subjects to read and join in with. We don’t have “power Redditors” or wildly popular Redditors who influence or are loved by large swathes of people, for instance. We don’t really do [following](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_following) here in the same way for that reason.
+On Reddit, nobody but you decides what level of interaction you want with other Redditors, and you are totally in charge of your own subjects to read and join in with. We don’t have “power Redditors” or wildly popular Redditors who influence or are loved by large swathes of people, for instance. We don’t really do [Following](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_following) here in the same way for that reason.
 
 Aside from a username visible to everyone and an email address visible only to the site administrators (Admin), users are completely anonymous here, and can say as little or as much as they want to about themselves. With very few exceptions, nobody is interested in knowing who a Redditor is, only what they have to say, and users can back out of conversations (or jump back in) whenever they want without any excuse needed.
 
@@ -153,7 +152,7 @@ Before giving any money to Reddit, please familiarise yourself with the [Reddit 
 
 There is no time limit on using Reddit coins (whether won or bought); they will stay in your account until you use them. They are exclusively used for giving awards to other Redditors and cannot be exchanged for any other Reddit feature.
 
-Just like real money, sometimes it seems that your coins just disappear out of nowhere. If you think you have less coins that you should have, you can check on your profile at [https://new.reddit.com/user/me/gilded/given/](https://new.reddit.com/user/me/gilded/given/). Mobile users should open that link with your phone's browser.
+Just like real money, sometimes it seems that your coins just disappear out of nowhere. If you think you have less coins that you should have, you can check on your profile at [https://www.reddit.com/user/me/gilded/given/](https://www.reddit.com/user/me/gilded/given/). Mobile users should open that link with your phone's browser.
 
 If you are experiencing issues with a Reddit Premium subscription or Coin purchase, tell Reddit through the contact form [https://reddit.zendesk.com/hc/en-us/requests/new](https://reddit.zendesk.com/hc/en-us/requests/new) and choose "Premium/Coins/Awards/Powerups Support" from the dropdown menu.
 

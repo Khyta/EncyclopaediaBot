@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-F
-===
+
 
 #F or "F" In The Comments
 ::Culture and Etiquette::
@@ -447,12 +446,11 @@ We also like fixing real stuff on Reddit.  r/DIY is your go-to source for awesom
 #FWIW
 ::Acronyms and Initials::
 
-“For What It's Worth”. You can ignore this Encyclopaedia Redditica but FWIW I think you should save it anyway just in case.
+“For What It's Worth”. You can ignore this Encyclopaedia Redditica, but FWIW I think you should save it anyway just in case.
 
 ---
 
-G
-===
+
 
 #Gaslighting
 ::Interesting and Miscellaneous::
@@ -731,12 +729,11 @@ A link or phrase posted when an image shows an item that has Great Taste But Awf
 
 **Because there is a Subreddit for everything:**
 
-This should not be confused with r/GTAGE, r/ATAAE or r/ATBGE.
+This shouldn't be confused with r/GTAGE, r/ATAAE or r/ATBGE.
 
 ---
 
-H
-===
+
 
 #Hacked Accounts
 ::Interesting and Miscellaneous::
@@ -837,7 +834,7 @@ Finally, nothing says spooky as much as something saying S͎̣̦̦͙̤̈ͤ̔ͧ̿
 * [https://zalgo.org](https://zalgo.org/)
 * [https://lingojam.com/CreepyZalgoTextGenerator](https://lingojam.com/CreepyZalgoTextGenerator)
 
-Keep in mind that, like [emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis), not everyone will be as enthusiastic about your new find as you may be.
+Keep in mind that, like [Emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis), not everyone will be as enthusiastic about your new find as you may be.
 
 **Because there is a Subreddit for everything:**
 
@@ -918,7 +915,7 @@ r/facepalm is a gallery of inexplicable stupidity and r/stupidpeoplefacebook is 
 
 You may notice some Redditors have some version of 'Helper' or 'Contributor' next to their username. This is a user flair added by r/NewToReddit mods as a thank you to that Redditor for being helpful within the community, and a signal to everyone that they are a helpful community member! Our latest information is here [https://www.reddit.com/r/NewToReddit/wiki/index/helpers](https://www.reddit.com/r/NewToReddit/wiki/index/helpers).
 
-Any questions, please [modmail](https://new.reddit.com/message/compose?to=/r/NewToReddit) us.
+Any questions, please [modmail](https://www.reddit.com/message/compose?to=/r/NewToReddit) us.
 
 Thank you very much to each and every helper! You help to make this community what it is and really are a great help, not only in providing a friendly welcome, guidance and support to new users, but in helping to keep the community a safe, welcoming space, and embodying the spirit of the community. Thank you!
 
@@ -1071,7 +1068,7 @@ Applied broadly, this particular principle suggests that causes must be sufficie
 
 While a philosophical razor can be a useful mental shortcut that allows you to make decisions and solve problems quickly and easily, [it is not an unbreakable law or rule](https://www.reddit.com/r/askphilosophy/comments/geb4fe/why_isnt_the_burden_of_proof_considered_a/).
 
-**Because there is a Subreddit for everything:**
+**Because there is a Subreddit for everything.:**
 
 **See Also:**
 
@@ -1085,8 +1082,7 @@ While a philosophical razor can be a useful mental shortcut that allows you to m
 
 ---
 
-I
-===
+
 
 #“I also choose that guy's dead wife”
 ::Lore and History::
@@ -1512,7 +1508,7 @@ Find an abandoned sub at r/inactivereddits, and there’s a sub called r/subredd
 #ITAP
 ::Acronyms and Initials::
 
-“I Took A Picture”. Originally sub specific from r/itookapicture now with wider Reddit usage.
+“I Took A Picture”. Originally, sub specific from r/itookapicture now with wider Reddit usage.
 
 **See Also:**
 
@@ -1520,8 +1516,7 @@ Find an abandoned sub at r/inactivereddits, and there’s a sub called r/subredd
 
 ---
 
-J
-===
+
 
 
 
@@ -1585,7 +1580,7 @@ A link or phrase posted when you’ve had enough of a subreddits’ shenanigans 
 
 But don’t despair.  r/JustUnsubbedAgain is for those who unsubbed from JustUnsubbed because they keep a blacklist of subs you can't talk about, and r/unsubbed is for those times when you unsub from a sub, and you just want to talk to other people about how stupid that sub is.  r/justbeenbanned is a sub to post your experience of being unfairly banned, and you’ll find similar subs in the footnotes of my entry [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban). I mean, where better to complain about Reddit than on Reddit itself? Reddit loves being meta.
 
-An interesting look at some statistics on the most [frequently unsubbed subreddits on justunsubbed](https://www.reddit.com/r/TheoryOfReddit/comments/tjk8qj/are_there_any_statistics_on_what_the_most/) found a list of over 700 subreddits, with many having multiple results.
+An interesting look at some statistics on the most [frequently unsubbed subreddits on justunsubbed](https://www.reddit.com/r/TheoryOfReddit/comments/tjk8qj/are_there_any_statistics_on_what_the_most/) found a list of over 700 subreddits, with many having multiple results..
 
 Reddit, as you would expect, has quite a few subreddits where you can get out your strong feelings, not just about Reddit itself but life in general. These include:
 
@@ -1608,8 +1603,7 @@ On a happier note, r/JustSubbed is the place to let everyone know that you joine
 
 ---
 
-K
-===
+
 
 #Karma
 ::Essentials for Newbies::
@@ -1678,14 +1672,15 @@ r/karma is another place to learn about Reddit Karma, but read their [rules](htt
 
 ---
 
-Karma Farming
+#Karma Farming
+::Essentials for Newbies::
 
 Also known as “Karma Whoring”. Basically asking - or begging - for upvotes and / or karma without being engaged in conversation. Posts asking for or even talking about Karma or awards (e.g. “Upvote all my comments and I’ll upvote yours” or “What’s an award?”) will be at best downvoted or may even earn you a ban. There are very few exceptions to this; your Cakeday being the only legitimate time you can ask for Karma in certain places, or in subs with the specific purpose of talking about (but not asking for) Karma such as r/Karma or, of course, r/NewToReddit.
 
-#* **Karma Farms**
+#Karma Farms
 ::Essentials for Newbies::
 
-You will no doubt come across Subreddits which offer upvotes or karma for no or little effort. They don’t hide their intentions of promising you upvotes (or karma) in return for your giving upvotes to their posts with no other interaction. These places are known as “karmafarms” and you should avoid them. They are easy enough to spot from their names, and DO NOT be tempted by them no matter what you might read there. They can be easy traps to fall into because some of those upvote scores on older posts look amazing to a new user, but those scores have been [manipulated](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_manipulated) which is very much against the [Reddit rules](https://www.reddithelp.com/hc/en-us/articles/360043066412).
+You will no doubt come across Subreddits which offer upvotes or karma for no or little effort. They don’t hide their intentions of promising you upvotes (or karma) in return for your giving upvotes to their posts with no other interaction. These places are known as “karmafarms” and you should avoid them. They are easy enough to spot from their names, and DO NOT be tempted by them no matter what you might read there. They can be easy traps to fall into because some of those upvote scores on older posts look amazing to a new user, but those scores have been manipulated (See: [Vote Manipulation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_vote_manipulation)) which is very much against the [Reddit rules](https://www.reddithelp.com/hc/en-us/articles/360043066412).
 
 The few upvotes you’ll get in a karmafarm as a genuine user aren’t worth the risk to the integrity of your account. Even if you aren’t caught by Reddit itself, posting in subreddits meant for “gaming” the Reddit system can and will get you banned from participating in some major subreddits that you may want - or need - to use in the future because a lot of moderators see them as a way of circumventing karma requirements to post or comment in their community. You can read more about this in [User-History Based Moderation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_user-history_based_moderation).
 
@@ -1737,7 +1732,7 @@ If you are at all serious about being on Reddit, you need to build up karma in t
 
 “kill your self”. This lower-case initialism is mostly found in teen gaming communities as a way of “trash talking” or an “edgy” way to say [“fuck you”](https://www.dictionary.com/e/acronyms/kys/).
 
-“kys” is favoured by children and teens, most of whom argue that it’s just a joke, and when challenged on it will adopt a faux innocence, claiming their linguistic superiority in informing you that the word "kys" literally means "kiss" in Danish, or can also mean "keep yourself safe", hiding behind the phenomenon of Lexical Change (a shift in the meaning or use of a word) while meta-trolling with an unholy mixture of whitewashing, gaslighting, Brandolini’s Law and Poe’s Law to try and bullshit their way out of it.
+“kys” is favoured by children and teens, most of whom argue that it’s just a joke, and when challenged on it will adopt a faux innocence, claiming their linguistic superiority in informing you that the word "kys" literally means "kiss" in Danish, or can also mean "keep yourself safe", hiding behind the phenomenon of Lexical Change, (a shift in the meaning or use of a word) while meta-trolling with an unholy mixture of whitewashing, gaslighting, Brandolini’s Law and Poe’s Law to try and bullshit their way out of it.
 
 When you're an angry person with poor impulse control, one of the ways you learn to channel your own anger is to lash out and try to hurt others. Psychologists often speak of the [“online disinhibition effect”](https://en.wikipedia.org/wiki/Online_disinhibition_effect) \- our tendency to say things on the internet that we would never dare to say in real life. Restraint and teens rarely go hand in hand, but regardless, it’s actually quite sad that we now have a commonly used shorthand to provoke, suggest or even just refer to suicide in fun.
 
@@ -1765,8 +1760,7 @@ There’s also a useful list of subreddits for [advice or support on depression 
 
 ---
 
-L
-===
+
 
 #LARP; LARPer
 ::Acronyms and Initials::

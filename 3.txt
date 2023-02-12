@@ -11,8 +11,7 @@
 * [Entries for T](/r/EncyclopaediaOfReddit/wiki/8)  
 * [Entries for U-Z](/r/EncyclopaediaOfReddit/wiki/9) 
 
-B
-===
+---
 
 #Baader-Meinhof Phenomenon  
 ::Interesting and Miscellaneous::
@@ -80,7 +79,7 @@ Whether you know why you were banned or are still unclear as to what happened, y
 
 Do take some time to reflect before writing your reply. If a mod makes the decision to ban you, there really isn’t any comeback except with that mod. There may well be other mods of that subreddit to appeal to, but it’s my experience that they very rarely overrule each other’s decisions without good reason.
 
-There is a group of people on Reddit who will attempt to speak on your behalf, and you should read our encyclopaedia entry on [Moderation Mediation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_moderation_mediation) to find out more. Keep in mind that they are third-party volunteers and if a mod decides they don’t want to be party to mediation, there’s nothing official that can be done.
+There is a group of people on Reddit who will attempt to speak on your behalf, and you should read our encyclopaedia entry on [ModerationMediation](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_moderationmediation) to find out more. Keep in mind that they are third-party volunteers and if a mod decides they don’t want to be party to mediation, there’s nothing official that can be done.
 
 * **This all seems a bit extreme.**
 
@@ -198,7 +197,7 @@ To appeal against a moderator decision, use that subreddits’ [Modmail](https:/
 
 To appeal against a sitewide decision, lodge an appeal directly to Admin at [https://www.reddit.com/appeals](https://www.reddit.com/appeals).
 
-I also recommend you read the [entry on **Ban**](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_entry_on_**ban**) before taking action.
+I also recommend you read the entry on [Ban](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_ban) before taking action.
 
 * **Banned: Permaban**
 
@@ -343,7 +342,7 @@ This usage of the word ‘blessed’ has also given rise to the Blursed category
 
 **See Also:**
 
-* [“Blursed”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cblursed.201D)
+* [”Blursed”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Dblursed.201D)
 * [cursedcomments](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cursedcomments)
 * [Wholesome](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wholesome)
 
@@ -600,7 +599,7 @@ r/IsItBullshit asks just that, r/bullshit is just that, and r/quityourbullshit c
 #Brigading
 ::Interesting and Miscellaneous::
 
-Sending or inviting Redditors to go to another sub for the purposes of making mischief, manipulating voting scores, or causing a ruckus is considered to be “Brigading”. This is a serious offence on Reddit and comes in various forms, all of which are damaging to the community in general and therefore taken very seriously by both mods and admin. Reddit as a whole has [just eight rules](https://www.redditinc.com/policies/content-policy), and “no Brigading” is dealt with in rule 2 and to a lesser extent in rule 1.
+Sending or inviting Redditors to go to another sub for the purposes of making mischief, manipulating voting scores, or causing a ruckus is considered to be “Brigading”. This is a serious offence on Reddit and comes in various forms, all of which are damaging to the community in general and therefore taken very seriously by both mods and Reddit admin. Reddit as a whole has [just eight rules](https://www.redditinc.com/policies/content-policy), and “no Brigading” is dealt with in rule 2 and to a lesser extent in rule 1.
 
 A very simple form of Brigading would be entering a “pro” sub with the sole intention of being “anti”. So, somebody in the sub r/ifindsomefoodstuffsdisgusting might say something to the effect of “I’m not a fan of mayonnaise at all”. This post is read by a member of r/webelievemayoisthegreatestfoodstuffever and in a huff, posts a link to it, sending outraged mayo lovers over to contest a perfectly reasonable comment about mayo hating in a sub designed for such an opinion. If you really have such strong feelings about mayo that you need to let out (I know I do), there will definitely be more suitable places for them on Reddit than trying to incite any subreddit drama between communities.
 
@@ -646,8 +645,7 @@ r/OutOfTheLoop is an incredibly useful subreddit to help you keep up to date wit
 
 
 
-C
-===
+
 
 #Cakeday
 ::Essentials for Newbies::
@@ -899,7 +897,7 @@ And nothing says festive as much as something saying ꧁༺ 𝓕𝓮𝓼𝓽𝓲
 
 [https://www.fancytextpro.com/FancyTextGenerator/New](https://www.fancytextpro.com/FancyTextGenerator/New)
 
-Keep in mind that, like [emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis), not everyone will be as enthusiastic about your new find as you may be.
+Keep in mind that, like [Emojis](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_emojis), not everyone will be as enthusiastic about your new find as you may be.
 
 * **Bah, humbug.**
 
@@ -909,13 +907,13 @@ Meanwhile, the “War on Christmas” [might well be fake](https://www.reddit.co
 
 * **It’s the most wonderful time of the year?**
 
-While our TV and other advertising bombards us with warm nostalgic images of lovely times past, tables groaning with every foodstuff imaginable or large, happy families having fun together, it is important to remember this is not everyone’s reality, and those living with a different experience might find our feature on [“Relationship and Advice Subreddits”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_.201Crelationship_and_advice_subreddits.201D) useful.
+While our TV and other advertising bombards us with warm nostalgic images of lovely times past, tables groaning with every foodstuff imaginable or large, happy families having fun together, it is important to remember this is not everyone’s reality, and those living with a different experience might find our feature on [Relationship and Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_and_advice_subreddits) useful.
 
 For many people, this will be their first holiday season without that special loved one, or yet another one in some form of lockdown or where travel restrictions mean they’re alone. Please be extra aware of those acquaintances and neighbours for whom the smallest extra kindness will make all the difference to their lives at this time.
 
 Finance is a subject at the front of everyone’s concerns at this time of year, and r/Frugalcontains plenty of hints and tips for making the [most of your resources](https://www.reddit.com/r/Frugal/comments/dtg59o/very_tight_budget_for_christmas/), including a Sidebar (About tab on mobile) and drop-down Menus of links to many other relevant subreddits.
 
-r/StressFreeSeason is a place to go for all your holiday needs and information, crafts, tips, money saving advice, and resources local to you. Their sister subreddit r/stressfreexmas is a place to make material requests for Christmas. IT IS VITAL to read their rules, found in their Wiki, Sidebar and Pinned Post, and if you are considering signing up, you might also find [“Financial Help on Reddit”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cfinancial_help_on_reddit.201D) useful.
+r/StressFreeSeason is a place to go for all your holiday needs and information, crafts, tips, money saving advice, and resources local to you. Their sister subreddit r/stressfreexmas is a place to make material requests for Christmas. IT IS VITAL to read their rules, found in their Wiki, Sidebar and Pinned Post, and if you are considering signing up, you might also find [Financial Help on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_financial_help_on_reddit) useful.
 
 r/SantasLittleHelpers is billed as “the happiest place on Reddit” and it doesn’t take much scrolling to see why. Every year they pool together their resources to provide a Christmas for thousands of people who may not otherwise have one. Families who are struggling to give each other a joyful Christmas can sign up to make a request, and generous givers can spread the joy of Christmas all over the world. Again, the details in their menu bar are essential reading if you wish to take part.
 
@@ -1121,10 +1119,10 @@ Places to document these found in the wild include r/commentchains or r/RedditCo
 
 **See Also:**
 
-* [“And My Axe!”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Cand_my_axe.21.201D)
+* [”And My Axe!”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Dand_my_axe.21.201D)
 * [Cat. or cat.](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cat._or_cat.)
 * [DownvotedToOblivion](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_downvotedtooblivion) (encyclopaedia)
-* [F or "F" In The Comments.](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_f_or_.22f.22_in_the_comments.)
+* [F or "F" In The Comments](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_f_or_.22f.22_in_the_comments)
 * [IncreasinglyVerbose](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_increasinglyverbose)
 * [“May I see it?”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_.201Cmay_i_see_it.3F.201D)
 * [“Nice.”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_.201Cnice..201D)
@@ -1440,7 +1438,7 @@ r/distressingmemes is for memes you might find distressing, disturbing, haunting
 
 **See Also:**
 
-* [“Blursed”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cblursed.201D)
+* [”Blursed”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Dblursed.201D)
 * [Cursed Subs](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cursed_subs)
 * [NSFL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfl)
 * [NSFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfw)
@@ -1476,7 +1474,7 @@ r/whydoesthisexist is reasonably mild for this genre.  r/SubsIWishDidntExist and
 #Custom Feed
 ::General Guides::
 
-You can organise lists of your followed subreddits into [Custom Feeds](https://reddit.zendesk.com/hc/en-us/articles/360043043412-What-is-a-custom-feed-and-how-do-I-make-one-). You can keep your custom feeds private for your own use, or make them public to share. Formerly known as “Multireddits”, and you might still see some people use that name. This is more than just a list of your followed subreddits [and you’ll find more details here of what they are and do](https://www.reddit.com/r/announcements/comments/bpfyx1/introducing_custom_feeds_plus_a_community_contest/).
+You can organise lists of your followed subreddits into [Custom Feeds](https://reddit.zendesk.com/hc/en-us/articles/360043043412-What-is-a-custom-feed-and-how-do-I-make-one-). You can keep your custom feeds private for your own use or make them public to share. Formerly known as “Multireddits”, and you might still see some people use that name. This is more than just a list of your followed subreddits [and you’ll find more details here of what they are and do](https://www.reddit.com/r/announcements/comments/bpfyx1/introducing_custom_feeds_plus_a_community_contest/).
 
 We have a custom feed of our \[no-to-low karma friendly subreddits, [which you can join here](https://www.reddit.com/user/solariahues/m/newuser_friendly_subs/).
 
@@ -1520,8 +1518,7 @@ You can share or join custom feeds at r/multihub. A sleepy sub that needs revisi
 ---
 
 
-D
-===
+
 
 #DAE
 ::Acronyms and Initials::
@@ -1873,7 +1870,7 @@ An Eponymous Law. Very simplistically, this is where people's inability to recog
 
 According to the [psychology researchers David Dunning & Justin Kruger](https://www.researchgate.net/publication/12688660_Unskilled_and_Unaware_of_It_How_Difficulties_in_Recognizing_One%27s_Own_Incompetence_Lead_to_Inflated_Self-Assessments), this is where people that are poor in "logical reasoning, grammar, financial knowledge, math, emotional intelligence... rate their actual expertise as high as experts". A very authoritative sounding person only having a small amount of knowledge can mislead people into thinking that they are more expert than they really are, which can lead to mistakes being made.
 
-An accusation of someone using a logical fallacy is often employed on Reddit when the OP’s goal of achieving common agreement is more important to them than utilizing sound reasoning. Usually it's done intentionally to detract from or even derail the argument to persuade people that their point of view is the only correct one. Reddit is extremely pedantic about logical fallacies, of which this is one. Or is it? Discuss at r/DunningKruger.
+An accusation of someone using a logical fallacy is often employed on Reddit when the OP’s goal of achieving common agreement is more important to them than utilizing sound reasoning. Usually, it's done intentionally to detract from or even derail the argument to persuade people that their point of view is the only correct one. Reddit is extremely pedantic about logical fallacies, of which this is one. Or is it? Discuss at r/DunningKruger.
 
 **Because there is a Subreddit for everything:**
 
@@ -1889,8 +1886,7 @@ On r/BadArt, some contributors are aware they may never be the next big thing. N
 ---
 
 
-E
-===
+
 
 #E (letter)
 ::Interesting and Miscellaneous::
