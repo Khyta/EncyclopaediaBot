@@ -376,6 +376,8 @@ def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.
     # The function takes in the wiki titles as input and deletes the posts where
     # the titles are no longer in the post_info.csv file.
+    if not os.path.exists(f'post_info_{wiki_page_id}.csv'):
+        return
     df = pd.read_csv(f'post_info_{wiki_page_id}.csv')
     post_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()

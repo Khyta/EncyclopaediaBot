@@ -115,7 +115,7 @@ def replace_links(content):
 
     for match in matches:
         complete_link = match.group(0)
-        log.info(f'Complete link: {complete_link}')
+        # log.info(f'Complete link: {complete_link}')
         link_text = match.group(1)
         # log.info(f'Link text: {link_text}')
 
@@ -148,7 +148,7 @@ def handle_wiki_page(page_id, reddit):
     new_content = replace_links(content)
     # log.info(f'New content: {new_content}')
 
-    # reddit.subreddit(sub_name).wiki[page_id].edit(content=new_content)
+    reddit.subreddit(sub_name).wiki[page_id].edit(content=new_content)
     print(f'Edited wiki page {page_id}.')
 
 if __name__ == '__main__':
@@ -157,7 +157,7 @@ if __name__ == '__main__':
 
     print('Logged in as:', reddit.user.me())
 
-    wiki_page_ids = ['1']
+    wiki_page_ids = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     mapping = {
         "A": 2,
