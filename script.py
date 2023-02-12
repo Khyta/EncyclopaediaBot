@@ -441,8 +441,9 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
         try:
             post.edit(post_content)
             if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-                if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
-                    log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+            if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
             else:
                 log.error(f"Wiki links failed to converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
                 failed_ids = failed_ids + [post_ids[i]]
@@ -601,11 +602,13 @@ if __name__ == '__main__':
     failed_ids = []
     least_active_times = []
 
-    for page_id in wiki_page_ids:
-        least_activity = get_least_wiki_activity(page_id, reddit)
-        # failed_ids = failed_ids + [post_ids[i]]
-        least_active_times = least_active_times + [least_activity]
-        average_least_activity = int(statistics.mean(least_active_times))
+    # for page_id in wiki_page_ids:
+    #     least_activity = get_least_wiki_activity(page_id, reddit)
+    #     # failed_ids = failed_ids + [post_ids[i]]
+    #     least_active_times = least_active_times + [least_activity]
+    #     average_least_activity = int(statistics.mean(least_active_times))
+
+    average_least_activity = 14
 
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
 

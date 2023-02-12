@@ -661,7 +661,7 @@ Z
 
 In the absence of a real entry to go here, let me instead present a small selection of subreddits beginning with Z. Why?
 
-[**Because there is a Subreddit for everything.**](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_**because_there_is_a_subreddit_for_everything.**)
+[**Because there is a Subreddit for everything.**](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_**because_there_is_a_subreddit_for_everything.**).
 
 * r/zabbix \- Zabbix is Open Source enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices.
 * r/ZombieSurvivalTactics \- a community for discussion about survival against zombies. We're ready. Are you?
