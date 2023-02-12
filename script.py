@@ -235,6 +235,7 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
             updated_ids.append(post_ids[i])                                      
             flair_updates = True                                                 
 
+    updated_ids = list(set(updated_ids)) # Remove duplicates in the case where both the post and flair have been updated
 
     if len(updated_ids) == 0:
         log.info(f"No posts or flairs to be updated from wiki page {wiki_page_id}.")
@@ -314,7 +315,7 @@ def update_posts(wiki_page_id, update_ids):
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
-    # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
+    log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
     with open(f'{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
