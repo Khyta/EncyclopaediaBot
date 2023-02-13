@@ -617,6 +617,32 @@ if __name__ == '__main__':
     # at a specific time (UTC)
 
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
+    
+    cake_days = {}
+    cake_day = False
+
+    #Adding a users cake day to the dictionary
+    cake_days.setdefault('29.01', 'u/PomPomsforLlamLlams')
+    cake_days.setdefault('23.01', 'u/waffles1243')
+    cake_days.setdefault('29.03', 'u/ABritInMissouri')
+    cake_days.setdefault('22.11', 'u/Symbare')
+    cake_days.setdefault('13.01', 'u/Casually-Average')
+    cake_days.setdefault('17.05', 'u/Khyta')
+    cake_days.setdefault('20.08', 'u/hpspnmag')
+    cake_days.setdefault('14.08', 'u/MightyMitos19')
+    cake_days.setdefault('09.02', 'u/llamageddon01')
+    cake_days.setdefault('20.07', 'u/SolariaHues')
+    cake_days.setdefault('25.02', 'u/antidense')
+    cake_days.setdefault('05.01', 'u/AutoModerator')
+    cake_days.setdefault('10.07', 'u/Flair_Helper')
+
+    today = datetime.datetime.now(pytz.UTC).strftime('%d.%m')
+    # today = '29.01' # For testing purposes
+
+    if today in cake_days.values():
+        log.info(f"Today is {cake_days.get(today, [])}'s cake day!")
+        cake_day = True
+    
 
     while True:
         if datetime.datetime.now(pytz.UTC).hour == average_least_activity:
@@ -666,8 +692,15 @@ if __name__ == '__main__':
 
             wake_up_time = current_time + datetime.timedelta(seconds=sleep_time)
             wake_up_time_str = wake_up_time.strftime('%d.%m.%Y %H:%M:%S %Z')
-            message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
-            subject = f'Next wiki check at {wake_up_time_str}'
-            send_modmail(reddit, subject, message)
-            log.info(f'Next wiki check at {wake_up_time_str}')
+            if cake_day == True:
+                message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nHappy Cake day {cake_days.get(today, [])}!\n\nFarewell for now, may your dreams be filled with cake and comfort in this sweet night."
+                subject = f'Happy Cake Day {cake_days.get(today, [])}! Next wiki check at {wake_up_time_str}'
+                send_modmail(reddit, subject, message)
+                log.info(f'Next wiki check at {wake_up_time_str}')
+                cake_day = False
+            else:
+                message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
+                subject = f'Next wiki check at {wake_up_time_str}'
+                send_modmail(reddit, subject, message)
+                log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
