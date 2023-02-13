@@ -954,7 +954,7 @@ Users who don't find r/all and r/popular to their tastes are probably better off
 **See Also:**
 
 * [Custom Feed](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_custom_feed)
-* [“Does *subreddit* contain profanity?"](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoes_*subreddit*_contain_profanity.3F.22)
+* [“Does subreddit contain profanity?"](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/3/#wiki_.201Cdoes_subreddit_contain_profanity.3F.22)
 * [Home Feed](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_home_feed)
 * [Navigating Reddit](https://www.reddit.com/r/NewToReddit/comments/p8t966/reddit_and_karma_explained/h9ssh6c/)
 * [New Reddit; Old Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_reddit.3B_old_reddit)

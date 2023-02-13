@@ -608,13 +608,13 @@ if __name__ == '__main__':
     failed_ids = []
     least_active_times = []
 
-    # for page_id in wiki_page_ids:
-    #     least_activity = get_least_wiki_activity(page_id, reddit)
-    #     # failed_ids = failed_ids + [post_ids[i]]
-    #     least_active_times = least_active_times + [least_activity]
-    #     average_least_activity = int(statistics.mean(least_active_times))
+    for page_id in wiki_page_ids:
+        least_activity = get_least_wiki_activity(page_id, reddit)
+        least_active_times = least_active_times + [least_activity]
+        average_least_activity = int(statistics.mean(least_active_times))
 
-    average_least_activity = 22
+    # average_least_activity = 23 # For testing purposes forcing the bot to run
+    # at a specific time (UTC)
 
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
 
@@ -628,10 +628,9 @@ if __name__ == '__main__':
                     failed_ids.extend(result)
                     # log.info(f'Failed ids: {failed_ids}')
 
-            # title_id_dict = csv_to_dict()
+            # title_id_dict = csv_to_dict() # For forcing the bot to run a conversion check on all posts
             # df = pd.read_csv('post_info.csv')
             # tmp_ids = df['ID'].tolist()
-            # tmp_ids = ['110mk30', '110mk3r', '110mk4e', '110mk5b', '110mk62', '110mk6u', '110mk7t', '110mk8j', '110mk9g', '110mkaa', '110mkar', '110mkbl', '110mkci', '110mkds', '110mkeh', '110mkf3', '110mkgb', '110mkgy', '110mkht', '110mkik', '110mkki', '110mklu', '110mkn3', '110mko4', '110mkqp', '110mkrf', '110mkry', '110mkso', '110mktc', '110mktr', '110mkud', '110mkv1', '110mkvc', '110mkvr', '110mkwe', '110mkwy', '110mkxp', '110mldv', '110mles', '110mlfm', '110mlg3', '110mlgx', '110mlhk', '110mli3', '110mlja', '110mlku', '110mlm4', '110mlmp', '110mlnr', '110mloe', '110mlp9', '110mlrt', '110mlt7', '110mlug', '110mlv1', '110mlvw', '110mlwj', '110mlxd', '110mlxu', '110mlyy', '110mlzq', '110mm4c', '110mm5x', '110mm8c', '110mmcg', '110mmig', '110mml0', '110mmmz', '110mmpa', '110mmri', '110mmt7', '110mmvs', '110mmy1', '110mmzz', '110mn3x', '110mn60', '110mn7x', '110mna6', '110mncg', '110mne8', '110mngj', '110mnin', '110mnku', '110mnqu', '110mnyf', '110mo10', '110mo50', '110mo7k', '110mo9s', '110moc6', '110moeh', '110moin', '110mokt', '110mon5', '110mop7', '110morp', '110motc', '110moy7', '110mp0d', '110mp2q', '110mp7h', '110mp9g', '110mpb9', '110mpf7', '110mpjj', '110mpn1', '110msc5', '110mskj', '110msm7', '110msod', '110msqg', '110mss9', '110msvu', '110msyb', '110mt14', '110mt5p', '110mt94', '110mtal', '110mtck', '110mtgh', '110mtio', '110mtmi', '110mtop', '110mtqd', '110mtsb', '110mty3', '110mu3l', '110mu5q', '110mu9h', '110mubq', '110mudu', '110mufs', '110muic', '110muk2', '110mulw', '110muqj', '110mus8', '110muzl', '110mv48', '110mvas', '110mvcl', '110mvgp', '110mviv', '110mvmy', '110mvoi', '110mvqo', '110mvt2', '110mvv5', '110mw14', '110mw3b', '110mw5q', '110mw7m', '110mwc7', '110mwe9', '110mwiv', '110mwl9', '110mwn6', '110mwpc', '110mwu0', '110mwvx', '110mwy8', '110mwzq', '110mx1u', '110mx42', '110mx58', '110mx7m', '110mx97', '110mxfa', '110mxh6', '110mxju', '110mzyz', '110n012', '110n030', '110n051', '110n091', '110n0az', '110n0cz', '110n0gq', '110n0nx', '110n0rl', '110n0vs', '110n12m', '110n14p', '110n18l', '110n1fu', '110n1hu', '110n1jo', '110n1md', '110n1qf', '110n1xf', '110n1zd', '110n267', '110n28j', '110n29z', '110n2bz', '110n2i3', '110n2mi', '110n2nw', '110n2q5', '110n2rw', '110n2u0', '110n2wc', '110n32a', '110n336', '110n373', '110n39g', '110n3bo', '110n3gq', '110n3n5', '110n3vb', '110n3zl', '110n426', '110n44a', '110n46v', '110n48q', '110n4al', '110n4d2', '110n4f5', '110n4gu', '110n4j5', '110n4l9', '110n72o', '110n775', '110n7c4', '110n7ec', '110n7gv', '110n7n7', '110n7vo', '110n7xg', '110n87i', '110n8ee', '110n8li', '110n8vb', '110n9vs', '110n9xs', '110na3l', '110na5v', '110nah7', '110nanj', '110nb5n', '110nb7f', '110nb91', '110nbaz', '110nbcy', '110nbfh', '110nbhp', '110nbsb', '110nc4w', '110nc75', '110ncdn', '110ndqm', '110ndug', '110ne0f', '110neod', '110nf0q', '110nfaa']
             # failed_ids = wiki_to_post_link(reddit, title_id_dict, tmp_ids)
 
             if len(failed_ids) > 0:
