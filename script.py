@@ -634,18 +634,11 @@ if __name__ == '__main__':
     cake_days.setdefault('20.07', 'u/SolariaHues')
     cake_days.setdefault('25.02', 'u/antidense')
     cake_days.setdefault('05.01', 'u/AutoModerator')
-    cake_days.setdefault('10.07', 'u/Flair_Helper')
-
-    today = datetime.datetime.now(pytz.UTC).strftime('%d.%m')
-    # today = '29.01' # For testing purposes
-
-    if today in cake_days.values():
-        log.info(f"Today is {cake_days.get(today, [])}'s cake day!")
-        cake_day = True
-    
+    cake_days.setdefault('10.07', 'u/Flair_Helper')    
 
     while True:
         if datetime.datetime.now(pytz.UTC).hour == average_least_activity:
+            cake_day = False
             t0 = time.time()
             for page_id in wiki_page_ids:
                 result = handle_wiki_page(page_id, reddit)
@@ -681,7 +674,15 @@ if __name__ == '__main__':
             log.info(f'Finished processing wiki pages in {total} seconds')
             time.sleep(3601)
         else:
+            cake_day = False
             # log.info(f'Waiting for wiki pages to be least active at {average_least_activity}:00 (24h format)')
+            
+            today = datetime.datetime.now(pytz.UTC).strftime('%d.%m')
+            # today = '29.01' # For testing purposes
+
+            if today in cake_days.values():
+                log.info(f"Today is {cake_days.get(today, [])}'s cake day!")
+                cake_day = True
             current_time = datetime.datetime.now(pytz.UTC)
             target_time = current_time.replace(hour=average_least_activity, minute=0, second=0, microsecond=0)
 
