@@ -29,7 +29,7 @@ filename = now.strftime("%d-%m-%Y %H_00") + '.log'
 
 logger = log.getLogger()
 logger.setLevel(log.INFO)
-handler = log.FileHandler('../logs/'+filename)
+handler = log.FileHandler('~/../logs/'+filename)
 handler.setLevel(log.INFO)
 formatter = log.Formatter('%(asctime)s - %(levelname)s: %(message)s', datefmt='%d.%m.%Y %H:%M:%S %Z')
 handler.setFormatter(formatter)
@@ -70,7 +70,7 @@ def get_wiki_page(page, reddit):
     # This function gets the contents of a wiki page and saves it to a text file.
     sub = reddit.subreddit(sub_name)
     wiki_page = sub.wiki[page]
-    with open('../wikis/'+page+'.txt', 'w') as file:
+    with open('~/../wikis/'+page+'.txt', 'w') as file:
         file.write(wiki_page.content_md)
     return wiki_page.content_md
 
@@ -181,11 +181,11 @@ def check_additions(wiki_page_id, titles, flairs, posts):
 
     CSV_HEADER = 'Title,Flair,Current Post Hash,Current Flair Hash,ID'
 
-    if not os.path.exists(f'../post_infos/post_info_{wiki_page_id}.csv'):
-        with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
+    if not os.path.exists(f'~/../post_infos/post_info_{wiki_page_id}.csv'):
+        with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
             file.write(CSV_HEADER + '\n')
 
-    with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in unique_titles:
@@ -222,7 +222,7 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
 
     updated_ids = []
 
-    df = pd.read_csv(f'../post_infos/post_info_{wiki_page_id}.csv')
+    df = pd.read_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv')
     current_post_hashes = df['Current Post Hash'].tolist()
     current_flair_hashes = df['Current Flair Hash'].tolist()
     current_titles = df['Title'].tolist()
@@ -257,11 +257,11 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, flair_hashes, id
     CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
 
     # Create the CSV file if it doesn't exist yet
-    if not os.path.exists(f'../post_infos/post_info_{wiki_page_id}.csv'):
-        with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
+    if not os.path.exists(f'~/../post_infos/post_info_{wiki_page_id}.csv'):
+        with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
             file.write(CSV_HEADER + '\n')
     if len(titles) != 0:
-        with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'a') as file:
+        with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'a') as file:
             writer = csv.writer(file)
             for i in range(len(titles)):
                 writer.writerow([titles[i], flairs[i],
@@ -312,7 +312,7 @@ def update_posts(wiki_page_id, update_ids):
     # The function takes the post IDs as input and updates the posts with the
     # new content.
     id_to_title = {}
-    with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         next(reader)  # skip the header
         for row in reader:
@@ -326,7 +326,7 @@ def update_posts(wiki_page_id, update_ids):
 
     # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
-    with open(f'../wikis/{wiki_page_id}.txt', 'r') as infile:
+    with open(f'~/../wikis/{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
@@ -340,11 +340,11 @@ def update_posts(wiki_page_id, update_ids):
     wiki_hashes = hash_content(wiki_posts)
 
     # Update hashes in the CSV file according to the ID of the updated post
-    df = pd.read_csv(f'../post_infos/post_info_{wiki_page_id}.csv')
+    df = pd.read_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv')
     for i in range(len(update_titles)):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
         df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(update_titles[i])]
-    df.to_csv(f'../post_infos/post_info_{wiki_page_id}.csv', index=False)
+    df.to_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv', index=False)
 
 def update_post_flairs(wiki_page_id, update_ids):
     # This function updates the post flairs based on wiki page edits and the
@@ -352,14 +352,14 @@ def update_post_flairs(wiki_page_id, update_ids):
     # the post title and the flair text. This was done to make looking for
     # unique hashes easier.
     update_titles = []
-    with open(f'../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    with open(f'~/../post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[4] in update_ids:
                 update_titles.append(row[0])
 
     log.info(f"Updating {len(update_ids)} post flairs: {update_titles}.")
-    with open(f'../wikis/{wiki_page_id}.txt', 'r') as infile:
+    with open(f'~/../wikis/{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
@@ -376,19 +376,19 @@ def update_post_flairs(wiki_page_id, update_ids):
     flair_hashes = hash_content(combined_flairs_and_titles)
 
     # Update hashes in the CSV file according to the ID of the updated post
-    df = pd.read_csv(f'../post_infos/post_info_{wiki_page_id}.csv')
+    df = pd.read_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv')
     for i in range(len(update_ids)):
         row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
         df.at[row_to_update, 'Current Flair Hash'] = flair_hashes[titles.index(update_titles[i])]
-    df.to_csv(f'../post_infos/post_info_{wiki_page_id}.csv', index=False)
+    df.to_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv', index=False)
 
 def delete_posts(wiki_page_id, wiki_titles):
     # This function deletes the posts that have been deleted from the wiki page.
     # The function takes in the wiki titles as input and deletes the posts where
     # the titles are no longer in the post_info.csv file.
-    if not os.path.exists(f'../post_infos/post_info_{wiki_page_id}.csv'):
+    if not os.path.exists(f'~/../post_infos/post_info_{wiki_page_id}.csv'):
         return
-    df = pd.read_csv(f'../post_infos/post_info_{wiki_page_id}.csv')
+    df = pd.read_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv')
     post_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
 
@@ -404,11 +404,11 @@ def delete_posts(wiki_page_id, wiki_titles):
         if post_titles[i] not in wiki_titles:
             row_to_delete = df.loc[df['Title'] == post_titles[i]].index[0]
             df.drop(row_to_delete, inplace=True)
-    df.to_csv(f'../post_infos/post_info_{wiki_page_id}.csv', index=False)
+    df.to_csv(f'~/../post_infos/post_info_{wiki_page_id}.csv', index=False)
 
 def csv_to_dict():
     title_id_dict = {}
-    with open(f'../post_infos/post_info.csv', 'r') as file:
+    with open(f'~/../post_infos/post_info.csv', 'r') as file:
         reader = csv.DictReader(file, fieldnames=['Title', 'Flair', 'Current Post Hash', 'Current Flair Hash', 'ID'])
         next(reader) # skip header row
         for row in reader:
@@ -423,7 +423,7 @@ def csv_to_dict():
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
 def wiki_to_post_link(reddit, title_id_dict, ids):
-    df = pd.read_csv(f'../post_infos/post_info.csv')
+    df = pd.read_csv(f'~/../post_infos/post_info.csv')
     post_ids = ids.copy()
     headings = df['Title'].tolist()
 
@@ -466,9 +466,9 @@ def combine_csvs():
     # This function combines all the post_info_*.csv files into one file for the
     # wiki_to_post_link conversion to function properly for interwiki links.
 
-    csv_files = glob.glob('../post_infos/post_info_*.csv')
+    csv_files = glob.glob('~/../post_infos/post_info_*.csv')
     combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
-    combined_csv.to_csv('../post_infos/post_info.csv', index=False)
+    combined_csv.to_csv('~/../post_infos/post_info.csv', index=False)
 
 def url_encoding(heading):
     # This function converts the heading that may contain special characters in
@@ -544,7 +544,7 @@ def get_least_wiki_activity(wiki_page_id, reddit):
 def get_wiki_stats():
     # This function returns the current number of entries in the wiki
 
-    with open('../post_infos/post_info.csv', 'r') as infile:
+    with open('~/../post_infos/post_info.csv', 'r') as infile:
         reader = csv.reader(infile)
         wiki_stats = len(list(reader))
 
@@ -553,7 +553,7 @@ def get_wiki_stats():
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
-    with open(f'../wikis/{wiki_page_id}.txt', 'r') as infile:
+    with open(f'~/../wikis/{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
@@ -649,7 +649,7 @@ def main():
                     # log.info(f'Failed ids: {failed_ids}')
 
             # title_id_dict = csv_to_dict() # For forcing the bot to run a conversion check on all posts
-            # df = pd.read_csv('../post_infos/post_info.csv')
+            # df = pd.read_csv('~/../post_infos/post_info.csv')
             # tmp_ids = df['ID'].tolist()
             # failed_ids = wiki_to_post_link(reddit, title_id_dict, tmp_ids)
 
