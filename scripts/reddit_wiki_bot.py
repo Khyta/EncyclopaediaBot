@@ -597,9 +597,7 @@ def handle_wiki_page(wiki_page_id, reddit):
     # log.info(f'Failed ids: {failed_ids}')
     return failed_ids
 
-
-
-if __name__ == '__main__':
+def main():
     fetch_env()
     reddit = reddit_login()
 
@@ -699,12 +697,16 @@ if __name__ == '__main__':
             if cake_day == True:
                 message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nHappy Cake day {cake_days.get(today, [])}!\n\nFarewell for now, may your dreams be filled with cake and comfort in this sweet night."
                 subject = f'Happy Cake Day {cake_days.get(today, [])}! Next wiki check at {wake_up_time_str}'
-                send_modmail(reddit, subject, message)
+                # send_modmail(reddit, subject, message)
                 log.info(f'Next wiki check at {wake_up_time_str}')
                 cake_day = False
             else:
                 message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
                 subject = f'Next wiki check at {wake_up_time_str}'
-                send_modmail(reddit, subject, message)
+                # send_modmail(reddit, subject, message)
                 log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
+
+
+if __name__ == '__main__':
+    main()
