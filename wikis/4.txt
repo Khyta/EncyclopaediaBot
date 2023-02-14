@@ -1416,7 +1416,7 @@ Infuriating stuff also has its own niche of Reddit in the form of r/infuriatinga
 
 Sometimes you might go into a post where you can't view all the comments. For instance, it might say that a post has 9 comments but when you go into them you can only see 5. This is usually because the moderators (or their bots) have removed some comments. The comment count doesn't go down when that happens because technically the comments are still there, and the mods might still be able to see them but regular Redditors can't.
 
-This can be frustrating to see, but if a comment has been removed in this way it is almost always because it adds nothing to the conversation that’s worth seeing; probably a bot posting some variety of unrelated spam, a link-farming shill, or something else that breaks the sub’s rules. It isn’t likely to be anything related to your contribution at all; don’t forget, Reddit is the home of the bizarre [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain) and the [One-word Reply](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_one-word_reply)…
+This can be frustrating to see, but if a comment has been removed in this way it is almost always because it adds nothing to the conversation that’s worth seeing; probably a bot posting some variety of unrelated spam, a link-farming shill, or something else that breaks the sub’s rules. It isn’t likely to be anything related to your contribution at all; don’t forget, Reddit is the home of the bizarre [Comment Chain](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_comment_chain) and the [One-word Replies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_one-word_replies)…
 
 **See Also:**
 

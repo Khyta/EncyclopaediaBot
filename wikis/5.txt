@@ -77,7 +77,7 @@ A phrase posted when people bemoan the fact that they’ve spent a great deal of
 * The real X is always in the comments
 * The real X was inside you all along
 
-This is just one example of many phrasal templates known as “[Snowclones](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snowclones)”.
+This is just one example of many phrasal templates known as “[Snowclone](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_snowclone)”.
 
 **See Also:**
 
@@ -248,7 +248,7 @@ And because [cat](https://rathergood.com/2015/09/09/the-internet-is-made-of-cats
 
 **See Also:**
 
-* [“And My Axe!”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Cand_my_axe.21.201D)
+* [“And My Axe”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_.201Dand_my_axe.21.201D)
 * [Circlejerk](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_circlejerk)
 * [Fake Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fake_subreddits)
 * [“Fake-Out” Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_.201Cfake-out.201D_subreddits)
@@ -619,7 +619,7 @@ You might see "Popular on Reddit", "Because you visited" or "Popular near you" p
 **See Also:**
 
 * [“Because you visited…”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cbecause_you_visited….201D)
-* [“Does *subreddit* contain profanity?"](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoes_*subreddit*_contain_profanity.3F.22)
+* [“Does subreddit contain profanity"](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoes_subreddit_contain_profanity.3F.22)
 * [Sort](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sort)
 
 ---
@@ -904,7 +904,7 @@ Ah, Reddit; never change. r/NYTO.
 
 A link or phrase posted when people fall for a satirical product made by the prankster [ObviousPlant](https://obviousplant.com/) and Redditor u/obviousplant by mistaking it for a genuine product. This Subreddit documents the times people fell for [one of his pranks or fake toys](https://www.boredpanda.com/funny-fake-products-obvious-plant/) thinking it might be a bootleg “knock-off”.  r/ObviousPlant.
 
-Real “off brands” of varying quality can be [found on Reddit](https://www.redpoints.com/blog/reddit-fashion-replicas/) and *caveat emptor* (“Buyer Beware” i.e. the buyer purchases at their own risk) on any of those subreddits as we also have an unhealthy amount of [scammers](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_scammers) on Reddit. That cute [T-Shirt or print](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_t-shirt_or_print) you see on a random sub won’t be what it looks like either.
+Real “off brands” of varying quality can be [found on Reddit](https://www.redpoints.com/blog/reddit-fashion-replicas/) and *caveat emptor* (“Buyer Beware” i.e. the buyer purchases at their own risk) on any of those subreddits as we also have an unhealthy amount of [scams](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_scams) on Reddit. That cute [T-Shirt posts](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_t-shirt_posts) you see on a random sub won’t be what it looks like either.
 
 Please read [the official rules on using Reddit as a marketplace](https://www.reddithelp.com/hc/en-us/articles/360043513471). When considering a gift or transaction of goods or services not prohibited by this policy, keep in mind that Reddit is not intended to be used as a marketplace and takes no responsibility for any transactions individual users might decide to undertake in spite of this. Always remember: you are dealing with [strangers on the internet](https://miro.medium.com/max/1000/0*Wv5rHUzi5-61HcCw.jpg) who may well not be who they say they are.
 
@@ -1063,7 +1063,7 @@ In “normal” Redditing, Reddit’s favourite techniques for manipulation come
 * [Hanlon’s Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hanlon.2019s_razor)
 * [Internet Adages](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_internet_adages)
 * [Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_logical_fallacies)
-* [“Not all X are Like That”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_.201Cnot_all_x_are_like_that.201D)
+* [“Not all x are Like That”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_.201Dnot_all_x_are_like_that.201D)
 * [Poe’s Law](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_poe.2019s_law)
 * [Strawman Argument](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_strawman_argument)
 * [Streisand Effect](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_streisand_effect)
@@ -1479,14 +1479,14 @@ As ageeing to the Terms of Service and Privacy Policy is essentially signing a l
 In philosophy, a Razor is a rational principle used to shave off possible but unrealistic or unlikely explanations for a given phenomenon. There are generally accepted to be nine major logical razors, (though all branch off to several more related principles and corollaries) with the most famous ones being the first three on the list:
 
 * [Occam's Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_occam.27s_razor): *”Of two competing theories, the simpler explanation is more likely to be correct.”*
-* [Hanlon's Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hanlon.27s_razor): *”Never attribute to malice that which can be adequately explained by stupidity.”*
+* [Hanlon’s Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hanlon.2019s_razor): *”Never attribute to malice that which can be adequately explained by stupidity.”*
 * [Duck Test](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_duck_test): *”If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.”*
 * [Sagan Standard](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sagan_standard): *”Extraordinary claims require extraordinary evidence.”*
 * [Hitchens’ Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hitchens.2019_razor): *”What can be asserted without evidence can be dismissed without evidence.”*
-* [Hume’s Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hume.2019s_razor): *”Causes must be sufficiently able to produce the effect assigned to them.”*
+* [Hume's Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hume.27s_razor): *”Causes must be sufficiently able to produce the effect assigned to them.”*
 * [Popper's Falsifiability Principle](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_popper.27s_falsifiability_principle): *”For a theory to be considered scientific, it must be possible to disprove or refute it.”*
-* [Alder’s Razor *aka* Newton's Flaming Laser Sword](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_alder.2019s_razor_*aka*_newton.27s_flaming_laser_sword): *”If something cannot be settled by experiment, it is not worth debating.”*
-* [Grice’s Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_grice.2019s_razor): *”Address what the speaker actually meant, instead of addressing the literal meaning of what they actually said.”*
+* [Alder’s Razor aka Newton's Flaming Laser Sword](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_alder.2019s_razor_aka_newton.27s_flaming_laser_sword): *”If something cannot be settled by experiment, it is not worth debating.”*
+* [Grice's Razor](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_grice.27s_razor): *”Address what the speaker actually meant, instead of addressing the literal meaning of what they actually said.”*
 
 While a philosophical razor can be a useful mental shortcut that allows you to make decisions and solve problems quickly and easily, [it is not an unbreakable law or rule](https://www.intelligentspeculation.com/blog/philosophical-razors). Use them with care, lest you cut yourself (sorry). The general principle of all the razors is that simpler explanations are, all things being equal, generally better than more complex ones. However, a logical razor is not always right all of the time, and although the chance of it being right most of the time is more often than not, it is also true that there have been more than one scientific instance in which the most accurate explanation appeared to be the more complex one.
 
@@ -1860,7 +1860,7 @@ A Reddit Post is the broad term for any content shared on Reddit, whether it is 
 * [Post Flair](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_post_flair)
 * [Posting Images on Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_posting_images_on_reddit)
 * [Repost](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_repost)
-* [Sauce?](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sauce.3F)
+* [Sauce?](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_.201Dsauce.3F.201D)
 * [“When is the best time to Post for maximum attention?”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_.201Cwhen_is_the_best_time_to_post_for_maximum_attention.3F.201D)
 
 ---

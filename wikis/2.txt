@@ -137,13 +137,13 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [AFAIK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_afaik) \- As Far As I Know
 * [AMA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_ama) \- Ask Me Anything
 * [CMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cmv) \- Change My View
-* [CW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cw) \- Content Warning
+* CW \- Content Warning
 * [DAE](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dae) \- Does Anybody Else
 * [DM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dm) \- Direct Message
 * [ELI5](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eli5) \- Explain Like I'm 5 (years old)
 * [ESH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esh) \- Everyone Sucks Here
 * [ESL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esl) \- English (is my) Second Language
-* [ETA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta) \- Edited To Add
+* [ETA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta.3B_edit.3A) \- Edited To Add
 * [FTFY](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ftfy) \- Fixed That For You
 * [FWIW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fwiw) \- For What It’s Worth
 * GTFO - Get The Fuck Out
@@ -157,7 +157,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [IIRC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iirc) \- If I Recall/Remember Correctly
 * IME - In My Experience
 * IMHO - In My Honest/Humble Opinion
-* [IMO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_imo) \- In My Opinion
+* [IMO, IMHO, IME](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_imo.2C_imho.2C_ime) \- In My Opinion
 * [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl) \- In Real Life
 * IRTR - I Read The Rules (mandatory in post titles or first comment for some subs)
 * [ITAP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_itap) \- I Took A Picture
@@ -165,7 +165,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [LPT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_lpt) \- Life Pro Tip
 * MH - Mental Health
 * MFW - My Face/Feeling When
-* [MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mrw) \- My Reaction When
+* [MFW;MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mfw.3B_mrw) \- My Reaction When
 * [MSM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_msm) \- Mainstream Media
 * [NAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nah) \- No Assholes Here
 * [NGL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_ngl) \- Not Gonna Lie
@@ -195,7 +195,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [TL;DR:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tl.3Bdr.3A) \- Too Long; Didn't Read
 * TMA - Take My Appreciation (rarely used these days)
 * [TOMT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tomt) \- Tip Of My Tongue
-* [TW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tw) \- Trigger Warning
+* [TW;CW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tw.3B_cw) \- Trigger Warning
 * [WIBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wibta) \- Would I Be The Asshole
 * [YMMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ymmv) \- Your Mileage May Vary
 * [YOLO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yolo) \- You Only Live Once
