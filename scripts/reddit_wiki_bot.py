@@ -29,7 +29,7 @@ filename = now.strftime("%d-%m-%Y %H_00") + '.log'
 
 logger = log.getLogger()
 logger.setLevel(log.INFO)
-handler = log.FileHandler('../logs/' + filename, 'a')
+handler = log.FileHandler('../logs/'+filename)
 handler.setLevel(log.INFO)
 formatter = log.Formatter('%(asctime)s - %(levelname)s: %(message)s', datefmt='%d.%m.%Y %H:%M:%S %Z')
 handler.setFormatter(formatter)
