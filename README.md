@@ -35,33 +35,19 @@ This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
 
 ## Requirements
 
-- Python `3.10.+`
-- `praw`
-- `sys`
-- `os`
-- `re`
-- `time`
-- `csv`
-- `glob`
-- `pandas`
-- `numpy`
-- `hashlib`
-- `dotenv`
-- `logging`
-- `datetime`
-- `pytz`
-- `statistics`
+Requirements are automatically installed when executing `./main.sh`.
 
 ## Quick Setup
 
-1. Clone the repository to your machine.
+1. Clone the repository to your machine using `git clone https://github.com/Khyta/EncyclopaediaBot.git`.
 2. Create a `.env` file in the root directory of the project.
 3. Fill out the `.env` file with the credentials from your reddit bot account.
    (See [here](https://www.reddit.com/prefs/apps) for where to find these)
-4. Add your subreddit name where you want to run the bot to the `script.py` file.
+4. Add your subreddit name where you want to run the bot to the `reddit_wiki_bot.py` file.
 5. Specify the names of the wiki pages you want to use for the bot in the
-   `script.py` file.
-6. Run the script with `python3 script.py` from your terminal.
+   `reddit_wiki_bot.py` file.
+6. Make the `main.sh` file executable with `chmod +x main.sh`.
+7. Run the script with `./main.sh`.
 
 # Usage
 
