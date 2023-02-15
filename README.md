@@ -51,6 +51,18 @@ Requirements are automatically installed when executing `./main.sh`.
 
 # Usage
 
+## Rebooting the bot
+
+Simply run `./main.sh` again. The bot will automatically check for new wiki
+entries and update the posts accordingly on a calculated timeframe. If you see:
+`Logged in as: EncyclopaediaBot` in the terminal, the bot is running. If you
+really want to make sure that the bot is running, check for a new `.log` file in
+the `logs` directory with a line saying when the next wiki check will be done.
+
+Please do not reboot the server while the bot is doing wiki checks. It should be
+safe to terminate the process while the bot is in the sleeping phase and waits
+until the next wiki check.
+
 ## Structure of the wiki
 
 It is of utmost importance that the wiki is structured in a specific way. The
