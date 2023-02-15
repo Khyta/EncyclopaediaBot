@@ -9,5 +9,11 @@ else
   echo "Installed required libraries"
 fi
 
+#Check if logs directory is present
+if [ ! -d "logs" ]; then
+  mkdir logs
+  echo "Created logs directory"
+fi
+
 # Run the main script
 python3 scripts/reddit_wiki_bot.py
