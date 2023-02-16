@@ -68,11 +68,15 @@ def reddit_login():
 
 def get_wiki_page(page, reddit):
     # This function gets the contents of a wiki page and saves it to a text file.
-    sub = reddit.subreddit(sub_name)
-    wiki_page = sub.wiki[page]
-    with open('wikis/'+page+'.txt', 'w') as file:
-        file.write(wiki_page.content_md)
-    return wiki_page.content_md
+    try:
+        sub = reddit.subreddit(sub_name)
+        wiki_page = sub.wiki[page]
+        with open('wikis/'+page+'.txt', 'w') as file:
+            file.write(wiki_page.content_md)
+        return wiki_page.content_md
+    except Exception as e:
+        log.error(f'Could not get wiki page: {e}')
+        return None
 
 
 def get_post_sections(content):
