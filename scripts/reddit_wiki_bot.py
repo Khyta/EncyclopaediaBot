@@ -552,24 +552,29 @@ def get_least_wiki_activity(wiki_page_id, reddit):
     # edited. This is done to avoid any conflicts when the bot is running. The
     # function makes use of the revision_date attribute of the wiki page.
 
-    wiki_page = reddit.subreddit(sub_name).wiki[wiki_page_id]
-    revisions = wiki_page.revisions(limit=None)
-    revision_dates = []
-    for revision in revisions:
-        revision_dates.append(revision['timestamp'])
+    try:
+        wiki_page = reddit.subreddit(sub_name).wiki[wiki_page_id]
+        revisions = wiki_page.revisions(limit=None)
+        revision_dates = []
+        for revision in revisions:
+            revision_dates.append(revision['timestamp'])
 
-    revision_dates = [datetime.datetime.utcfromtimestamp(x) for x in revision_dates]
+        revision_dates = [datetime.datetime.utcfromtimestamp(x) for x in revision_dates]
 
-    hours = [x.hour for x in revision_dates]
-    mean_hour = int(statistics.mean(hours))
+        hours = [x.hour for x in revision_dates]
+        mean_hour = int(statistics.mean(hours))
 
-    if mean_hour > 12:
-        least_activity = mean_hour - 12
-    else:
-        least_activity = mean_hour + 12
+        if mean_hour > 12:
+            least_activity = mean_hour - 12
+        else:
+            least_activity = mean_hour + 12
 
 
-    return least_activity
+        return least_activity
+    except Exception as e:
+        log.error(f"Error getting least wiki activity: {e}")
+        least_activity = 3
+        return least_activity
 
 def get_wiki_stats():
     # This function returns the current number of entries in the wiki
