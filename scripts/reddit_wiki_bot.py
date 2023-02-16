@@ -340,7 +340,7 @@ def update_posts(wiki_page_id, update_ids, reddit):
             updated_posts.append(post_id)  # Add the post to the list of updated posts
         except praw.exceptions.RedditAPIException as e:
             # Handle the exception
-            print(f"Error updating post with ID {post_id}: {e}")
+            log.error(f"Error updating post with ID {post_id}: {e}")
 
     wiki_hashes = hash_content(wiki_posts)
 
@@ -353,7 +353,7 @@ def update_posts(wiki_page_id, update_ids, reddit):
             df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(title)]
         except Exception as e:
             # Handle the exception
-            print(f"Error updating CSV row for post with ID {post_id}: {e}")
+            log.error(f"Error updating CSV row for post with ID {post_id}: {e}")
     df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
 
 
@@ -374,24 +374,33 @@ def update_post_flairs(wiki_page_id, update_ids, reddit):
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
+    updated_posts = []
     for i in range(len(update_ids)):
-        post = reddit.submission(id=update_ids[i])
-        choices = post.flair.choices()
-        choices_dictionary = {
-            choice['flair_text']: choice['flair_template_id'] for choice in choices}
-        post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
-        log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}, Flair: {flairs[titles.index(update_titles[i])]}")
-        # time.sleep(second_delay)
+        post_id = update_ids[i]
+        try:
+            post = reddit.submission(id=post_id)
+            choices = post.flair.choices()
+            choices_dictionary = {
+                choice['flair_text']: choice['flair_template_id'] for choice in choices}
+            post.flair.select(choices_dictionary[flairs[titles.index(update_titles[i])]])
+            log.info(f"Post flair {i+1} updated. Title: {update_titles[i]}, Flair: {flairs[titles.index(update_titles[i])]}")
+            updated_posts.append(post_id)
+            # time.sleep(second_delay)
+        except Exception as e:
+            log.error(f"Error updating flair for post {post_id}: {e}")
 
     combined_flairs_and_titles = [flairs[i] + titles[i] for i in range(len(flairs))]
     flair_hashes = hash_content(combined_flairs_and_titles)
 
-    # Update hashes in the CSV file according to the ID of the updated post
-    df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
-    for i in range(len(update_ids)):
-        row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
-        df.at[row_to_update, 'Current Flair Hash'] = flair_hashes[titles.index(update_titles[i])]
-    df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+    # Update hashes in the CSV file for the posts that were successfully updated
+    if updated_posts:
+        df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+        for post_id in updated_posts:
+            row_to_update = df.loc[df['ID'] == post_id].index[0]
+            update_title = df.loc[df['ID'] == post_id]['Title'].values[0]
+            df.at[row_to_update, 'Current Flair Hash'] = flair_hashes[titles.index(update_title)]
+        df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+
 
 def delete_posts(wiki_page_id, wiki_titles, reddit):
     # This function deletes the posts that have been deleted from the wiki page.
