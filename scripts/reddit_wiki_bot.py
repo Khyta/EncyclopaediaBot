@@ -458,8 +458,7 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
-        if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
-            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
+        if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content and "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
                 log.info(f"No links found to convert in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Skipping...")
                 continue
         for heading in headings:
