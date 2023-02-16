@@ -771,4 +771,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        log.error(f'Uh oh, something went wrong: {e}')
