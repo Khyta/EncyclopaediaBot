@@ -322,29 +322,40 @@ def update_posts(wiki_page_id, update_ids, reddit):
     for update_id in update_ids:
         update_titles.append(id_to_title[update_id])
 
-
-
     # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
     with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
+    updated_posts = []  # Keep track of the posts that were successfully updated
+
     for i in range(len(update_titles)):
-        post = reddit.submission(id=update_ids[i])
-        reddit.validate_on_submit = True
-        post.edit(wiki_posts[titles.index(update_titles[i])])
-        log.info(f"'{update_titles[i]}' updated.")
-        # time.sleep(second_delay)
+        post_id = update_ids[i]
+        try:
+            post = reddit.submission(id=post_id)
+            reddit.validate_on_submit = True
+            post.edit(wiki_posts[titles.index(update_titles[i])])
+            log.info(f"'{update_titles[i]}' updated.")
+            updated_posts.append(post_id)  # Add the post to the list of updated posts
+        except praw.exceptions.RedditAPIException as e:
+            # Handle the exception
+            print(f"Error updating post with ID {post_id}: {e}")
 
     wiki_hashes = hash_content(wiki_posts)
 
-    # Update hashes in the CSV file according to the ID of the updated post
+    # Update hashes in the CSV file for the posts that were successfully updated
     df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
-    for i in range(len(update_titles)):
-        row_to_update = df.loc[df['ID'] == update_ids[i]].index[0]
-        df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(update_titles[i])]
+    for post_id in updated_posts:
+        try:
+            row_to_update = df.loc[df['ID'] == post_id].index[0]
+            title = df.at[row_to_update, 'Title']
+            df.at[row_to_update, 'Current Post Hash'] = wiki_hashes[titles.index(title)]
+        except Exception as e:
+            # Handle the exception
+            print(f"Error updating CSV row for post with ID {post_id}: {e}")
     df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+
 
 def update_post_flairs(wiki_page_id, update_ids, reddit):
     # This function updates the post flairs based on wiki page edits and the
