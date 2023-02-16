@@ -697,7 +697,12 @@ def handle_wiki_page(wiki_page_id, reddit):
 
 def main():
     fetch_env()
-    reddit = reddit_login()
+    try:
+        reddit = reddit_login()
+    except Exception as e:
+        log.error(f"Error logging in: {e}. Trying again in 5 minutes")
+        time.sleep(300)
+        reddit = reddit_login()
 
     print('Logged in as:', reddit.user.me())
 
@@ -708,7 +713,11 @@ def main():
     least_active_times = []
 
     for page_id in wiki_page_ids:
-        least_activity = get_least_wiki_activity(page_id, reddit)
+        try:
+            least_activity = get_least_wiki_activity(page_id, reddit)
+        except Exception as e:
+            log.error(f"Error getting least wiki activity: {e}")
+            least_activity = 3
         least_active_times = least_active_times + [least_activity]
         average_least_activity = int(statistics.mean(least_active_times))
 
@@ -740,7 +749,11 @@ def main():
             cake_day = False
             t0 = time.time()
             for page_id in wiki_page_ids:
-                result = handle_wiki_page(page_id, reddit)
+                try:
+                    result = handle_wiki_page(page_id, reddit)
+                except Exception as e:
+                    log.error(f"Error handling wiki page: {e}")
+                    result = None
                 # log.info(f'Result: {result}')
                 if result is not None:
                     failed_ids.extend(result)
@@ -753,17 +766,28 @@ def main():
 
             if len(failed_ids) > 0:
                 log.error(f'The following posts failed wiki conversion: {failed_ids}. Trying again...')
-                refailed_ids = wiki_to_post_link(reddit, csv_to_dict(), failed_ids)
+                try:
+                    refailed_ids = wiki_to_post_link(reddit, csv_to_dict(), failed_ids)
+                except Exception as e:
+                    log.error(f"Error linking wiki to post: {e}")
+                    refailed_ids = None
                 if len(refailed_ids) > 0:
                     log.error(f'The following posts failed wiki link to post conversion: {failed_ids} again. Sending modmail to mods.')
                     clickable_ids = [f'https://redd.it/{id}' for id in failed_ids]
                     fancy_list = '\n'.join([f'* {id}' for id in clickable_ids])
                     message = f'The following posts failed wiki link to post link conversion:\n\n {fancy_list} \n\nPlease check the wiki page for any broken links to non-existing entries and try again.'
                     subject = 'Wiki to post link conversion failed'
-                    send_modmail(reddit, subject, message)
+                    try:
+                        send_modmail(reddit, subject, message)
+                    except Exception as e:
+                        log.error(f"Error sending modmail: {e}")
 
             for page_id in wiki_page_ids:
-                least_activity = get_least_wiki_activity(page_id, reddit)
+                try:
+                    least_activity = get_least_wiki_activity(page_id, reddit)
+                except Exception as e:
+                    log.error(f"Error getting least wiki activity: {e}")
+                    least_activity = 3
                 least_active_times = least_active_times + [least_activity]
                 average_least_activity = int(statistics.mean(least_active_times))
             
@@ -795,13 +819,19 @@ def main():
             if cake_day == True:
                 message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nHappy Cake day {cake_days.get(today, [])}!\n\nFarewell for now, may your dreams be filled with cake and comfort in this sweet night."
                 subject = f'Happy Cake Day {cake_days.get(today, [])}! Next wiki check at {wake_up_time_str}'
-                send_modmail(reddit, subject, message)
+                try:
+                    send_modmail(reddit, subject, message)
+                except Exception as e:
+                    log.error(f"Error sending modmail: {e}")
                 log.info(f'Next wiki check at {wake_up_time_str}')
                 cake_day = False
             else:
                 message = f"Next wiki check at {wake_up_time_str}. Please don't do any wiki edits at this time.\n\nFarewell for now, may your dreams be filled with peace and comfort in this quiet night."
                 subject = f'Next wiki check at {wake_up_time_str}'
-                send_modmail(reddit, subject, message)
+                try:
+                    send_modmail(reddit, subject, message)
+                except Exception as e:
+                    log.error(f'Error sending modmail: {e}')
                 log.info(f'Next wiki check at {wake_up_time_str}')
             time.sleep(sleep_time)
 
