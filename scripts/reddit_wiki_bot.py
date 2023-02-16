@@ -173,9 +173,12 @@ def create_missing_flairs(sub, flairs, reddit):
     unique_flairs = set(flairs)
     for flair in unique_flairs:
         if flair not in existing_flairs:
-            reddit.subreddit(sub).flair.link_templates.add(
-                flair, css_class=flair)
-            log.info(f"Flair '{flair}' created.")
+            try:
+                reddit.subreddit(sub).flair.link_templates.add(
+                    flair, css_class=flair)
+                log.info(f"Flair '{flair}' created.")
+            except Exception as e:
+                log.error(f'Could not create flair: {e}')
 
 
 def check_additions(wiki_page_id, titles, flairs, posts):
