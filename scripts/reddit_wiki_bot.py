@@ -233,11 +233,15 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
 
     updated_ids = []
 
-    df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
-    current_post_hashes = df['Current Post Hash'].tolist()
-    current_flair_hashes = df['Current Flair Hash'].tolist()
-    current_titles = df['Title'].tolist()
-    post_ids = df['ID'].tolist()
+    try:
+        df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+        current_post_hashes = df['Current Post Hash'].tolist()
+        current_flair_hashes = df['Current Flair Hash'].tolist()
+        current_titles = df['Title'].tolist()
+        post_ids = df['ID'].tolist()
+    except Exception as e:
+        log.error(f"Error occurred while reading post info file: {e}")
+        return [], False, False
 
     for i in range(len(current_post_hashes)):
         if current_post_hashes[i] not in post_hashes:
