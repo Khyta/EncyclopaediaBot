@@ -156,10 +156,14 @@ def get_post_sections(content):
 
 
 def get_subreddit_link_flairs(sub, reddit):
-    flairs = []
-    for template in reddit.subreddit(sub).flair.link_templates:
-        flairs.append(template["text"])
-    return flairs
+    try:
+        flairs = []
+        for template in reddit.subreddit(sub).flair.link_templates:
+            flairs.append(template["text"])
+        return flairs
+    except Exception as e:
+        log.error(f'Could not get subreddit link flairs: {e}')
+        return []
 
 
 def create_missing_flairs(sub, flairs, reddit):
