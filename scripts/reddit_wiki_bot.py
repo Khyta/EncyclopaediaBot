@@ -442,22 +442,25 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
             # log.info(f"Converted heading: {converted_heading}") 
             escaped_heading = re.escape(heading)
             converted_escaped_heading = re.escape(converted_heading)
-            pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[0-9]+/#wiki_{converted_escaped_heading}\\)') # TODO This regex is not working properly. Confirmed breaks with '$' in the heading.
+            pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[0-9]+/#wiki_{converted_escaped_heading}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(pattern, post_link, post_content)
             # log.info(f"Title_ID dictionary: {title_id_dict[heading]}")
         reddit.validate_on_submit = True
-        try:
-            post.edit(post_content)
-            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content:
-                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
-            if "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content:
-                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+        try: 
+            post.edit(post_content) 
+            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content and "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content: 
+                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
+                failed_ids = failed_ids + [post_ids[i]]
+            elif "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content: 
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
+            elif "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content: 
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
             else:
-                log.error(f"Wiki links failed to converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
+                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
                 failed_ids = failed_ids + [post_ids[i]]
         except Exception as e:
-            log.error(f"Error updating post for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Likely post has been deleted. Error: {e}")
+            log.error(f"Error updating post for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}': {e}")
 
     return failed_ids
 
