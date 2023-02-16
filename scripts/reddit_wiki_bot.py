@@ -55,15 +55,20 @@ def fetch_env():
 
 def reddit_login():
     # This function logs you in to Reddit. Requires the praw module.
-    client_id, client_secret, user_agent, username, password = fetch_env()
-    reddit = praw.Reddit(
-        client_id=client_id,
-        user_agent=user_agent,
-        client_secret=client_secret,
-        username=username,
-        password=password
-    )
-    return reddit
+    try:
+        client_id, client_secret, user_agent, username, password = fetch_env()
+        reddit = praw.Reddit(
+            client_id=client_id,
+            user_agent=user_agent,
+            client_secret=client_secret,
+            username=username,
+            password=password
+        )
+        return reddit
+    except Exception as e:
+        log.error(f"Error logging in to Reddit: {e}. Trying again in 1 hour.")
+        time.sleep(3600)
+        reddit_login()
 
 
 def get_wiki_page(page, reddit):
