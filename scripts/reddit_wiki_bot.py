@@ -408,23 +408,28 @@ def delete_posts(wiki_page_id, wiki_titles, reddit):
     # the titles are no longer in the post_info.csv file.
     if not os.path.exists(f'post_infos/post_info_{wiki_page_id}.csv'):
         return
+
     df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
     post_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
 
     for i in range(len(post_titles)):
-        if post_titles[i] not in wiki_titles:
-            post = reddit.submission(id=post_ids[i])
-            post.delete()
-            log.info(f"Post '{post_titles[i]}' deleted.")
-            # time.sleep(second_delay)
+        try:
+            if post_titles[i] not in wiki_titles:
+                post = reddit.submission(id=post_ids[i])
+                post.delete()
+                log.info(f"Post '{post_titles[i]}' deleted.")
+                # time.sleep(second_delay)
 
-    # Remove the deleted posts from the CSV file
-    for i in range(len(post_titles)):
-        if post_titles[i] not in wiki_titles:
-            row_to_delete = df.loc[df['Title'] == post_titles[i]].index[0]
-            df.drop(row_to_delete, inplace=True)
+                # Remove the deleted posts from the CSV file
+                row_to_delete = df.loc[df['Title'] == post_titles[i]].index[0]
+                df.drop(row_to_delete, inplace=True)
+        except Exception as e:
+            log.error(f"An error occurred while deleting post '{post_titles[i]}': {e}")
+            continue
+
     df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+
 
 def csv_to_dict():
     title_id_dict = {}
