@@ -541,8 +541,11 @@ def url_encoding(heading):
 def send_modmail(reddit, header, content):
     # This function sends a modmail to the moderators of the subreddit.
     # The content is the message that will be sent.
-    subreddit = reddit.subreddit(sub_name)
-    subreddit.message(subject=header, message=content)
+    try:
+        subreddit = reddit.subreddit(sub_name)
+        subreddit.message(subject=header, message=content)
+    except Exception as e:
+        log.error(f"Error sending modmail: {e}")
 
 def get_least_wiki_activity(wiki_page_id, reddit):
     # This function returns the time where the wiki is least likely to be
