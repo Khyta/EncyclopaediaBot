@@ -304,22 +304,29 @@ def create_posts(reddit, sub_name, posts, titles, flairs):
     ids = []
     post_created = False
     for i in range(len(posts)):
-        subreddit = reddit.subreddit(sub_name)
-        submission = subreddit.submit(titles[i], selftext=posts[i])
-        choices = submission.flair.choices()
-        choices_dictionary = {
-            choice['flair_text']: choice['flair_template_id'] for choice in choices}
+        try:
+            subreddit = reddit.subreddit(sub_name)
+            submission = subreddit.submit(titles[i], selftext=posts[i])
+            choices = submission.flair.choices()
+            choices_dictionary = {
+                choice['flair_text']: choice['flair_template_id'] for choice in choices}
 
-        submission.flair.select(choices_dictionary[flairs[i]])
-        ids.append(submission.id)
-        post_titles.append(titles[i])
-        post_flairs.append(flairs[i])
-        post_contents.append(posts[i])
-        log.info(f"'{titles[i]}' created. Flair: '{flairs[i]}'")
-        post_created = True
-        # time.sleep(second_delay)
+            submission.flair.select(choices_dictionary[flairs[i]])
+            ids.append(submission.id)
+            post_titles.append(titles[i])
+            post_flairs.append(flairs[i])
+            post_contents.append(posts[i])
+            log.info(f"'{titles[i]}' created. Flair: '{flairs[i]}'")
+            post_created = True
+        except Exception as e:
+            log.error(f"An error occurred while creating post {i}: {e}")
+            ids.append(None)
+            post_titles.append(None)
+            post_flairs.append(None)
+            post_contents.append(None)
 
     return ids, post_titles, post_flairs, post_contents, post_created
+
 
 def update_posts(wiki_page_id, update_ids, reddit):
 
