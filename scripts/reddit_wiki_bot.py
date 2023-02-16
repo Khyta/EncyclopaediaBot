@@ -620,41 +620,77 @@ def handle_wiki_page(wiki_page_id, reddit):
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
 
-    delete_posts(wiki_page_id, titles, reddit)
+    try:
+        delete_posts(wiki_page_id, titles, reddit)
+    except Exception as e:
+        log.error(f"Error deleting posts: {e}")
 
     failed_ids = []
 
-    create_missing_flairs(sub_name, flairs, reddit)
+    try:
+        create_missing_flairs(sub_name, flairs, reddit)
+    except Exception as e:
+        log.error(f"Error creating missing flairs: {e}")
 
-    new_titles, new_flairs, new_posts = check_additions(
-        wiki_page_id, titles, flairs, wiki_posts)
+    try:
+        new_titles, new_flairs, new_posts = check_additions(
+            wiki_page_id, titles, flairs, wiki_posts)
+    except Exception as e:
+        log.error(f"Error checking additions: {e}")
+        new_titles = []
+        new_flairs = []
+        new_posts = []
 
-    ids, post_titles, post_flairs, post_contents, post_created = create_posts(
-        reddit, sub_name, new_posts, new_titles, new_flairs)
+    try:
+        ids, post_titles, post_flairs, post_contents, post_created = create_posts(
+            reddit, sub_name, new_posts, new_titles, new_flairs)
+    except Exception as e:
+        log.error(f"Error creating posts: {e}")
+        ids = []
+        post_titles = []
+        post_flairs = []
+        post_contents = []
+        post_created = []
 
     current_post_hashes = hash_content(post_contents)
     combined_flair_and_title = [flairs[i].strip() + titles[i].strip()
                             for i in range(len(titles))]
     current_flair_hashes = hash_content(combined_flair_and_title)
 
-    create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
+    try:
+        create_post_info(wiki_page_id, post_titles, post_flairs, current_post_hashes, current_flair_hashes, ids)
+    except Exception as e:
+        log.error(f"Error creating post info: {e}")
 
     combine_csvs()
 
-    stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
+    try:
+        stuff_to_update = check_updates(wiki_page_id, wiki_posts, flairs, titles)
+    except Exception as e:
+        log.error(f"Error checking updates: {e}")
+        stuff_to_update = [[], False, False]
 
     if len(stuff_to_update[0]) > 0:
         title_id_dict = csv_to_dict()
         if stuff_to_update[1] == True:
-            update_posts(wiki_page_id, stuff_to_update[0], reddit)
-            failed_ids = wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
+            try:
+                update_posts(wiki_page_id, stuff_to_update[0], reddit)
+                failed_ids = wiki_to_post_link(reddit, title_id_dict, stuff_to_update[0])
+            except Exception as e:
+                log.error(f"Error updating posts: {e}")
         elif stuff_to_update[2] == True:
-            update_post_flairs(wiki_page_id, stuff_to_update[0], reddit)
+            try:
+                update_post_flairs(wiki_page_id, stuff_to_update[0], reddit)
+            except Exception as e:
+                log.error(f"Error updating post flairs: {e}")
 
     if post_created == True:
         title_id_dict = csv_to_dict()
         # log.info(f'Title id {title_id_dict}')
-        failed_ids = wiki_to_post_link(reddit, title_id_dict, ids)
+        try:
+            failed_ids = wiki_to_post_link(reddit, title_id_dict, ids)
+        except Exception as e:
+            log.error(f"Error linking wiki to post: {e}")
 
     # log.info(f'Failed ids: {failed_ids}')
     return failed_ids
