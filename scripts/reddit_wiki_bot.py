@@ -360,7 +360,7 @@ def update_posts(wiki_page_id, update_ids, reddit):
             post.edit(wiki_posts[titles.index(update_titles[i])])
             log.info(f"'{update_titles[i]}' updated.")
             updated_posts.append(post_id)  # Add the post to the list of updated posts
-        except praw.exceptions.RedditAPIException as e:
+        except Exception as e:
             # Handle the exception
             log.error(f"Error updating post with ID {post_id}: {e}")
 
