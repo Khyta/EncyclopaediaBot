@@ -707,7 +707,7 @@ def main():
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+    wiki_page_ids = ['index/all-entries', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     failed_ids = []
     least_active_times = []
