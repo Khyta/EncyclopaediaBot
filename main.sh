@@ -15,5 +15,11 @@ if [ ! -d "logs" ]; then
   echo "Created logs directory"
 fi
 
-# Run the main script
-python3 scripts/reddit_wiki_bot.py
+# Check if an argument is passed to this script
+if [ -z "$1" ]; then
+  # No argument passed, run the main script without any argument
+  python3 scripts/reddit_wiki_bot.py 
+else
+  # Argument passed, run the main script with the argument passed to this script
+  python3 scripts/reddit_wiki_bot.py $1 
+fi
