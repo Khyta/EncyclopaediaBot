@@ -467,7 +467,7 @@ All subreddits come with an *About Community* widget at the top and a *Moderator
 * [About](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_about)
 * [Hamburger Menu](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_hamburger_menu)
 * [New Reddit; Old Reddit](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_new_reddit.3B_old_reddit)
-* [Pinned posts](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pinned_posts)
+* [Pinned Posts](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/5/#wiki_pinned_posts)
 * [Powerups](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_powerups)
 * [Rules](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rules)
 

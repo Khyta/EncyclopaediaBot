@@ -143,7 +143,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [ELI5](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eli5) \- Explain Like I'm 5 (years old)
 * [ESH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esh) \- Everyone Sucks Here
 * [ESL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esl) \- English (is my) Second Language
-* [ETA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta.3B_edit.3A) \- Edited To Add
+* [ETA; Edit:](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/3/#wiki_eta.3B_edit.3A) \- Edited To Add
 * [FTFY](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ftfy) \- Fixed That For You
 * [FWIW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fwiw) \- For What It’s Worth
 * GTFO - Get The Fuck Out
@@ -165,7 +165,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [LPT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_lpt) \- Life Pro Tip
 * MH - Mental Health
 * MFW - My Face/Feeling When
-* [MFW;MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mfw.3B_mrw) \- My Reaction When
+* [MFW; MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/5/#wiki_mfw.3B_mrw) \- My Reaction When
 * [MSM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_msm) \- Mainstream Media
 * [NAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nah) \- No Assholes Here
 * [NGL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_ngl) \- Not Gonna Lie
@@ -195,7 +195,7 @@ Some of our specialised communities have a wide acronym language of their own, a
 * [TL;DR:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tl.3Bdr.3A) \- Too Long; Didn't Read
 * TMA - Take My Appreciation (rarely used these days)
 * [TOMT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tomt) \- Tip Of My Tongue
-* [TW;CW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tw.3B_cw) \- Trigger Warning
+* [TW; CW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/8/#wiki_tw.3B_cw) \- Trigger Warning
 * [WIBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wibta) \- Would I Be The Asshole
 * [YMMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ymmv) \- Your Mileage May Vary
 * [YOLO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yolo) \- You Only Live Once

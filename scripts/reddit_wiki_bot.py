@@ -712,16 +712,16 @@ def main():
     failed_ids = []
     least_active_times = []
 
-    for page_id in wiki_page_ids:
-        try:
-            least_activity = get_least_wiki_activity(page_id, reddit)
-        except Exception as e:
-            log.error(f"Error getting least wiki activity: {e}")
-            least_activity = 3
-        least_active_times = least_active_times + [least_activity]
-        average_least_activity = int(statistics.mean(least_active_times))
+    # for page_id in wiki_page_ids:
+    #     try:
+    #         least_activity = get_least_wiki_activity(page_id, reddit)
+    #     except Exception as e:
+    #         log.error(f"Error getting least wiki activity: {e}")
+    #         least_activity = 3
+    #     least_active_times = least_active_times + [least_activity]
+    #     average_least_activity = int(statistics.mean(least_active_times))
 
-    # average_least_activity = 23 # For testing purposes forcing the bot to run
+    average_least_activity = 13 # For testing purposes forcing the bot to run
     # at a specific time (UTC)
 
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
