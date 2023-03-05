@@ -76,7 +76,8 @@ def get_wiki_page(page, reddit):
     try:
         sub = reddit.subreddit(sub_name)
         wiki_page = sub.wiki[page]
-        with open('wikis/'+page+'.txt', 'w') as file:
+        wiki_file = get_wiki_file(page)
+        with open(wiki_file, 'w') as file:
             file.write(wiki_page.content_md)
         return wiki_page.content_md
     except Exception as e:
@@ -343,7 +344,8 @@ def update_posts(wiki_page_id, update_ids, reddit):
 
     # log.info(f"Updating {len(update_titles)} posts: {update_titles}.")
 
-    with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
+    wiki_file = get_wiki_file(wiki_page_id)
+    with open(wiki_file, 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
@@ -390,7 +392,8 @@ def update_post_flairs(wiki_page_id, update_ids, reddit):
                 update_titles.append(row[0])
 
     log.info(f"Updating {len(update_ids)} post flairs: {update_titles}.")
-    with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
+    wiki_file = get_wiki_file(wiki_page_id)
+    with open(wiki_file, 'r') as infile:
         content = infile.read()
         wiki_posts, titles, flairs = get_post_sections(content)
 
@@ -670,7 +673,8 @@ def get_wiki_file(wiki_page_id):
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
-    with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
+    wiki_file = get_wiki_file(wiki_page_id)
+    with open(wiki_file, 'r') as infile:
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
