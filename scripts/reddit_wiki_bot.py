@@ -12,6 +12,7 @@ import logging as log
 import datetime
 import pytz
 import statistics
+import argparse
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,6 +24,10 @@ minute_delay = 5
 second_delay = 5
 
 fractional_delay = second_delay/100
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-f", "--force", help="force testing debug state", action="store_true")
+args = parser.parse_args()
 
 now = datetime.datetime.now(pytz.UTC)
 filename = now.strftime("%d-%m-%Y %H_00") + '.log'
@@ -771,17 +776,17 @@ def main():
     failed_ids = []
     least_active_times = []
 
-    # for page_id in wiki_page_ids:
-    #     try:
-    #         least_activity = get_least_wiki_activity(page_id, reddit)
-    #     except Exception as e:
-    #         log.error(f"Error getting least wiki activity: {e}")
-    #         least_activity = 3
-    #     least_active_times = least_active_times + [least_activity]
-    #     average_least_activity = int(statistics.mean(least_active_times))
-
-    average_least_activity = 13 # For testing purposes forcing the bot to run
-    # at a specific time (UTC)
+    if args.force: # Check if -f option was given
+        average_least_activity = datetime.datetime.utcnow().hour # Set average_least_activity to current UTC hour
+    else: # Otherwise, calculate the least activity
+        for page_id in wiki_page_ids:
+            try:
+                least_activity = get_least_wiki_activity(page_id, reddit)
+            except Exception as e:
+                log.error(f"Error getting least wiki activity: {e}")
+                least_activity = 3
+            least_active_times = least_active_times + [least_activity]
+            average_least_activity = int(statistics.mean(least_active_times))
 
     # log.info(f'Wiki pages least active at {average_least_activity}:00 (24h format)')
     
