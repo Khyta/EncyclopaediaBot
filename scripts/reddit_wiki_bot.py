@@ -640,8 +640,7 @@ def get_csv_file(wiki_page_id):
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
-    csv_file = get_csv_file(wiki_page_id)
-    with open(csv_file, 'r') as infile:
+    with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
