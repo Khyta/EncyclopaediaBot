@@ -637,6 +637,36 @@ def get_csv_file(wiki_page_id):
 
     return csv_file
 
+def get_wiki_file(wiki_page_id):
+    # This function takes a wiki page id as an argument and returns the path of
+    # a .txt that contains the wiki page contents. If the
+    # wiki page id contains slashes, it creates subfolders in the post_infos
+    # directory accordingly. If the .txt file does not exist yet, it creates it.
+
+    if "/" in wiki_page_id:
+        parts = wiki_page_id.split("/")
+        subfolders = parts[:-1]
+        filename = parts[-1]
+        directory = "post_infos"
+        for subfolder in subfolders:
+            directory = os.path.join(directory, subfolder)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+    else:
+        filename = wiki_page_id
+        directory = "post_infos"
+    txt_file = os.path.join(directory, f"post_info_{filename}.txt") # Change file extension here
+
+    # Check if file exists before writing header
+    if not os.path.exists(txt_file): # Use os.path.exists() here
+        try:
+            with open(txt_file, 'w') as outfile:
+                pass # Do nothing here
+        except IOError as e:
+            print(f"An error occurred while creating {txt_file}: {e}")
+
+    return txt_file
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
