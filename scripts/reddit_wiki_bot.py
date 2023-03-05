@@ -240,7 +240,8 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
     updated_ids = []
 
     try:
-        df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+        csv_file = get_csv_file(wiki_page_id)
+        df = pd.read_csv(csv_file)
         current_post_hashes = df['Current Post Hash'].tolist()
         current_flair_hashes = df['Current Flair Hash'].tolist()
         current_titles = df['Title'].tolist()
@@ -371,7 +372,8 @@ def update_posts(wiki_page_id, update_ids, reddit):
     wiki_hashes = hash_content(wiki_posts)
 
     # Update hashes in the CSV file for the posts that were successfully updated
-    df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+    csv_file = get_csv_file(wiki_page_id)
+    df = pd.read_csv(csv_file)
     for post_id in updated_posts:
         try:
             row_to_update = df.loc[df['ID'] == post_id].index[0]
@@ -380,7 +382,7 @@ def update_posts(wiki_page_id, update_ids, reddit):
         except Exception as e:
             # Handle the exception
             log.error(f"Error updating CSV row for post with ID {post_id}: {e}")
-    df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+    df.to_csv(csv_file, index=False)
 
 
 def update_post_flairs(wiki_page_id, update_ids, reddit):
@@ -422,22 +424,24 @@ def update_post_flairs(wiki_page_id, update_ids, reddit):
 
     # Update hashes in the CSV file for the posts that were successfully updated
     if updated_posts:
-        df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+        csv_file = get_csv_file(wiki_page_id)
+        df = pd.read_csv(csv_file)
         for post_id in updated_posts:
             row_to_update = df.loc[df['ID'] == post_id].index[0]
             update_title = df.loc[df['ID'] == post_id]['Title'].values[0]
             df.at[row_to_update, 'Current Flair Hash'] = flair_hashes[titles.index(update_title)]
-        df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+        df.to_csv(csv_file, index=False)
 
 
 def delete_posts(wiki_page_id, wiki_titles, reddit):
     # This function deletes the posts that have been deleted from the wiki page.
     # The function takes in the wiki titles as input and deletes the posts where
     # the titles are no longer in the post_info.csv file.
-    if not os.path.exists(f'post_infos/post_info_{wiki_page_id}.csv'):
+    csv_file = get_csv_file(wiki_page_id)
+    if not os.path.exists(csv_file):
         return
 
-    df = pd.read_csv(f'post_infos/post_info_{wiki_page_id}.csv')
+    df = pd.read_csv(csv_file)
     post_titles = df['Title'].tolist()
     post_ids = df['ID'].tolist()
 
@@ -456,7 +460,7 @@ def delete_posts(wiki_page_id, wiki_titles, reddit):
             log.error(f"An error occurred while deleting post '{post_titles[i]}': {e}")
             continue
 
-    df.to_csv(f'post_infos/post_info_{wiki_page_id}.csv', index=False)
+    df.to_csv(csv_file, index=False)
 
 
 def csv_to_dict():
