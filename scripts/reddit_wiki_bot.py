@@ -195,13 +195,8 @@ def check_additions(wiki_page_id, titles, flairs, posts):
     unique_flairs = flairs.copy()
     unique_posts = posts.copy()
 
-    CSV_HEADER = 'Title,Flair,Current Post Hash,Current Flair Hash,ID'
-
-    if not os.path.exists(f'post_infos/post_info_{wiki_page_id}.csv'):
-        with open(f'post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
-            file.write(CSV_HEADER + '\n')
-
-    with open(f'post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    csv_file = get_csv_file(wiki_page_id)
+    with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in unique_titles:
@@ -274,14 +269,10 @@ def create_post_info(wiki_page_id, titles, flairs, wiki_hashes, flair_hashes, id
     # This function creates a CSV file with the titles, flairs, and contents
     # of the posts that were created. The CSV file is used to circumvent the
     # limitation of the Reddit search API that cannot return literal matches.
-    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
 
-    # Create the CSV file if it doesn't exist yet
-    if not os.path.exists(f'post_infos/post_info_{wiki_page_id}.csv'):
-        with open(f'post_infos/post_info_{wiki_page_id}.csv', 'w') as file:
-            file.write(CSV_HEADER + '\n')
     if len(titles) != 0:
-        with open(f'post_infos/post_info_{wiki_page_id}.csv', 'a') as file:
+        csv_file = get_csv_file(wiki_page_id)
+        with open(csv_file, 'a') as file:
             writer = csv.writer(file)
             for i in range(len(titles)):
                 writer.writerow([titles[i], flairs[i],
@@ -339,7 +330,8 @@ def update_posts(wiki_page_id, update_ids, reddit):
     # The function takes the post IDs as input and updates the posts with the
     # new content.
     id_to_title = {}
-    with open(f'post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    csv_file = get_csv_file(wiki_page_id)
+    with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         next(reader)  # skip the header
         for row in reader:
@@ -390,7 +382,8 @@ def update_post_flairs(wiki_page_id, update_ids, reddit):
     # the post title and the flair text. This was done to make looking for
     # unique hashes easier.
     update_titles = []
-    with open(f'post_infos/post_info_{wiki_page_id}.csv', 'r') as file:
+    csv_file = get_csv_file(wiki_page_id)
+    with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[4] in update_ids:
@@ -520,7 +513,7 @@ def combine_csvs():
     # This function combines all the post_info_*.csv files into one file for the
     # wiki_to_post_link conversion to function properly for interwiki links.
 
-    csv_files = glob.glob('post_infos/post_info_*.csv')
+    csv_files = glob.glob('**/post_info_*.csv', recursive=True)
     combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
     combined_csv.to_csv('post_infos/post_info.csv', index=False)
 
@@ -647,7 +640,8 @@ def get_csv_file(wiki_page_id):
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
-    with open(f'wikis/{wiki_page_id}.txt', 'r') as infile:
+    csv_file = get_csv_file(wiki_page_id)
+    with open(csv_file, 'r') as infile:
         content = infile.read()
         # The wiki_posts here refers to the content of the wiki sections
         wiki_posts, titles, flairs = get_post_sections(content)
