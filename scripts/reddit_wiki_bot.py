@@ -612,6 +612,33 @@ def get_wiki_stats():
 
     return wiki_stats
 
+def get_csv_file(wiki_page_id):
+    # This function takes the wiki page id as an argument and returns
+    # the path to the csv file that will be used to modify/store the post info.
+    # It will also create the necessary folders if they do not exist and
+    # initialize the csv file with the header if it also does not exist yet.
+    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
+    if "/" in wiki_page_id:
+        parts = wiki_page_id.split("/")
+        subfolders = parts[:-1]
+        filename = parts[-1]
+        directory = "post_infos"
+        for subfolder in subfolders:
+            directory = os.path.join(directory, subfolder)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+    else:
+        filename = wiki_page_id
+        directory = "post_infos"
+    csv_file = os.path.join(directory, f"post_info_{filename}.csv")
+
+    # Check if file exists before writing header
+    if not os.path.exists(csv_file):
+        with open(csv_file, 'w') as outfile:
+            outfile.write(CSV_HEADER + '\n')
+
+    return csv_file
+
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
 
@@ -707,7 +734,7 @@ def main():
     print('Logged in as:', reddit.user.me())
 
     # List of wiki page IDs to process
-    wiki_page_ids = ['index/all-entries', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    wiki_page_ids = ['42/24']
 
     failed_ids = []
     least_active_times = []
