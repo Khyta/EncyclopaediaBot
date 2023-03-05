@@ -613,10 +613,12 @@ def get_wiki_stats():
     return wiki_stats
 
 def get_csv_file(wiki_page_id):
-    # This function takes the wiki page id as an argument and returns
-    # the path to the csv file that will be used to modify/store the post info.
-    # It will also create the necessary folders if they do not exist and
-    # initialize the csv file with the header if it also does not exist yet.
+    # This function takes a wiki page id as an argument and returns the path of
+    # a CSV file that contains information about the posts on that page. If the
+    # wiki page id contains slashes, it creates subfolders in the post_infos
+    # directory accordingly. If the CSV file does not exist yet, it creates it
+    # and writes a header row with the column names.
+
     CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
     if "/" in wiki_page_id:
         parts = wiki_page_id.split("/")
@@ -634,8 +636,11 @@ def get_csv_file(wiki_page_id):
 
     # Check if file exists before writing header
     if not os.path.exists(csv_file):
-        with open(csv_file, 'w') as outfile:
-            outfile.write(CSV_HEADER + '\n')
+        try:
+            with open(csv_file, 'w') as outfile:
+                outfile.write(CSV_HEADER + '\n')
+        except IOError as e:
+            print(f"An error occurred while creating {csv_file}: {e}")
 
     return csv_file
 
