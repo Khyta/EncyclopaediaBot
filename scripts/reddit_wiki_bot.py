@@ -624,7 +624,7 @@ def get_csv_file(wiki_page_id):
     # directory accordingly. If the CSV file does not exist yet, it creates it
     # and writes a header row with the column names.
 
-    CSV_HEADER = 'Title,Flair,Current Post Hash, Current Flair Hash,ID'
+    CSV_HEADER = 'Title,Flair,Current Post Hash,Current Flair Hash,ID'
     if "/" in wiki_page_id:
         parts = wiki_page_id.split("/")
         subfolders = parts[:-1]
