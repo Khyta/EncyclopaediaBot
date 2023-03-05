@@ -498,8 +498,7 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
             converted_heading = url_encoding(heading)
             # log.info(f"Converted heading: {converted_heading}") 
             escaped_heading = re.escape(heading)
-            converted_escaped_heading = re.escape(converted_heading)
-            wiki_pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_escaped_heading}\\)')
+            wiki_pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_heading}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
             post_content = re.sub(wiki_pattern, post_link, post_content)
         reddit.validate_on_submit = True
