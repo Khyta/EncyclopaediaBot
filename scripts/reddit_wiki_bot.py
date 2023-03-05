@@ -647,15 +647,15 @@ def get_wiki_file(wiki_page_id):
         parts = wiki_page_id.split("/")
         subfolders = parts[:-1]
         filename = parts[-1]
-        directory = "post_infos"
+        directory = "wikis"
         for subfolder in subfolders:
             directory = os.path.join(directory, subfolder)
             if not os.path.exists(directory):
                 os.makedirs(directory)
     else:
         filename = wiki_page_id
-        directory = "post_infos"
-    txt_file = os.path.join(directory, f"post_info_{filename}.txt") # Change file extension here
+        directory = "wikis"
+    txt_file = os.path.join(directory, f"{filename}.txt") # Change file extension here
 
     # Check if file exists before writing header
     if not os.path.exists(txt_file): # Use os.path.exists() here
