@@ -566,6 +566,7 @@ def url_encoding(heading):
     heading = heading.replace(']', '.5D')
     heading = heading.replace('^', '.5E')
     heading = heading.replace('|', '.7C')
+    heading = heading.replace('…', '.2026')
 
     return heading
 
