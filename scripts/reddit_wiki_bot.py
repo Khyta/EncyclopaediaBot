@@ -490,8 +490,8 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
     for i in range(len(post_ids)):
         post = reddit.submission(id=post_ids[i])
         post_content = post.selftext
-        pattern = r"https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki(/.*)?"
-        if not re.search(pattern, post_content):
+        post_pattern = r"https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki(/.*)?"
+        if not re.search(post_pattern, post_content):
                 log.info(f"No links found to convert in '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'. Skipping...")
                 continue
         for heading in headings:
@@ -499,17 +499,17 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
             # log.info(f"Converted heading: {converted_heading}") 
             escaped_heading = re.escape(heading)
             converted_escaped_heading = re.escape(converted_heading)
-            pattern = re.compile(f'\\[\\[{escaped_heading}\\]\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_escaped_heading}\\)')
+            wiki_pattern = re.compile(f'\\[\\[{escaped_heading}\\]\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_escaped_heading}\\)')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
-            post_content = re.sub(pattern, post_link, post_content)
+            post_content = re.sub(wiki_pattern, post_link, post_content)
             # log.info(f"Title_ID dictionary: {title_id_dict[heading]}")
         reddit.validate_on_submit = True
         try: 
             post.edit(post_content) 
-            if re.search(pattern, post_content): 
+            if re.search(post_pattern, post_content): 
                 log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
                 failed_ids = failed_ids + [post_ids[i]]
-            elif not re.search(pattern, post_content): 
+            elif not re.search(post_pattern, post_content): 
                 log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
             else:
                 log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
