@@ -505,7 +505,7 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
         reddit.validate_on_submit = True
         try: 
             post.edit(post_content) 
-            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content and "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" not in post_content: 
+            if "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" in post_content and "https://www.reddit.com/r/EncyclopaediaOfReddit/wiki" in post_content: 
                 log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
                 failed_ids = failed_ids + [post_ids[i]]
             elif "https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki" not in post_content: 
