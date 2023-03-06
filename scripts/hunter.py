@@ -144,23 +144,49 @@ def get_wiki_page(reddit, wiki_page_id):
 def search_link(reddit, link_name, content):
     # This function searches for a target link name in all wiki .txt files and
     # returns the heading where they appear.
+    pass
 
+def handle_wiki_page(wiki_page_id, reddit, link_name):
+    # This function handles a wiki page. It gets the content of the wiki page,
+    # splits it up into sections, and checks if a certain link is present in the
+    # specific section and returns the heading where it appears.
+    # Requires the praw module.
+    content = get_wiki_page(reddit, wiki_page_id)
+    posts, titles, flairs = get_post_sections(content)
+    for post, title, flair in zip(posts, titles, flairs):
+        if link_name in post:
+            return title
+    return None
     
     
 
 def main():
     fetch_env()
-    reddit = reddit_login()
+    try:
+        reddit = reddit_login()
+    except Exception as e:
+        log.error(f"Error logging in: {e}. Trying again in 5 minutes")
+        time.sleep(300)
+        reddit = reddit_login()
 
     print('Logged in as:', reddit.user.me())
 
-    wiki_pages = ['1']
+    # List of wiki page IDs to process
+    wiki_page_ids = ['index/all-entries', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-    for page_id in range(len(wiki_pages)):
-        wiki_page = wiki_pages[i].split('/')
-        content = get_wiki_page(reddit, wiki_page[0])
+    link_name = 'rimjob'
 
-    posts, titles, flairs = get_post_sections(content)
+    t0 = time.time()
+    for page_id in wiki_page_ids:
+        try:
+            result = handle_wiki_page(page_id, reddit, link_name)
+            if result:
+                log.info(f"Found {link_name} in wiki page '{page_id}' in section '{result}'")
+        except Exception as e:
+            log.error(f"Error handling wiki page: {e}")
+            result = None
+    t1 = time.time()
+    log.info(f"Finished in {round(t1-t0, 3)} seconds")
 
     
 
