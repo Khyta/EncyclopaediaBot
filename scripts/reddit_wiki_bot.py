@@ -26,7 +26,7 @@ second_delay = 5
 fractional_delay = second_delay/100
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-f", "--force", help="force testing debug state", action="store_true")
+parser.add_argument("-f", "--force", nargs = "+", help="force testing debug state with an optional list for post IDs to force update", action="store_true")
 args = parser.parse_args()
 
 now = datetime.datetime.now(pytz.UTC)
@@ -258,7 +258,13 @@ def check_updates(wiki_page_id, wiki_posts, wiki_flairs, wiki_titles):
     for i in range(len(current_flair_hashes)):
         if current_flair_hashes[i] not in flair_hashes:
             updated_ids.append(post_ids[i])                                      
-            flair_updates = True                                                 
+            flair_updates = True
+
+    if args.force:
+        for i in range(len(args.force)):
+            updated_ids.append(args.force[i])
+            post_updates = True
+            flair_updates = True                                               
 
     updated_ids = list(set(updated_ids)) # Remove duplicates in the case where both the post and flair have been updated
 
