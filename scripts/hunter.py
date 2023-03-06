@@ -154,10 +154,11 @@ def handle_wiki_page(wiki_page_id, reddit, link_name):
     # Requires the praw module.
     content = get_wiki_page(reddit, wiki_page_id)
     posts, titles, flairs = get_post_sections(content)
+    matches = []
     for post, title, flair in zip(posts, titles, flairs):
         if link_name in post:
-            return title
-    return None
+            matches.append(title)   
+    return matches
     
     
 
@@ -185,8 +186,8 @@ def main():
     for page_id in wiki_page_ids:
         try:
             result = handle_wiki_page(page_id, reddit, link_name)
-            if result:
-                log.info(f"Found '{link_name}' in wiki page '{page_id}' in section '{result}'")
+            for section in result: # iterate over the generator using a for loop
+                log.info(f"Found '{link_name}' in wiki page '{page_id}' in section '{section}'")
         except Exception as e:
             log.error(f"Error handling wiki page: {e}")
             result = None
