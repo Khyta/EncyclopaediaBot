@@ -6,20 +6,21 @@ import os
 import sys
 import re
 import time
-import csv
-import glob
 import pandas as pd
 import numpy as np
-import hashlib
 import logging as log
 import datetime
 import pytz
-import statistics
+import argparse
 from dotenv import load_dotenv
 
 load_dotenv()
 
 sub_name = 'EncyclopaediaOfReddit'
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-s", "--search", nargs = "*", help="searches for a string in the wiki pages and returns the headings of the entries where the string appears")
+args = parser.parse_args()
 
 now = datetime.datetime.now(pytz.UTC)
 filename = now.strftime("%d-%m-%Y %H_00") + '.log'
@@ -174,14 +175,18 @@ def main():
     # List of wiki page IDs to process
     wiki_page_ids = ['index/all-entries', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-    link_name = 'rimjob'
+    if args.search:
+        for i in range(len(args.search)):
+            link_name = args.search[i]
+    else:
+        link_name = 'Llama'
 
     t0 = time.time()
     for page_id in wiki_page_ids:
         try:
             result = handle_wiki_page(page_id, reddit, link_name)
             if result:
-                log.info(f"Found {link_name} in wiki page '{page_id}' in section '{result}'")
+                log.info(f"Found '{link_name}' in wiki page '{page_id}' in section '{result}'")
         except Exception as e:
             log.error(f"Error handling wiki page: {e}")
             result = None
