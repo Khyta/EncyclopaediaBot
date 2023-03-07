@@ -170,7 +170,8 @@ more fancy. Not in usage currently.
 
 Without these wonderful people, this project would not have been possible.
 
-- The [r/NewToReddit](https://www.reddit.com/r/NewToReddit/) mod team for the support and motivation.
+- The [r/NewToReddit](https://www.reddit.com/r/NewToReddit/) mod team for the
+  support testing of the bot and motivation.
 - [u/SolariaHues](https://www.reddit.com/user/SolariaHues) for helping to overcome limitations and testing the
   bot.
 - [u/Nugget_MacChicken](https://www.reddit.com/user/Nugget_MacChicken) for technical support and ideas.
