@@ -110,6 +110,60 @@ exclude specific wiki pages from the bot.
 - [x] The bot does not make periodic posts and has to be started manually.
 - [x] The links between wikis are currently not translated to links between
   posts.
+
+# Miscellaneous Scripts
+
+There are several small python helper scripts in the `scripts` directory. These
+scripts are not used actively by the bot and are only there for convenience. The
+usage of the script is simply by running `python3 script_name.py` in the
+terminal unless otherwise specified.
+
+## barebones.py
+
+This script is a barebones script that can be used to test the reddit API. It is
+the base for the other scripts when I need a template to work with.
+
+## nuker.py
+
+Nukes all posts that are in the `post_info.csv` file. This script is useful if
+you want to start over with the bot. **PLEASE BE CAREFUL WHEN USING THIS SCRIPT AS
+THERE IS NO UNDO FUNCTION.**
+
+## link_replacer.py
+
+This is a script that was useful for converting comment links to wiki links at
+the time we migrated from a comment-based wiki to a post-based wiki. It is not
+used anymore and is only there for reference.
+
+## link_helper.py
+
+This script constructs a `.csv` file of all entries in the wiki with their
+corresponding post link. This is useful if you want an overview of all wiki
+entries and their corresponding post links for referencing purposes.
+
+## flair_helper.py
+
+Very similar to `link_helper.py`, this script constructs a `.csv` file of all
+entries in the wiki with their corresponding flair. Also useful for referencing
+purposes and checking if the correct flairs have been assigned to the correct
+entries.
+
+## hunter.py
+
+Probably the most useful script as it searches through the wiki for specific
+words. We used it to update links to entries where we changed the `h1` heading
+of the entry. Because the bot deletes the old post and creates a new one, the
+post links change and thus needed an update in the relevant wiki entries.
+
+### Usage
+
+1. `python3 hunter.py -s <search_term>`
+2. `cat <D-M-Y H>_00.log` (best used with TAB autocomplete)
+
+## ascii_art.py
+
+This script was just a testing script to make the launch of the main bot script
+more fancy. Not in usage currently.
   
 
 # Credits
