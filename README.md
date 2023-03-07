@@ -32,6 +32,8 @@ wiki and the corresponding posts created by the bot.
 # Installation
 
 This script has been tested on an Ubuntu 22.04.1 LTS machine with Python 3.10.6.
+It currently runs on an AlmaLinux 9.1 (Lime Lynx) Server with `kvm` virtualization
+and Python 3.10.6.
 
 ## Requirements
 
