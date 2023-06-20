@@ -26,7 +26,7 @@ second_delay = 5
 fractional_delay = second_delay/100
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-f", "--force", nargs = "*", help="force testing debug state with an optional list for post IDs")
+parser.add_argument("-f", "--force", nargs="*", help="force testing debug state with an optional list for post IDs")
 args = parser.parse_args()
 
 now = datetime.datetime.now(pytz.UTC)
@@ -487,6 +487,7 @@ def csv_to_dict():
 # 4. Convert the wiki link to a post link using the title_id_dict 
 
 def wiki_to_post_link(reddit, title_id_dict, ids):
+    # TODO This conversion is broken and needs to be fixed
     df = pd.read_csv(f'post_infos/post_info.csv')
     post_ids = ids.copy()
     headings = df['Title'].tolist()
