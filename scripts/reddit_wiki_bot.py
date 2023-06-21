@@ -488,7 +488,6 @@ def csv_to_dict():
 
 
 def wiki_to_post_link(reddit, title_id_dict, ids):
-    # TODO This conversion is broken and needs to be fixed
     df = pd.read_csv('post_infos/post_info.csv')
     post_ids = ids.copy()
     headings = df['Title'].tolist()
@@ -505,15 +504,15 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
             continue
         for heading in headings:
             converted_heading = url_encoding(heading)
-            log.info(f"Converted heading: {converted_heading}")
+            # log.info(f"Converted heading: {converted_heading}")
             escaped_heading = re.escape(heading)
-            log.info(f'Escaped heading: {escaped_heading}')
-            wiki_pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_heading}\\)')
-            log.info(f'Wiki pattern: {wiki_pattern}')
+            # log.info(f'Escaped heading: {escaped_heading}')
+            wiki_pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/.+/#wiki_{converted_heading}\\)')
+            # log.info(f'Wiki pattern: {wiki_pattern}')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
-            log.info(f'Post link: {post_link}')
+            # log.info(f'Post link: {post_link}')
             post_content = re.sub(wiki_pattern, post_link, post_content)
-            log.info(f'Post content: {post_content}')
+            # log.info(f'Post content: {post_content}')
         reddit.validate_on_submit = True
         try:
             post.edit(post_content)
