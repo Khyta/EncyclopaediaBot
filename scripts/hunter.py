@@ -193,6 +193,7 @@ def main():
             result = None
     t1 = time.time()
     log.info(f"Finished in {round(t1-t0, 3)} seconds")
+    print('Done, check the log file')
 
     
 

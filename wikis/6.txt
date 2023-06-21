@@ -208,9 +208,9 @@ Reddit has many subreddits where the content posted in one would be the polar op
 * r/GTAGE \- for when an image shows an item that has Great Taste And Great Execution.
 * r/GTBAE \- for when an image shows an item that has Great Taste But Awful Execution.
 
-The fun really starts when Reddit can’t decide which of these is the best sub for the item in question, because sometimes awful and great are just too interchangeable.  [The same dilemma](https://www.reddit.com/r/DiWHYNOT/comments/vl0ylr/found_on_rdiwhy_and_i_think_it_is_more_suitable/)often applies to r/DiWHY and r/DiWHYNOT. In this example, two different users saw a post on r/nextfuckinglevel and both were absolutely certain [which DIY sub it also belonged in](https://i.redd.it/auhee3s9hl891.jpg).
+The fun really starts when Reddit can’t decide which of these is the best sub for the item in question, because sometimes awful and great are just too interchangeable.  [The same dilemma](https://www.reddit.com/r/DiWHYNOT/comments/vl0ylr/found_on_rdiwhy_and_i_think_it_is_more_suitable/) often applies to r/DiWHY and r/DiWHYNOT. In this example, two different users saw a post on r/nextfuckinglevel and both were absolutely certain [which DIY sub it also belonged in](https://i.redd.it/auhee3s9hl891.jpg).
 
-All of this is why [the same picture](https://i.redd.it/vamtqehpu2v81.jpg) can be posted to both r/awfuleverything and r/MadeMeSmilebut be perfectly suited for both. Originating from a viral 2019 Facebook post [in which a poor drawing](https://www.unilad.co.uk/animals/rubbish-dog-drawing-wins-contest-over-artists-drawing) is announced the winner of an art contest, Reddit [was very much divided](https://www.reddit.com/r/TIHI/comments/k0s4p0/thanks_i_hate_choosing_the_winner_by_likes/) as to whether this [was awful](https://www.reddit.com/r/awfuleverything/comments/ja0oc2/thats_how_democracy_works/) or was guaranteed to [make you smile](https://www.reddit.com/r/MadeMeSmile/comments/qywcen/winner_of_doggo_drawing_contest_won_on_likes/).
+All of this is why [the same picture](https://i.redd.it/vamtqehpu2v81.jpg) can be posted to both r/awfuleverything and r/MadeMeSmile but be perfectly suited for both. Originating from a viral 2019 Facebook post [in which a poor drawing](https://www.unilad.co.uk/animals/rubbish-dog-drawing-wins-contest-over-artists-drawing) is announced the winner of an art contest, Reddit [was very much divided](https://www.reddit.com/r/TIHI/comments/k0s4p0/thanks_i_hate_choosing_the_winner_by_likes/) as to whether this [was awful](https://www.reddit.com/r/awfuleverything/comments/ja0oc2/thats_how_democracy_works/) or was guaranteed to [make you smile](https://www.reddit.com/r/MadeMeSmile/comments/qywcen/winner_of_doggo_drawing_contest_won_on_likes/).
 
 All of the above can be summed up as: Reddit is strange like that. Hopefully you’ll now be able to spot this for yourself on your travels through our unpredictable slice of the internet.
 
@@ -554,7 +554,7 @@ r/listofsubreddits
 
 [https://www.reddit.com/r/ListOfSubreddits/comments/dmic6o/advice\_mental\_health\_subreddits/](https://www.reddit.com/r/ListOfSubreddits/comments/dmic6o/advice_mental_health_subreddits/) This is a list of subs that address mental health issues.
 
-[www.reddit.com/subreddits](http://www.reddit.com/subreddits) Exactly what it says it is. Subreddits. Lots of them in alphabetical order.
+[www.reddit.com/subreddits](http://www.reddit.com/subreddits) Exactly what it says it is.
 
 **See Also:**
 
@@ -661,7 +661,9 @@ As always, it is important to browse through a new sub to get a feel of the plac
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
 * [Euphemism](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_euphemism)
 * [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
@@ -923,6 +925,7 @@ This is the internet. If you don’t know [what a Rickroll is by now](https://en
 
 Rick Astley is an active Redditor, and his latest posts and comments can be found at u/ReallyRickAstley. Notable posts include:
 
+* [Rick has a post removed by mods for breaking a sub rule](https://www.reddit.com/r/pics/comments/zrw6bb/ready_and_waiting_james_gunn/).
 * [Rick Astley: Sith Lord](https://www.reddit.com/r/pics/comments/qhkm42/backstage_having_a_bit_of_fun_with_our_lighting/).
 * [Rick rekt a Redditor in 2016](https://www.reddit.com/r/Music/comments/56cdgm/ama_im_really_rick_astley_i_swear_and_to/) to everyone’s delight.
 * [Reddit’s most upvoted post of 2020 was a picture he posted from 1989](https://www.reddit.com/r/pics/comments/haucpf/ive_found_a_few_funny_memories_during_lockdown/), which itself became the number one of all the…
@@ -953,10 +956,16 @@ r/rickastley, r/rickroll, r/RickRolled, r/subtlerickroll, r/unexpectedrickroll
 
 ---
 
-#rimjob\_steve
+#“rimjob_steve”
 ::Jargon and Slang::
 
-A link posted when a wholesome comment is made by a Redditor with an unwholesome name. [Originating here](https://www.reddit.com/r/pics/comments/8p28ki/after_driving_uber_for_over_15_hours_a_day_for_a/e081xvq/?st=JI3J0Y14&sh=a05a5b0c) when the titular u/rimjob_steve commented that they would like to help out a fellow Redditor IRL. Because this kind of juxtaposition is done far more frequently than you might imagine, the subreddit r/rimjob_steve was created to share any similar instances.
+A link posted when a wholesome comment is made by a Redditor with an unwholesome name. 
+
+[Originating here](https://www.reddit.com/r/pics/comments/8p28ki/after_driving_uber_for_over_15_hours_a_day_for_a/e081xvq/?st=JI3J0Y14&sh=a05a5b0c) when the titular [u/rimjob_steve](https://www.reddit.com/u/rimjob_steve/) commented that they would like to help out a fellow Redditor IRL. 
+
+Because this kind of juxtaposition is done far more frequently than you might imagine, the subreddit [r/rimjob_steve](https://www.reddit.com/r/rimjob_steve/) was created to share any similar instances.
+
+In 2023, it was theorised that the “rimjob_steve effect” might be to blame for [a highly controversial change to Reddit’s mobile user interface](https://www.reddit.com/r/reddit/comments/12cpgai/feeds_are_getting_a_refreshed_look_and_feel/jf3o9vz/) which removed usernames [from subreddit feeds](https://i.redd.it/f21tymsprmta1.png).
 
 **See Also:**
 
@@ -1044,11 +1053,17 @@ As always, read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsa
 ---
 
 #RPAN
-::Features of Reddit::
+::Lore and History::
 
-Reddit’s Live Streaming network. RPAN is a public network made up of live broadcasts created by and for Redditors, providing livestream bandwidth and airtime to the residents of Reddit as a service to the community. To be eligible to broadcast, your Reddit account must be at least 14 days old with at least 125 comment karma. Everything else you need to know is [listed in their Wiki page](https://www.reddit.com/r/pan/wiki/index).
+RPAN was Reddit’s Live Streaming network, which unfortunately [had to close in November 2022](https://www.reddit.com/r/pan/comments/yl5zzd/update_on_the_future_of_live_video_broadcasting/).
 
-To stop RPAN from showing up on your feed, tap the three dots Hamburger menu in the top right corner of the stream and choose the option 'see less of this'.  r/pan.
+**Below is the original text of this entry, preserved for posterity.**
+
+r/pan is Reddit’s Live Streaming network. RPAN is a public network made up of live broadcasts created by and for Redditors, providing livestream bandwidth and airtime to the residents of Reddit as a service to the community. To be eligible to broadcast, your Reddit account must be at least 14 days old with at least 125 comment karma. Everything else you need to know is [listed in their Wiki page](https://www.reddit.com/r/pan/wiki/index).
+
+To stop RPAN from showing up on your feed, tap the three dots Hamburger menu in the top right corner of the stream and choose the option 'see less of this'.
+
+r/RedditSessions is a Reddit Public Access Network (RPAN) [broadcast community](https://www.reddit.com/r/RedditSessions/comments/ymv6et/rpan_streamer_wiki/) where you can livestream musical performances from your studio, the subway, your couch, or wherever it is you like to play.  They have a substantial and comprehensive Wiki [where you’ll find all the information you need to get started](https://www.reddit.com/r/RedditSessions/wiki/index/).
 
 **See Also:**
 

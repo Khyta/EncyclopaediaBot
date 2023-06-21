@@ -227,7 +227,7 @@ When a bunch of people with the same/similar screen names show up in a thread un
 
 * [beetlejuicing](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_beetlejuicing) (encyclopaedia)
 * r/beetlejuicing (subreddit)
-* [rimjob\_steve](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rimjob.5C_steve) (encyclopaedia)
+* [“rimjob_steve”](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/6/#wiki_.201Crimjob_steve.201D) (encyclopaedia)
 * r/rimjob_steve (subreddit)
 * [Wholesome](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wholesome)
 
@@ -340,11 +340,11 @@ TL;DR: It’s all part of the Reddit ethos to level the playing field on all new
 #Vote Fuzzing
 ::General Guides::
 
-There isn’t a 1:1 relationship between votes and karma. It might appear that way especially at the early stage of your Karma count and the early stage of your post or comment, but that isn’t the case. Reddit uses a technique called Vote Fuzzing for several clever (and a few mundane) reasons.
+There isn’t a 1:1 relationship between votes and karma. It might appear that way especially at the early stage of your Karma count and the early stage of your post or comment, but that isn’t the case. Reddit uses a technique called [Vote Fuzzing](https://www.reddit.com/r/WTF/comments/eaqnf/comment/c16omup/) for several clever (and a few mundane) reasons.
 
 Vote Fuzzing is an automatic process built in by Reddit that slightly changes the vote counts on posts and comments each time you refresh the page. It prevents spam because people trying to use upvote/downvote bots will have no idea if the bot is working or not.
 
-Want to see this work? Try this yourself: I upvoted a random post, and it showed three upvotes. Then I refreshed the page and it showed four upvotes. Then I refreshed again, and it showed two upvotes. That's Vote Fuzzing in action. It's explained in the [Reddiquette](https://www.reddithelp.com/hc/en-us/articles/205926439) pretty well too: *Some up/downvotes are by Reddit to fuzz the votes* [*in order to confuse spammers and cheaters*](https://www.reddit.com/r/WTF/comments/eaqnf/pardon_me_but_5000_downvotes_wtf_is_worldnews_for/)*.*
+Want to see this work? Try this yourself: I upvoted a random post, and it showed three upvotes. Then I refreshed the page and it showed four upvotes. Then I refreshed again, and it showed two upvotes. That's Vote Fuzzing in action. It was explained in previous versions of the [Reddiquette](https://www.reddithelp.com/hc/en-us/articles/205926439) as *Some up/downvotes are by Reddit to fuzz the votes in order to confuse spammers and cheaters.*
 
 **See Also:**
 
@@ -356,7 +356,7 @@ Want to see this work? Try this yourself: I upvoted a random post, and it showed
 #Vote Manipulation
 ::Features of Reddit::
 
-This is strictly [against the Reddit rules](https://www.reddithelp.com/hc/en-us/articles/360043066412) and is one of the things that could earn you a Permaban. So what do we mean by Vote Manipulation?  [An experiment in vote manipulation](https://www.reddit.com/r/TheoryOfReddit/comments/pmqk28/i_bought_some_upvotes_out_of_sheer_curiosity_and/)is interesting if a little elaborate. It can actually be as simple as:
+This is strictly [against the Reddit rules](https://www.reddithelp.com/hc/en-us/articles/360043066412) and is one of the things that could earn you a Permaban. So what do we mean by Vote Manipulation?  [An experiment in vote manipulation](https://www.reddit.com/r/TheoryOfReddit/comments/pmqk28/i_bought_some_upvotes_out_of_sheer_curiosity_and/) is interesting if a little elaborate. It can actually be as simple as:
 
 * Asking people to vote up or down on certain posts or comments.
 * Creating or using an Alt to upvote or award your own posts.
@@ -430,7 +430,7 @@ I personally believe that timing isn't as big of a factor as, say, quality or or
 
 An old-fashioned word beloved by Reddit meaning innocent, clean, moral, decent. Think squeaky-clean child-friendly, possibly even enlightening entertainment and you’re there. On Reddit over the years, Wholesome, like many other words, has changed its meaning. It was originally used ironically to mean weak or anodyne in much the same way that the use of the word “lame” does not describe a walking impediment but instead means something is uninspiring, dull, or even “cringe”; another word that has acquired additional meaning.
 
-Reddit has two Awards called Wholesome; a low-cost one sometimes given free for "When you come across a feel-good thing" and an Appreciation Award called Wholesome (Pro). Both icons are based on the [Seal of Approval or Satisfied Seal meme picture](https://external-preview.redd.it/TqVapkbtqVO-yPW7cjvXkqKo43Zp2tnI9MwcG2aUaQQ.jpg?auto=webp&s=6631668a40a24abf2fa7a2eebb7d0a841fc0361b).
+Reddit has two Awards called Wholesome; a low-cost one for "When you come across a feel-good thing" and an Appreciation Award called Wholesome (Pro). Both icons are based on the [Seal of Approval or Satisfied Seal meme picture](https://external-preview.redd.it/TqVapkbtqVO-yPW7cjvXkqKo43Zp2tnI9MwcG2aUaQQ.jpg?auto=webp&s=6631668a40a24abf2fa7a2eebb7d0a841fc0361b).
 
 **Because there is a Subreddit for everything:**
 
@@ -463,7 +463,7 @@ We have many “feel-good” subreddits, and a good starter Custom Feed is [the 
 
 Something you might see on a subreddit is a “Wiki” tab. A subreddit Wiki is basically the F.A.Q’s of a sub. The entries are often based on the work of one or two long-time moderators, then expanded and refined over time to become a repository of the subreddit’s knowledge and experience.
 
-A wiki can take the form of full-length articles, collections of useful statements, or collections of external links. Our Wiki is here: [https://www.reddit.com/r/NewToReddit/wiki/index](https://www.reddit.com/r/NewToReddit/wiki/index) and is the result of the ongoing communal effort of our awesome mod team who review it often to keep it current, useful and easy to use.
+A wiki can take the form of full-length articles, collections of useful statements, or collections of external links. Our Wiki is here: [https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/index/](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/index/) and is the result of the ongoing communal effort of our awesome mod team who review it often to keep it current, useful and easy to use.
 
 Unfortunately, the Reddit mobile app isn’t yet compatible with the format of sub wikis and doesn’t recognise much of the formatting, any of the internal hotlinks or any hyperlink from a post or comment to it. Viewing a sub wiki in its full glory on mobile is currently only possible by opening a browser and going directly to the website.
 
@@ -502,7 +502,7 @@ A phrase when you see a post that you think is highly underrated and want to let
 ---
 
 #Witty Comebacks
-::Interesting and Miscellaneous::
+::Tropes and Oneupmanship::
 
 Everyone wants to feel victorious as they walk away from an argument, and nothing’s better than coming up with *that* sick burn at the precise moment. Reddit has a few tried-and-tested ways of doing this which you will find scattered around this lexicon, usually in “quotation marks”. There are also many websites or even Pinterests dedicated to helping you in your quest, of which [100 Good Comebacks](https://parade.com/1105374/marynliles/good-comebacks/) is one of the better ones. There are also a few subreddits that might inspire you:
 

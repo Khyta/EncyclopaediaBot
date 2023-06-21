@@ -370,6 +370,10 @@ r/foundthehondacivic is a sub about finding someone linking r/foundthemobileuser
 #Free Awards
 ::Interesting and Miscellaneous::
 
+This was a popular feature of Reddit before their [controversial removal in early 2023](https://www.reddit.com/r/help/comments/108r1an/does_reddit_still_give_out_free_awards/j3y1rqb/).  When free awards were introduced, they were fairly random, announced [by a popup](https://i.redd.it/maq8wqnbsusa1.jpg) then later became a weekly occurrence.  They are much missed.  
+
+**Below is the original text of this entry, preserved for posterity.**
+
 Awards are normally purchased using Reddit Coins but you occasionally get given a free award by Reddit to confer on any post or comment you think is deserving. Check the [“Get Coins” icon](https://i.redd.it/4kicigc5s8w81.jpg) at the top RH of the page - on some platforms, a red strikethrough will indicate a free award (or a special offer on purchasing coins) is available. On some platforms, if it says “Sale” instead of “Get Coins”, the free award might be hidden behind it. The icon might even [just change to say "free"](https://i.redd.it/8g3gca48s8w81.jpg). On the new design of the mobile app, the option is totally hidden behind the [“Reddit Coins”](https://i.redd.it/5clbyetau8w81.jpg) option on your profile, and there’s no way of knowing if there’s a free award to claim until you click the option to check.
 
 Sometimes you might see an “advertise” button where it usually says “get coins”. The “coins” button is still there next to it, albeit reduced to a small icon resembling a small stack of coins with a C in the centre.
@@ -399,14 +403,14 @@ Beware of the many subs offering Reddit upvotes or karma for little to no engage
 
 As always, it is extremely important to read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) carefully before posting in a sub that’s new to you, but especially so in the competition subreddits. Some of them may have minimum Karma requirements and all of them will have rules about Post format. Browse a few different posts to get a feel of the place before participating.
 
-* r/ArgentiumConundrum \- Fiendishly difficult riddles with big prizes. I’ve never solved one yet but many people do. Often ‘asleep’ but returns without warning.
-* r/AwardBonanza \- A busy sub focused around trading Reddit awards and hosting/participating in challenges and giveaways.
-* r/freeargentium \- A small sleepy sub with occasional visits from the most amazing Redditor on Reddit.
-* r/freegold \- Free Gold under certain circumstances. [Rules for freegold](https://www.reddit.com/r/freegold/wiki/rules)
-* r/FreePlatinum \- Posting a low effort text post will not likely get you Platinum. But add a story, some OC or a meme of quality and you may well get Platinum here.
-* r/GoForGold \- A lovely fun sub where Redditors give Reddit awards to other Redditors for completing challenges.  [GFG Rules of Engagement](https://www.reddit.com/r/GoForGold/wiki/faq)
-* r/GoForLold \- A super fun and growing sub spin-off from GFG with some differences.
-* r/Predictor \- [Rules for Predictor](https://www.reddit.com/r/Predictor/comments/jjdywv/welcome_to_rpredictor_join_up_to_get_started_with/)
+* r/ArgentiumConundrum - Fiendishly difficult riddles with big prizes. I’ve never solved one yet but many people do. Often ‘asleep’ but returns without warning.
+* r/AwardBonanza - A busy sub focused around trading Reddit awards and hosting/participating in challenges and giveaways.
+* r/freeargentium - A small sleepy sub with occasional visits from the most amazing Redditor on Reddit.
+* r/freegold - Free Gold under certain circumstances. [Rules for freegold](https://www.reddit.com/r/freegold/wiki/rules)
+* r/FreePlatinum - Posting a low effort text post will not likely get you Platinum. But add a story, some OC or a meme of quality and you may well get Platinum here.
+* r/GoForGold - A lovely fun sub where Redditors give Reddit awards to other Redditors for completing challenges.  [GFG Rules of Engagement](https://www.reddit.com/r/GoForGold/wiki/faq)
+* r/GoForLold - A super fun sub spin-off from GFG with some differences.
+* r/Ternion - A sub dedicated to spotting Reddit’s most expensive award, with occasional contests.
 
 There will be more out there of varying quality. Because the posts in these subs have to be high in quality, these aren’t generally considered to be Karmafarms, so, good luck!
 
@@ -1512,7 +1516,7 @@ Find an abandoned sub at r/inactivereddits, and there’s a sub called r/subredd
 
 **See Also:**
 
-* [\[MLM\]](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_.5C.5Bmlm.5C.5D)
+* [MLM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mlm)
 
 ---
 
@@ -1750,7 +1754,9 @@ There’s also a useful list of subreddits for [advice or support on depression 
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
 * [Brandolini's Law](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_brandolini.27s_law)
 * [Euphemism](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_euphemism)

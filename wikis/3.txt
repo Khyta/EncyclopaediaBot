@@ -1273,11 +1273,11 @@ It’s the possibility of having a dream come true that makes life interesting. 
 
 At one time you needed a 30 day old account and around 25-50 karma to create a subreddit, but this was relaxed in early 2021 and now anyone can make their own subreddit straight away. Here are some useful links and guides to start with.
 
-* [https://www.reddithelp.com/hc/en-us/articles/360043044012-How-do-I-create-a-community-](https://www.reddithelp.com/hc/en-us/articles/360043044012-How-do-I-create-a-community-)
-* [https://mods.reddithelp.com/hc/en-us/articles/360001656752-Things-to-know-before-creating-a-subreddit](https://mods.reddithelp.com/hc/en-us/articles/360001656752-Things-to-know-before-creating-a-subreddit)
-* [https://www.reddit.com/r/modnews/comments/mmwdrh/new\_community\_creator\_onboarding\_tool/](https://www.reddit.com/r/modnews/comments/mmwdrh/new_community_creator_onboarding_tool/)
-* [https://www.reddit.com/r/help/comments/2yob6r/creating\_a\_subreddit/](https://www.reddit.com/r/help/comments/2yob6r/creating_a_subreddit/)
-* [https://www.reddit.com/r/modguide/comments/hnnv23/setting\_up\_your\_first\_sub\_on\_mobile/](https://www.reddit.com/r/modguide/comments/hnnv23/setting_up_your_first_sub_on_mobile/)
+* [How do I create a community?](https://www.reddithelp.com/hc/en-us/articles/360043044012-How-do-I-create-a-community-)
+* [Things to know before creating a subreddit](https://mods.reddithelp.com/hc/en-us/articles/360001656752-Things-to-know-before-creating-a-subreddit)
+* [New Community Creator Onboarding Tool](https://www.reddit.com/r/modnews/comments/mmwdrh/new_community_creator_onboarding_tool/)
+* [Creating a Subreddit](https://www.reddit.com/r/help/comments/2yob6r/creating_a_subreddit/)
+* [Setting up your first sub on mobile](https://www.reddit.com/r/modguide/comments/hnnv23/setting_up_your_first_sub_on_mobile/)
 
 If you need a little individual guidance, there are plenty of experienced subreddit starters on r/NewToReddit and r/LearnToReddit who will help you.
 
@@ -1291,15 +1291,14 @@ You might even want to repurpose a previously banned sub, such as Redditor u/PM_
 
 So, first, find your Subreddit. Here are some useful places to start:
 
-* r/adoptareddit \- allows moderators to hand off a sub. Admins will grant mod privileges in certain circumstances.
-* r/availablesubs \- lists of abandoned or moderatorless subreddits.
-* r/deadsubs \- “the graveyard of Reddit”, probably dead itself ironically.
-* r/findareddit \- can help you find any sub, not just dead ones.
-* r/Inactivereddits \- a community finding inactive/unmoderated subreddits.
-* r/reclassified \- who track and discuss banned and quarantined subreddits.
-* r/Requestable \- A catalogue of defunct subreddits, itself defunct.
-* r/subreddit \- to share an unrecognized subreddit or to find a subreddit you've been looking for.
-* r/SubsToRequest \- for those interested in sharing and requesting abandoned, inactive & banned subreddits.
+* r/adoptareddit - allows moderators to hand off a sub. Admins will grant mod privileges in certain circumstances.
+* r/availablesubs - lists of abandoned or moderatorless subreddits.
+* r/findareddit - can help you find any sub, not just dead ones.
+* r/Inactivereddits - a community finding inactive/unmoderated subreddits.
+* r/reclassified - who track and discuss banned and quarantined subreddits.
+* r/subreddit - to share an unrecognized subreddit or to find a subreddit you've been looking for.
+* r/deadsubs - “the graveyard of Reddit”, readable but dead itself ironically.
+* r/Requestable - A catalogue of defunct subreddits, itself defunct but readable.
 
 Your next step is to go to r/redditrequest and [ask to take over the subreddit that you'd like to mod](https://reddit.zendesk.com/hc/en-us/articles/360043478471-How-to-request-subreddit-via-Reddit-Request-). Reddit Request requires accounts to be 90 days old with 500 combined karma to take on a sub, and you ABSOLUTELY MUST read the rules at r/redditrequest thoroughly before posting a request. These will be found in the Sidebar (on mobile this will be the About tab, Menu tab and Community Info found in the three dot “hamburger” menu top RH corner of your screen), any Pinned posts (these will have a lime green ‘pin’ icon on the top corner and will show on top when you sort the Subreddit by ‘Hot’) and Wiki (where there is one).
 
@@ -1329,19 +1328,20 @@ We are also working on some initiatives at r/NewToReddit and r/LearnToReddit to 
 
 * **Creating a Subreddit 4: Promotion**
 
+Intrepid Redditor u/GaryNOVA wrote an [excellent short guide for newer moderators](https://www.reddit.com/r/NewToReddit/comments/11yyz7p/i_made_a_short_guide_for_newer_moderators_in_how/) which is essential reading for getting your new sub off the ground.
+
 If your shiny new sub has little to no karma restrictions for new users, we would be delighted to promote it at r/NewToReddit as part of our rules and welcome guidance. Contact us via Modmail to discuss the details. If your sub relates to something you are marketing, you need to be aware of [Reddit’s guidelines for self promotion](https://www.reddit.com/r/reddit.com/wiki/selfpromotion).
 
-* r/PromoteReddit \- Subreddits must be open (not private and not restricted). Please post secret subs to r/SecretReddits instead
-* r/promote \- General promotion
-* r/freepromote \- General promotion, but mostly subreddits
-* r/shamelessplug \- Showcase your website, project, game or anything else you've been working hard on
-* r/newreddits \- Promote your brand new subreddit
-* r/notsonewreddits \- Promote your not so new subreddit
-* r/newreddits_NSFW \- Promote your NSFW subreddit
-* r/yoursub \- General subreddit promotion
-* r/Subredditads \- Submit your subreddit to be considered for free advertising and promotion on Reddit
-* r/Facebookpages \- Promote your facebook pages/groups
-* r/AdvertiseYourServer \- Primarily for promoting your discord server
+* r/PromoteReddit - Subreddits must be open (not private and not restricted). Please post secret subs to r/SecretReddits instead
+* r/freepromote - General promotion, but mostly subreddits
+* r/newreddits - Promote your brand new subreddit
+* r/gnureddits - Promote your brand new subreddit
+* r/NOTSONEWREDDITS - Promote your not so new subreddit
+* r/newreddits_NSFW - Promote your NSFW subreddit
+* r/yoursub - General subreddit promotion
+* r/Subredditads - Submit your subreddit to be considered for free advertising and promotion on Reddit
+* r/Facebookpages - Promote your facebook pages/groups
+* r/AdvertiseYourServer - Primarily for promoting your discord server
 
 And here’s a useful custom feed from a Redditor with an amusing and misleading username: [https://www.reddit.com/user/banned\_accounts/m/newsubs/](https://www.reddit.com/user/banned_accounts/m/newsubs/)
 
@@ -2112,7 +2112,9 @@ Euphemisms are especially common in online radicalised or harmful communities. A
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
 * [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
 * [Tone Indicators](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tone_indicators)

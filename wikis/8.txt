@@ -426,19 +426,54 @@ You will probably already know that placing /s at the end of your comment will c
 
 A [Tone Indicator](https://www.urbandictionary.com/define.php?term=tone%20indicators) does exactly what it says it does: indicates the tone of what you're saying, and those are just two of many that are slowly becoming commonplace, especially among the [many neurodiverse Redditors](https://en.wikipedia.org/wiki/Neurodiversity) we have here.
 
-    - An early problem  
+* An early problem  
 
 From the moment that online quick communication was first devised, it soon became apparent that the written word alone wasn’t nearly enough to properly convey a meaning. Real conversation is full of paralinguistic information: the meaning that we glean from visual and vocal cues beyond the actual words spoken. We interpret what someone says from their voice; from tone, volume and pacing. We observe their facial expressions and their body language, and judge whether they sync with the spoken words. Electronic messages simply cannot compete.
 
-    - An early solution 
+* An early solution 
 
 [To try and get round this problem](https://www.cs.cmu.edu/~sef/sefSmiley.htm), Scott E. Fahlman, a professor of computer science at Carnegie Mellon University, created the smiley face [in September 1982](http://www.cs.cmu.edu/~sef/Orig-Smiley.htm) and the rest is history. His solution: Add the symbol :-) to denote humorous posts, and add the symbol :-( to serious ones. In his announcement about this proposal, he had to advise readers to “read it sideways.”
 
 For some time, the generic term ‘smiley’ was used to describe all kinds of these symbols that emerged, even angry ones. Another method of communicating intent originated in IRC channels in 1999 and was known as [Emotes](https://en.wikipedia.org/wiki/Emote). As the verb ‘to emote’ means to display emotions openly especially while acting, it made sense to use the same word to describe an entry in a text-based chat client that indicates an action taking place, but it didn’t seem to catch on in the same way as the later ‘emoticon’ or ‘emoji’.
 
-    - A current problem  
+* Tone indicators 
 
-We have pretty much established that Reddit does not like modern emojis in preference of the Unicode text emoticon, but as the use of Tone Indicators is starting to catch on, a [comprehensive list of Tone Indicators](https://toneindicators.carrd.co/#masterlist) is available here. However, for the time being , be prepared to have to explain some of the more obscure ones like /neu or /lu.
+Tone Indicator|Meaning
+:--|:--|:--
+/c| copypasta
+/cb| clickbait 
+/f| fake
+/gen or /g| genuine or genuine question 
+/hj| half-joking
+/hyp| hyperbole or exaggeration 
+/ij| inside joke
+/j| joking
+/l or /ly| lyrics
+/lh| light-hearted
+/li| literally 
+/lu| a little upset
+/m| metaphorically 
+/nbh| nobody here (when you’re venting your annoyances but they’re not directed at anyone reading)
+/neg or /nc| negative connotation 
+/neu| neutral connotation 
+/nm| not mad (not angry)
+/nsrs| not serious or non-serious 
+/nsx or /nx| non-sexual intent
+/p| platonic 
+/pos or /pc| positive connotation
+/r| romantic
+/rh or /rt| rhetorical question 
+/s| sarcastic 
+/srs| serious 
+/sx or /x| sexual intent
+/t| teasing
+/th| threat
+
+Sometimes you might want to use multiple tone indicators at once.  There’s no set format for this but generally they are used in one after another with a space in between, e.g: /lh /j to mean ‘lighthearted joke.’  An extra space or a comma can also be used between them to separate the indicators.
+
+* A current problem  
+
+We have pretty much established that Reddit does not like modern emojis in preference of the Unicode text emoticon, but as the use of Tone Indicators is starting to catch on, for the time being, be prepared to have to explain some of the more obscure ones.
 
 **See Also:**
 

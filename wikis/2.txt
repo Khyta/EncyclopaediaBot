@@ -128,85 +128,323 @@ You won’t see these achievements outside the powered-up subreddit either next 
 
 ---
 
-#Acronyms  
+#Acronyms 1: A-L
 ::Acronyms and Initials::
 
-Some of our specialised communities have a wide acronym language of their own, and I’ve listed some in the **See Also:** section below.
+Acronyms crop up in many online situations, and this first list of two gives some of the more widely used ones throughout Reddit along with explanatory links where applicable.   Some of our specialised communities have a wide acronym language of their own, and I’ve listed some more directories in the **See Also:** section below. 
 
-* [AITA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_aita) \- Am I The Asshole
-* [AFAIK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_afaik) \- As Far As I Know
-* [AMA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_ama) \- Ask Me Anything
-* [CMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cmv) \- Change My View
-* CW \- Content Warning
-* [DAE](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dae) \- Does Anybody Else
-* [DM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dm) \- Direct Message
-* [ELI5](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eli5) \- Explain Like I'm 5 (years old)
-* [ESH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esh) \- Everyone Sucks Here
-* [ESL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esl) \- English (is my) Second Language
-* [ETA; Edit:](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/3/#wiki_eta.3B_edit.3A) \- Edited To Add
-* [FTFY](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ftfy) \- Fixed That For You
-* [FWIW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fwiw) \- For What It’s Worth
-* GTFO - Get The Fuck Out
-* [IAmA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iama) \- I Am A
-* [IANAD](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianad) \- I Am Not A Doctor
-* [IANAL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianal) \- I Am Not A Lawyer
-* [ICYMI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_icymi) \- In Case You Missed It
-* [IDC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idc) \- I Don’t Care
-* [IDEK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idek) \- I Don’t Even Know
-* [IDK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idk) \- I Don’t Know
-* [IIRC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iirc) \- If I Recall/Remember Correctly
-* IME - In My Experience
-* IMHO - In My Honest/Humble Opinion
-* [IMO, IMHO, IME](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_imo.2C_imho.2C_ime) \- In My Opinion
-* [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl) \- In Real Life
-* IRTR - I Read The Rules (mandatory in post titles or first comment for some subs)
-* [ITAP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_itap) \- I Took A Picture
-* [LDR](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ldr) \- Long Distance Relationship
-* [LPT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_lpt) \- Life Pro Tip
-* MH - Mental Health
-* MFW - My Face/Feeling When
-* [MFW; MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/5/#wiki_mfw.3B_mrw) \- My Reaction When
-* [MSM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_msm) \- Mainstream Media
-* [NAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nah) \- No Assholes Here
-* [NGL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_ngl) \- Not Gonna Lie
-* [NSFL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfl) \- Not Safe For Life (gory or extreme content)
-* [NSFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfw) \- Not Safe For Work (sexual content or profanity)
-* [NTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nta) \- Not The Asshole
-* [OC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_oc) \- Original Content
-* [OP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_op) \- Original Poster (the person who started the thread)
-* [OTP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_otp) \- One True Pairing
-* [PGP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pgp) \- Personal Gender Pronoun
-* [PSA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_psa) \- Public Service Announcement
-* [RES](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_res) \- Reddit Enhancement Suite
-* [RL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rl) \- Real Life
-* RTFR - Read The Forum/Fucking Rules
-* [SFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sfw) \- Safe For Work
-* SJW - Social Justice Warrior (usually an insult)
-* SRS - Shit Reddit Says
-* [SMH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_smh) \- Shaking My Head
-* [SO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_so) \- Significant Other
-* [TBH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tbh) \- To Be Honest
-* [TFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tfw) \- The/That Feeling When
-* [TIAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tiah) \- Today I Am Happy
-* [TID](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tid) \- Today I Discovered
-* [TIHI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tihi) \- Thanks, I Hate It
-* [TIFU](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tifu) \- Today I Fucked Up
-* [TIL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_til) \- Today I Learned
-* [TL;DR:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tl.3Bdr.3A) \- Too Long; Didn't Read
-* TMA - Take My Appreciation (rarely used these days)
-* [TOMT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tomt) \- Tip Of My Tongue
-* [TW; CW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/8/#wiki_tw.3B_cw) \- Trigger Warning
-* [WIBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wibta) \- Would I Be The Asshole
-* [YMMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ymmv) \- Your Mileage May Vary
-* [YOLO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yolo) \- You Only Live Once
-* [YSK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ysk) \- You Should Know
-* [YTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yta) \- You’re The Asshole
-* [YWBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ywbta) \- You Would Be The Asshole
+**Acronyms A-L**
 
-There is one acronym you should always [report immediately](https://www.reddit.com/r/LearnToReddit/comments/qyxjyk/how_to_report/) if you see it being used and that is KYS. Originating in gaming communities, this is shorthand for “kill your self \[sic\]” as an “edgy” way to say “fuck you”. However, Reddit believes that suicide is a very serious subject and this kind of language should not be taken lightly. Inviting someone to commit suicide is against our code of conduct and may well incur a ban.
+* ACAB - All Cops/Coppers Are Bastards. A derogatory acronym used by people who oppose the police for various reasons.  Often used alongside or instead of ACAB is its numerical equivalent 1312, based on the letters’ alphabetical position (A is the 1st letter in the alphabet, etc.).
+* ADHD - Attention Deficit Hyperactivity Disorder.
+* AF - As Fuck; an intensifier to an adjective, as in “I thought that behaviour was rude AF.”
+* [AITA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_aita) - Am I The Asshole.
+* AITB - Am I The Buttface; used in [r/AmItheButtface](https://www.reddit.com/r/AmItheButtface/).
+* AFAIA - As Far As I’m Aware.
+* [AFAIK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_afaik) - As Far As I Know.
+* AKA - Also Known As.
+* [AMA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_ama) - Ask Me Anything.
+* ARG - [Alternate Reality Game](https://wiki.gamedetectives.net/index.php?title=Wiki_FAQ#What_is_an_ARG.3F).
+* ASAP - As Soon As Possible.
+* ASMR - Autonomous Sensory Meridian Response.
+* ATM - At The Moment.
+* AWOL - Absent Without Official Leave. A military acronym meaning leaving or being absent without having permission or notifying anyone first. Like “bunking off” or “throwing a sickie”.
+
+
+* BAME - Black, Asian, and Minority Ethnic.
+* BBC - British Broadcasting Corporation.  On Reddit, more likely to refer to an NSFW stereotype for a particular body part of a specific colour and size [clue: one of these without the ….erel](https://i.redd.it/zbmce9bzoota1.jpg).
+* BDSM - Bondage, Dominance, Sadism, Masochism.
+* BFF - Best Friend/s Forever.
+* BFG - Big Fucking Gun (Except when discussing children’s books where it refers to the Roald Dahl book the [Big Friendly Giant](https://www.bustle.com/articles/169615-the-meaning-of-the-bfg-will-surprise-roald-dahl-fans)).
+* BIPOC - Black, Indigenous, and People Of Colour.
+* BTS - Behind The Scenes (Except at [r/bangtan](https://www.reddit.com/r/bangtan/): A subreddit dedicated to the South Korean boy group 방탄소년단, most commonly known as BTS, Beyond the Scene, or Bangtan Boys).
+* BTW - By The Way.
+* BWTM - But Wait, There's More.
+
+
+* [CMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_cmv) - Change My View. This is used to start debates, so engage with caution.
+* CMYK - Cyan, Magenta, Yellow, Key (black).  
+* [TW; CW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/8/#wiki_tw.3B_cw) - Content Warning. Used to indicate that what follows may be disturbing to some readers.
+
+
+* [DAE](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dae) - Does Anybody Else.
+* DB - Dead Bedroom. Used in Relationship subs to describe a severely inadequate or nonexistent sexual relationship.
+* DGAF - Don’t Give A Fuck.
+* [DM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_dm) - Direct Message.
+* DO40 - Dating Over 40.  DO50 would be Dating Over 50 etc. Used in Relationship subs.
+
+
+* [ELI5](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eli5) - Explain Like I'm 5 (years old).
+* [ESH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esh) - Everyone Sucks Here.
+* [ESL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_esl) - English (as a/is my) Second Language.
+* [ETA; Edit:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_eta.3B_edit.3A) - Edited To Add.  Also: Estimated Time (of) Arrival.
+
+
+* FB - Facebook.
+* FFS - For Fuck’s Sake. A euphemistic initialism used to express intense exasperation, frustration, anger, etc., implying the need for but without using explicit vulgarity.
+* FML - Fuck My Life.  An expression of rueful chagrin or exclamation of annoyance or frustration when things are not going well.
+* [FOMO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fomo) - Fear Of Missing Out
+* [FTFY](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ftfy) - Fixed That For You.
+* FTW - For The Win.  Used to express approval or support. Dependent upon context because:
+* FTW - Fuck The World. Used as an expression of disenchantment with life in general or with a particular situation.
+* FUBAR - Fucked Up Beyond All Repair. A [military term](https://en.wikipedia.org/wiki/List_of_military_slang_terms) meaning thoroughly confused, disordered, damaged or ruined.
+* FWB - Friend/s With Benefits.  A sexual but non-romantic relationship with no commitment.
+* [FWIW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fwiw) - For What It’s Worth.
+* FYI - For Your Information.
+
+
+* GTFO - Get The Fuck Out.
+
+
+* HAM - Hard Ass/As a Motherfucker. A euphemistic initialism used to express being brutal, unstoppable, working hard, etc., implying the need for but without using explicit vulgarity.
+* HIFW - How I Feel When.
+* HMU - Hit Me Up. Context dependent; either ask me for a favour or contact me.
+
+
+* [IAmA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iama) - I Am A.
+* [IANAD](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianad) - I Am Not A Doctor.
+* [IANAL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ianal) - I Am Not A Lawyer.
+* [ICYMI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_icymi) - In Case You Missed It.
+* [IDC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idc) - I Don’t Care.
+* [IDEK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idek) - I Don’t Even Know.
+* IDGAF - I Don’t Give A Fuck.
+* [IDK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_idk) - I Don’t Know.
+* IG - I Guess.  Can also be short for Instagram.
+* [IIRC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_iirc) - If I Recall/Remember Correctly.
+* IKR - I Know, Right?  When you wholeheartedly agree with what someone is saying.
+* IME - In My Experience.
+* IMHO - In My Honest/Humble Opinion.
+* IMO - In My Opinion. See [IMO, IMHO, IME](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_imo.2C_imho.2C_ime)
+* INCEL - A portmanteau of "involuntary celibate". A member of an online subculture of people (usually male) who define themselves as unable to get a romantic or sexual partner despite desiring one.
+* [IRL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irl) - In Real Life.
+* [IRTR](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_irtr) - I Read The Rules. Mandatory in post titles or first comment for some subs.
+* [ITAP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_itap) - I Took A Picture.
+* IYKYK - If You Know, You Know. If you were there, you'd know, but if you weren't, you wouldn't.
+
+
+* JK - Just Kidding.
+
+
+* [kys](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_kys) - Kill Your Self.   This is an acronym you should always [report immediately](https://www.reddit.com/r/LearnToReddit/comments/qyxjyk/how_to_report/) if you see it being used on Reddit. Originating in gaming communities, this is shorthand for “kill your self \[sic\]” as an “edgy” way to say “fuck you”.   However, Reddit believes that suicide is a very serious subject and this kind of language should not be taken lightly.  Inviting someone to commit suicide is against our code of conduct and may well incur a ban.
+
+
+* LAOP - Legal Advice OP; used in [r/bestoflegaladvice](https://www.reddit.com/r/bestoflegaladvice/).
+* [LARP; LARPer](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_larp.3B_larper) - Live Action Role Play.
+* [LDR](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_ldr) - Long Distance Relationship.
+* LOL - Laugh Out Loud. Also see [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
+* [LPT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_lpt) - Life Pro Tip.
+* LTR - Long-Term Relationship.
+
+No doubt you will find acronyms across both Reddit and the internet that I don’t list in this encyclopaedia; the links below may help in this case, and another good place to start is at [abbreviations.com](https://www.abbreviations.com).
 
 **See Also:**
 
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
+* [F or "F" In The Comments](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_f_or_.22f.22_in_the_comments)
+* [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
+* [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_other_useful_dictionaries.2C_encyclopaedias_and_lexicons)
+* [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
+* [Tone Indicators](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tone_indicators)
+
+---
+
+#Acronyms 2: M-Z
+::Acronyms and Initials::
+
+Acronyms crop up in many online situations, and this second list of two gives some of the more widely used ones throughout Reddit along with explanatory links where applicable.   Some of our specialised communities have a wide acronym language of their own, and I’ve listed some more directories in the **See Also:** section below. 
+
+**Acronyms M-Z**
+
+* MH - Mental Health.
+* MFW - My Face/Feeling When.
+* [MFW; MRW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mfw.3B_mrw) - My Reaction When.
+* MIA - Missing In Action.
+* [MLM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_mlm) - Multi-Level Marketing.  See linked definition for other meanings in different subreddits.
+* [MSM](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_msm) - Mainstream Media.
+
+
+* NAD - Not A Doctor.
+* [NAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nah) - No Assholes Here.
+* NBD - No Big Deal.
+* [NGL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_ngl) - Not Gonna Lie.
+* NSA - No Strings Attached.
+* [NSFL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfl) - Not Safe For Life (gory or extreme content).
+* [NSFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfw) - Not Safe For Work (sexual content or profanity).
+* [NTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nta) - Not The Asshole.
+* NTB - Not The Buttface; used in [r/AmItheButtface](https://www.reddit.com/r/AmItheButtface/).
+* NTS - Note To Self.  Used in a humorous or self-deprecating way to let others in the thread know you are reminding yourself of something. “NTS: don’t sort by new ever again.”
+* NVM - Nevermind.
+
+
+* [OC](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_oc) - Original Content.
+* OMG - Oh My God.  An exclamation variously expressing disbelief, frustration, excitement, or anger.  Sometimes written as [Ermahgerd](https://knowyourmeme.com/memes/ermahgerd).
+* [OP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_op) - Original Poster (the person who started the thread).  In gaming contexts, means Overpowered.
+* OOP - Original Original Poster.  Used in [r/BestofRedditorUpdates](https://www.reddit.com/r/BestofRedditorUpdates/), [r/AmITheAngel](https://www.reddit.com/r/AmITheAngel/) and similar subreddit discussion subs to differentiate the Original Poster of the original post from the person crossposting to the discussion sub.
+* [OTP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_otp) - One True Pairing.
+
+
+* [PGP](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_pgp) - Personal Gender Pronoun.
+* [PSA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_psa) - Public Service Announcement.
+* PTS - Put To Sleep.  A euphemism used in animal and pet subreddits.
+
+
+* Q - Short for QAnon; an American political conspiracy theory and movement originating in the American far-right political sphere in 2017.
+
+
+* [RES](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_res) - Reddit Enhancement Suite. A third-party app for using Reddit.
+* RIF - [Reddit Is Fun](https://www.reddit.com/r/redditisfun/).  A third-party app for using Reddit.
+* [RL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rl) - Real Life.
+* RTFR - Read The Forum/Fucking Rules.
+
+
+* [SFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sfw) - Safe For Work.
+* SIC - Standard Issue Cat.  Commonly used on pet subreddits to describe a brown tabby cat.
+* SJW - Social Justice Warrior (usually an insult).
+* SRS - Shit Reddit Says.
+* [SMH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_smh) - Shaking My Head.
+* [SO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_so) - Significant Other.
+* SS - Submission Statement. Mandatory in post titles or first comment for some subs including [r/conspiracy](https://www.reddit.com/r/conspiracy/).
+
+
+* TBF - [“To be fair...”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_.201Cto_be_fair....201D).
+* [TBH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tbh) - To Be Honest.
+* TERF - Trans-Exclusionary Radical Feminist. An advocate of radical feminism who believes that a trans woman's gender identity is not legitimate.
+* [TFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tfw) - The/That Feeling When.
+* THOT - That Ho Over There or Thirsty Hoes Over There.  Extremely derogatory.
+* TIA - Thanks In Advance.  Sometimes lengthened to TYSMIA - Thank You So Much In Advance.
+* [TIAH](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tiah) - Today I Am Happy.
+* [TID](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tid) - Today I Discovered.
+* [TIHI](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tihi) - Thanks, I Hate It.
+* [TIFU](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tifu) - Today I Fucked Up.
+* [TIL](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_til) - Today I Learned.
+* [TL;DR:](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tl.3Bdr.3A) - Too Long; Didn't Read.
+* TMA - Take My Appreciation. Rarely used these days; let’s bring it back.
+* TMI - Too Much Information. Because sometimes, some things are best left unsaid.
+* [TOMT](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tomt) - Tip Of My Tongue.
+* [TW; CW](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/8/#wiki_tw.3B_cw) - Trigger Warning.  Used to indicate that what follows may be disturbing to some readers.
+* TYVM - Thank You Very Much.
+
+
+* WDYM - What Do/Did You Mean?
+* [WIBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_wibta) - Would I Be The Asshole.
+* WIBTB - Would I Be The Buttface; used in [r/AmItheButtface](https://www.reddit.com/r/AmItheButtface/).
+* WTF - What The Fuck.
+
+
+* [YMMV](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ymmv) - Your Mileage May/Might Vary.  What works for one person may not work for you.
+* [YOLO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yolo) - You Only Live Once.
+* [YSK](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ysk) - You Should Know.
+* [YTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_yta) - You’re The Asshole.
+* YTB - You’re The Buttface; used in [r/AmItheButtface](https://www.reddit.com/r/AmItheButtface/).
+* [YWBTA](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/9/#wiki_ywbta) - You Would Be The Asshole.
+* YTBTB - You Would Be The Buttface; used in [r/AmItheButtface](https://www.reddit.com/r/AmItheButtface/).
+* YTBTC - You Would Be The Cloaca; used in [r/AmItheCloaca](https://www.reddit.com/r/AmItheCloaca/).  Yes, there is a sub for everything.
+
+No doubt you will find acronyms across both Reddit and the internet that I don’t list in this encyclopaedia; the links below may help in this case, and another good place to start is at [abbreviations.com](https://www.abbreviations.com).
+
+**See Also:**
+
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
+* [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
+* [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_other_useful_dictionaries.2C_encyclopaedias_and_lexicons)
+* [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
+* [Tone Indicators](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/8/#wiki_tone_indicators)
+
+---
+
+#Acronyms 3: Abbreviations 
+::Acronyms and Initials::
+
+An Acronym is a word comprised of the first initials of the words in a phrase or saying. They are generally created to shorten long phrases and speed up communication, much like [abbreviations and initialisms](https://www.rd.com/article/acronym-vs-abbreviation-whats-the-difference/).  
+
+Reddit has a worldwide readership, but because the majority are from the US, you’ll often see abbreviations that might be unfamiliar to those of us in the rest of the world.  For instance , there are some animal, reptile or insect identification subreddits which require a location in each submission, and the following list will hopefully help you with the various two-letter US State abbreviations that are often used:
+
+**US State and Territory Abbreviations**
+
+Abbreviation|State
+:--|:--|:--
+AL| Alabama
+AK| Alaska
+AZ| Arizona
+AR| Arkansas
+AS| American Samoa 
+CA| California 
+CO| Colorado
+CT| Connecticut
+DE| Delaware
+DC| District of Columbia
+FL| Florida
+GA| Georgia
+GU| Guam
+HI| Hawaii
+ID| Idaho
+IL| Illinois
+IN| Indiana
+IA| Iowa
+KS| Kansas
+KY| Kentucky
+LA| Louisiana
+ME| Maine
+MD| Maryland
+MA| Massachusetts
+MI| Michigan
+MN| Minnesota
+MS| Mississippi
+MO| Missouri
+MT| Montana
+NE| Nebraska 
+NV| Nevada
+NH| New Hampshire 
+NJ| New Jersey
+NM| New Mexico
+NY| New York (State)
+NC| North Carolina
+ND| North Dakota
+MP| Northern Mariana Islands
+OH| Ohio
+OK| Oklahoma
+OR| Oregon
+PA| Pennsylvania
+PR| Puerto Rico
+RI| Rhode Island
+SC| South Carolina
+SD| South Dakota
+TN| Tennessee
+TX| Texas
+TT| Trust Territories
+UT| Utah
+VT| Vermont
+VA| Virginia
+VI| Virgin Islands
+WA| Washington (State)
+WV| West Virginia
+WI| Wisconsin
+WY| Wyoming
+
+Notes:  
+
+* Continental United States: The 49 States (including Alaska, excluding Hawaii) located on the continent of North America, and the District of Columbia.
+* United States: The 50 States and the District of Columbia.
+* 51st State: Puerto Rico is defined as “territory 'foreign in a domestic sense',” meaning it is neither part of the federation that makes up the US nor a sovereign entity.
+* A far more detailed list [can be found here](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_abbreviations), and some of the above information [came from here](https://www.usgs.gov/faqs/what-constitutes-united-states-what-are-official-definitions) as well as [from here](https://www.historytoday.com/archive/behind-times/51st-state).
+
+**Plant Hardiness Zones**
+
+There are some subreddits where abbreviations are used for other types of geographic locations.  Many of the gardening and plant identification and help subreddits require a plant [hardiness/climate zone](https://en.wikipedia.org/wiki/Hardiness_zone) on each submission to be able to give proper advice, where you’ll see abbreviations such as “Northern Alberta, Canada 2B/3A” or “PNW - Zone 7B/8A”.  
+
+The original and most widely used system was developed by the United States Department of Agriculture (USDA), and subsequently, similar hardiness rating schemes have been developed for other countries and regions.  To help you understand the abbreviations and/or locate the appropriate zone, here’s a list of resources:
+
+* [An interactive map of worldwide plant hardiness zones](https://www.plantmaps.com/index.php)
+* [A hardiness zone map for edible landscaping](https://archive.is/3btSl)
+
+No doubt you will find abbreviations across both Reddit and the internet that I don’t list in this encyclopaedia; the links below may help in this case, and another good place to start is at [abbreviations.com](https://www.abbreviations.com).
+
+**See Also:**
+
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
 * [Jargon](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_jargon)
 * [Other Useful Dictionaries, Encyclopaedias and Lexicons](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_other_useful_dictionaries.2C_encyclopaedias_and_lexicons)
 * [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
@@ -360,7 +598,7 @@ As with all subs, it’s important to read the [rules](https://www.reddit.com/r/
 
 Stories from this sub often get [picked up by other media](https://www.thesun.co.uk/fabulous/16217943/banned-daughters-birthday-party-mums-fuming/) so be very careful about not including any identifiable details in your submission.
 
-Be warned that activity in this subreddit can earn you [a pre-emptive ban](https://i.redd.it/44f4kl0ooy281.jpg) from other subreddits that have AITA on their blacklist.
+Be warned that activity in this subreddit can earn you [a pre-emptive ban](https://i.redd.it/igqtmofvt3pa1.jpg) from other subreddits that have AITA on their blacklist.
 
 **Because there is a Subreddit for everything:**
 
@@ -546,7 +784,7 @@ Quite apart from any ethical issues (of which there are obviously many), posting
 
 When a short video throws you straight into the action, you’re so caught up in the narrative that you don’t consider what might have happened immediately before. For instance, that cute little hermit crab scurrying across a beach [choosing between various shells](https://www.reddit.com/r/HumansBeingBros/comments/772d3m/helping_homeless_hermit_crab_find_a_new_shell/) thoughtfully provided by the person in the film?
 
-What we don’t know is how the unfortunate crustacean became homeless on a hot beach in the first place when they normally go house-hunting underwater; how the person so conveniently found the homeless critter at the very time he decided to switch-up shells, and where they got all those semi-identical perfect shells the person presents to the helpless animal on an otherwise empty beach. Talking of which, just how did [that octopus find itself stuffed into an ill-fitting shell](https://www.reddit.com/r/Cringetopia/comments/n02yh4/i_dont_think_octopi_stuff_themselves_in_conch/)?
+What we don’t know is how the unfortunate crustacean became homeless on a hot beach in the first place when they normally go house-hunting underwater; how the person so conveniently found the homeless critter at the very time he decided to switch-up shells, and where they got all those semi-identical perfect shells the person presents to the helpless animal on an otherwise empty beach. Talking of which, just how did [that octopus find itself stuffed into an ill-fitting shell](https://web.archive.org/web/20210428004629/https://www.reddit.com/r/Cringetopia/comments/n02yh4/i_dont_think_octopi_stuff_themselves_in_conch/)?
 
 Nobody wants to think the worst of people. We shouldn’t be forced into a position where we start to think every lovely coincidence has an alternative and grim backstory. But unfortunately, [there is a very real problem with animal videos we need to be aware of](https://www.reddit.com/r/rage/comments/iy4ey6/the_disturbing_fake_animal_rescue_channels/). Puppies and kittens in immediate and unlikely peril? [There’s quite a lot of them](https://inspiremari.nl/watch-out-for-fake-animal-rescue-videos-on-youtube/), unfortunately, including [staged “snake rescue”](https://gizmodo.com/youtube-starts-banning-fake-rescue-videos-of-snakes-att-1835376766) videos and the problem is that many of these channels are based in countries where there are little or no animal rights protections so they’re not going to go away soon.
 
@@ -655,32 +893,37 @@ See this guide to [Anonymous Browsing](https://reddit.zendesk.com/hc/en-us/artic
 #April Fools Day  
 ::Lore and History::  
 
-April Fools Day is a tradition very much embraced at Reddit, as you might expect, and its home is at [r/aprilfools](https://www.reddit.com/r/aprilfools/). Many Subreddits [change their theme or subject matter](https://www.reddit.com/r/aprilfools/comments/mholsm/megathread_subreddit_prank_log_for_april_1st_2021/) for the day, and more info on historical pranks throughout Reddit can be [found here](https://www.reddit.com/r/self/search/?q=April%20fool&restrict_sr=1&sr_nsfw=&sort=relevance) and also [here](https://www.reddit.com/r/OutOfTheLoop/search/?q=April%20fool&restrict_sr=1&sr_nsfw=&sort=new).
+April Fools Day is a tradition very much embraced at Reddit, as you might expect, and many Subreddits [change their theme or subject matter](https://www.reddit.com/r/aprilfools/comments/mholsm/megathread_subreddit_prank_log_for_april_1st_2021/) for the day.  The [r/aprilfools](https://www.reddit.com/r/aprilfools/) sub try to keep a log of all of these events.
 
-Some past sitewide events have gone down in Reddit history and are still talked about now, (especially 2015’s ‘The Button’ and 2017’s ‘Place’) and a short précis of many of them [can be found here](https://medium.com/@arbistarkillerllaveshi/reddit-april-fools-the-social-sandbox-28960a739bc4). Since first writing this entry, Reddit themselves have made a [video history of the April Fools events](https://www.reddit.com/r/reddit/comments/tno8rk/its_no_foolin_the_history_of_april_fools_on_reddit/). Please note that in the list below some of the old Reddit Blog notes have unfortunately been removed since I first wrote this entry, but I’ve provided webarchive links where I could find them.
+Reddit itself traditionally hosts a sitewide event on that day which has spawned a wealth of Reddit History, and the 2023 April Fool event (though low key in comparison with previous years) started with an innocuous looking but [throughly researched post](https://www.reddit.com/r/reddit/comments/126vgfi/why_is_fools_in_april_a_brief_history_of_the/) going back through all our past events.   More info on historical pranks throughout Reddit can be [found here](https://www.reddit.com/r/AprilKnights/comments/mhg04t/a_list_of_all_reddit_april_fools_events_to_date/) and also [here](https://www.reddit.com/r/OutOfTheLoop/search/?q=April%20fool&restrict_sr=1&sr_nsfw=&sort=new).
 
-* 2005: Reddit founded in June
-* 2006: [Internet Giants merge to buy out Reddit](https://www.reddit.com/r/reddit.com/comments/3s4l/in_a_surprise_move_google_yahoo_and_microsoft/)
-* 2007: [Memory Holes](https://www.reddit.com/r/reddit.com/comments/1efuh/reddit_now_doubleplusgood/); original Blog entry [is archived here](https://web.archive.org/web/20210516182256/https://redditblog.com/2007/04/01/reddit-now-doubleplusgood/)
-* 2008: [Buying Karma](https://www.reddit.com/r/reddit.com/comments/6e6tf/put_those_dollars_into_something_safe_like_reddit/); original Blog entry [is archived here](https://web.archive.org/web/20210401012508/https://redditblog.com/2008/04/01/put-those-dollars-into-something-safe-like-reddit-karma/)
-* 2009: [Digg Redesign](https://web.archive.org/web/20210401012454/https://redditblog.com/2009/04/02/a-terrible-mistake/)
-* 2010: [Everyone’s An Admin!](https://www.reddit.com/r/reddit.com/comments/bkzbt/everyone_is_fucked_we_are_all_admin/)
-* 2011: [Reddit Mold](https://web.archive.org/web/20120921125833/blog.reddit.com/2011/03/reddit-mold-is-now-live.html)
-* 2012: [Time Machine](https://mashable.com/2012/04/04/reddit-timeline-aftermath/?europe=true), [r/timereddits](https://www.reddit.com/r/timereddits/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/rmy6x/reddit_2012_april_fools_day_compilation/)
-* 2013: [TF2 and Periwinkle/Orangered](https://redditblog.com/2013/04/01/reddit-buys-team-fortress-2/), [r/periwinkle](https://www.reddit.com/r/periwinkle/), [r/orangered](https://www.reddit.com/r/orangered/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/1bevhx/lets_make_a_list_of_all_of_the_april_fools/)
-* 2014: [Headdit](https://web.archive.org/web/20201108160230/https://redditblog.com/2014/03/31/headdit-a-revolutionary-new-way-to-browse-reddit/), [r/Headdit](https://www.reddit.com/r/Headdit/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/21wkim/2014_april_fools_subreddit_pranks_list/)
-* 2015: [The Button](https://mashable.com/2015/04/01/reddit-the-button-april-fools/?europe=true), [r/thebutton](https://www.reddit.com/r/thebutton/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/30zo82/april_fools_2015_subreddit_prank_list/) and more can be [found here](https://www.reddit.com/r/OutOfTheLoop/comments/30xg6a/april_fools_day_subreddit_themes_megathread/)
-* 2016: [Robin](https://www.reddit.com/r/OutOfTheLoop/comments/4lhh6y/what_was_reddit_robin_and_what_ever_happened_to_it/), [r/joinrobin](https://www.reddit.com/r/joinrobin/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/4cvdpp/2016_april_fools_subreddit_pranks_list/)
-* 2017: [Place](https://www.reddit.com/r/announcements/comments/62mesr/place/dfnw4rc/) and a [video](https://youtu.be/cbYLjbryBIM), [r/place](https://www.reddit.com/r/place/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/62hg5v/meta_april_fools_day_subreddit_digest_2017/)
-* 2018: [Circle of Trust](https://redditblog.com/2018/05/22/looking-back-at-r-circleoftrust/), [r/CircleOfTrustMeta](https://www.reddit.com/r/CircleOfTrustMeta/), [r/CircleOfTrust](https://www.reddit.com/r/CircleOfTrust/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/88m0qu/2018meta_april_fools_day_subreddit_digest_2018/)
-* 2019: [Sequence](https://youtu.be/Oe8jtGc2H_c), [r/sequence](https://www.reddit.com/r/sequence/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/b7shuq/megathread_subreddit_pranks_for_april_1st_2019/)
-* 2020: [Imposter](https://www.reddit.com/r/announcements/comments/ft3e3q/imposter/), [r/Imposter](https://www.reddit.com/r/Imposter/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/fsr17n/megathread_subreddit_pranks_for_april_1st_2020/)
-* 2021: [Second](https://www.reddit.com/r/announcements/comments/mi01fg/second/), [r/second](https://www.reddit.com/r/second/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/mholsm/megathread_subreddit_prank_log_for_april_1st_2021/)
+Some of these events are still talked about now, especially 2015’s ‘The Button’, and a spin-off subreddit that is still active from then is [r/AprilKnights](https://www.reddit.com/r/AprilKnights/comments/tns9wj/want_to_know_who_we_are/).  ‘Place’, from 2017, was so popular that it was [revived again in 2022](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/110n373/place/).
+
+Also in 2022, Reddit themselves made a [video history of its April Fools events](https://www.reddit.com/r/reddit/comments/tno8rk/its_no_foolin_the_history_of_april_fools_on_reddit/).  Our events are so popular that a short précis of many of them [can even be found outside of Reddit](https://medium.com/@arbistarkillerllaveshi/reddit-april-fools-the-social-sandbox-28960a739bc4).  Here’s my own notes on past events. 
+
+* 2005: Reddit founded in June.
+* 2006: [Internet Giants merge to buy out Reddit](https://www.reddit.com/r/reddit.com/comments/3s4l/in_a_surprise_move_google_yahoo_and_microsoft/).
+* 2007: [Memory Holes](https://www.reddit.com/r/reddit.com/comments/1efuh/reddit_now_doubleplusgood/); original Blog [is archived here](https://web.archive.org/web/20210516182256/https://redditblog.com/2007/04/01/reddit-now-doubleplusgood/).
+* 2008: [Buying Karma](https://www.reddit.com/r/reddit.com/comments/6e6tf/put_those_dollars_into_something_safe_like_reddit/); original Blog [is archived here](https://web.archive.org/web/20210401012508/https://redditblog.com/2008/04/01/put-those-dollars-into-something-safe-like-reddit-karma/).
+* 2009: [Digg Redesign](https://web.archive.org/web/20210401012454/https://redditblog.com/2009/04/02/a-terrible-mistake/).
+* 2010: [Everyone’s An Admin!](https://www.reddit.com/r/reddit.com/comments/bkzbt/everyone_is_fucked_we_are_all_admin/).
+* 2011: [Reddit Mold](https://web.archive.org/web/20120921125833/blog.reddit.com/2011/03/reddit-mold-is-now-live.html).
+* 2012: [Time Machine](https://mashable.com/2012/04/04/reddit-timeline-aftermath/?europe=true), [r/timereddits](https://www.reddit.com/r/timereddits/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/rmy6x/reddit_2012_april_fools_day_compilation/).
+* 2013: [TF2 and Periwinkle/Orangered](https://web.archive.org/web/20200311073117/https://redditblog.com/2013/04/01/reddit-buys-team-fortress-2/), [r/periwinkle](https://www.reddit.com/r/periwinkle/), [r/orangered](https://www.reddit.com/r/orangered/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/1bevhx/lets_make_a_list_of_all_of_the_april_fools/).
+* 2014: [Headdit](https://web.archive.org/web/20201108160230/https://redditblog.com/2014/03/31/headdit-a-revolutionary-new-way-to-browse-reddit/), [r/Headdit](https://www.reddit.com/r/Headdit/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/21wkim/2014_april_fools_subreddit_pranks_list/).
+* 2015: [The Button](https://mashable.com/2015/04/01/reddit-the-button-april-fools/?europe=true), [r/thebutton](https://www.reddit.com/r/thebutton/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/30zo82/april_fools_2015_subreddit_prank_list/) and more can be [found here](https://www.reddit.com/r/OutOfTheLoop/comments/30xg6a/april_fools_day_subreddit_themes_megathread/).
+* 2016: [Robin](https://www.reddit.com/r/OutOfTheLoop/comments/4lhh6y/what_was_reddit_robin_and_what_ever_happened_to_it/), [r/joinrobin](https://www.reddit.com/r/joinrobin/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/self/comments/4cvdpp/2016_april_fools_subreddit_pranks_list/).
+* 2017: [Place](https://www.reddit.com/r/announcements/comments/62mesr/place/dfnw4rc/) and a [video](https://youtu.be/cbYLjbryBIM), [r/place](https://www.reddit.com/r/place/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/62hg5v/meta_april_fools_day_subreddit_digest_2017/).
+* 2018: [Circle of Trust](https://redditblog.com/2018/05/22/looking-back-at-r-circleoftrust/), [r/CircleOfTrustMeta](https://www.reddit.com/r/CircleOfTrustMeta/), [r/CircleOfTrust](https://www.reddit.com/r/CircleOfTrust/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/88m0qu/2018meta_april_fools_day_subreddit_digest_2018/).
+* 2019: [Sequence](https://youtu.be/Oe8jtGc2H_c), [r/sequence](https://www.reddit.com/r/sequence/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/b7shuq/megathread_subreddit_pranks_for_april_1st_2019/).
+* 2020: [Imposter](https://www.reddit.com/r/announcements/comments/ft3e3q/imposter/), [r/Imposter](https://www.reddit.com/r/Imposter/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/fsr17n/megathread_subreddit_pranks_for_april_1st_2020/).
+* 2021: [Second](https://www.reddit.com/r/announcements/comments/mi01fg/second/), [r/second](https://www.reddit.com/r/second/), and here’s some other [subreddit pranks from that year](https://www.reddit.com/r/aprilfools/comments/mholsm/megathread_subreddit_prank_log_for_april_1st_2021/).
 * 2022: [Place 2: The Search for More Pixels](https://www.reddit.com/r/reddit/comments/tyjkzg/rplace_the_recap_part_1/), [r/place](https://www.reddit.com/r/place/), and a roundup of some other Reddit events for 2022 [can be found here](https://www.reddit.com/r/aprilfools/comments/ttf8kw/megathread_subreddit_prank_log_for_april_1st_2022/) and another one [here](https://www.reddit.com/r/OutOfTheLoop/comments/ttmvqy/april_fools_megathread_2022/).
+* 2023: [schrodingers](https://www.reddit.com/r/schrodingers/comments/127ufzt/comment/jei5fw0/) where we first had to [FIND IT](https://www.reddit.com/r/reddit/comments/127vomt/obligatory_april_1st_announcement/).
 
 This list was originally based on and expanded with links from an original compiled by [u/Tvix](https://www.reddit.com/u/Tvix/) in [r/aprilfools](https://www.reddit.com/r/aprilfools/). Huge grateful thanks go out to [u/antidense](https://www.reddit.com/u/antidense/) for compiling the yearly roundups of Reddit events linked above and [u/kethryvis](https://www.reddit.com/u/kethryvis/) for filling in the missing piece of the puzzle with details of the 2006 prank.
 
-For 2021 at [r/NewToReddit](https://www.reddit.com/r/NewToReddit/), I did a llama llecture/bait-and-switch [about calculating Reddit Karma](https://www.reddit.com/r/NewToReddit/comments/mhh9mu/a_statement_about_karma/). 2022 saw the start of [a new initiative](https://www.reddit.com/r/NewToReddit/comments/ttkp85/a_new_initiative/) to see if all of our guides and info dumps are actually helpful to everyone, or if we should just go back to the [drawing board](https://a.pgtb.me/z6XJ4x) and start all over again. We still don’t know…
+For 2021 at [r/NewToReddit](https://www.reddit.com/r/NewToReddit/), I did a llama llecture/bait-and-switch [about calculating Reddit Karma](https://www.reddit.com/r/NewToReddit/comments/mhh9mu/a_statement_about_karma/). 2022 saw the start of [a new initiative](https://www.reddit.com/r/NewToReddit/comments/ttkp85/a_new_initiative/) to see if all of our guides and info dumps are actually helpful to everyone, or if we should just go back to the [drawing board](https://www.ljknightart.com/free-cute-kawaii-llama-colouring-page/) and start all over again. We still don’t know, so in 2023, we decided to send new Redditors to a resource that [explained Reddit better than we ever could](https://www.reddit.com/r/NewToReddit/comments/128oymh/we_have_found_an_amazing_resource_for_you_all/).
 
 For April Fools jokes across the web, there’s a list of [Google’s jokes here](https://en.wikipedia.org/wiki/List_of_Google_April_Fools%27_Day_jokes) and a good - if plain - resource for others is: [https://aprilfoolsdayontheweb.com](https://aprilfoolsdayontheweb.com/).
 
@@ -688,6 +931,7 @@ For April Fools jokes across the web, there’s a list of [Google’s jokes here
 
 * [“Bait-and-Switch” or “The ole Reddit Bait-and-Switch”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cbait-and-switch.201D_or_.201Cthe_ole_reddit_bait-and-switch.201D)
 * [Orangered](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_orangered)
+* [Place](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_place)
 
 ---
 
@@ -837,13 +1081,15 @@ Show off your snoovatar at [r/snoovatars](https://www.reddit.com/r/snoovatars/)!
 
 Awards are a way for Redditors to reward other users for posts and comments that they enjoyed, felt either elevated the conversation and culture within a given community, or simply because it made them laugh out loud.
 
-An award given will appear as a small icon next to the post or comment title and applies to that post or comment only. Some awards even give the recipient some Reddit coins, periods of Reddit Premium and other benefits. Awards are normally purchased using Reddit Coins but you’ll occasionally get given a free award by Reddit to confer on any post or comment you think is deserving.
+An award given will appear as a small icon next to the post or comment title and applies to that post or comment only. Some awards even give the recipient some Reddit coins, periods of Reddit Premium and other benefits. Awards are purchased using Reddit Coins.
 
-At the bottom of each post or comment is an icon resembling a box tied with a bow. Pressing this will bring up the current list of awards with their descriptions and prices. You can get more information and give an award to that post or comment by selecting the one you want. **Be careful when browsing the descriptions - giving the award accidentally is non-refundable.**
+At the bottom of each post or comment is an icon resembling a box tied with a bow.   On some platforms, this might be under a drop-down three dots “hamburger” menu, [but either should be titled “Awards”](https://i.redd.it/cnpwjt1jqfta1.jpg).   Pressing this will bring up the current list of awards with their descriptions and prices. You can get more information and give an award to that post or comment by selecting the one you want. **Be careful when browsing the descriptions - giving the award accidentally is non-refundable.**
 
-The profile page of the lovely Redditor [u/N1GHT-MOON-UN1C0RN](https://www.reddit.com/user/N1GHT-MOON-UN1C0RN/comments/lbn0ds/awards/) shows many of the awards in action. If you’re on mobile, tap one and a little description of them all will appear. I can’t say at present if this is available on desktop.
+A Reddit post that will go down in history with [around 5,500 awards](https://www.reddit.com/r/PrequelMemes/comments/g15hel/every_day_general_grievous_adds_a_unique/) also has the unique distinction of being the only appearance to date of an [“Unobtainium Award”](https://www.reddit.com/r/interestingasfuck/comments/g77i40/apparently_a_reddit_award_called_unobtanium/) which from the description appears to be an admin-only award to test animated awards.   To see the description of any award that has been given out, on mobile, tap one and a little description of them all will appear. On a browser, just the description of the one you tapped will appear.
 
 Awards that give you periods of Reddit Premium are cumulative, in that if you get two golds on one post or in one week (for example), that will give you two consecutive weeks of free premium Reddit.
+
+There is an option to [hide or even remove an award](https://www.reddit.com/r/awards/comments/yvod5i/is_there_a_deleted_award/) that you might not want displayed on your post or comment. Place your mouse on the award to see the popup, then you have a little "report" flag in the top right corner and a "hide" button in the top left corner of the award popup.
 
 If you receive 100 awards in one calendar month, you get a “100 Awards Club” trophy for your profile. These can be any award given to you on both posts and comments in the space of one month.
 
@@ -883,6 +1129,10 @@ Award recipients will be able to report private messages sent with awards for si
 * **Flag Awards:**
 
 All users will be able to “Flag Awards” to point out inappropriate usage. These reports will come straight to Reddit admins, and evaluated on a case-by-case basis as we continue to iterate on our Award catalog. This will be available on mobile and new Reddit.
+
+* **Hide Awards:**
+
+There is an option to [hide or even remove an award](https://www.reddit.com/r/awards/comments/yvod5i/is_there_a_deleted_award/) that you might not want displayed on your post or comment. Place your mouse on the award to see the popup, then you have a little "report" flag in the top right corner and a "hide" button in the top left corner of the award popup.
 
 And in case you were wondering, [this is why we can’t have nice things](https://www.reddit.com/r/mildlyinfuriating/comments/ij2amd/people_giving_this_post_awards_like_wholesome_and/).
 
@@ -953,9 +1203,13 @@ Finally, there will be an opportunity to reply to whoever awarded you:
 
 *Want to say thanks to your mysterious benefactor? Reply to this message. You will find out their username if they choose to reply back.*
 
-However, in early 2021, Reddit started to direct award notifications to Direct Chat [which came with its own set of problems](https://www.reddit.com/r/help/comments/ng2txt/help_note_with_an_award_is_showing_up_in_chat/) and by mid 2021 it was the case that awards could sometimes be given or received with no notification whatsoever, leaving no opportunity for thanks or other acknowledgement. This is [an ongoing issue](https://www.reddit.com/r/ModSupport/comments/r0m9jx/getting_award_notifications_via_chat_is_confusing/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) and very frustrating for me as in November as part of a celebration I gave out over 30 gold awards with many of their recipients having no idea where they came from - or even ever having had them. For some people that was a week of free premium lost in the ether. I’ll think more than twice before doing that again.
+In early 2021, Reddit started to direct award notifications to Chat [which came with its own set of problems](https://www.reddit.com/r/help/comments/ng2txt/help_note_with_an_award_is_showing_up_in_chat/) and by mid 2021 it was the case that awards could sometimes be given or received with no notification whatsoever, leaving no opportunity for thanks or other acknowledgement. 
 
-With few exceptions (the free awards), if you get a Reddit award, the awarder will have spent hard-earned or even purchased Reddit coins to give it. You will, no doubt want to thank them, but this shouldn’t be done by editing your awarded post, because the awarder won’t see that acknowledgement.
+This was [an ongoing issue](https://www.reddit.com/r/ModSupport/comments/r0m9jx/getting_award_notifications_via_chat_is_confusing/) and very frustrating for me (llama-the-author) personally as in November that year as part of a celebration I gave out over 30 gold awards with most of their recipients having no idea where the award came from - or even ever having had them in the first place.   For those people that was a week of free premium lost in the ether - and for many of them, that was their first ever gold.
+
+In early 2023, the award notifications went back to being given as Direct Messages as Reddit announced they're working on a [major upgrade to Chat](https://reddit.zendesk.com/hc/en-us/articles/13199335607956-transitioning-to-a-new-reddit-chat-infrastructure-).
+
+If you get a Reddit award, the awarder will have spent hard-earned or even purchased Reddit coins to give it. You will, no doubt want to thank them, but this shouldn’t be done by editing your awarded post, because the awarder won’t see that acknowledgement.
 
 When I receive an award from a fellow Redditor and receive a notification, I always say thank you for whatever award it is. Reddit has a thing about “saying thanks is lame” at times. Saying thanks is NOT “lame”, and should be done more IMHO. Awards can be given anonymously, and most are. Even so, you can still thank them by responding to the Award Notification. “Thanks for the Gold, kind stranger!” or “Thanks for the award, Kind Redditor” are the traditional responses. Reddit loves traditions.
 
@@ -999,41 +1253,48 @@ The “mixtape” link might also be a Rickroll. It might not be. It usually is.
 
 Awards are tokens of appreciation given by Redditors to other Redditors in recognition of merit for their contributions, whether they be heartwarming, helpful, hilarious or otherwise distinctive.
 
-There are many types of Reddit Awards, ranging from ones that look pretty on your post or comment but do nothing else, through to ones that give you Reddit goodies. With the exception of the occasional Free Awards Reddit gives out, they all require coins to give, and in 2020, a user at [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) calculated the actual [monetary cost of the awards](https://www.reddit.com/r/dataisbeautiful/comments/hll1xk/oc_price_of_reddit_awards/) available at the time.
+There are many types of Reddit Awards, ranging from ones that look pretty on your post or comment but do nothing else, through to ones that give you Reddit goodies. They all require Reddit Coins to purchase and give, and in 2020, a user at [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) calculated the actual [monetary cost of the awards](https://www.reddit.com/r/dataisbeautiful/comments/hll1xk/oc_price_of_reddit_awards/) available at the time.
 
 * **Specials**
 
-There are some awards which stand out from the rest. Some can give you Reddit Coins, periods of advert-free Reddit Premium and/or even a trophy for your Reddit Profile. Some are animated, and some Highlighting awards make a comment really stand out from other replies. Another set of “chain” awards [give you accumulated benefits](https://www.reddit.com/r/awards/comments/l284xd/this_and_party_train_awards_can_evolve_max/), such as “Party Train”, where for every five awarded on one post or comment, the better the benefit and the icon. These enable several people to pool together to [eventually show this](https://www.redditstatic.com/gold/awards/icon/Train/Train_argentium_128.png). The “This” award works in a similar way where every three awarded on one post or comment [will show this](https://www.redditstatic.com/gold/awards/icon/This_argentium_512.png). More on four of these types of awards below.
+There are some awards which stand out from the rest. Some can give you Reddit Coins, periods of advert-free Reddit Premium and/or even a trophy for your Reddit Profile. Some are animated, and some Highlighting awards make a comment really stand out from other replies.   Subreddits can also create their own exclusive Community Awards which can only be given out in that particular sub, and Moderator Awards which can only be given out in that particular sub by its Mods.  These are designed by the mod team operating under strict criteria regarding costs and benefits.
+
+* **Discontinued**
+
+Reddit both giveth and taketh away, and in mid 2022, two special awards were discontinued.   These were both “chain” awards [which gave accumulated benefits](https://www.reddit.com/r/awards/comments/l284xd/this_and_party_train_awards_can_evolve_max/) by being funded by several Redditors. 
+
+The first was “Party Train”, where for every five awarded on one post or comment, the better the benefit and the icon which would [eventually show this animation](https://www.redditstatic.com/gold/awards/icon/Train/Train_argentium_128.png).  Each “party train” cost 75 coins to give, and every 5 awarded to the same post or comment gave the recipient 100 coins and a week of free Reddit Premium.   The 5 awards did not have to come from the same person. It’s interesting to note here that if the same person gave 5 Party Trains to one post or comment, it gave the same benefits to the recipient as Gold but only costing the giver 375 Coins - a saving of 125 Coins. However, the giver did not get points towards a Gilding Level Trophy.
+
+Second was the “This” award which worked in a similar way where every three awarded on one post or comment [showed this animation](https://www.redditstatic.com/gold/awards/icon/This_argentium_512.png).  Each “This” cost 300 coins to give and every 3 awarded to the same post or comment gave the recipient 250 coins. The 3 awards did not have to come from the same person.
+
+There was also a free Highlighting Award “Powerups Comment” which was occasionally available to Community Heroes to give in the subreddit they were powering-up, but this was discontinued at the same time as Powerups.
+
+The most controversial removal however was in early 2023 with the discontinuation of [free awards](https://www.reddit.com/r/help/comments/108r1an/does_reddit_still_give_out_free_awards/j3y1rqb/).   When they were introduced, they were fairly random, announced [by a popup](https://i.redd.it/maq8wqnbsusa1.jpg) then became a weekly occurrence.  They are much missed.
 
 * **Limited Editions**
 
-Seasonal award variations are added and retired from time to time. In 2020, a special “Wearing is Caring” award was introduced, featuring a Snoo wearing a surgical mask. This award earns both the giver and the recipient a trophy for their profile. Some subreddits have Mod Awards or other special awards exclusively for that sub, and some awards give Coins to both the recipient and the community - a pool that mods can use in their sub to give out Community Awards. Some awards require you to have Reddit Premium to give (but not receive) them, such as the “All-Seeing-Upvote” or “Narwhal Salute”. There are currently eight of these exclusives. A free Highlighting Award “Powerups Comment” is occasionally available to Community Heroes to give in the subreddit they are powering-up.
+Seasonal award variations are added and retired from time to time. In 2020, a special “Wearing is Caring” award was introduced, featuring a Snoo wearing a surgical mask. This award earns both the giver and the recipient a trophy for their profile.  As mentioned, some subreddits have special Mod Awards exclusively for that sub, and special Community Awards give Coins to both the recipient and the subreddit which form a pool that mods can use in that sub to give out Community Awards. Some awards require you to have Reddit Premium to give (but not receive) them, such as the “All-Seeing-Upvote” or “Narwhal Salute”.  There are currently eight of these exclusives.
 
-The four types of awards I describe below are ones that give gifts as well as the award (coins, premium or a highlight) and the availability, costs and types were correct at time of writing. I may or may not update accordingly as these change quite frequently. The best place to find out about all the types of award and to keep up to date with any changes is [r/awards](https://www.reddit.com/r/awards/).
+The types of awards I describe below are ones that give gifts as well as the award (coins, premium or a highlight) and the availability, costs and types were correct at time of writing. Another good place to find out about all the types of award and to keep up to date with any changes is [r/awards](https://www.reddit.com/r/awards/).
 
 * **Gift Award Type 1: Gifts Both Coins and Reddit Premium**
 
 The main awards that give both Reddit Coins and Reddit Premium are:
 
-* *Party Train:* Costs 75 coins to give. Every 5 awarded to the same post or comment gives the recipient 100 coins and a week of free Reddit Premium. The 5 awards do not have to come from the same person. It’s interesting to note here that if the same person gives 5 Party Trains to one post or comment, it will give the same benefits to the recipient as Gold but only costing 375 Coins - a saving of 125 Coins. However, the giver will not get points towards a Gilding Level Trophy.
 * *Gold:* Costs 500 Coins to give. This gives the recipient an immediate 100 Coins and a week of free Reddit Premium. The giver gets one point towards a Gilding Level Trophy.
 * *Platinum:* Costs 1800 Coins to give. This gives the recipient 700 Coins for the month and one month of free Reddit Premium. The giver gets four points towards a Gilding Level Trophy. See the note on the Platinum Award below.
 * *Argentium:* Costs 20,000 Coins to give. This gives the recipient an immediate 2,500 Coins and three months of free Reddit Premium. Both giver and recipient get a trophy for their Reddit profiles.
 * *Ternion All Powerful:* Costs 50,000 Coins to give. This gives the recipient an immediate 5,000 Coins and six months of free Reddit Premium. Both giver and recipient get a trophy for their Reddit profiles.
 
-There are rumours of admin-only awards greater than this which cannot be purchased. You might even encounter one so rare it’s *almost unobtainable*. [Click the icons, scroll down, and treasure the moment.](https://www.reddit.com/r/PrequelMemes/comments/g15hel/every_day_general_grievous_adds_a_unique/)
-
-The periods of Reddit Premium you get from these awards is cumulative! If your post and comment blows up and you get (for example) four golds and one platinum, you will have eight subsequent weeks of Reddit Premium. The coins for platinum might not appear immediately; the complicated reason for this is addressed below.
+The periods of Reddit Premium you get from these awards is cumulative! If your post or comment blows up and you get (for example) four golds and one platinum, you will have eight subsequent weeks of Reddit Premium.  Platinum is not like any other Reddit premium award in that you might not get the coins immediately, depending on other factors such as any awards you might have previously won. The explanation and details can be found at “[Platinum Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_platinum_awards)”.
 
 * **Gift Award Type 2: Highlighting Awards**
 
-These don’t give any gifts but do make your comment look very distinctive.
+These don’t give any gifts but do make your comment look very distinctive.  I believe they can only be given to comments and not posts.
 
 * *Brighten My Day:* Costs 500 coins to give. “The clouds part and the sun shines through. Use the Brighten My Day Award to highlight comments that are a ray of sunshine.”
 * *Eureka!:* Costs 500 coins to give. “Now that is a bright idea. Use the Eureka Award to highlight comments that are brilliant.”
 * *Starry:* Costs 500 coins to give. “Use the Starry Award to highlight comments that deserve to stand out from the crowd.”
-
-A free Highlighting Award *Powerups Comment* is occasionally available to Powerup Community Heroes to give in powered-up subs.
 
 * **Gift Award Type 3: Community Awards**
 
@@ -1050,7 +1311,7 @@ Community Awards give coins to both the recipient and the community.
 * *Made Me Smile:* Costs 500 coins to give. This gives 100 coins to both the recipient and the community.
 * *Wholesome (Pro):* Costs 500 coins to give. This gives 100 coins to both the recipient and the community.
 
-There may be other Community Awards unique to the subreddit you are in. To see these, at the bottom of each post or comment is an icon resembling a box tied with a bow. Pressing this will bring up the current list of awards with their descriptions and prices. Be very careful when browsing the awards like this - giving the award accidentally is non-refundable.
+There may be other Community Awards unique to the subreddit you are in. To see these, at the bottom of each post or comment is an icon resembling a box tied with a bow, or a three dot drop-down “hamburger” menu.  Pressing this will bring up the current list of awards with their descriptions and prices. **Be very careful when browsing the awards like this - giving an award accidentally is non-refundable.**
 
 * **Gift Award Type 4: Coin Awards**
 
@@ -1059,13 +1320,8 @@ Coin Awards give coins and no other benefits to the recipient only.
 * *2020 Veteran:* Costs 200 coins to give. This gives 100 coins to the recipient.
 * *Coin Gift:* Costs 300 coins to give. This gives 250 coins to the recipient.
 * *Pot O' Coins:* Costs 1000 coins to give. This gives 800 coins to the recipient.
-* *This:* Costs 300 coins to give. Every 3 awarded to the same post or comment gives the recipient 250 coins. The 3 awards do not have to come from the same person.
 
-Some figures are based partly on an original post by [u/memedbyshrek](https://www.reddit.com/u/memedbyshrek/) at [r/AwardBonanza](https://www.reddit.com/r/AwardBonanza/). Another comprehensive list of award types is [shown here](https://github.com/androiddevnotes/reddit-awards/).
-
-* **A Note on the Platinum Award**
-
-Platinum is not like any other Reddit premium award in that you might not get the coins immediately, depending on other factors such as any awards you might have previously won. The explanation and details can be found at “[Platinum Awards](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_platinum_awards)”.
+Some figures are based partly on an original post by [u/memedbyshrek](https://www.reddit.com/u/memedbyshrek/) at [r/AwardBonanza](https://www.reddit.com/r/AwardBonanza/).
 
 **See Also:**
 

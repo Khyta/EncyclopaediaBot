@@ -305,10 +305,12 @@ The links below are to third-party sites not affiliated with Reddit, but have be
 
 ---
 
-#\[Serious\]
+#[[Serious]]
 ::General Guides::
 
-Used in a post title asking for serious responses only. Originally a [sub specific](https://www.reddit.com/r/TheoryOfReddit/comments/1hi7xx/what_do_you_think_of_raskreddits_serious_tag/) label from r/askreddit now with wider Reddit usage.  [Using this tag](https://i.redd.it/vgl31lsgfxc91.png) will alert the mods to remove funny or joke responses to your post. Some subs have this as a Post Flair to achieve the same effect.
+Used in a post title asking for serious responses only. Originally a [sub specific](https://www.reddit.com/r/TheoryOfReddit/comments/1hi7xx/what_do_you_think_of_raskreddits_serious_tag/) label from [r/askreddit](https://www.reddit.com/r/askreddit/) now with wider Reddit usage.  [Using this tag](https://i.redd.it/vgl31lsgfxc91.png) will alert the mods to remove funny or joke responses to your post.   
+
+It is usually mandatory to put the word between square brackets, but as always if in doubt, check the sub [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) first.   Some subs have this as a Post Flair to achieve the same effect.
 
 Do not be tempted to make a humorous reply in a post with this flair or request, no matter how tempting or hilarious it would be, as it will be a flagrant breach of the subreddit rules and a legitimate reason for a ban.
 
@@ -327,7 +329,7 @@ Do not be tempted to make a humorous reply in a post with this flair or request,
 
 * [April Fools Day](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_april_fools_day)
 * [NSFW](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/5/#wiki_nsfw)
-* [rimjob\_steve](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_rimjob.5C_steve) (encyclopaedia)
+* [“rimjob_steve”](https://www.reddit.com/r/EncyclopaediaOfReddit/about/wiki/6/#wiki_.201Crimjob_steve.201D) (encyclopaedia)
 
 ---
 
@@ -515,7 +517,9 @@ Keep in mind in any debate, throwing an accusation around is easier than refutin
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Brandolini's Law](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_brandolini.27s_law)
 * [Logical Fallacies](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_logical_fallacies)
 * [Sealioning](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/7/#wiki_sealioning)
@@ -529,18 +533,18 @@ Keep in mind in any debate, throwing an accusation around is easier than refutin
 
 ---
 
-Smol
+#smol
+::Jargon and Slang::
 
 If it’s small, it’s *small*. If it’s smaller than small, it’s *tiny*. If it’s both small and cute, it’s *smol*. If it’s both smaller than small and cute, it’s *illegally smol*. Yes, here’s another example of [“Doggo Speak”](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/3/#wiki_.201Cdoggo_speak.201D), an affectionate misspelling of certain words describing cute animals or objects to make them even cuter.
 
 When referring to something as ‘smol’, the user typically infers that, if given the chance, they’d love to snuggle, cuddle, and fiercely protect said precious animal or object. I defy anyone to say otherwise when viewing r/Illegallysmolcats where cats are so adorably smol it should be illegal; r/IllegallySmolDogs for dogs that are criminally small or r/IllegallySmolBunnies for illegally small bunnies.
 
-You can also discuss the most criminal elements of the sky at r/Illegallysmolbirbs, and for all smol things in general, there’s r/smol and r/IllegallySmol, and because hoomans (sorry) start off smol, there’s r/SmolHumans too. Other smol critters can be found at r/Tinyanimalsonfingersand r/TinyUnits.
+You can also discuss the most criminal elements of the sky at r/Illegallysmolbirbs, and for all smol things in general, there’s r/smol and r/IllegallySmol, and because hoomans (sorry) start off smol, there’s r/SmolHumans too. Other smol critters can be found at r/Tinyanimalsonfingers and r/TinyUnits.
 
 On animal subs, using Markdown Text to give the following one word reply in tiny text is often acceptable:
 
-#smol
-::Jargon and Slang::
+^^smol
 
 The markdown to create tiny text is to type the \^ symbol twice directly before each word you want to shrink down.
 
@@ -650,7 +654,9 @@ Snowclone variants are usually rooted in [pop-culture references](https://knowyo
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Relationship and Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_and_advice_subreddits)
 * [Relationship Sub Acronyms and Initialisms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/6/#wiki_relationship_sub_acronyms_and_initialisms)
 

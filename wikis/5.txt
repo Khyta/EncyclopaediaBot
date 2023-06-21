@@ -197,7 +197,9 @@ Reddit is a network for sharing experiences. It is ideal for crowdsourcing other
 
 **See Also:**
 
-* [Acronyms](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms)
+* [Acronyms 1: A-L](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_1.3A_a-l)
+* [Acronyms 2: M-Z](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_2.3A_m-z)
+* [Acronyms 3: Abbreviations](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_acronyms_3.3A_abbreviations)
 * [Advice Subreddits](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_advice_subreddits)
 * [FOMO](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_fomo)
 * [kys](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/4/#wiki_kys)
@@ -301,10 +303,16 @@ Talking of being misleading, Reddit also has several subreddits with the word �
 
 ---
 
-#\[MLM\]
+#MLM
 ::Acronyms and Initials::
 
-These three letters have several meanings depending on the subreddit type you are in. MLM on r/antiMLM, r/mlmstories, r/MLM or similar means Multi-Level Marketing. On relationship subs it might refer to Man Loves Man, and \[MLM\] on r/itookapicture (ITAP) means ‘Mona Lisa Monday’. A rule on ITAP is that photos with a primary focus on one person staring, looking or thinking, without any other interesting action are limited to MLM Mondays (Midnight - Midnight, GMT). Please be sure to read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before posting or commenting in any unfamiliar sub.
+A context-dependent acronym, these three letters have several meanings depending on the subreddit type you are in:
+
+*Multi-Level Marketing:*  On [r/antiMLM](https://www.reddit.com/r/antiMLM/), [r/MLM](https://www.reddit.com/r/MLM/), [r/mlmstories](https://www.reddit.com/r/mlmstories/), and similar subs.  Increasingly used throughout Reddit.
+
+*Man Loves Man:*  On relationship subreddits.
+
+*Mona Lisa Monday:*  On [r/itookapicture](https://www.reddit.com/r/itookapicture/) (ITAP).  A rule on ITAP is that photos with a primary focus on one person staring, looking or thinking without any other interesting action are limited to MLM Mondays (Midnight - Midnight, GMT). Please be sure to read the [rules](https://www.reddit.com/r/LearnToReddit/comments/pjsazs/finding_a_subreddits_rules/) before posting or commenting in any unfamiliar sub.
 
 ---
 
@@ -365,6 +373,10 @@ While none of the work we do is very important, it is important that we do a gre
 
 #ModerationMediation
 ::Interesting and Miscellaneous::
+
+This was a subreddit that helped Redditors in dispute with moderators and their actions.   Unfortunately, in early 2023 [they reluctantly had to make the decision to go on hiatus](https://www.reddit.com/r/ModerationMediation/comments/11rwbvc/very_sad_news_for_the_sub/) and cannot provide their services any more until further notice.
+
+**Below is the original text of this entry, preserved for posterity.**
 
 Mediation is a structured, interactive process where an impartial third party assists disputing parties to actively participate in resolving their conflict.  r/ModerationMediation is a subreddit designed to help Reddit users obtain actionable advice surrounding a ban or other moderation action they might have been subject to. They specialise in assisting users in understanding their ban and finding productive avenues to appeal. This is not a subreddit to complain about moderators, as they even help moderators too with particular issues.  r/ModerationMediation.
 
@@ -516,7 +528,7 @@ Like so much of online slang post-2000, 4chan can be cited as a distribution sou
 
 **Because there is a Subreddit for everything:**
 
-r/justneckbeardthings, r/neckbeard, r/NeckbeardNests (prepare to suffer) are… well… subreddits, as is r/averageredditor.
+r/justneckbeardthings, r/neckbeard, r/NeckbeardNests (prepare to suffer) are… well… subreddits, as was r/averageredditor before it wasn’t.
 
 **See Also:**
 
@@ -1699,6 +1711,10 @@ Yes, it’s confusing. So. Let’s say you are a Redditor currently with no prem
 
 You will be notified by Reddit when your coins arrive with a message like:  *Gadzooks! Your monthly Coins have been delivered! Your 700 monthly Coins have been added to your balance! Thank you for supporting Reddit as a Premium member!*
 
+There’s an extra complication for existing paid Reddit subscribers in that, so far as I know, they won’t get coins from a Platinum award until they stop their subscription.   Again, it’s a legacy thing that is a little strange but only happens with Platinum.
+
+So, for example, let’s say that you have had four Platinum awards since you’ve been a subscriber.   If you stop your subscription in, say, January, you will still have Premium Reddit for the next four months and receive 700 coins for each of those months in turn as normal.  Your Premium Reddit then runs out totally in June.    **I don’t recommend anyone actually does this as there are more benefits from being a paying subscriber than an awarded subscriber.**
+
 **See Also:**
 
 * [Award Notifications](https://www.reddit.com/r/EncyclopaediaOfReddit/wiki/2/#wiki_award_notifications)
@@ -2386,7 +2402,9 @@ Many of the subreddits mentioned here will have links to other related subs in t
 
 **Because there is a Subreddit for everything:**
 
-I would be remiss here in not mentioning r/psych \- a subreddit devoted to all things Psych: the TV show. If you do believe in *The Average Redditor*™, then r/averageredditor is the sub for you. For the “starter pack” meme we have r/starterpack and r/starterpacks. “Dungeons & Dragons” fans are well catered for at r/DungeonsAndDragons and r/DnD \- a subreddit dedicated to the various iterations of Dungeons & Dragons, from its First Edition roots to its Fifth Edition future. Other subs include r/dndnext, r/DMAcademy, r/DnDBehindTheScreen and, of course, r/dndmemes.
+I would be remiss here in not mentioning r/psych - a subreddit devoted to all things Psych: the TV show. If you do believe in *The Average Redditor*™, then r/averageredditor might have been the sub for you [before it was banned](https://www.reddit.com/r/reclassified/comments/10otqi9/raverageredditor_banned/) due to a violation of Reddit's policy against harassing content.
+
+For the “starter pack” meme we have r/starterpack and r/starterpacks. “Dungeons & Dragons” fans are well catered for at r/DungeonsAndDragons and r/DnD - a subreddit dedicated to the various iterations of Dungeons & Dragons, from its First Edition roots to its Fifth Edition future. Other subs include r/dndnext, r/DMAcademy, r/DnDBehindTheScreen and, of course, r/dndmemes.
 
 Finally, as I referred above to [The Cube Rule of Food Identification](https://cuberule.com/), I should mention r/toast, r/Sandwiches and r/eatsandwiches, r/tacos, r/sushi, r/calzone and r/hotdogs. Is a hotdog a sandwich? [The NewToReddit Mods](https://www.reddit.com/r/NewToReddit/comments/uqxx56/comment/i8tzbsh/) weigh in on the [perennial debate](https://www.washingtonpost.com/news/voraciously/wp/2018/12/12/a-hot-dog-is-a-taco-a-steak-is-a-salad-a-pop-tart-is-a-calzone-let-the-cube-rule-explain/).
 
