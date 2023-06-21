@@ -484,7 +484,8 @@ def csv_to_dict():
 # 1. Check each post using the ID in the CSV file
 # 2. Look for links that resemble wiki links in each post
 # 3. Check for to what wiki page the link points to
-# 4. Convert the wiki link to a post link using the title_id_dict 
+# 4. Convert the wiki link to a post link using the title_id_dict
+
 
 def wiki_to_post_link(reddit, title_id_dict, ids):
     # TODO This conversion is broken and needs to be fixed
@@ -504,21 +505,25 @@ def wiki_to_post_link(reddit, title_id_dict, ids):
             continue
         for heading in headings:
             converted_heading = url_encoding(heading)
-            # log.info(f"Converted heading: {converted_heading}")
+            log.info(f"Converted heading: {converted_heading}")
             escaped_heading = re.escape(heading)
+            log.info(f'Escaped heading: {escaped_heading}')
             wiki_pattern = re.compile(f'\\[{escaped_heading}\\]\\(https://www.reddit.com/r/EncyclopaediaOfReddit/(about/)?wiki/[^/]+/#wiki_{converted_heading}\\)')
+            log.info(f'Wiki pattern: {wiki_pattern}')
             post_link = f'[{heading}](https://www.reddit.com/r/EncyclopaediaOfReddit/comments/{title_id_dict[heading]}/)'
+            log.info(f'Post link: {post_link}')
             post_content = re.sub(wiki_pattern, post_link, post_content)
+            log.info(f'Post content: {post_content}')
         reddit.validate_on_submit = True
-        try: 
-            post.edit(post_content) 
-            if re.search(post_pattern, post_content): 
-                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
+        try:
+            post.edit(post_content)
+            if re.search(post_pattern, post_content):
+                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
                 failed_ids = failed_ids + [post_ids[i]]
-            elif not re.search(post_pattern, post_content): 
-                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
+            elif not re.search(post_pattern, post_content):
+                log.info(f"Wiki links converted for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
             else:
-                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'") 
+                log.error(f"Wiki links failed to convert for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}'")
                 failed_ids = failed_ids + [post_ids[i]]
         except Exception as e:
             log.error(f"Error updating post for '{list(title_id_dict.keys())[list(title_id_dict.values()).index(post_ids[i])]}': {e}")
@@ -533,6 +538,7 @@ def combine_csvs():
     csv_files = glob.glob('**/post_info_*.csv', recursive=True)
     combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
     combined_csv.to_csv('post_infos/post_info.csv', index=False)
+
 
 def url_encoding(heading):
     # This function converts the heading that may contain special characters in
@@ -576,6 +582,7 @@ def url_encoding(heading):
 
     return heading
 
+
 def send_modmail(reddit, header, content):
     # This function sends a modmail to the moderators of the subreddit.
     # The content is the message that will be sent.
@@ -584,6 +591,7 @@ def send_modmail(reddit, header, content):
         subreddit.message(subject=header, message=content)
     except Exception as e:
         log.error(f"Error sending modmail: {e}")
+
 
 def get_least_wiki_activity(wiki_page_id, reddit):
     # This function returns the time where the wiki is least likely to be
@@ -606,13 +614,12 @@ def get_least_wiki_activity(wiki_page_id, reddit):
             least_activity = mean_hour - 12
         else:
             least_activity = mean_hour + 12
-
-
         return least_activity
     except Exception as e:
         log.error(f"Error getting least wiki activity: {e}")
         least_activity = 3
         return least_activity
+
 
 def get_wiki_stats():
     # This function returns the current number of entries in the wiki
@@ -622,6 +629,7 @@ def get_wiki_stats():
         wiki_stats = len(list(reader))
 
     return wiki_stats
+
 
 def get_csv_file(wiki_page_id):
     # This function takes a wiki page id as an argument and returns the path of
@@ -655,6 +663,7 @@ def get_csv_file(wiki_page_id):
 
     return csv_file
 
+
 def get_wiki_file(wiki_page_id):
     # This function takes a wiki page id as an argument and returns the path of
     # a .txt that contains the wiki page contents. If the
@@ -684,6 +693,7 @@ def get_wiki_file(wiki_page_id):
             print(f"An error occurred while creating {txt_file}: {e}")
 
     return txt_file
+
 
 def handle_wiki_page(wiki_page_id, reddit):
     wiki_content = get_wiki_page(wiki_page_id, reddit)
