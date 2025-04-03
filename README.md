@@ -51,6 +51,61 @@ Requirements are automatically installed when executing `./main.sh`.
 6. Make the `main.sh` file executable with `chmod +x main.sh`.
 7. Run the script with `./main.sh`.
 
+### Additional systemd service setup
+
+To have a more sophisticated setup with automatic restarts on server reboots, I
+propose the following:
+
+- Enable lingering for your user (requires root): `sudo loginctl enable-linger username`
+
+- Create a directory for systemd user unit files: `mkdir -p ~/.config/systemd/user/`
+
+- Create the unit file with a text editor of your choice (vim rules, jkjk): `vim ~/.config/systemd/user/reddit_wiki_bot.service`
+
+```TOML
+[Unit]
+Description=Reddit Wiki Bot for EncyclopaediaOfReddit (User Service for khyta)
+# Ensures the network stack is fully up before starting, as your script needs it
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+# This service type means the script itself is the main process
+Type=simple
+
+# **IMPORTANT:** Set the working directory to where main.sh is located
+# Use the absolute path to your project directory
+WorkingDirectory=/home/khyta/EncyclopaediaBot <-- CHANGE THIS TO BE THE CORRECT WORKING DIRECTORY
+
+
+# **IMPORTANT:** The command to execute
+# Use the absolute path to your script
+ExecStart=/bin/bash /home/khyta/EncyclopaediaBot/main.sh <-- MAKE SURE THAT THIS IS INDEED THE BASH SCRIPT
+
+# Automatically restart the service if it fails (e.g., crashes)
+Restart=on-failure
+# Wait 30 seconds before restarting
+RestartSec=30s
+
+# Standard output and error will be logged to the systemd journal by default
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+# This target ensures the service is started when your user's systemd instance starts
+# With lingering enabled, this effectively means "start after boot"
+WantedBy=default.target
+```
+
+- Make the script executable: `chmod +x /home/khyta/EncyclopaediaBot/main.sh`
+- Reload systemd (might require a reboot and some waiting before logging into
+  the server again. Do this when you get some "Failed to connect to bus"
+  error.): `systemctl --user daemon-reload`
+- Enable the service: `systemctl --user enable reddit_wiki_bot.service`
+- Start the service: `systemctl --user start reddit_wiki_bot.service`
+- Check the status of the service: `systemctl --user status reddit_wiki_bot.service`
+
+
 # Usage
 
 ## Rebooting the bot
