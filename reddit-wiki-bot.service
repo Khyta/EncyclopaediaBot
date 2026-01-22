@@ -1,0 +1,17 @@
+[Unit]
+Description=Reddit Wiki Bot
+After=network.target
+
+[Service]
+Type=simple
+User=khyta
+WorkingDirectory=/home/khyta/EncyclopaediaBot/
+ExecStart=/bin/bash /home/khyta/EncyclopaediaBot/main.sh
+Restart=always
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=reddit-wiki-bot
+
+[Install]
+WantedBy=multi-user.target
