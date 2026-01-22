@@ -590,6 +590,16 @@ def send_modmail(reddit, header, content):
         subreddit.message(subject=header, message=content)
     except Exception as e:
         log.error(f"Error sending modmail: {e}")
+        user_message(reddit, "khyta", header, content)
+
+
+def user_message(reddit, username, header, content):
+    # This function sends a direct message to a specific user as backup when modmail fails
+    try:
+        reddit.redditor(username).message(subject=header, message=content)
+        log.info(f"Message sent to user {username}")
+    except Exception as e:
+        log.error(f"Error sending message to user {username}: {e}")
 
 
 def get_least_wiki_activity(wiki_page_id, reddit):
