@@ -50,6 +50,8 @@ Requirements are automatically installed when executing `./main.sh`.
    `reddit_wiki_bot.py` file.
 6. Make the `main.sh` file executable with `chmod +x main.sh`.
 7. Run the script with `./main.sh`.
+8. Optionally setup a systemd service with the `reddit-wiki-bot.service` file.
+   Don't forget to change the installation paths.
 
 ### Additional systemd service setup
 
