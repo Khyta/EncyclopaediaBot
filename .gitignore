@@ -2,6 +2,7 @@
 .venv
 __pycache__/
 .log
+logs/
 wikis/
 post_infos/
 wikis.csv
